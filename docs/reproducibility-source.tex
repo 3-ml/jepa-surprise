@@ -1,0 +1,183 @@
+\section{Reproducibility and provenance}
+\label{app:static-calibration}
+
+\subsection{Resources, provenance, and asset scope}
+\label{app:resources-provenance}
+
+\subsubsection{Checkpoint scope}
+\label{app:checkpoint-scope}
+Section~\ref{sec:results-visible-events} uses V-JEPA2-L for full-population Physion++ diagnostics of the specified full-clip masked-prediction score. The IntPhys2 representation study, crossed-support final256 test, post-hoc geometry transfer, and historical Kubric pilot use V-JEPA2-G. The LeWorldModel studies use separate released task checkpoints and native prediction MSE. Each experiment retains its own score definition and evidential role. The V-JEPA2-L audit is not pooled with, or treated as a substitute for, the V-JEPA2-G results. {\color{black}DINO-WM and the post-hoc JEPA-WM extension provide separate frozen-DINO PushT visual embedding error checks; neither score is pooled with LeWorldModel native prediction MSE.}
+
+\subsubsection{Compute and software environments}
+\label{app:compute-environments}
+The experiments ran in several environments. Table~\ref{tab:compute-environments} maps each result to the hardware, runtime, and numerical precision used, while Table~\ref{tab:wall-times} reports the recorded stage times. CUDA versions are the versions reported by \texttt{nvidia-smi} or the PyTorch build suffix, as applicable.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\caption{Compute and software environments for each experiment block.}
+\label{tab:compute-environments}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.49\linewidth}@{}}
+\toprule
+Experiment block & Compute & Runtime, libraries, and precision \\
+\midrule
+Corrected IntPhys2 representation study & NVIDIA GeForce RTX 3080 workstation; CUDA 12.8 & Python 3.11.7; PyTorch 2.8.0+cu128; Transformers 5.13.1 for VideoMAE2-G; bfloat16 autocast and float16 stored features; PixelSummary uses NumPy 1.26.4. \\
+IntPhys2 corrective probes/statistics & ARM64 Mac mini CPU; 16 GiB memory & Python 3.14.3; NumPy 2.4.3, pandas 3.0.2, and scikit-learn 1.9.0. \\
+{\color{black}V-JEPA2-G multi-dose grid} & {\color{black}NVIDIA GeForce RTX 3050 Laptop GPU; 4 GiB VRAM} & {\color{black}Python 3.10.11; PyTorch 2.5.1+cu121; exact float32 weights with bfloat16 autocast, SDPA, and sequential transformer-block CPU/GPU offload; no quantization; unchanged 64-frame, 256-pixel preprocessing; peak reserved VRAM 704 MiB.} \\
+Physion++ static diagnostic & NVIDIA GeForce RTX 3080; CUDA 12.8 & PyTorch 2.8.0+cu128 in float16; OpenCV 4.13.0, NumPy 1.26.4, pandas 2.2.1, and Matplotlib 3.10.8. \\
+Kubric exact-rerender pilot & Cloud NVIDIA A40 (46,068 MiB); driver 570.211.01; CUDA 12.8 & Rendering: Python 3.11.13, \texttt{bpy} 4.3.0, NumPy 1.26.4, Cycles OptiX, 64 samples/pixel, no denoiser. V-JEPA2-G scoring: Python 3.13.14, PyTorch 2.11.0+cu128, xFormers 0.0.35, timm 1.0.28, and einops 0.8.2; bfloat16 autocast with float32 error reduction. \\
+LeWorldModel controls & ARM64 Mac mini CPU; macOS 26.5.2 & Python 3.12.13; PyTorch 2.13.0, torchvision 0.28.0, NumPy 2.2.6, and stable-worldmodel 0.1.1; batch size 16. \\
+DINO-WM PushT control & NVIDIA GeForce RTX 3080 workstation; CUDA 12.8 & Python 3.11.7; PyTorch 2.8.0+cu128, DINO-WM repo revision \texttt{0a9492fa}, stable-worldmodel 0.1.1, NumPy 1.26.4, pandas 2.2.1; batch size 8. \\
+{\leavevmode\color{black}JEPA-WM PushT control} & {\leavevmode\color{black}Cloud NVIDIA A40 (46,068 MiB); driver 580.159.04} & {\leavevmode\color{black}Python 3.10.12; PyTorch 2.7.0+cu126, torchvision 0.22.0+cu126, NumPy 2.2.6, pandas 2.3.3, Pymunk 7.3.0, JEPA-WM revision \texttt{13cf1d9c}, and stable-worldmodel revision \texttt{0ef38568}; float32, batch size 8.} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{Recorded wall times for the stages behind the reported results. Compute that was not recorded is excluded.}
+\label{tab:wall-times}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.28\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.43\linewidth}@{}}
+\toprule
+Stage & Compute & Recorded wall time \\
+\midrule
+IntPhys2 development extraction & RTX 3080, CUDA 12.8 & V-JEPA2-G 967.25 s; VideoMAE2-G 1296.84 s; PixelSummary 1227.36 s \\
+IntPhys2 sealed extraction & RTX 3080, CUDA 12.8 & V-JEPA2-G 1207.04 s; VideoMAE2-G 1263.22 s; PixelSummary 1769.81 s \\
+IntPhys2 five-fold cross-fit & ARM64 Mac mini CPU & 45.07 s total: development probes/statistics 17.85 s; sealed probes/statistics 27.22 s \\
+{\color{black}V-JEPA2-G multi-dose grid} & {\color{black}RTX 3050 Laptop GPU plus CPU analysis} & {\color{black}912 clips extracted and 608 reused; extraction inference 3580.4 s; cached-feature geometry/statistics 5038.1 s} \\
+Physion++ diagnostic & RTX 3080, CUDA 12.8 & 48.20 s \\
+LeWorldModel controlled tasks & ARM64 Mac mini CPU & TwoRoom 115.23 s; PushT 143.38 s \\
+DINO-WM PushT control & RTX 3080, CUDA 12.8 & 143.02 s for the 256-episode controlled-displacement run \\
+{\leavevmode\color{black}JEPA-WM PushT control} & {\leavevmode\color{black}A40, PyTorch CUDA 12.6} & {\leavevmode\color{black}200.90 s for 256 episodes; 13.76 s for the successful eight-episode gate} \\
+PushT role color/decomposition & ARM64 Mac mini CPU & 139.12 s / 140.41 s \\
+Kubric renderer gate & Cloud A40, CUDA 12.8 & Selected/repeat 39.65/57.97 s; two denoiser trials 118.98/37.84 s \\
+Kubric pilot render/validation/scoring & Cloud A40, CUDA 12.8 & Render process 3348.14 s (72 jobs sum 3318.23 s); validation 21.16 s; scoring process 167.01 s (load 50.26 s; inference sum 35.90 s) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The Windows workstation and cloud worker host CPU models and system memory were not captured; their accelerator models and memory were recorded. The supplementary compute record marks these fields as unavailable and gives no estimate. {\color{black}The exact low-memory multi-dose extraction reproduced overlapping clean features with minimum cosine 0.99999988. This engineering detail supports reproducibility and carries no scientific inference.}
+
+\FloatBarrier
+\subsubsection{Executable provenance}
+\label{app:executable-provenance}
+The public project repository is \url{https://github.com/3-ml/jepa-surprise}. Code and experiment records are being prepared for release there.
+
+The released experiment records preserve exact commands, code or file hashes, versioned configuration files, random seeds, selection manifests, output hashes, and checkpoint/data SHA-256 values. The historical anonymous supplementary archive at \url{https://anonymous.4open.science/r/Latent-Surprise-Audit-8730/README.md} provides source, manifests, processed metrics, integrity records, and a smoke script; the SHA-256 of \texttt{archive\_manifest.json} is \texttt{56f9a8a7756806d9\allowbreak 17c075e0cb336181\allowbreak b8b84663689f5752\allowbreak 1773402407900b75}; third-party datasets and checkpoints are not redistributed and must be obtained under their licenses or access terms. In particular, the V-JEPA2-G and VideoMAE2-G checkpoints used for IntPhys2 hash to \texttt{67129f011434e605\allowbreak d894e69f2c8e13d9\allowbreak db118deabe59d54b\allowbreak f6e0fa62c2c5cb8e} and \texttt{a231169cd13307ae\allowbreak b29bc56259a494ef\allowbreak 273bfd9b7232f881\allowbreak ac4e8d7e39713add}, respectively. The TwoRoom and PushT LeWorldModel weights hash to \texttt{566f223624ea4bfb\allowbreak 39dbfe6ae731198d\allowbreak d6ea73b7b8919fed\allowbreak 6b1ecafca810f7dd} and \texttt{48938400ae3464c9\allowbreak 680731287f583a9c\allowbreak b516f55a8ec64ea1\allowbreak 3a91be47fb15b607}; the released DINO-WM PushT checkpoint hashes to \texttt{e909f0cec958fc0b\allowbreak 49a79f2e85730ae6\allowbreak b5f83dee61a22470\allowbreak 5f91883eb3bb74c5}. Full package freezes are retained for the Kubric renderer and each confirmatory LeWorldModel run, and the A40 record includes the complete \texttt{nvidia-smi -q} capture. The corrected IntPhys2 Windows record has the core runtime versions but no full package freeze. It also preserves strict-load status, checkpoint hashes, feature hashes, deterministic repeat checks, and cross-model shard parity. The corrective CPU run records Python, NumPy, pandas, and scikit-learn versions plus input, code, and output SHA-256 values, but no contemporaneous complete transitive package freeze.
+
+{\color{black}The post-hoc JEPA-WM record pins source commit \texttt{13cf1d9c7e476f53\allowbreak c17714d2e0f1dc23\allowbreak 9a883ce0}, Hugging Face revision \texttt{9b9c41ef24946663\allowbreak 0dbf1a20e7839186\allowbreak 5d07b3b9}, checkpoint SHA-256 \texttt{9beca3eafe0739c3\allowbreak b3adb5d734fa435c\allowbreak cbda0fea8a65d53d\allowbreak 4cccec176aaaa0eb}, DINOv2 source commit \texttt{7764ea0f912e53c9\allowbreak 2e82eb78a2a1631e\allowbreak 92725fc8}, DINOv2 weight SHA-256 \texttt{b938bf1bc15cd2ec\allowbreak 0feacfe3a1bb553f\allowbreak e8ea9ca46a7e1d8d\allowbreak 00217f29aef60cd9}, and stable-worldmodel commit \texttt{0ef3856875e70a12\allowbreak 83e637fcd2ab936e\allowbreak ae6c4e6f}. The 256-episode record preserves the exact command, full package freeze, source-data and target hashes, and successful strict-load and numerical gates.}
+\subsubsection{Asset licenses and terms of use}
+\label{app:asset-licenses}
+We use publicly released research assets, cite their original sources, and do not redistribute third-party datasets or checkpoints in this paper. Table~\ref{tab:asset-licenses} summarizes the licenses or stated access terms verified for the assets used in the reported experiments.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\caption{Existing assets used in the experiments and their verified licenses or stated terms.}
+\label{tab:asset-licenses}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.21\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.49\linewidth}@{}}
+\toprule
+Asset & Use in this paper & License or stated terms \\
+\midrule
+V-JEPA2-G checkpoint & Main IntPhys2 representation result and Kubric rerender pilot & Released Meta checkpoint; the corresponding Giant Hugging Face model card lists Apache-2.0. \\
+V-JEPA2-L checkpoint & Local Physion++ static/surprise diagnostic & Hugging Face Large model card lists MIT. \\
+V-JEPA2 code & Feature extraction and V-JEPA prediction utilities & Official repository is primarily MIT, with specified utility files under Apache-2.0. \\
+VideoMAE V2 code and VideoMAE2-G checkpoint & IntPhys2 comparator & Official VideoMAE V2 code is MIT; the exact OpenGVLab/VideoMAEv2-giant Hugging Face checkpoint/model card is CC BY-NC 4.0 and is used only for noncommercial research evaluation. \\
+IntPhys2 & Evaluation videos and pair labels & CC BY-NC 4.0; stated terms restrict use to evaluation and prohibit generative uses. Our use is benchmark evaluation/probing. \\
+LeWorldModel code, checkpoints, and task data & TwoRoom and PushT native-error controls & LeWorldModel source is MIT; the quentinll LeWM TwoRoom and PushT model/data cards list MIT. \\
+DINO-WM code and PushT checkpoint & Matched PushT native-error control & The official DINO-WM source repository includes an MIT license; the released OSF PushT checkpoint is used only for research evaluation and is not redistributed. \\
+{\leavevmode\color{black}JEPA-WM code and PushT checkpoint} & {\leavevmode\color{black}Post-hoc matched PushT native-error control} & {\leavevmode\color{black}The official JEPA-WM source and model release list CC BY-NC 4.0; the frozen DINOv2 source is Apache-2.0. Checkpoints are used only for noncommercial research evaluation and are not redistributed.} \\
+stable-worldmodel and PushT environment stack & Environment loading and PushT rendering for LeWM controls & stable-worldmodel is MIT; gym-pusht, which the PushT environment is based on, is Apache-2.0. \\
+Kubric/MOVi-A generator & Exact rerendering pilot & Kubric code is Apache-2.0; generated MOVi-A-style pilot videos are internal evaluation artifacts. \\
+Physion++ & Local diagnostic videos in Section~\ref{sec:results-visible-events} & The project page publicly provides download links but states a license only for the website source; no separate dataset license file was found in the local archive. We use it only for local research evaluation and cite the original work. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Study-specific reproducibility records}
+% main 511–526: superseded split audit and overlap table
+\subsubsection{Superseded original split audit}
+\label{app:intphys-split-audit}
+The corrected development and sealed populations are scene-disjoint. The historical pair-held-out probe splitter, however, hashed the pair ID to assign folds and ignored the scene ID. All appearances and both pair members remained together, but other pairs from the same scene could cross folds. Table~\ref{tab:scene-overlap} reports a mechanical join of those superseded split assignments to the sample manifest. "Any overlap" counts scenes occurring in more than one fold.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Scene overlap in the five superseded original pair-held-out probe splits.}
+\label{tab:scene-overlap}
+\begin{tabular}{rrrrrrrr}
+\toprule
+Seed & Train & Val & Test & Tr-val & Tr-test & Val-test & Any overlap \\
+\midrule
+0 & 46 & 22 & 18 & 16 & 8 & 5 & 29 \\
+1 & 51 & 18 & 23 & 12 & 22 & 1 & 35 \\
+2 & 50 & 21 & 21 & 16 & 16 & 3 & 35 \\
+3 & 45 & 20 & 21 & 10 & 12 & 7 & 29 \\
+4 & 47 & 21 & 20 & 14 & 12 & 5 & 31 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A subsequent repeated scene-held-out correction kept scenes disjoint within each split but yielded 60 test scene-fold slots from only 42 unique sealed scenes: 15 scenes were never tested, while 15 recurred two or three times. Its point estimates therefore weighted scenes by test frequency, and its within-fold bootstrap did not preserve dependence across recurring scenes. Those outputs are retained only as a superseded audit trail.
+
+% main 527–530: sealed integrity and manifest hashes
+\subsubsection{Sealed-test integrity}
+\label{app:intphys-sealed-integrity}
+Before creating the corrected split, we excluded the union of every inspected selection: 193 pairs across 158 scenes. The remaining Main partition was divided by scene into development and sealed test; the sealed set was exposed only after freezing the original extraction, layer, and probe specification. {\color{black}The five-fold cross-fit was designed after sealed-population inspection and is a post-hoc correction outside the frozen specification.} The original specification SHA-256 is \texttt{f7e0ca1651c9586c\allowbreak 180ba89c8be347d0\allowbreak 2d99de9045a8b1b9\allowbreak b75ed6d9fac7b465}; the sealed sample-manifest SHA-256 is \texttt{1ddc3677781e605f\allowbreak 6d298992584768e4\allowbreak 14801dc1479b0318\allowbreak 4150dd2af11fd32a}. Both model extractors produced 912 finite shards, repeated the first sample with maximum absolute difference 0, triggered no out-of-memory fallback, and passed cross-model parity with zero missing, extra, or metadata-mismatched samples.
+
+% main: geometry validator abort and recovery
+{\color{black}An initial sealed-package integrity run aborted before any representation-derived geometry metric was computed because an order-sensitive validator compared equivalent condition lists. Before any sealed geometry outcome was observed, the validator was changed to strict order-insensitive multiset equality and regression-tested; no metric or statistical code changed. Development reproduction then passed; Tables~\ref{tab:layerwise-endpoints}, \ref{tab:geometry-replication}, and~\ref{tab:geometry-k-sensitivity} report the completed frozen geometry run.}
+
+% main: feature extraction precision and storage
+Neural extraction uses bfloat16 autocast and stores float16 features.
+
+\subsubsection{Action and appearance controls}
+% baseline-decomposition: condition-summary origin and excluded continuation
+Values come from the existing \texttt{condition\_summary.csv} records for the LeWM, DINO-WM, and JEPA-WM controlled-displacement studies. The original absolute contrasts and their episode-bootstrap intervals remain in Table~\ref{tab:native-error-full}; no later partial PushT continuation is used.
+
+% main 376: role-color checkpoint and dataset hashes
+The released weights have SHA-256 \texttt{48938400ae3464c9\allowbreak 680731287f583a9c\allowbreak b516f55a8ec64ea1\allowbreak 3a91be47fb15b607}; the evaluated dataset has SHA-256 \texttt{b6ebd9ac94bbe9e3\allowbreak 83f6e7a9cd92d74e\allowbreak 9aa665ea57b758ed\allowbreak 3717b0ee7df8d4fb}.
+
+\subsubsection{Physion++ scoring and validation}
+% details: Physion model revision and checkpoint cross-reference
+The pinned V-JEPA2-L model is \texttt{facebook/vjepa2-vitl-fpc64-256}, revision \texttt{b3c1679b7c34d3255ef3547f27c7b226aefab26f}, with checkpoint hash given in Appendix~\ref{app:physion-checkpoint-provenance}.
+
+% details: Physion fixture, repeat, reconstruction and acquisition audit
+Before new acquisition, all 337 historical scalar/available tubelet references and a first repeat matched exactly (the unchanged tolerance was $10^{-4}$); all 337 canonical preprocessing tensors and ten earlier fixtures matched. Exact first-new-cell repeats and cross-study middle-window loss maps also matched. All 512-token maps are retained; appearance predictor/target vectors remain outside Git. Desktop CPU checks reconstructed every native scalar/tubelet and the appearance vector decomposition. There were no scientific retries, exclusions, or acquisition failures in these three follow-ups.
+
+% main 270: historical Physion checkpoint identity and hash
+\paragraph{Historical Physion++ checkpoint.}
+\label{app:physion-checkpoint-provenance}
+The historical ten-video static-content audit uses the released V-JEPA2-L checkpoint \texttt{facebook/vjepa2-vitl-fpc64-256} (checkpoint SHA-256 \texttt{25466aef85727d16\allowbreak 546c6cf8c99f12fc\allowbreak fad9cbca8225d45f\allowbreak 23685e2e025b786b}).
+
+\subsubsection{Crossed-support evaluation}
+% details: crossed-support checkpoint hash and official source revision
+The released V-JEPA2-G checkpoint has SHA-256 \texttt{67129f011434e605\allowbreak d894e69f2c8e13d9\allowbreak db118deabe59d54b\allowbreak f6e0fa62c2c5cb8e}. The official source revision is \texttt{204698b45b3712590f06245fbfba32d3be539812}.
+
+% details: render parameters, bounded-context correction and whole-input audits
+The unchanged bounded context correction permits at most one uint8 step, normalized mean difference at most $10^{-6}$, and changed-pixel fraction at most $10^{-4}$. It canonicalizes paired context frames only in separate model-input directories: 773 cells required correction; all raw renders remain, and future bytes are unchanged. All 256 configurations passed the whole-input and visibility gates, with no excluded or missing configuration. The minimum observed target area was 385 pixels, above the 0.25\% gate. Full audits covered 294,912 raw/model PNG paths, 1,024 state traces, and 512 fresh crossed trajectories.
+
+% details: disk-block execution and exact reference/repeat audit
+Weights are loaded from disk one block at a time, which changes where they reside in memory but not the arithmetic. Original reference and uncached repeat scores/tubelets matched exactly.
+
+% details: final256 interruptions, recoveries and completion record
+The run was interrupted by GPU-memory and storage errors, which left partial renders and failed copies, and the scratch files for candidate 42 were missing. All failures and recoveries are recorded. The recoveries changed only job orchestration and storage. They kept the frozen protocol, the fixed candidates, the source code, and the native numerical checks, so they did not create a new experiment. Independent CPU reconstruction reproduced all 211 reported numerical statistics with a separately implemented frequency-weighted bootstrap and tie-group AUC, without neural inference. Nine unused case-colliding upstream YAML differences were disclosed; tracked executable source and the explicit constructor matched, so no blanket clean-worktree claim is made. The completion record is \path{results/27-19-38-wmpai-vasi-final256-complete/}.
+
+\subsubsection{Geometry-to-error feature acquisition}
+% details: feature hash identity and exact repeat checks
+Checkpoint, input/context/future hashes, and disk-block target arithmetic are unchanged. Native reference/repeat, the first development feature at all five locations, and the first final feature repeat matched exactly. No new final native scores were acquired.
+
+% details: regression output and coefficient-hash retention
+The complete tables retain per-world/per-appearance MSE, all predictions, and coefficient hashes.
+
+\subsection{Completion provenance and reproducibility boundaries}
+The 256-configuration test finished on 27 October 2026. The separately authorized three-study freeze is \texttt{b8fa8f4b23a34828\allowbreak df8dba6d8896f8ef\allowbreak 3b7ee95f33f50a4e\allowbreak 0f402f4864157809}, based on repository revision \texttt{a2c8ca864bfd916cfd7868a3dec8f9429efdaf27}. Its byte-preserved source archive and launch record precede all new cells. The 960 appearance and 20,708 static evaluations finished at 01:50 and 03:55 on 28 October; their CPU audits finished by 04:01. Geometry extraction ended at 11:36 and Desktop analysis at 11:38; Spark verification finished at 11:39 (all times +02). No further experimental acquisition was launched for manuscript preparation.
+
+The RTX 3080 (12 GiB) ran Python 3.11.7, Torch 2.8.0+cu128, torchvision 0.23.0+cu128, Transformers 5.13.1, NumPy 1.26.4, Pillow 12.1.1, and headless OpenCV 4.13.0.92. The OpenCV/NumPy package-metadata conflict and incomplete historical Transformers provenance remain disclosed. Final rendering used the pinned Kubric/PyBullet/Blender 4.3 stack in Desktop WSL. Spark remained CPU-only (four cores, 8 GiB): it rehashed exported members/token losses/features and replayed the \emph{same} frozen statistics implementation. A/B replay was exact; the maximum G difference was $2.22\times10^{-16}$, below $10^{-10}$. Full B vectors were audited on Desktop, not independently on Spark. These checks differ from final256's separately implemented statistical audit. Failed Spark model and renderer gates remain failed.
+
+Completion records are \path{results/28-03-55-wmpai-vasi-physion-static-complete/}, \path{results/28-01-50-wmpai-vasi-physion-appearance-complete/}, and \path{results/28-11-38-wmpai-vasi-geometry-transfer-complete/}. They retain exact commands, source/protocol/checkpoint/data hashes, seeds, complete scalar rows, predictions, summaries, failures, and external-artifact manifests. The runtime ZIP files are authoritative; newline-normalized Git text may differ from them. Large datasets, weights, canonical tensors, full vectors, and features are stored outside the repository. The anonymous supplementary archive does not yet include the records of these experiments. A later two-model PushT continuation was not part of the approved plan and is excluded. The earlier PushT controls are unchanged.
+\FloatBarrier

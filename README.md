@@ -2,4 +2,6 @@
 
 Companion repository for the WMPAI 2026 paper by Anton Hristov, Aleksandar Slavov, and Vasil Vasilev.
 
-This repository is currently a release placeholder. Code and experiment records are being prepared for publication after the camera-ready deadline. No complete implementation or reproducibility package is available here yet.
+[Checkpoint, compute, and reproducibility record](docs/reproducibility.md)
+
+Code and experiment records are being prepared for publication after the camera-ready deadline. The technical record above is available now; the complete implementation and results package are not yet released.
