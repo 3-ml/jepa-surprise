@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-25T15:02:23.164100+02:00",
+  "reason": "single unchanged-source retry of pre-score host MemoryError",
+  "original_failure": "attempts/scoring-1-memory-error",
+  "render_seal_sha256": "c9904223d9d9d8a91d34f8608878b40130d48d3132a3cadb8dfd770d8bd07ca7",
+  "source_hashes_verified": true,
+  "no_prior_batch_scores": true,
+  "virtual_memory": {
+    "total": 34188079104,
+    "available": 14844592128,
+    "percent": 56.6,
+    "used": 19343486976,
+    "free": 14844592128
+  },
+  "swap_memory": {
+    "total": 9347989504,
+    "used": 379011072,
+    "free": 8968978432,
+    "percent": 4.1,
+    "sin": 0,
+    "sout": 0
+  },
+  "controller_sha256": "164da2f06c3b27b31f670f8eed0f36453a02f0945d420846ce88d7662684bbbb",
+  "pid": 48752,
+  "changes_to_model_protocol_frames_or_source": false,
+  "no_automatic_further_retry": true
+}

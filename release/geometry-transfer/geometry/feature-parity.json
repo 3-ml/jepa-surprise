@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-28T04:04:48.826213+02:00",
+  "status": "pass",
+  "old_feature_exact": true,
+  "repeat_exact": true,
+  "layers": [
+    "block_09",
+    "block_19",
+    "block_29",
+    "encoder_final",
+    "native_target"
+  ]
+}

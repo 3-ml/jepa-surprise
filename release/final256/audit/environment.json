@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-27T21:58:23.644400+02:00",
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.1.1",
+    "psutil": "7.2.2"
+  },
+  "CUDA_VISIBLE_DEVICES": "",
+  "torch_threads": 1,
+  "code": {
+    "audit_final256.py": "25683960a959717f91eb5472b9237eb89d9af5a2056a175aee3f3760267acdac",
+    "completion_gate.py": "63837ba48880c8f6068a527915de789c6a422caaa21f1b6e6327e08500121bc8",
+    "independent_statistics.py": "6f5d0d781990f76e6e4541fef2106cc9190a19cae902874bf60c2f9118569892",
+    "test_independent_statistics.py": "1838f9cf2055b76b1fe4ff2689822be6c47d60a96eedde68fb4604832d9f24c6"
+  },
+  "base_revision": "44e07fa94a504329646dcfdd8d974a13fe9a13b9"
+}

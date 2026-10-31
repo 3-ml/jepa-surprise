@@ -1,0 +1,36 @@
+{
+  "status": "pass_for_two_qualified_models",
+  "cells": 8704,
+  "models": [
+    {
+      "model": "lewm",
+      "cells": 4352,
+      "feature_dimensions": [
+        192
+      ],
+      "max_scalar_reconstruction_error": 2.601094806209403e-07,
+      "max_decomposition_identity_error": 1.3340023530261647e-15,
+      "max_native_delta_reconstruction_error": 2.599560022797931e-07,
+      "status": "pass"
+    },
+    {
+      "model": "dino",
+      "cells": 4352,
+      "feature_dimensions": [
+        75264
+      ],
+      "max_scalar_reconstruction_error": 1.1941619693089933e-07,
+      "max_decomposition_identity_error": 5.440092820663267e-15,
+      "max_native_delta_reconstruction_error": 1.195734739001253e-07,
+      "status": "pass"
+    }
+  ],
+  "all_input_files_rehashed": 256,
+  "blocked_model": "jepa",
+  "combined_experiment_complete": false,
+  "contrasts_or_intervals_computed": false,
+  "freeze_sha256": "6c3fe19d099229d102d2843fa72c6f26c0a1afb934b804a784442b7c743f982f",
+  "execution_amendment_sha256": "61589ae6cd02477213e3e93d6fda99d35e754cec0dec2258ad8d11e3a55b62e6",
+  "auditor_sha256": "5fb3da3286e906a37870eeb00aab7b5737c361513125706748c4865a666a7787",
+  "at": "2026-10-25T22:22:23.701968+00:00"
+}

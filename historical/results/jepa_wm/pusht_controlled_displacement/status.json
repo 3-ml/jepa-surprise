@@ -1,0 +1,10 @@
+{
+  "status": "complete_exploratory",
+  "task": "pusht",
+  "model": "JEPA-WM",
+  "episodes": 256,
+  "conditions": 18,
+  "validation": "passed",
+  "paper_facing": true,
+  "claim_boundary": "Post-hoc exploratory robustness check"
+}

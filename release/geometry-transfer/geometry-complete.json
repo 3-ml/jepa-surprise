@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-28T11:36:32.138393+02:00",
+  "status": "pass",
+  "clips": 3072,
+  "configurations": 256,
+  "features_sha256": "2e9c8cb9e6b8b71c7c917c475823676d096d0e15af26e6c769538d26f351b760",
+  "feature_index_sha256": "46b3922adc4f7851a88feb49aa1f19900eb60af3719ecd5d06f70c1b70a2838a",
+  "tables": {
+    "physical_margin": "ccc8016e9bfd9932d95e6707dbd7b061b1619ee08b2cfc8f9478509df18eb8cc",
+    "appearance_score_change": "d94c03aaef6527a46c3ed7ffc852569b5fa4e919fcd329f356973e3eec5fda5c"
+  },
+  "coefficient_sha256": "95d96300ffbb6087278febcf5bbdf3cf2d42ae7824f6d0d120e2cd4949b21ee7",
+  "elapsed_seconds": 27184.96900000004,
+  "new_final_native_scores": 0,
+  "scope": "post-hoc representation transfer, not original final256 analysis"
+}

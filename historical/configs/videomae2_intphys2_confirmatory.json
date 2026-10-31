@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "model_id": "OpenGVLab/VideoMAEv2-giant",
+  "role": "pixel-reconstructive checkpoint-family control",
+  "official_repository": "https://github.com/OpenGVLab/VideoMAEv2",
+  "upstream_revision": "29eab1e8a588d1b3ec0cdec7b03a86cca491b74b",
+  "source_license": "MIT repository code; Hugging Face model card and checkpoint are CC-BY-NC-4.0",
+  "huggingface_repository": "OpenGVLab/VideoMAEv2-giant",
+  "huggingface_revision": "d27568eb41ccb2d41bb191fc2e3fe5aad74942d4",
+  "checkpoint_filename": "model.safetensors",
+  "checkpoint_bytes": 4105286120,
+  "checkpoint_sha256": "a231169cd13307aeb29bc56259a494ef273bfd9b7232f881ac4e8d7e39713add",
+  "checkpoint_encoder_tensor_count": 524,
+  "checkpoint_excluded_tensor_count": 58,
+  "checkpoint_excluded_prefixes": [
+    "model.decoder."
+  ],
+  "checkpoint_excluded_keys": [
+    "model.encoder_to_decoder.weight",
+    "model.mask_token"
+  ],
+  "snapshot_file_sha256s": {
+    "config.json": "8243cfbbdf92d2acb5b62642707a138ee08051b64ad23823b8ef990a8a936407",
+    "modeling_config.py": "e645f9b518e152523cfa097dd049cdd86131f5a0b7d96bb52edbce64b2c0335f",
+    "modeling_videomaev2.py": "f821aac219d959254c7189995afd4dd313d98c74a89d4efff05057771bae1079",
+    "preprocessor_config.json": "fa12f1db567e88119a097a96cfe288faccc3af2144476f39890fbd255bd24a68"
+  },
+  "architecture": "VideoMAEv2 giant encoder pretrained by pixel reconstruction on UnlabeledHybrid-1M",
+  "embedding_dimension": 1408,
+  "transformer_blocks": 40,
+  "patch_size": 14,
+  "tubelet_size": 2,
+  "native_resolution": 224,
+  "native_frames_per_clip": 16,
+  "native_chunks_per_shared_sample": 4,
+  "native_token_grid_per_chunk": [
+    8,
+    16,
+    16
+  ],
+  "concatenated_token_grid": [
+    32,
+    16,
+    16
+  ],
+  "relative_depth_mapping": [
+    {
+      "relative_depth": 0.0,
+      "native_layer": 0,
+      "state": "patch embedding plus fixed sinusoidal position embedding before transformer block 1"
+    },
+    {
+      "relative_depth": 0.25,
+      "native_layer": 10,
+      "state": "output after transformer block 10"
+    },
+    {
+      "relative_depth": 0.5,
+      "native_layer": 20,
+      "state": "output after transformer block 20"
+    },
+    {
+      "relative_depth": 0.75,
+      "native_layer": 30,
+      "state": "output after transformer block 30"
+    },
+    {
+      "relative_depth": 1.0,
+      "native_layer": 40,
+      "state": "final encoder-normalized output after transformer block 40"
+    }
+  ],
+  "normalization": {
+    "resize": "short-side resize and center crop to native 224x224 using the pinned checkpoint processor",
+    "rgb_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "inference_dtype": "bfloat16_autocast if smoke-valid, otherwise float16 only through a versioned pre-Main config amendment",
+  "storage_dtype": "float16",
+  "batch_candidates": [
+    2,
+    1
+  ],
+  "oom_fallback_may_change_only_batch_size": true,
+  "strict_load_required": true,
+  "strict_load_scope": "all 524 tensors of the released encoder; the checkpoint's 58 reconstruction-decoder tensors are hash-locked but explicitly excluded",
+  "trust_remote_code": true,
+  "runtime_transformers_version": "5.13.1",
+  "snapshot_policy": "Every architecture, preprocessing, and remote-code file above must match before loading.",
+  "status": "locked for one-pair repeatability smoke and complete Debug extraction; Main development remains gated",
+  "claim_boundary": "Four native 16-frame chunks cover the same 64 decoded source frames as V-JEPA2, but do not share its cross-chunk temporal receptive field."
+}

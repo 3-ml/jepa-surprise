@@ -1,0 +1,52 @@
+{
+  "best_test_layers": [
+    {
+      "task": "appearance",
+      "best_test_layer_index": 1,
+      "best_test_layer_name": "block_10",
+      "best_test_accuracy_mean": 0.9934782608695653,
+      "best_test_accuracy_std": 0.009722034684781668,
+      "best_test_majority_baseline_mean": 0.25
+    },
+    {
+      "task": "physics_all",
+      "best_test_layer_index": 3,
+      "best_test_layer_name": "block_30",
+      "best_test_accuracy_mean": 0.5847826086956521,
+      "best_test_accuracy_std": 0.04458509630868197,
+      "best_test_majority_baseline_mean": 0.5
+    },
+    {
+      "task": "physics_clean_only",
+      "best_test_layer_index": 3,
+      "best_test_layer_name": "block_30",
+      "best_test_accuracy_mean": 0.5956521739130436,
+      "best_test_accuracy_std": 0.04507922033332116,
+      "best_test_majority_baseline_mean": 0.5
+    }
+  ],
+  "rows": 225,
+  "tasks": [
+    "appearance",
+    "physics_all",
+    "physics_clean_only"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representations": "results\\intphys2\\sealed_analysis\\vjepa2\\representations.npz",
+  "representations_shape": [
+    912,
+    5,
+    1408
+  ],
+  "skipped": [],
+  "train_fraction": 0.6,
+  "val_fraction": 0.2,
+  "c": 1.0,
+  "max_iter": 2000
+}

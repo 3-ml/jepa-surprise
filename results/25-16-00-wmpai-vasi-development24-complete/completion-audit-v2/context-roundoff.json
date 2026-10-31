@@ -1,0 +1,1730 @@
+[
+  {
+    "clip_id": "dev24-001__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-001__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-001__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-001__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-001__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-001__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-002__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-003__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-003__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-003__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.742592805351307e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-003__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 9.973064746732025e-09,
+    "changed_pixel_fraction": 5.086263020833333e-06
+  },
+  {
+    "clip_id": "dev24-003__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 9.973064746732025e-09,
+    "changed_pixel_fraction": 5.086263020833333e-06
+  },
+  {
+    "clip_id": "dev24-003__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 9.973064746732025e-09,
+    "changed_pixel_fraction": 6.357828776041667e-06
+  },
+  {
+    "clip_id": "dev24-003__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-003__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-003__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.243939568014706e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-003__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 9.973064746732025e-09,
+    "changed_pixel_fraction": 6.357828776041667e-06
+  },
+  {
+    "clip_id": "dev24-003__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.869949640012255e-08,
+    "changed_pixel_fraction": 7.62939453125e-06
+  },
+  {
+    "clip_id": "dev24-003__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.620623021343954e-08,
+    "changed_pixel_fraction": 7.62939453125e-06
+  },
+  {
+    "clip_id": "dev24-004__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-004__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-005__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-005__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-005__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-005__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-006__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-006__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-007__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-007__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-007__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 6.2331654667075165e-09,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-007__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.495959712009804e-08,
+    "changed_pixel_fraction": 6.357828776041667e-06
+  },
+  {
+    "clip_id": "dev24-007__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.3712964026756535e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-007__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 7.47979856004902e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-007__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-007__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-007__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.495959712009804e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-007__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.7452863306781047e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-007__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 7.47979856004902e-09,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-007__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.3712964026756535e-08,
+    "changed_pixel_fraction": 6.357828776041667e-06
+  },
+  {
+    "clip_id": "dev24-008__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-008__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-009__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-009__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-010__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-010__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-010__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-011__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-011__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-011__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 6.2331654667075165e-09,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-011__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 4.986532373366013e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-011__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-011__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 7.47979856004902e-09,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-011__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-011__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-011__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.869949640012255e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-011__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.495959712009804e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-011__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.243939568014706e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-011__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.869949640012255e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-012__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-012__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-012__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-013__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-013__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-014__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-014__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-015__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-015__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-015__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.121969784007353e-08,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-015__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.121969784007353e-08,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-015__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.121969784007353e-08,
+    "changed_pixel_fraction": 5.086263020833333e-06
+  },
+  {
+    "clip_id": "dev24-015__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 9.973064746732025e-09,
+    "changed_pixel_fraction": 5.086263020833333e-06
+  },
+  {
+    "clip_id": "dev24-015__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-015__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-015__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.7452863306781047e-08,
+    "changed_pixel_fraction": 7.62939453125e-06
+  },
+  {
+    "clip_id": "dev24-015__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.6179294960171568e-08,
+    "changed_pixel_fraction": 1.1444091796875e-05
+  },
+  {
+    "clip_id": "dev24-015__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.6179294960171568e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-015__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.869949640012255e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-016__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-016__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-016__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-016__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-017__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-017__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-017__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-018__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-019__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-019__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-019__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 6.2331654667075165e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-019__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 6.2331654667075165e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-019__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.4932661866830064e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-019__solid__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 6.2331654667075165e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-019__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-019__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-019__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.7452863306781047e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-019__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.3712964026756535e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-019__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415033e-08,
+    "changed_pixel_fraction": 6.357828776041667e-06
+  },
+  {
+    "clip_id": "dev24-019__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.620623021343954e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-020__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__solid__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-020__solid__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-020__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-020__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-020__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-020__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-021__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-021__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-021__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-022__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-022__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__solid__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.4932661866830064e-09,
+    "changed_pixel_fraction": 2.5431315104166665e-06
+  },
+  {
+    "clip_id": "dev24-023__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-023__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.620623021343954e-08,
+    "changed_pixel_fraction": 7.62939453125e-06
+  },
+  {
+    "clip_id": "dev24-023__gap__inconsistent__clean",
+    "max_uint8": 1,
+    "normalized_mean_abs": 2.368602877348856e-08,
+    "changed_pixel_fraction": 1.0172526041666666e-05
+  },
+  {
+    "clip_id": "dev24-023__gap__inconsistent__persistent_hue",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.869949640012255e-08,
+    "changed_pixel_fraction": 8.900960286458334e-06
+  },
+  {
+    "clip_id": "dev24-023__gap__inconsistent__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 8.726431653390523e-09,
+    "changed_pixel_fraction": 3.814697265625e-06
+  },
+  {
+    "clip_id": "dev24-024__solid__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__solid__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__solid__lawful__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__solid__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__solid__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__solid__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__gap__lawful__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__gap__lawful__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__gap__lawful__abrupt_event",
+    "max_uint8": 1,
+    "normalized_mean_abs": 1.2466330933415032e-09,
+    "changed_pixel_fraction": 1.2715657552083333e-06
+  },
+  {
+    "clip_id": "dev24-024__gap__inconsistent__clean",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__gap__inconsistent__persistent_hue",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  },
+  {
+    "clip_id": "dev24-024__gap__inconsistent__abrupt_event",
+    "max_uint8": 0,
+    "normalized_mean_abs": 0.0,
+    "changed_pixel_fraction": 0.0
+  }
+]

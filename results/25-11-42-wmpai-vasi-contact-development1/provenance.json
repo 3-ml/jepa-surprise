@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "scope": "single_scene_development_only",
+  "script_sha256": "d7b551adbda1bc01b93bc816e386a3e21c98ddd59d82887696bc0d067848675f",
+  "loader_sha256": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+  "reader_sha256": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a",
+  "core_sha256": "bd812402fefc7bc3c7b309b039448a5f444fb56e29d40ca7cd87c7b02afc05c6",
+  "project_revision": "4928485a019dea4c8c188cfd5f3c4ac7e80d8850",
+  "render_manifest_sha256": "a1b6265f7d094255b54009690fc72d6cd1c123bcd36dc60089566c49a11561fe",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "model_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "precision": "FP32 weights; bf16 autocast; original bf16 subtraction then FP32 reduction",
+  "score_definition": "mean absolute predictor minus layer-normalized EMA target tokens",
+  "model_spec": {
+    "architecture": "vit_giant_xformers",
+    "embed_dim": 1408,
+    "encoder_heads": 22,
+    "resolution": 256,
+    "frames_per_clip": 48,
+    "contexts": [
+      12,
+      18,
+      24,
+      30,
+      36,
+      42
+    ],
+    "num_mask_tokens": 10,
+    "use_rope": true
+  },
+  "context_frames": 12,
+  "batch_size": 1,
+  "activation_checkpointing": false,
+  "matmul_allow_tf32": false,
+  "cudnn_allow_tf32": true,
+  "shuffle_seed": "contact-development-v1",
+  "shuffle_permutation": [
+    10,
+    0,
+    3,
+    7,
+    15,
+    1,
+    2,
+    11,
+    12,
+    17,
+    4,
+    13,
+    14,
+    8,
+    6,
+    5,
+    16,
+    9
+  ],
+  "zero_repeat_scalar_atol": 1e-06,
+  "hardware_memory_free_bytes_before": 11673796608,
+  "model_setup_seconds": 6.457101800013334,
+  "strict_key_shape_dtype_checks": {
+    "encoder": {
+      "verified_names_shapes_dtypes": 484,
+      "blocks_loaded_on_demand": true
+    },
+    "target_encoder": {
+      "verified_names_shapes_dtypes": 484,
+      "blocks_loaded_on_demand": true
+    },
+    "predictor": {
+      "verified_names_shapes_dtypes": 160,
+      "blocks_loaded_on_demand": false
+    }
+  },
+  "scored_clips": 9
+}

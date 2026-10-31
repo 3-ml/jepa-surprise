@@ -1,0 +1,4 @@
+left_model,right_model,task,metric,mean,ci_low,ci_high
+V-JEPA2-G,PixelSummary,appearance,pair_accuracy_delta,0.11847369565217392,0.08260869565217391,0.15760869565217392
+V-JEPA2-G,PixelSummary,physics_all,pair_accuracy_delta,0.11085728260869564,0.055434782608695644,0.16630434782608694
+V-JEPA2-G,PixelSummary,physics_clean_only,pair_accuracy_delta,0.12587434782608695,0.05217391304347827,0.2

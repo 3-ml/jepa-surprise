@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "shared_pre_event_substeps": 240,
+  "world": "gap",
+  "first_stopping_support_contact_step": 284,
+  "first_position_divergence_step": 284,
+  "first_position_divergence_frame_ceil": 15,
+  "lawful_support_contact_steps": 0,
+  "inconsistent_support_contact_steps": 612,
+  "minimum_center_z": {
+    "lawful": -1.8782686249999847,
+    "inconsistent": 0.635543875000008
+  },
+  "limitation": "solidity violation in solid world or unsupported stop in gap world; explicit collision-mask intervention",
+  "lawful_repeat_exact": true,
+  "missing_stopping_contact_rejected": true,
+  "different_context_state_rejected": true
+}

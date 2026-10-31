@@ -1,0 +1,68 @@
+{
+  "scene_id": "dev-contact-0001",
+  "split": "development",
+  "frames": 48,
+  "fps": 12,
+  "simulation_hz": 240,
+  "collision_disable_frame": 12,
+  "gravity": [
+    0,
+    0,
+    -9.81
+  ],
+  "sphere_radius": 0.5,
+  "sphere_mass": 1.0,
+  "sphere_initial_position": [
+    0,
+    -0.3,
+    7.5
+  ],
+  "restitution": 0.25,
+  "support_position": [
+    0,
+    0,
+    -0.12
+  ],
+  "support_half_extents": [
+    1.1,
+    0.7,
+    0.12
+  ],
+  "catch_floor_position": [
+    0,
+    0,
+    -2.6
+  ],
+  "catch_floor_half_extents": [
+    3,
+    3,
+    0.1
+  ],
+  "camera_position": [
+    9,
+    -16,
+    6
+  ],
+  "camera_look_at": [
+    0,
+    0,
+    2.0
+  ],
+  "camera_orthographic_scale": 12,
+  "resolution": [
+    256,
+    256
+  ],
+  "base_color_rgb": [
+    0.12,
+    0.55,
+    0.85
+  ],
+  "hue_degrees": 30,
+  "samples_per_pixel": 64,
+  "denoiser": "none",
+  "cycles_device": "CUDA",
+  "render_seed": 1025,
+  "minimum_target_area_fraction": 0.0025,
+  "purpose": "score-blind single development fixture, not confirmatory"
+}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "analysis_status": "post-sealed exploratory",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "vram_gb": 4.0,
+    "strategy": "exact sequential transformer-block CPU/GPU offload",
+    "peak_vram_gb": 0.6875,
+    "seconds_per_clip_benchmark_median": 3.621455300002708,
+    "seconds_per_clip_benchmark_p90": 3.8486363200034246,
+    "extraction_inference_seconds": 3580.3863974999695,
+    "analysis_seconds": 5038.116932600009,
+    "max_temperature_c": 86
+  },
+  "scientific_integrity": {
+    "exact_checkpoint": true,
+    "same_preprocessing": true,
+    "quantized": false,
+    "frame_count": 64,
+    "layers": [
+      "block_00",
+      "block_10",
+      "block_20",
+      "block_30",
+      "final"
+    ],
+    "sealed_analysis_modified": false
+  },
+  "grid": {
+    "scenes": 38,
+    "pairs": 76,
+    "sources": 152,
+    "hue": [
+      15,
+      45,
+      90
+    ],
+    "brightness": [
+      0.85,
+      0.65,
+      0.45
+    ],
+    "recolor": [
+      45,
+      90,
+      180
+    ]
+  },
+  "factors": {
+    "hue": {
+      "straightness": 0.6918841348263429,
+      "straightness_ci": [
+        0.6731070553329056,
+        0.7097254777295976
+      ],
+      "effective_rank": 9.830036762636643,
+      "top1_energy": 0.5355808066789817,
+      "top2_energy": 0.6153818078372624,
+      "ray_directional_cosine_mean": 0.6001250712245683,
+      "ray_projection_fraction_mean": 0.3906708909369716,
+      "ray_relative_error": 0.7977406224233069,
+      "harmonic_relative_error": 0.7470558572529539,
+      "harmonic_improvement": 0.050684765170353
+    },
+    "brightness": {
+      "straightness": 0.906525291793712,
+      "straightness_ci": [
+        0.8987170336362041,
+        0.913973240007412
+      ],
+      "effective_rank": 5.433315426330934,
+      "top1_energy": 0.6496309956815389,
+      "top2_energy": 0.7521916853169138,
+      "ray_directional_cosine_mean": 0.7846109387979999,
+      "ray_projection_fraction_mean": 0.6230781951224392
+    },
+    "selective_recolor": {
+      "straightness": 0.5527009999235307,
+      "straightness_ci": [
+        0.5197867443045471,
+        0.5870855484335187
+      ],
+      "effective_rank": 13.715682146125754,
+      "top1_energy": 0.4022128681344529,
+      "top2_energy": 0.5292723429471846,
+      "ray_directional_cosine_mean": 0.542874870438574,
+      "ray_projection_fraction_mean": 0.30999992277926763
+    }
+  },
+  "physics_projection_final_k4": {
+    "endpoint_strong": {
+      "observed": 0.0415860626148019,
+      "ci": [
+        0.0296599762127066,
+        0.0559000269654838
+      ],
+      "random": 0.0028395900926721,
+      "excess": 0.0387464725221298
+    },
+    "all_dose": {
+      "observed": 0.0413781927798637,
+      "ci": [
+        0.0295176769434819,
+        0.0563620346503658
+      ],
+      "random": 0.0028400586470309,
+      "excess": 0.0385381341328328
+    },
+    "local_tangent": {
+      "observed": 0.0668022797382382,
+      "ci": [
+        0.044774626073659,
+        0.0931671136205412
+      ],
+      "random": 0.002839476641214,
+      "excess": 0.0639628030970241
+    }
+  },
+  "physics_projection_final_k4_paired_tangent_minus_endpoint": {
+    "difference": 0.025216217123436212,
+    "ci": [
+      0.007236847849674625,
+      0.04500963919006409
+    ]
+  },
+  "vjepa2l_replication": {
+    "factor_specific_geometry": "REPLICATED",
+    "brightness_most_ray_like": "REPLICATED",
+    "recolor_higher_dimensional": "REPLICATED",
+    "hue_curved_low_dimensional": "PARTIAL",
+    "tangent_gt_endpoint_physics_projection": "REPLICATED"
+  },
+  "strongest_findings": [
+    "Final straightness: brightness 0.907, hue 0.692, recolor 0.553.",
+    "Final effective rank: brightness 5.43, hue 9.83, recolor 13.72.",
+    "Hue held-out relative error: ray 0.798, harmonic 0.747.",
+    "Final k=4 physics projection: endpoint 0.042, all-dose 0.041, tangent 0.067.",
+    "Final paired tangent-minus-endpoint projection difference is 0.025 [0.007, 0.045].",
+    "Matched random k=4 baseline is approximately 0.0028 in 1,408 dimensions."
+  ],
+  "negative_findings": [
+    "The 0-90 degree hue arc cannot establish periodicity or a color wheel.",
+    "The analysis is post-sealed exploratory and does not replace frozen PAO."
+  ],
+  "claims_supported": [
+    "The exact V-JEPA2-G development grid exhibits the reported factor-specific trajectory geometry."
+  ],
+  "claims_not_supported": [
+    "Hue circularity",
+    "semantic disentanglement",
+    "physical understanding",
+    "a causal JEPA-objective explanation"
+  ],
+  "paper_recommendation": {
+    "main_text_worthy": false,
+    "status": "APPENDIX WORTHY"
+  },
+  "provenance": {
+    "packed_features_sha256": "cc5c9a5c454b37a676816d6338019190724c7eeecf63965407a717582d3f83a4",
+    "samples_sha256": "9cecf623fa651e49cce2906b60d8a1f5a8835f67e8875221385358b6eca5a14d",
+    "analysis_script_sha256": "29f4ffe2c7dfaf73bd94e7a0666a0a1589e213bf6d022e82300f38f3ff48fd7d",
+    "finalizer_sha256": "59659b8894b062f2ca3e4bd7c5acf41801450ac272379fe47cbfa1ef84375a38"
+  }
+}

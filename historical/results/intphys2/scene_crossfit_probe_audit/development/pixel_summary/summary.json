@@ -1,0 +1,59 @@
+{
+  "best_test_layers": [
+    {
+      "task": "appearance",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.8116071428571429,
+      "best_test_accuracy_std": 0.10594569267279522,
+      "best_test_majority_baseline_mean": 0.25
+    },
+    {
+      "task": "physics_all",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.5033482142857142,
+      "best_test_accuracy_std": 0.01004464285714288,
+      "best_test_majority_baseline_mean": 0.5
+    },
+    {
+      "task": "physics_clean_only",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.5089285714285714,
+      "best_test_accuracy_std": 0.06121120178929502,
+      "best_test_majority_baseline_mean": 0.5
+    }
+  ],
+  "rows": 45,
+  "prediction_rows": 6840,
+  "tasks": [
+    "appearance",
+    "physics_all",
+    "physics_clean_only"
+  ],
+  "split_mode": "crossfit",
+  "split_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "crossfit_folds": 5,
+  "crossfit_seed": 0,
+  "representations": "results/intphys2/development_analysis/pixel_summary/representations.npz",
+  "representations_shape": [
+    608,
+    1,
+    100
+  ],
+  "group_column": "scene_id",
+  "unique_groups": 38,
+  "unique_pairs": 76,
+  "skipped": [],
+  "train_fraction": 0.6,
+  "val_fraction": 0.2,
+  "c": 1.0,
+  "max_iter": 2000
+}

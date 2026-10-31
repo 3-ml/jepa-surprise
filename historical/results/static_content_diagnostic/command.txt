@@ -1,0 +1,3 @@
+python -m py_compile scripts\batch_static_surprise_audit.py
+
+python scripts\batch_static_surprise_audit.py --root data\physionpp\mass_only\testdata_v1 --output-dir results\static_content_diagnostic --limit 10 --exclude "data\physionpp\mass_only\testdata_v1\mass_collision_pp-copy0\mass_collision-target=cone-zdloc=1\0000_img.mp4"

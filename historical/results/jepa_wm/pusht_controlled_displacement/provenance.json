@@ -1,0 +1,160 @@
+{
+  "status": "complete_exploratory",
+  "phase": "exploratory",
+  "task": "pusht",
+  "model": "JEPA-WM",
+  "command": "python -m scripts.run_jepa_wm_pusht_controlled_displacement --jepa-wm-root <workspace>/jepa-wms --stable-worldmodel-root <workspace>/stable-worldmodel --checkpoint <checkpoint-cache>/jepa_wm_pusht.pth.tar --input-bundle <dataset-cache>/jepa_wm_pusht_bundle.npz --bundle-provenance <workspace>/bundle_provenance.json --reference-scores <workspace>/dinowm_scores.csv --output-dir <workspace>/jepa_wm_pusht_controlled --samples 256 --batch-size 8 --device cuda --phase exploratory",
+  "seed": "jepa-wm-pusht-controlled-displacement-v1",
+  "bootstrap_seed": 20260903,
+  "samples": 256,
+  "batch_size": 8,
+  "action_scales": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "hue_scale_matches": {
+    "30.0": 0.25,
+    "60.0": 0.75,
+    "120.0": 1.0,
+    "180.0": 1.0
+  },
+  "action_scale_before_normalization": 100.0,
+  "reset_dt_compensation": 0.01,
+  "jepa_wm_repo": "<workspace>/jepa-wms",
+  "jepa_wm_revision": "13cf1d9c7e476f53c17714d2e0f1dc239a883ce0",
+  "model_hf_revision": "9b9c41ef249466630dbf1a20e78391865d07b3b9",
+  "checkpoint": "<checkpoint-cache>/jepa_wm_pusht.pth.tar",
+  "checkpoint_sha256": "9beca3eafe0739c3b3adb5d734fa435ccbda0fea8a65d53d4cccec176aaaa0eb",
+  "checkpoint_epoch": 50,
+  "checkpoint_load_validation": [
+    {
+      "name": "predictor",
+      "status": "loaded",
+      "checkpoint_keys": 92,
+      "module_keys": 92,
+      "allowed_missing_keys": [],
+      "unexpected_keys": []
+    },
+    {
+      "name": "action_encoder",
+      "status": "absent"
+    },
+    {
+      "name": "proprio_encoder",
+      "status": "loaded",
+      "checkpoint_keys": 2,
+      "module_keys": 2,
+      "allowed_missing_keys": [],
+      "unexpected_keys": []
+    }
+  ],
+  "official_config": "<workspace>/jepa-wms/configs/evals/simu_env_planning/pt/jepa-wm/pt_L2_cem_sourcedset_H6_nas6_ctxt2_r224_alpha0.1_ep96_decode.yaml",
+  "official_config_sha256": "7ded0cd2da37208c51b7312259b319038d850b48dad1638484b46bda6aaf7d5c",
+  "dino_v2_roots": [
+    "<workspace>/dinov2"
+  ],
+  "dino_v2_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "dino_v2_weights": [
+    {
+      "path": "<checkpoint-cache>/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "bytes": 88283115
+    }
+  ],
+  "stable_worldmodel_repo": "<workspace>/stable-worldmodel",
+  "stable_worldmodel_revision": "0ef3856875e70a1283e637fcd2ab936eae6c4e6f",
+  "input_bundle": "<dataset-cache>/jepa_wm_pusht_bundle.npz",
+  "input_bundle_sha256": "6f9d6dafa364f3e086b2ba650c5c8d4d48ceee75c7c93dc49c28908b1ea24d3a",
+  "input_bundle_provenance": {
+    "command": "python -m scripts.export_pusht_controlled_audit_bundle --dataset <dataset-cache>/pusht_expert_train.h5 --selection-manifest <workspace>/selection_manifest.csv --output <dataset-cache>/jepa_wm_pusht_bundle.npz --expected-dataset-sha256 b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+    "dataset": "<dataset-cache>/pusht_expert_train.h5",
+    "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+    "selection_manifest": "<workspace>/selection_manifest.csv",
+    "selection_manifest_sha256": "d5f9017e81db24662ff4950f8e2c94c3a56a53b9d5e56c98c6a2e9765c7e6005",
+    "bundle": "<dataset-cache>/jepa_wm_pusht_bundle.npz",
+    "bundle_sha256": "6f9d6dafa364f3e086b2ba650c5c8d4d48ceee75c7c93dc49c28908b1ea24d3a",
+    "samples": 256,
+    "arrays": {
+      "pixels": [
+        256,
+        4,
+        3,
+        224,
+        224
+      ],
+      "action": [
+        256,
+        4,
+        10
+      ],
+      "state": [
+        256,
+        4,
+        7
+      ],
+      "episode_idx": [
+        256,
+        4
+      ],
+      "step_idx": [
+        256,
+        4
+      ]
+    }
+  },
+  "reference_scores": "results/dinowm/pusht_controlled_displacement/scores.csv",
+  "reference_scores_sha256": "eadf981b3e7ec9da8b4edf8b9f707b054ebf79c8f9a844e322e6c0089df15ce2",
+  "target_hash_mismatches": 0,
+  "maximum_start_state_error": 1.52587890625e-05,
+  "maximum_official_endpoint_error": 0.0001125335693359375,
+  "maximum_same_context_visual_embedding_difference": 0.0,
+  "maximum_same_target_visual_embedding_difference": 0.0,
+  "maximum_repeated_score_difference": 0.0,
+  "shared_context_and_target_encoding": true,
+  "model_preprocessing": {
+    "image_size": 224,
+    "image_normalization_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "image_normalization_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "random_horizontal_flip": false,
+    "random_resize_aspect_ratio": [
+      1.0,
+      1.0
+    ],
+    "random_resize_scale": [
+      1.0,
+      1.0
+    ],
+    "context_frames": 3,
+    "frameskip": 5,
+    "score_precision": "float32",
+    "tf32": false
+  },
+  "preflight_resolution": [
+    "Installed the stable-worldmodel base dependencies required by its package initializer.",
+    "Used Pymunk 7.3.0, matching the prior LeWorldModel renderer environment, because stable-worldmodel 0.1.1 calls the Pymunk 7 collision API.",
+    "Pinned the DINOv2 Torch Hub source to a pinned source checkout after the default ZIP cache omitted revision metadata.",
+    "Encoded each repeated context and target once and reused its embedding after separate duplicate encodes differed by up to 3.695487976074219e-4 across CUDA batch shapes; no result values from that failed gate were inspected."
+  ],
+  "script_sha256": "bc66c52e6d15eb31e135a2fb7980dfd0cb29f75c7dcd98b8391956db7be25e8e",
+  "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.35",
+  "torch": "2.7.0+cu126",
+  "torchvision": "0.22.0+cu126",
+  "device": "cuda",
+  "gpu": "NVIDIA A40, 46068 MiB, 580.159.04",
+  "wall_seconds": 200.89726877212524,
+  "score": "final one-step JEPA-WM visual embedding MSE over DINOv2 patch tokens against the encoded target",
+  "claim_boundary": "Post-hoc exploratory robustness check using the same PushT episodes, target bytes, action interventions, rendered-effect matches, and bootstrap unit as the LeWorldModel and DINO-WM controlled audits.",
+  "archive_source": "scripts/run_jepa_wm_pusht_controlled_displacement.py"
+}

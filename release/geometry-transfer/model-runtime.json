@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-28T01:40:17.069446+02:00",
+  "torch": "2.8.0+cu128",
+  "device": "NVIDIA GeForce RTX 3080",
+  "adapter": {
+    "native_body_AST_exact": true,
+    "native_body_AST_sha256": "8cff751243123eafc7ff0f6089cb00a6553ba00600ec69201ea04b1b0488d61c",
+    "original_source_sha256": "72dddefb7e6b4c0dd87090249b9fd09ee4064b79d72a15fad3a346a60a3312ac",
+    "adapter_sha256": "3cbaac789176de534724f0586fef872a51ba74430537d4b3740850e8078a3dfb",
+    "changed_boundary": "replace video indexing/processor call with supplied exact FP32 tensor; no other executable-body change"
+  },
+  "parameters": 325971328,
+  "dtype": "torch.float16",
+  "attention": "sdpa",
+  "matmul_tf32": false,
+  "cudnn_tf32": true
+}

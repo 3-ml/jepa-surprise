@@ -1,0 +1,59 @@
+{
+  "model_label": "VideoMAE2-G",
+  "representations": "results\\intphys2\\sealed_analysis\\videomae2\\representations.npz",
+  "representations_sha256": "e69fb94bd058b3fc24df149e5b3e9ab0137b5af05fe2b3826c4de6b1652c9cd6",
+  "probe_summary": "results\\intphys2\\sealed_analysis\\videomae2\\probes\\probe_summary.csv",
+  "probe_summary_sha256": "054ace08146284a3654a6577640f774905680dc0eba13630a76686dafdd8748f",
+  "n_samples": 912,
+  "n_layers": 5,
+  "n_videos": 228,
+  "n_pairs": 114,
+  "appearance_conditions": [
+    "brightness_0p45",
+    "clean",
+    "hue_090",
+    "selective_recolor_180"
+  ],
+  "partitions": [
+    "test"
+  ],
+  "key_cross_layer_spearman": {
+    "appearance_accuracy_vs_appearance_distance": -0.3,
+    "appearance_accuracy_vs_depth": 0.3,
+    "appearance_distance_vs_depth": -0.9999999999999999,
+    "physics_all_accuracy_vs_depth": -0.49999999999999994,
+    "physical_distance_vs_depth": 0.3,
+    "retrieval_vs_depth": 0.8999999999999998
+  },
+  "best_layers": {
+    "appearance_accuracy": 1,
+    "physics_all_accuracy": 1,
+    "physics_clean_only_accuracy": 0,
+    "appearance_distance": 0,
+    "physical_distance": 2,
+    "retrieval": 3
+  },
+  "endpoints": {
+    "block_00": {
+      "layer_index": 0,
+      "appearance_distance_median": 1.0982120265310358,
+      "physical_distance_median": 0.00036390619180699324,
+      "appearance_retrieval_top1": 0.06578947368421052,
+      "appearance_accuracy_mean": 0.9315217391304348,
+      "physics_all_accuracy_mean": 0.4641304347826087,
+      "physics_original_only_accuracy_mean": null,
+      "physics_clean_only_accuracy_mean": 0.4347826086956521
+    },
+    "final": {
+      "layer_index": 4,
+      "appearance_distance_median": 0.061317700438713645,
+      "physical_distance_median": 0.0009277948040329833,
+      "appearance_retrieval_top1": 0.44590643274853803,
+      "appearance_accuracy_mean": 0.9880434782608696,
+      "physics_all_accuracy_mean": 0.458695652173913,
+      "physics_original_only_accuracy_mean": null,
+      "physics_clean_only_accuracy_mean": 0.417391304347826
+    }
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

@@ -1,0 +1,19 @@
+{
+  "layers": [
+    "block_09",
+    "block_19",
+    "block_29",
+    "final"
+  ],
+  "dtype": "bfloat16 autocast, fp32 weights",
+  "pooling": "mean over all encoder tokens, 48-frame window",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "expected_checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "n_clips": 160,
+  "n_missing": 0,
+  "weights_source": "${JEPA_VJEPA2G_BLOCKS}",
+  "checkpoint_sha256_verified_in_this_run": false,
+  "batch": 4,
+  "frames_per_clip": 48,
+  "load_note": "misc loaded; 480 block tensors loaded on demand"
+}

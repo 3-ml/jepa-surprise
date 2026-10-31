@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "status": "development-frozen sealed geometry protocol",
+  "seed": 230903,
+  "models": [
+    "V-JEPA2-G",
+    "VideoMAE2-G"
+  ],
+  "layers": [
+    "block_00",
+    "block_10",
+    "block_20",
+    "block_30",
+    "final"
+  ],
+  "transformations": [
+    "clean",
+    "hue_090",
+    "brightness_0p45",
+    "selective_recolor_180"
+  ],
+  "primary_k": 4,
+  "k_sensitivity": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "bootstrap_draws": 10000,
+  "permutation_draws": 10000,
+  "random_subspace_draws": 10000,
+  "statistical_unit": "scene",
+  "distance_normalization": "median cosine distance between cross-scene unrelated clean videos",
+  "direction_metric": "mean resultant length minus shuffled source-transform correspondence mean",
+  "physics_direction": "impossible minus possible",
+  "subspace_metric": "five-fold scene-cross-fitted fraction of physical displacement energy in the appearance basis",
+  "sealed_population": {
+    "scenes": 57,
+    "pairs": 114,
+    "sources": 228,
+    "samples": 912
+  },
+  "integrity_history": {
+    "sealed_data_accesses": 2,
+    "completed_metric_evaluations": 1,
+    "first_access": "aborted before representation-derived metrics because an order-sensitive validator rejected equivalent condition lists",
+    "retry_change": "strict order-insensitive multiset validation only; metric and statistical code unchanged"
+  },
+  "executed_source_sha256": {
+    "run_intphys2_geometry_audit.py": "398fece8353de863e80a91f6cd2108cc8ff358303f36b49f88cc348831078581",
+    "run_intphys2_geometry_freeze.py": "d2788c755755cb2de1cdcf07cf105b3b664a06cdf497de1ce18e64678ec755b5",
+    "run_intphys2_geometry_sealed.py": "8e073b61cd6e11e349e1d592289ab80b204462d8e66b1d1a751ee7e455cf2bf4",
+    "metric_freeze": "cf425c9f94e17ad80c3cf081884ecfc4dcb80f9693149cf214abd2e95dfe9011",
+    "sealed_protocol": "df7f636ab4948da6fb5fdea478579ff1559e615499b904ef7282109535b3e421"
+  },
+  "archive_inputs": {
+    "development": "results/intphys2/development_analysis",
+    "sealed": "results/intphys2/sealed_analysis",
+    "development_reference": "results/intphys2/controlled_geometry/development_reference"
+  }
+}

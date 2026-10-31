@@ -1,0 +1,42 @@
+{
+ "status": "OBSERVED, exploratory, inspected data",
+ "n_pairs": 169,
+ "n_scenes": 143,
+ "direction": "higher feature => impossible (fixed before running)",
+ "boot": 10000,
+ "reference_vjepa2g_clean_acc": 0.633,
+ "results": {
+  "n_frames": {
+   "pair_ordering_acc": 0.047337278106508875,
+   "ci95_scene_boot": [
+    0.01744186046511628,
+    0.08641975308641975
+   ],
+   "ties": 152
+  },
+  "motion": {
+   "pair_ordering_acc": 0.47928994082840237,
+   "ci95_scene_boot": [
+    0.40828402366863903,
+    0.5523255813953488
+   ],
+   "ties": 0
+  },
+  "static": {
+   "pair_ordering_acc": 0.6272189349112426,
+   "ci95_scene_boot": [
+    0.5527950310559007,
+    0.7005988023952096
+   ],
+   "ties": 0
+  },
+  "shuffled": {
+   "pair_ordering_acc": 0.47337278106508873,
+   "ci95_scene_boot": [
+    0.39520958083832336,
+    0.5487804878048781
+   ],
+   "ties": 0
+  }
+ }
+}

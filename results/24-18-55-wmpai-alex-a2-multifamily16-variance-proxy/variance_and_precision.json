@@ -1,0 +1,268 @@
+{
+ "status": "EXPLORATORY variance proxy, 16 scenes, RGB-L1-matched direct-edit contrasts",
+ "n_scenes": 16,
+ "reproduction_check": [
+  {
+   "physical": "physical-turn-060",
+   "appearance": "inversion-0p67",
+   "recomputed_mean": 0.0038490835577248816,
+   "archived_mean": 0.0038490835577249,
+   "abs_diff": 1.8214596497756474e-17,
+   "scene_sd": 0.0058567755960440065,
+   "n_scenes": 16,
+   "wins": 12
+  },
+  {
+   "physical": "physical-turn-120",
+   "appearance": "inversion-1p0",
+   "recomputed_mean": 0.009330516681075068,
+   "archived_mean": 0.0093305166810751,
+   "abs_diff": 3.122502256758253e-17,
+   "scene_sd": 0.010219487992293868,
+   "n_scenes": 16,
+   "wins": 13
+  },
+  {
+   "physical": "physical-turn-180",
+   "appearance": "inversion-1p0",
+   "recomputed_mean": 0.010418049991130805,
+   "archived_mean": 0.0104180499911308,
+   "abs_diff": 5.204170427930421e-18,
+   "scene_sd": 0.009614698618039492,
+   "n_scenes": 16,
+   "wins": 13
+  },
+  {
+   "physical": "physical-z-0p25",
+   "appearance": "brightness-0p5",
+   "recomputed_mean": 0.0013878718018531444,
+   "archived_mean": 0.0013878718018531,
+   "abs_diff": 4.445228907190568e-17,
+   "scene_sd": 0.003339464251680957,
+   "n_scenes": 16,
+   "wins": 12
+  },
+  {
+   "physical": "physical-z-0p75",
+   "appearance": "inversion-0p67",
+   "recomputed_mean": 0.003367025405168456,
+   "archived_mean": 0.0033670254051685,
+   "abs_diff": 4.380176776841438e-17,
+   "scene_sd": 0.005449759842687285,
+   "n_scenes": 16,
+   "wins": 14
+  },
+  {
+   "physical": "physical-z-1p5",
+   "appearance": "inversion-1p0",
+   "recomputed_mean": 0.003750739619135844,
+   "archived_mean": 0.0037507396191358,
+   "abs_diff": 4.423544863740858e-17,
+   "scene_sd": 0.00861223459655329,
+   "n_scenes": 16,
+   "wins": 11
+  }
+ ],
+ "max_abs_diff_vs_archive": 4.445228907190568e-17,
+ "scene_sd": {
+  "pooled_across_pairs_scene_mean": 0.00490201527037777,
+  "median_pair_sd": 0.007234505096298648,
+  "min_pair_sd": 0.003339464251680957,
+  "max_pair_sd": 0.010219487992293868
+ },
+ "expected_half_width_grid": [
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 16,
+   "expected_half_width": 0.001497313884603476
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 32,
+   "expected_half_width": 0.0011017651951399149
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 48,
+   "expected_half_width": 0.0009123578943077429
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 64,
+   "expected_half_width": 0.0007999177041420569
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 96,
+   "expected_half_width": 0.0006552250410568983
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 128,
+   "expected_half_width": 0.0005708973136384957
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 192,
+   "expected_half_width": 0.0004631157147317444
+  },
+  {
+   "sd_label": "min_pair_sd",
+   "sd": 0.003339464251680957,
+   "n_scenes": 256,
+   "expected_half_width": 0.00040195542229662254
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 16,
+   "expected_half_width": 0.003243731363038248
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 32,
+   "expected_half_width": 0.002386827741950534
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 48,
+   "expected_half_width": 0.0019765020190574746
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 64,
+   "expected_half_width": 0.001732915303501832
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 96,
+   "expected_half_width": 0.0014194578954880481
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 128,
+   "expected_half_width": 0.0012367730910435536
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 192,
+   "expected_half_width": 0.0010032785937793248
+  },
+  {
+   "sd_label": "median_pair_sd",
+   "sd": 0.007234505096298648,
+   "n_scenes": 256,
+   "expected_half_width": 0.000870782955567212
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 16,
+   "expected_half_width": 0.0021979140885189288
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 32,
+   "expected_half_width": 0.0016172863081939017
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 48,
+   "expected_half_width": 0.0013392544410963626
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 64,
+   "expected_half_width": 0.0011742029574881973
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 96,
+   "expected_half_width": 0.0009618079172963323
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 128,
+   "expected_half_width": 0.0008380228498822446
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 192,
+   "expected_half_width": 0.0006798097342782439
+  },
+  {
+   "sd_label": "pooled_across_pairs_scene_mean",
+   "sd": 0.00490201527037777,
+   "n_scenes": 256,
+   "expected_half_width": 0.0005900322535620406
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 16,
+   "expected_half_width": 0.004582106622850592
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 32,
+   "expected_half_width": 0.0033716414770399434
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 48,
+   "expected_half_width": 0.0027920138809269302
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 64,
+   "expected_half_width": 0.002447922407969535
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 96,
+   "expected_half_width": 0.002005131342837609
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 128,
+   "expected_half_width": 0.0017470701291755653
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 192,
+   "expected_half_width": 0.0014172349601770228
+  },
+  {
+   "sd_label": "max_pair_sd",
+   "sd": 0.010219487992293868,
+   "n_scenes": 256,
+   "expected_half_width": 0.0012300711437560825
+  }
+ ],
+ "note": "Half-width is for the mean of N scene-level contrasts with the stated SD; it does not choose N."
+}

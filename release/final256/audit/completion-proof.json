@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "eligible_scenes": 256,
+  "scored_cells": 3072,
+  "final_completed_at": "2026-10-27T19:38:44.642671+02:00",
+  "files": {
+    "status.json": "f7e3c2237c43ee665dfd7de39baae4636e13f819e258908717261bc058f3856e",
+    "active-process.json": "21d8c826b83336a46b3ee692201178de8e4436571d7ea6f13de8948477786989",
+    "freeze.json": "d5162d530edc6e638560f77801c6ab3c35dda54fd42ce1b2bbe923c36e6a1fbe",
+    "run-lock.json": "6b332701c1733327072c8023d2d59d2a3593c492bb676602f3f3bb137e488005",
+    "render-seal.json": "21ac28470bb46e98825e43a3f13c8efa5ba2055ce142eea8b2f628d3f473ee48",
+    "input-gate.json": "b35ca38344718b3d7f8ec1b85c55960a3084c16b7b38408a514c5bc0c1a029a4",
+    "input-gate-manifest.json": "7cfdff467d8bb1f55be8ce2f9f9a912dcd49b3a8c37332ea246700e3049e0712",
+    "scores/provenance.json": "810e0e8dcab772f3df8e94eed95155c47611d029decdc034307780b05e46b7e3",
+    "scores/progress.json": "19d0b12275186be487e94e44238502230dd412e7fed1d3856ae95432887f85a2",
+    "scores/execution-parity.json": "f0ebd8735df76c2de505255c9bab01ae060d69c0189c7cb08d5b6d51d0fe2a12",
+    "scores/all-scores.json": "055700d438bf765d381c9a142bdddaf2624f519bc2850428f9109e38ca309bde",
+    "analysis/summary.json": "0b8ec044336c51b0378a334e683802363660ce3825fc3d6bac1d3f7e303e8629"
+  },
+  "metric_directions_not_used": true,
+  "scope": "completion/hash-chain audit, not a rerun of final analysis"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "complete_smoke",
+  "phase": "smoke",
+  "samples": 8,
+  "checkpoint_sha256": "9beca3eafe0739c3b3adb5d734fa435ccbda0fea8a65d53d4cccec176aaaa0eb",
+  "jepa_wm_revision": "13cf1d9c7e476f53c17714d2e0f1dc239a883ce0",
+  "dino_v2_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "stable_worldmodel_revision": "0ef3856875e70a1283e637fcd2ab936eae6c4e6f",
+  "target_hash_mismatches": 0,
+  "maximum_start_state_error": 0.0,
+  "maximum_official_endpoint_error": 8.7738037109375e-05,
+  "maximum_same_context_visual_embedding_difference": 0.0,
+  "maximum_same_target_visual_embedding_difference": 0.0,
+  "maximum_repeated_score_difference": 0.0,
+  "wall_seconds": 13.758994340896606
+}

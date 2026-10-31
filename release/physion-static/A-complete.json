@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-28T03:55:02.701411+02:00",
+  "status": "pass",
+  "cells": 20708,
+  "videos": 192,
+  "pairs": 96,
+  "rows_sha256": "a82db496ce125a7d9e3577cc0864734bad905a483a9b4f75b9c0bcb6ef87a5ff",
+  "input_manifest_sha256": "28d8b59e76033b170ce4bc2845b5f2984924dcfbdf8ae05de15ec933f2e5db8a",
+  "first_repeat_exact": true,
+  "elapsed_seconds": 8750.48499999987,
+  "freeze_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809"
+}

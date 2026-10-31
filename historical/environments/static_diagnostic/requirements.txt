@@ -1,0 +1,7 @@
+av
+matplotlib==3.10.8
+numpy==1.26.4
+opencv-python-headless
+pandas==2.2.1
+torch==2.8.0
+transformers

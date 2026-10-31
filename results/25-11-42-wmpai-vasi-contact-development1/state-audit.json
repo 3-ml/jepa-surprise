@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "shared_pre_event_substeps": 240,
+  "first_lawful_support_contact_step": 287,
+  "first_position_divergence_step": 287,
+  "first_position_divergence_frame_ceil": 15,
+  "lawful_support_contact_steps": 654,
+  "inconsistent_support_contact_steps": 0,
+  "minimum_center_z": {
+    "lawful": 0.49999,
+    "inconsistent": -2.028132812499984
+  },
+  "limitation": "inconsistent with a fixed solid support; achieved by explicitly changing its collision constraint",
+  "lawful_repeat_exact": true,
+  "missing_lawful_contact_rejected": true,
+  "different_context_state_rejected": true
+}

@@ -1,0 +1,49 @@
+{
+  "model_label": "PixelSummary",
+  "representations": "results\\intphys2\\sealed_analysis\\pixel_summary\\representations.npz",
+  "representations_sha256": "86994f4b5125711cdb5f6c6be5ef5f4dc23be9596e860adc21e47e62bed6685a",
+  "probe_summary": "results\\intphys2\\sealed_analysis\\pixel_summary\\probes\\probe_summary.csv",
+  "probe_summary_sha256": "6482626da30d124d6cdb6d64426d3130cfdb7c11bb0e9086df5c8381d38783a2",
+  "n_samples": 912,
+  "n_layers": 1,
+  "n_videos": 228,
+  "n_pairs": 114,
+  "appearance_conditions": [
+    "brightness_0p45",
+    "clean",
+    "hue_090",
+    "selective_recolor_180"
+  ],
+  "partitions": [
+    "test"
+  ],
+  "key_cross_layer_spearman": {
+    "appearance_accuracy_vs_appearance_distance": NaN,
+    "appearance_accuracy_vs_depth": NaN,
+    "appearance_distance_vs_depth": NaN,
+    "physics_all_accuracy_vs_depth": NaN,
+    "physical_distance_vs_depth": NaN,
+    "retrieval_vs_depth": NaN
+  },
+  "best_layers": {
+    "appearance_accuracy": 0,
+    "physics_all_accuracy": 0,
+    "physics_clean_only_accuracy": 0,
+    "appearance_distance": 0,
+    "physical_distance": 0,
+    "retrieval": 0
+  },
+  "endpoints": {
+    "pixel_summary": {
+      "layer_index": 0,
+      "appearance_distance_median": 0.5275789213395121,
+      "physical_distance_median": 0.0010930925448430816,
+      "appearance_retrieval_top1": 0.21929824561403508,
+      "appearance_accuracy_mean": 0.8728260869565216,
+      "physics_all_accuracy_mean": 0.4739130434782608,
+      "physics_original_only_accuracy_mean": null,
+      "physics_clean_only_accuracy_mean": 0.4695652173913043
+    }
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

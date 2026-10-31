@@ -1,0 +1,50 @@
+{
+ "sample_id": "Debug__0412d75b071ce599c9d8c5a1569bce4cd59dae473646ccb075fa8da9b39d47e7__clean",
+ "checkpoint_sha256_expected": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+ "frames": 64,
+ "tokens": 8192,
+ "load": "misc loaded; 480 block tensors loaded on demand",
+ "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "peak_allocated_gib": 0.45186805725097656,
+ "peak_reserved_gib": 0.84375,
+ "forward_seconds": [
+  9.16516230002162,
+  7.430936599994311
+ ],
+ "model_setup_seconds": 4.591219299996737,
+ "finite": true,
+ "per_layer": [
+  {
+   "layer": 0,
+   "max_abs_diff": 0.0,
+   "relative_l2": 0.0,
+   "cosine": 1.0
+  },
+  {
+   "layer": 10,
+   "max_abs_diff": 0.0078125,
+   "relative_l2": 5.9940673963865265e-05,
+   "cosine": 1.0
+  },
+  {
+   "layer": 20,
+   "max_abs_diff": 0.015625,
+   "relative_l2": 0.0001568064617458731,
+   "cosine": 1.0
+  },
+  {
+   "layer": 30,
+   "max_abs_diff": 0.0390625,
+   "relative_l2": 0.0005179735017009079,
+   "cosine": 1.0
+  },
+  {
+   "layer": 40,
+   "max_abs_diff": 0.046875,
+   "relative_l2": 0.003983188420534134,
+   "cosine": 0.9999920129776001
+  }
+ ],
+ "stored_shard_key": "features/intphys2-layerwise-confirmatory-v1/vjepa2/debug/shards/Debug__0412d75b071ce599c9d8c5a1569bce4cd59dae473646ccb075fa8da9b39d47e7__clean.npz",
+ "reference": "A40 shard, fp16 pooled means"
+}

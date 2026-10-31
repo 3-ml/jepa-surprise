@@ -1,0 +1,53 @@
+{
+ "status": "EXPLORATORY, pilot8, 8 scenes, 64 scene x condition rows",
+ "layers": [
+  "block_09",
+  "block_19",
+  "block_29",
+  "final"
+ ],
+ "n_rows": 64,
+ "features_dir": "..\\..\\..\\results\\24-19-09-wmpai-alex-a3-pilot8-real-features",
+ "results": {
+  "block_09": {
+   "loso_r2": -0.07391247305933435,
+   "perm_null_mean": -0.047355660165725524,
+   "perm_p": 0.7554489102179565,
+   "spearman_pooled": 0.3389194139194139,
+   "flag_only_r2": -0.010974589049467465,
+   "displacement_plus_flag_r2": -0.0761941008652316,
+   "mean_displacement_physical": 0.0042876810766756535,
+   "mean_displacement_appearance": 0.0033908202312886715
+  },
+  "block_19": {
+   "loso_r2": -0.04456506701421992,
+   "perm_null_mean": -0.051281287770276136,
+   "perm_p": 0.562887422515497,
+   "spearman_pooled": 0.44816849816849813,
+   "flag_only_r2": -0.010974589049467465,
+   "displacement_plus_flag_r2": -0.03920292490642452,
+   "mean_displacement_physical": 0.009778398089110851,
+   "mean_displacement_appearance": 0.007432209327816963
+  },
+  "block_29": {
+   "loso_r2": 0.3874163220295801,
+   "perm_null_mean": -0.12152714111323144,
+   "perm_p": 0.0001999600079984003,
+   "spearman_pooled": 0.5733974358974359,
+   "flag_only_r2": -0.010974589049467465,
+   "displacement_plus_flag_r2": 0.3903755669321537,
+   "mean_displacement_physical": 0.012408647686243057,
+   "mean_displacement_appearance": 0.005941299721598625
+  },
+  "final": {
+   "loso_r2": 0.4420598261977775,
+   "perm_null_mean": -0.14863351991751805,
+   "perm_p": 0.0001999600079984003,
+   "spearman_pooled": 0.5659798534798534,
+   "flag_only_r2": -0.010974589049467465,
+   "displacement_plus_flag_r2": 0.43010866632933065,
+   "mean_displacement_physical": 0.08386154472827911,
+   "mean_displacement_appearance": 0.03255343809723854
+  }
+ }
+}

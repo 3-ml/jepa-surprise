@@ -1,0 +1,8 @@
+{
+  "status": "complete_confirmatory",
+  "task": "pusht",
+  "model": "DINO-WM",
+  "episodes": 256,
+  "conditions": 18,
+  "paper_facing": true
+}

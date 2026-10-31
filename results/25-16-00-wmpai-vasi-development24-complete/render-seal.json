@@ -1,0 +1,391 @@
+{
+  "status_sha256": "2db5756990f55be31b8663a842bbc555142d871b8ac657652c5a96e72fbf4244",
+  "candidates": [
+    {
+      "scene_id": "dev24-001",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "1b91632f2866b9d12bc9e663844aac185f3b1daf918284ca7b38fa41606ef3af"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "6d8c83da4908ffdd227ee93bc6aa4bb91487ec341552c8c47f080199cf226b68"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-002",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "778e85ba574f6e9435d8258d6469719da52892005e8a6d219992bb13269dda82"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "b9fe63a2bad8bf9ba14fe71df23792f598bd2332f9538c7b5e3f59cb9cc7b38b"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-003",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "ecda3cd5a69cdbcfb5569afeda318b46cd3a7ea2467d2a0f3e20a57484ffec4c"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "68ac0b63a2eabc77423f3504a040a7f86494780c64ae4f834643734a7a14dbf8"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-004",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "2fcab93ca7e068293988e4b8032642b100d84c4e32a11f7d723484eb3e5c13bb"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "bf4ba6285228e5c63da80adc98224d8b763d8a2a502ebe03552a5eba739fa189"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-005",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "1cba72968360710bfa251f2d66491a9c7fe3bf70468dd5ae3ceb01f2aaedddaf"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "68ad5e85dc0f41973fa036abfd43d7e5d5494b0dc5587adebb6f914aa8158451"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-006",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "98a3e98fe43b45e3dc769474039e1ac40d26dedc7bd7ec1bd65ff8b05149f2df"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "fe4e1395a9fcec2a61f3f2d76104faf917e5617d092efd408c50ccbf4ac054fa"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-007",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "3d4bc50c1c54e72c9f1be6cae26cd981615f5b8e5b3c1f8bc315a88d3495a535"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "160577f7f3707b7d71ec7147782148a662b93c4f55f0018bc43dee2028a086a5"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-008",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "7d7482b9563dacd279714c79b04d09c3914a0e840e3ec8a63ea1edb0b7346178"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "7729d374f7c6a62456313c1c1342fb5fb42a43bffa520fb385c8c18fddd5dd7d"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-009",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "9e9b3f6147e8c041ac0e45c292a576241128a2bd968653bd976dbeff1b2d0ac3"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "0801fab73c812e9984c82622fb6e1a185dbb06e61d9c6529163e73ca38b68833"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-010",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "b2ab5ffc60664d62212e1f17e4aec79c13caefa6ff63b0648bbe9b76503fd92c"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "36048e9bfc2b2fce49dc3f9261fed3f55da1ce2e244825aeed0788c33718c054"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-011",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "4849fb6c442a80f7e6796b0beb56543f4e1b08d1adaa0addd177a220e9b006e0"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "9beedcccf51c6ae64453c891a1048784bda8f44037708a00a6d3c5cc85d48b1e"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-012",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "42368364049d35cef045d1a14989e49240a90cc1ed691bce2716d619f032d373"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "74ddcaaf21e900f8dcdef6432c4fec97150f2116ca161ac3ceaf178d63db614b"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-013",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "c5c47b8437c05a005f75beaad44429f6014815be90843bf5e3d97ca244cf3eba"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "ac1fe57c4f4b4f9b259ec9446172074c738bd9df6074f2eb7c2b3b14079cd418"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-014",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "242f9a73bff5d583c3edd56099e873160789f7bab060a8bedec7117a9b7730ab"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "6cacfccd2894a9507cfde56b1c3ad8e91e4185f11232c1e1d25a672aba598693"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-015",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "8241ff96fd5d8e147c54a9e656c892393f430197873f7e7e71b213056d2b544e"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "e2d17813d028a2ae8636a03291ceb995a1c203d640e15edccf9402909c29c6c4"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-016",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "b4e275b468864acb51a21c6c30b7f559a68386f5581fe3c019cde7578aab618c"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "b57c04232a00d9f96b40bfc01e78b497932a0c6a71ae865a55386ce39635465d"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-017",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "53c81001e5e280db0150f74894d768618f33483783ff4b1847e301865f04105a"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "806346750ea47ecb2c882265dd6d3d2e1e87d493f73bbd97fa657d6b49aff328"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-018",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "c6bdc1a6374f33d0ad47d1820c5e218ba04d5913fd79ea6640b90a12b29a8d71"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "6459634c4db7bd4c0d38d68ccf01e6fee2b1407c3210d50faf33fe2b3518332c"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-019",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "4a08e19085705630753d412215b07e6f0e15fd8c02d6d75abbff5fc00f566078"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "cc46abf7329bf33114e17d03c6179acf601a25e0e28bbb9891d69c19d3dfd7e2"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-020",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "1f2f4e80e088afc196002c6a55fddefa6247fb9b9ea8a8bc34ac8fc90dc1bdd7"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "86565302ff8b9ba8b61f1de3763dabe209b5ba32ef6343b2753a8008cfbfc642"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-021",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "ed10cc3d30dff394391387905f5e666c9795611adb89419c010ae987a710bb3a"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "48c69cb6e7f043dd784e87250cbb0acd622be45361d17f2ca8359855195d2b3d"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-022",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "7472a91b5466ed54db9764e5f40bf0679fa3a6720ea1dcde27c3300cf8e46e2e"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "a1c7208ed1fc28d040ea6fcd03e18844cd35c9320445b0eb4844990bf7b2487b"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-023",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "5864f68759c5b16d494ae6511f727076c623e4abcc7bfec93b099db86114450d"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "35e73b5ec8f7fa9681b75964e8d35d92d48ceeb206bbf1c4b81673ee238aff58"
+        }
+      },
+      "status": "eligible"
+    },
+    {
+      "scene_id": "dev24-024",
+      "worlds": {
+        "solid": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "fd52323e35b2f62cd9da0caaf9fa8b16c8a56adc6bc3e72ecac435044259f21b"
+        },
+        "gap": {
+          "exit_code": 0,
+          "status": "pass",
+          "manifest_sha256": "e2dec42bac6e47c571c83948c2196e840cd99b3bd2ed8493238f087c80797f4b"
+        }
+      },
+      "status": "eligible"
+    }
+  ],
+  "eligible_count": 24,
+  "sealed_before_scoring": "2026-10-25T14:05:31.264209+02:00"
+}

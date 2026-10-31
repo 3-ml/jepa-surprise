@@ -1,0 +1,674 @@
+[
+  {
+    "pair_id": "mass_pair_000",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=1",
+    "mean_original_minus_mean_static": -0.0360149641831716,
+    "fraction_nonpositive_residual": 0.875
+  },
+  {
+    "pair_id": "mass_pair_001",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=1",
+    "mean_original_minus_mean_static": -0.03702284892400107,
+    "fraction_nonpositive_residual": 0.9285714285714286
+  },
+  {
+    "pair_id": "mass_pair_002",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=1",
+    "mean_original_minus_mean_static": -0.036160356232098165,
+    "fraction_nonpositive_residual": 0.9285714285714286
+  },
+  {
+    "pair_id": "mass_pair_003",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=2",
+    "mean_original_minus_mean_static": -0.03118042115654264,
+    "fraction_nonpositive_residual": 0.9107142857142858
+  },
+  {
+    "pair_id": "mass_pair_004",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=2",
+    "mean_original_minus_mean_static": -0.032517846851121815,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_005",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=2",
+    "mean_original_minus_mean_static": -0.03435823498737245,
+    "fraction_nonpositive_residual": 0.9107142857142858
+  },
+  {
+    "pair_id": "mass_pair_006",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cone-zdloc=2",
+    "mean_original_minus_mean_static": -0.03731405841452735,
+    "fraction_nonpositive_residual": 0.9285714285714286
+  },
+  {
+    "pair_id": "mass_pair_007",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cube-zdloc=1",
+    "mean_original_minus_mean_static": -0.02777724277405512,
+    "fraction_nonpositive_residual": 0.8685714285714285
+  },
+  {
+    "pair_id": "mass_pair_008",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cube-zdloc=1",
+    "mean_original_minus_mean_static": -0.030125663805575596,
+    "fraction_nonpositive_residual": 0.8685714285714285
+  },
+  {
+    "pair_id": "mass_pair_009",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cube-zdloc=2",
+    "mean_original_minus_mean_static": -0.030760042014576133,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_010",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cylinder-zdloc=1",
+    "mean_original_minus_mean_static": -0.030979389236086886,
+    "fraction_nonpositive_residual": 0.875
+  },
+  {
+    "pair_id": "mass_pair_011",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cylinder-zdloc=1",
+    "mean_original_minus_mean_static": -0.030190071179753253,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_012",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cylinder-zdloc=2",
+    "mean_original_minus_mean_static": -0.03311512283571474,
+    "fraction_nonpositive_residual": 0.8887362637362637
+  },
+  {
+    "pair_id": "mass_pair_013",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=cylinder-zdloc=2",
+    "mean_original_minus_mean_static": -0.04028780275430435,
+    "fraction_nonpositive_residual": 0.9215384615384616
+  },
+  {
+    "pair_id": "mass_pair_014",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=dumbbell-zdloc=1",
+    "mean_original_minus_mean_static": -0.02945539816504433,
+    "fraction_nonpositive_residual": 0.875
+  },
+  {
+    "pair_id": "mass_pair_015",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=dumbbell-zdloc=1",
+    "mean_original_minus_mean_static": -0.030071642427217396,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_016",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=dumbbell-zdloc=1",
+    "mean_original_minus_mean_static": -0.03058110283953803,
+    "fraction_nonpositive_residual": 0.9107142857142858
+  },
+  {
+    "pair_id": "mass_pair_017",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=dumbbell-zdloc=2",
+    "mean_original_minus_mean_static": -0.03392964282206127,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_018",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=dumbbell-zdloc=2",
+    "mean_original_minus_mean_static": -0.03277313318990526,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_019",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pentagon-zdloc=1",
+    "mean_original_minus_mean_static": -0.023409447854473478,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_020",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pentagon-zdloc=1",
+    "mean_original_minus_mean_static": -0.02957709062667121,
+    "fraction_nonpositive_residual": 0.9107142857142858
+  },
+  {
+    "pair_id": "mass_pair_021",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pentagon-zdloc=2",
+    "mean_original_minus_mean_static": -0.03154380513089043,
+    "fraction_nonpositive_residual": 0.9285714285714286
+  },
+  {
+    "pair_id": "mass_pair_022",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pentagon-zdloc=2",
+    "mean_original_minus_mean_static": -0.032114188940752124,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_023",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=1",
+    "mean_original_minus_mean_static": -0.03258065240723747,
+    "fraction_nonpositive_residual": 0.9107142857142858
+  },
+  {
+    "pair_id": "mass_pair_024",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=1",
+    "mean_original_minus_mean_static": -0.029002603675637922,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_025",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=1",
+    "mean_original_minus_mean_static": -0.029195846546263914,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_026",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=1",
+    "mean_original_minus_mean_static": -0.0314437693783215,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_027",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=2",
+    "mean_original_minus_mean_static": -0.035383051875617355,
+    "fraction_nonpositive_residual": 0.8908730158730158
+  },
+  {
+    "pair_id": "mass_pair_028",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=2",
+    "mean_original_minus_mean_static": -0.031581662595272064,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_029",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pipe-zdloc=2",
+    "mean_original_minus_mean_static": -0.03527481853961944,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_030",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pyramid-zdloc=1",
+    "mean_original_minus_mean_static": -0.02555057690257118,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_031",
+    "scenario": "Mass-Collision",
+    "layout_group": "mass_collision_pp/mass_collision-target=pyramid-zdloc=1",
+    "mean_original_minus_mean_static": -0.033107620619592215,
+    "fraction_nonpositive_residual": 0.8928571428571429
+  },
+  {
+    "pair_id": "mass_pair_032",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.030008897460182357,
+    "fraction_nonpositive_residual": 0.866600790513834
+  },
+  {
+    "pair_id": "mass_pair_033",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.023007079507365368,
+    "fraction_nonpositive_residual": 0.8409090909090909
+  },
+  {
+    "pair_id": "mass_pair_034",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.039017346772280595,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_035",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03041712849429159,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_036",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03466518674836014,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_037",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.030479716080607785,
+    "fraction_nonpositive_residual": 0.8409090909090909
+  },
+  {
+    "pair_id": "mass_pair_038",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03758571213491664,
+    "fraction_nonpositive_residual": 0.8883399209486166
+  },
+  {
+    "pair_id": "mass_pair_039",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.036250516536678726,
+    "fraction_nonpositive_residual": 0.8883399209486166
+  },
+  {
+    "pair_id": "mass_pair_040",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.029235696702292466,
+    "fraction_nonpositive_residual": 0.8863636363636364
+  },
+  {
+    "pair_id": "mass_pair_041",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.02912296445080728,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_042",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.025945587591691445,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_043",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.027179014502149636,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_044",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.023624081954811558,
+    "fraction_nonpositive_residual": 0.8636363636363636
+  },
+  {
+    "pair_id": "mass_pair_045",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=0-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.02705314123269284,
+    "fraction_nonpositive_residual": 0.8181818181818182
+  },
+  {
+    "pair_id": "mass_pair_046",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=1-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03633051888241644,
+    "fraction_nonpositive_residual": 0.8947811447811448
+  },
+  {
+    "pair_id": "mass_pair_047",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=1-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.04096143071850142,
+    "fraction_nonpositive_residual": 0.9196428571428572
+  },
+  {
+    "pair_id": "mass_pair_048",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=1-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03117006565585281,
+    "fraction_nonpositive_residual": 0.8741258741258742
+  },
+  {
+    "pair_id": "mass_pair_049",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=1-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.036667321599176086,
+    "fraction_nonpositive_residual": 0.9009661835748792
+  },
+  {
+    "pair_id": "mass_pair_050",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=1-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.026671613432830192,
+    "fraction_nonpositive_residual": 0.866600790513834
+  },
+  {
+    "pair_id": "mass_pair_051",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.030448453545858324,
+    "fraction_nonpositive_residual": 0.8505434782608696
+  },
+  {
+    "pair_id": "mass_pair_052",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.02540229822671602,
+    "fraction_nonpositive_residual": 0.8839285714285714
+  },
+  {
+    "pair_id": "mass_pair_053",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.02869629074901456,
+    "fraction_nonpositive_residual": 0.8857758620689655
+  },
+  {
+    "pair_id": "mass_pair_054",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.030746357308493722,
+    "fraction_nonpositive_residual": 0.9015151515151516
+  },
+  {
+    "pair_id": "mass_pair_055",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03308012843079318,
+    "fraction_nonpositive_residual": 0.8905835543766578
+  },
+  {
+    "pair_id": "mass_pair_056",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=2-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.036633601600971843,
+    "fraction_nonpositive_residual": 0.8573667711598747
+  },
+  {
+    "pair_id": "mass_pair_057",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=3-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03076932432889239,
+    "fraction_nonpositive_residual": 0.8995601173020528
+  },
+  {
+    "pair_id": "mass_pair_058",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=3-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.02852956523146798,
+    "fraction_nonpositive_residual": 0.9152806652806653
+  },
+  {
+    "pair_id": "mass_pair_059",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=3-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.037752031420921275,
+    "fraction_nonpositive_residual": 0.8952328159645233
+  },
+  {
+    "pair_id": "mass_pair_060",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=3-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03170697021824365,
+    "fraction_nonpositive_residual": 0.8877005347593583
+  },
+  {
+    "pair_id": "mass_pair_061",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=4-star_putfirst=0-remove_middle=0",
+    "mean_original_minus_mean_static": -0.036466197239431904,
+    "fraction_nonpositive_residual": 0.9009146341463414
+  },
+  {
+    "pair_id": "mass_pair_062",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=4-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03948733096321423,
+    "fraction_nonpositive_residual": 0.9475
+  },
+  {
+    "pair_id": "mass_pair_063",
+    "scenario": "Mass-Dominoes",
+    "layout_group": "mass_dominoes_pp/mass_dominoes-num_middle_objects=4-star_putfirst=1-remove_middle=0",
+    "mean_original_minus_mean_static": -0.03866291104293451,
+    "fraction_nonpositive_residual": 0.9156097560975609
+  },
+  {
+    "pair_id": "mass_pair_064",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=1",
+    "mean_original_minus_mean_static": -0.02095971611284074,
+    "fraction_nonpositive_residual": 0.6964285714285714
+  },
+  {
+    "pair_id": "mass_pair_065",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=1",
+    "mean_original_minus_mean_static": -0.020325329686914168,
+    "fraction_nonpositive_residual": 0.6785714285714286
+  },
+  {
+    "pair_id": "mass_pair_066",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=1",
+    "mean_original_minus_mean_static": -0.017316292793977832,
+    "fraction_nonpositive_residual": 0.6785714285714286
+  },
+  {
+    "pair_id": "mass_pair_067",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=1",
+    "mean_original_minus_mean_static": -0.01613426279454004,
+    "fraction_nonpositive_residual": 0.7142857142857143
+  },
+  {
+    "pair_id": "mass_pair_068",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=2",
+    "mean_original_minus_mean_static": -0.021736726519607362,
+    "fraction_nonpositive_residual": 0.8035714285714286
+  },
+  {
+    "pair_id": "mass_pair_069",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=bowl-zdloc=3",
+    "mean_original_minus_mean_static": -0.023320704343773067,
+    "fraction_nonpositive_residual": 0.7857142857142857
+  },
+  {
+    "pair_id": "mass_pair_070",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cube-zdloc=2",
+    "mean_original_minus_mean_static": -0.0191946845679056,
+    "fraction_nonpositive_residual": 0.7321428571428572
+  },
+  {
+    "pair_id": "mass_pair_071",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cube-zdloc=2",
+    "mean_original_minus_mean_static": -0.021838108698527023,
+    "fraction_nonpositive_residual": 0.7857142857142858
+  },
+  {
+    "pair_id": "mass_pair_072",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cube-zdloc=3",
+    "mean_original_minus_mean_static": -0.018997115038690116,
+    "fraction_nonpositive_residual": 0.7321428571428572
+  },
+  {
+    "pair_id": "mass_pair_073",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cylinder-zdloc=1",
+    "mean_original_minus_mean_static": -0.021236702799797065,
+    "fraction_nonpositive_residual": 0.8035714285714286
+  },
+  {
+    "pair_id": "mass_pair_074",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cylinder-zdloc=2",
+    "mean_original_minus_mean_static": -0.017126238062268213,
+    "fraction_nonpositive_residual": 0.7142857142857142
+  },
+  {
+    "pair_id": "mass_pair_075",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cylinder-zdloc=2",
+    "mean_original_minus_mean_static": -0.023506994758333476,
+    "fraction_nonpositive_residual": 0.75
+  },
+  {
+    "pair_id": "mass_pair_076",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=cylinder-zdloc=3",
+    "mean_original_minus_mean_static": -0.020005501806735992,
+    "fraction_nonpositive_residual": 0.6607142857142857
+  },
+  {
+    "pair_id": "mass_pair_077",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=dumbbell-zdloc=1",
+    "mean_original_minus_mean_static": -0.023522212037018368,
+    "fraction_nonpositive_residual": 0.7678571428571429
+  },
+  {
+    "pair_id": "mass_pair_078",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=dumbbell-zdloc=2",
+    "mean_original_minus_mean_static": -0.024699121713638313,
+    "fraction_nonpositive_residual": 0.8035714285714286
+  },
+  {
+    "pair_id": "mass_pair_079",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=dumbbell-zdloc=2",
+    "mean_original_minus_mean_static": -0.023411697575024197,
+    "fraction_nonpositive_residual": 0.8571428571428571
+  },
+  {
+    "pair_id": "mass_pair_080",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=dumbbell-zdloc=3",
+    "mean_original_minus_mean_static": -0.019981570187069114,
+    "fraction_nonpositive_residual": 0.8214285714285714
+  },
+  {
+    "pair_id": "mass_pair_081",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=dumbbell-zdloc=3",
+    "mean_original_minus_mean_static": -0.02080339193344117,
+    "fraction_nonpositive_residual": 0.8392857142857142
+  },
+  {
+    "pair_id": "mass_pair_082",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=1",
+    "mean_original_minus_mean_static": -0.020799524727321814,
+    "fraction_nonpositive_residual": 0.75
+  },
+  {
+    "pair_id": "mass_pair_083",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=1",
+    "mean_original_minus_mean_static": -0.021687203574748265,
+    "fraction_nonpositive_residual": 0.7678571428571428
+  },
+  {
+    "pair_id": "mass_pair_084",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=2",
+    "mean_original_minus_mean_static": -0.01807522631826855,
+    "fraction_nonpositive_residual": 0.8214285714285714
+  },
+  {
+    "pair_id": "mass_pair_085",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=2",
+    "mean_original_minus_mean_static": -0.022558386127154037,
+    "fraction_nonpositive_residual": 0.8392857142857143
+  },
+  {
+    "pair_id": "mass_pair_086",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=3",
+    "mean_original_minus_mean_static": -0.020385820950780592,
+    "fraction_nonpositive_residual": 0.75
+  },
+  {
+    "pair_id": "mass_pair_087",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pentagon-zdloc=3",
+    "mean_original_minus_mean_static": -0.023342437687374297,
+    "fraction_nonpositive_residual": 0.7678571428571428
+  },
+  {
+    "pair_id": "mass_pair_088",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pipe-zdloc=1",
+    "mean_original_minus_mean_static": -0.023122848854178465,
+    "fraction_nonpositive_residual": 0.7678571428571428
+  },
+  {
+    "pair_id": "mass_pair_089",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pipe-zdloc=2",
+    "mean_original_minus_mean_static": -0.022170639818622943,
+    "fraction_nonpositive_residual": 0.75
+  },
+  {
+    "pair_id": "mass_pair_090",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pipe-zdloc=2",
+    "mean_original_minus_mean_static": -0.02062277602297919,
+    "fraction_nonpositive_residual": 0.875
+  },
+  {
+    "pair_id": "mass_pair_091",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pipe-zdloc=3",
+    "mean_original_minus_mean_static": -0.020117996349221175,
+    "fraction_nonpositive_residual": 0.7142857142857143
+  },
+  {
+    "pair_id": "mass_pair_092",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pipe-zdloc=3",
+    "mean_original_minus_mean_static": -0.016069541020052768,
+    "fraction_nonpositive_residual": 0.6607142857142857
+  },
+  {
+    "pair_id": "mass_pair_093",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pyramid-zdloc=2",
+    "mean_original_minus_mean_static": -0.023241258093288975,
+    "fraction_nonpositive_residual": 0.8214285714285714
+  },
+  {
+    "pair_id": "mass_pair_094",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pyramid-zdloc=3",
+    "mean_original_minus_mean_static": -0.01797153871683848,
+    "fraction_nonpositive_residual": 0.6607142857142857
+  },
+  {
+    "pair_id": "mass_pair_095",
+    "scenario": "Mass-Waterpush",
+    "layout_group": "mass_waterpush_pp/mass_waterpush-target=pyramid-zdloc=3",
+    "mean_original_minus_mean_static": -0.02092999574683961,
+    "fraction_nonpositive_residual": 0.8035714285714286
+  }
+]

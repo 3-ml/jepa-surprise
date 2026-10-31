@@ -1,0 +1,113 @@
+{
+  "status": "complete_mechanistic",
+  "phase": "mechanistic",
+  "task": "pusht",
+  "command": "scripts/run_lewm_pusht_role_color_audit.py --dataset <model-cache>/lewm_extracted/pusht/pusht_expert_train.h5 --selection-manifest results/leworldmodel/pusht_role_color/source_selection_manifest.csv --output-dir results/leworldmodel/pusht_role_color_decomposition --samples 256 --seed pusht-role-color-confirmatory-v1-locked --batch-size 16 --phase mechanistic",
+  "model_snapshot": "<model-cache>/hub/models--quentinll--lewm-pusht/snapshots/22b330c28c27ead4bfd1888615af1340e3fe9052",
+  "weights_sha256": "48938400ae3464c9680731287f583a9cb516f55a8ec64ea13a91be47fb15b607",
+  "state_dict_keys": 303,
+  "dataset": "<dataset-cache>/lewm_extracted/pusht/pusht_expert_train.h5",
+  "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+  "source_selection_manifest": "<archive-root>/results/leworldmodel/pusht_role_color/source_selection_manifest.csv",
+  "source_selection_manifest_sha256": "933b6b472b1d003f3ee86448c9ce7b972a282b3203b10cb01cd002e697d66495",
+  "seed": "pusht-role-color-confirmatory-v1-locked",
+  "samples": 256,
+  "interventions": [
+    {
+      "name": "block_blue",
+      "variation_key": "block.color",
+      "rgb": [
+        65,
+        105,
+        225
+      ],
+      "role_collision": "agent"
+    },
+    {
+      "name": "block_green",
+      "variation_key": "block.color",
+      "rgb": [
+        144,
+        238,
+        144
+      ],
+      "role_collision": "goal"
+    },
+    {
+      "name": "block_red",
+      "variation_key": "block.color",
+      "rgb": [
+        220,
+        45,
+        45
+      ],
+      "role_collision": "none"
+    },
+    {
+      "name": "block_orange_matched",
+      "variation_key": "block.color",
+      "rgb": [
+        185,
+        120,
+        87
+      ],
+      "role_collision": "none_matched_blue"
+    },
+    {
+      "name": "agent_gray",
+      "variation_key": "agent.color",
+      "rgb": [
+        119,
+        136,
+        153
+      ],
+      "role_collision": "block"
+    },
+    {
+      "name": "agent_green",
+      "variation_key": "agent.color",
+      "rgb": [
+        144,
+        238,
+        144
+      ],
+      "role_collision": "goal"
+    },
+    {
+      "name": "agent_purple_matched",
+      "variation_key": "agent.color",
+      "rgb": [
+        145,
+        70,
+        183
+      ],
+      "role_collision": "none_matched_gray"
+    }
+  ],
+  "renderer": "installed stable_worldmodel swm/PushT-v1, Pymunk/Pygame",
+  "maximum_realized_state_difference_across_colors": 0.0,
+  "maximum_target_only_predictor_difference": 0.0,
+  "maximum_decomposition_reconstruction_error": 2.384185791015625e-07,
+  "script_sha256": "38b113fc77a3074cc814e9abd6c78e49fdf731e34cc29a7a22fbff55cc9d3891",
+  "python": "3.12.13",
+  "platform": "macOS-arm64",
+  "torch": "2.13.0",
+  "wall_seconds": 140.4094042778015,
+  "limitations": [
+    "The current renderer is close but not byte-identical to stored training observations; rerender_default is the paired baseline.",
+    "Object colors are task-role cues in PushT and are not labeled as pure nuisances."
+  ],
+  "project_revision": "anonymous-source-snapshot",
+  "helper_script": "run_lewm_prediction_error_audit_helper.py",
+  "helper_script_sha256": "3192f2b0c8d0cf578ed5a1e0e9ec0798c99f77e28c828d84838ec27b7a3a5c79",
+  "code_snapshot_status": {
+    "main_runner": "exact execution snapshot preserved as run_lewm_pusht_role_color_audit.py",
+    "imported_helper": "post-run helper snapshot preserved; it matches the earlier exact broad-confirmatory helper, but no separate helper hash was emitted by this run"
+  },
+  "provenance_correction": {
+    "date": "2026-08-23",
+    "reason": "Base project revision and imported-helper provenance were omitted from the original run record.",
+    "claim_boundary": "No score or scientific result was changed. Pilot runner source remains unavailable where stated."
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

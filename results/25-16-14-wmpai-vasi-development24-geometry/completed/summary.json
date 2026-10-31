@@ -1,0 +1,74 @@
+{
+  "scope": "exploratory same-model association on 24 inspected development configurations",
+  "unit": "base configuration, all worlds/branches/appearances held out together",
+  "layers": [
+    "block_09",
+    "block_19",
+    "block_29",
+    "encoder_final",
+    "native_target"
+  ],
+  "analysis": "Alex leave-one-scene-out OLS; no p-values, no best-layer selection",
+  "results": {
+    "physical_margin": {
+      "block_09": {
+        "shortcut_only_loso_r2": 0.7709540377719558,
+        "with_geometry_loso_r2": 0.773260181339317,
+        "incremental_r2": 0.002306143567361141
+      },
+      "block_19": {
+        "shortcut_only_loso_r2": 0.7709540377719558,
+        "with_geometry_loso_r2": 0.7775156157872238,
+        "incremental_r2": 0.006561578015268021
+      },
+      "block_29": {
+        "shortcut_only_loso_r2": 0.7709540377719558,
+        "with_geometry_loso_r2": 0.8003856348254794,
+        "incremental_r2": 0.029431597053523606
+      },
+      "encoder_final": {
+        "shortcut_only_loso_r2": 0.7709540377719558,
+        "with_geometry_loso_r2": 0.7711589592497945,
+        "incremental_r2": 0.0002049214778386821
+      },
+      "native_target": {
+        "shortcut_only_loso_r2": 0.7709540377719558,
+        "with_geometry_loso_r2": 0.768630715531906,
+        "incremental_r2": -0.00232332224004983
+      }
+    },
+    "appearance_score_change": {
+      "block_09": {
+        "shortcut_only_loso_r2": 0.025098877293014854,
+        "with_geometry_loso_r2": 0.0379161931344405,
+        "incremental_r2": 0.012817315841425647
+      },
+      "block_19": {
+        "shortcut_only_loso_r2": 0.025098877293014854,
+        "with_geometry_loso_r2": 0.023051101470192736,
+        "incremental_r2": -0.0020477758228221177
+      },
+      "block_29": {
+        "shortcut_only_loso_r2": 0.025098877293014854,
+        "with_geometry_loso_r2": 0.0348443575596844,
+        "incremental_r2": 0.009745480266669548
+      },
+      "encoder_final": {
+        "shortcut_only_loso_r2": 0.025098877293014854,
+        "with_geometry_loso_r2": 0.006618389494067456,
+        "incremental_r2": -0.018480487798947398
+      },
+      "native_target": {
+        "shortcut_only_loso_r2": 0.025098877293014854,
+        "with_geometry_loso_r2": 0.006494163301945077,
+        "incremental_r2": -0.018604713991069777
+      }
+    }
+  },
+  "limitations": [
+    "EMA target features share the score target encoder; an association can be mechanical.",
+    "Features average over the 36-frame future; not a local event representation or causal intervention.",
+    "The balanced margin never substitutes for reporting both within-world physical margins.",
+    "No trained appearance removal, random-subspace/null intervention or final-test evidence."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "run_id": "intphys2-layerwise-confirmatory-v1",
+  "dataset": {
+    "name": "IntPhys2",
+    "direct_url": "https://dl.fbaipublicfiles.com/IntPhys2/IntPhys2.zip",
+    "archive_filename": "IntPhys2.zip",
+    "archive_bytes": 1801063292,
+    "archive_sha256": "aae46b00767cc96f6eeb8bf967b30f3999b7543943d2cb56c71c9850e1558f9f",
+    "huggingface_revision": "a077a2f94e25889016fc6e5983cf21e2ddc25fb2",
+    "upstream_repository": "https://github.com/facebookresearch/IntPhys2",
+    "upstream_revision": "7f3f589b81168049c6330d077976ac4e76ef7d46",
+    "root_environment_variable": "INTPHYS2_ROOT"
+  },
+  "manifests": {
+    "inspected_endpoint": "manifests/intphys2/previously_inspected/appearance_endpoint_selection.json",
+    "inspected_workshop": "manifests/intphys2/previously_inspected/construct_validity_selection.json",
+    "release_inventory": "manifests/intphys2/intphys2_release_inventory.csv",
+    "pairs": "manifests/intphys2/intphys2_confirmatory_pairs.csv",
+    "samples": "manifests/intphys2/intphys2_confirmatory_samples.csv",
+    "transform_metrics": "manifests/intphys2/intphys2_confirmatory_transform_metrics.csv",
+    "validation": "manifests/intphys2/intphys2_confirmatory_validation.json"
+  },
+  "partition": {
+    "seed": "intphys2-confirmatory-scenes-v1",
+    "development_fraction_of_fresh_scenes": 0.4,
+    "policy": "Official Debug is pipeline-only. Any Main scene containing an inspected endpoint pair or a source ID also present in Debug is conservatively excluded. Matching source IDs do not imply byte-identical files. Remaining Main scenes are split deterministically and proportionally by condition, difficulty, and camera.",
+    "confirmatory_unit": "base scene",
+    "test_is_sealed_until_analysis_specification_commit": true
+  },
+  "sampling": {
+    "source_frames": 64,
+    "method": "round(linspace(0, decoded_frame_count - 1, 64))",
+    "identical_across_models_and_appearance_conditions": true,
+    "videomae2_native_chunks_in_sample_positions": [
+      [
+        0,
+        16
+      ],
+      [
+        16,
+        32
+      ],
+      [
+        32,
+        48
+      ],
+      [
+        48,
+        64
+      ]
+    ]
+  },
+  "appearance_conditions": [
+    {
+      "name": "clean",
+      "family": "clean",
+      "value": null,
+      "unit": null
+    },
+    {
+      "name": "hue_090",
+      "family": "hue",
+      "value": 90.0,
+      "unit": "degrees"
+    },
+    {
+      "name": "brightness_0p45",
+      "family": "brightness",
+      "value": 0.45,
+      "unit": "multiplicative_rgb_factor"
+    },
+    {
+      "name": "selective_recolor_180",
+      "family": "selective_recolor",
+      "value": 180.0,
+      "unit": "degrees"
+    }
+  ],
+  "selective_recolor": {
+    "anchor_frames": "decoded source frame 0 from both matched pair members",
+    "minimum_hsv_saturation_uint8": 64,
+    "hue_histogram_bins": 36,
+    "half_width_degrees": 20.0,
+    "infeasible_policy": "retain the aligned sample as an exact identity, mark transform_feasible=false, and exclude that condition for both models from appearance analyses"
+  },
+  "relative_depths": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "output_views": {
+    "pooled": "mean over all native spatiotemporal tokens",
+    "coarse_tokens": {
+      "description": "mean tokens in a fixed coarse spatiotemporal grid",
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "axis_order": [
+        "time",
+        "height",
+        "width"
+      ]
+    }
+  },
+  "model_configs": {
+    "vjepa2": "configs/vjepa2_intphys2_confirmatory.json",
+    "videomae2": "configs/videomae2_intphys2_confirmatory.json"
+  },
+  "cross_model_contract": {
+    "shared_decoded_source_frames": 64,
+    "vjepa2_native_input": "one 64-frame 256x256 clip",
+    "videomae2_native_input": "four independent 16-frame 224x224 clips covering the same ordered 64 source frames; native token grids are concatenated in time before fixed-grid summarization",
+    "native_token_grid_after_concatenation": [
+      32,
+      16,
+      16
+    ],
+    "status": "executor-locked for Debug feasibility; Main development extraction requires both model smokes and exact index parity to pass in a committed revision",
+    "claim_boundary": "The models share decoded frames, relative depths, token-grid shape, summaries, and later probe budget, but differ in native spatial resolution and temporal receptive field. This is a checkpoint-family control, not an architecture- or objective-causal comparison."
+  },
+  "storage": {
+    "feature_dtype": "float16",
+    "shard_format": "one atomic compressed NPZ per sample-condition-model",
+    "completed_shard_rule": "skip only after schema, metadata, shape, finiteness, and SHA-256 validation",
+    "external_prefix": "external-artifacts-not-included",
+    "artifact_root_environment_variable": "INTPHYS2_FEATURE_ROOT",
+    "local_layout": "<artifact-root>/intphys2-layerwise-confirmatory-v1/<model-key>/<partition>/",
+    "completed_test_policy": "A completed status.json makes the fixed model/test directory immutable; interrupted runs may resume only before completion."
+  },
+  "determinism": {
+    "seed": 230826,
+    "absolute_tolerance": 1e-05,
+    "allow_tf32": false
+  },
+  "transform_audit_provenance": {
+    "validation": "manifests/intphys2/intphys2_confirmatory_transform_full_audit.json",
+    "validation_sha256": "2067d4624e8ca6ab2e98eddbb340f98708772a9aef64a06df219856059c9b399",
+    "config_revision": "anonymous-source-snapshot"
+  },
+  "transform_gates": {
+    "clean_requires_exact_identity": true,
+    "feasible_transform_requires_nonidentity": true,
+    "shape_and_timing_must_remain_exact": true,
+    "brightness_minimum_luma_standard_deviation_ratio": 0.35,
+    "brightness_maximum_additional_zero_luma_fraction": 0.1,
+    "effect_metrics_are_preserved_per_source": true
+  },
+  "missing_data": {
+    "missing_or_undecodable_source": "fail before extraction",
+    "incomplete_pair": "fail before extraction",
+    "condition_specific_drop": "forbidden",
+    "checkpoint_mismatch": "fail before extraction"
+  }
+}

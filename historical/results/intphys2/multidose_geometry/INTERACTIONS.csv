@@ -1,0 +1,2 @@
+model,layer,factor_a,factor_b,dose_a,dose_b,interaction_fraction,status,reason
+not_applicable,not_applicable,not_available,not_available,,,,EXPLORATORY POST-SEALED ANALYSIS,No joint transformation grid exists

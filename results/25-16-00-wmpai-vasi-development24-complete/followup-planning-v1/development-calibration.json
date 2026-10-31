@@ -1,0 +1,254 @@
+{
+  "scope": "post-development exploratory operating-point selection, not a final protocol freeze",
+  "direction": "inconsistent if native score >= threshold; never inverted",
+  "fit": "all 24 clean development configurations, equal world/class weights",
+  "tie_rule": "largest threshold among maximum balanced-accuracy classifiers",
+  "threshold": 0.4858863055706024,
+  "source_scores_sha256": "eba2eaf1fa82a81e93c34247e2317ad5ebf878ca89b796032c59877f2e924f30",
+  "apparent_fit_per_appearance": {
+    "clean": {
+      "false_alarm_rate": {
+        "mean": 0.6458333333333334,
+        "scene_bootstrap_95_interval": [
+          0.5625,
+          0.7291666666666666
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.16666666666666666,
+        "scene_bootstrap_95_interval": [
+          0.08333333333333333,
+          0.2708333333333333
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.59375,
+        "scene_bootstrap_95_interval": [
+          0.5416666666666666,
+          0.6458333333333334
+        ]
+      }
+    },
+    "persistent_hue": {
+      "false_alarm_rate": {
+        "mean": 0.6041666666666666,
+        "scene_bootstrap_95_interval": [
+          0.5416666666666666,
+          0.6875
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.2916666666666667,
+        "scene_bootstrap_95_interval": [
+          0.1875,
+          0.3958333333333333
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5520833333333334,
+        "scene_bootstrap_95_interval": [
+          0.4895833333333333,
+          0.6145833333333334
+        ]
+      }
+    },
+    "abrupt_event": {
+      "false_alarm_rate": {
+        "mean": 0.6041666666666666,
+        "scene_bootstrap_95_interval": [
+          0.5208333333333334,
+          0.6875
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.375,
+        "scene_bootstrap_95_interval": [
+          0.2708333333333333,
+          0.4583333333333333
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5104166666666666,
+        "scene_bootstrap_95_interval": [
+          0.4583333333333333,
+          0.5625
+        ]
+      }
+    }
+  },
+  "leave_one_configuration_out": {
+    "clean": {
+      "false_alarm_rate": {
+        "mean": 0.6458333333333334,
+        "scene_bootstrap_95_interval": [
+          0.5625,
+          0.7291666666666666
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.20833333333333334,
+        "scene_bootstrap_95_interval": [
+          0.10416666666666667,
+          0.3125
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5729166666666666,
+        "scene_bootstrap_95_interval": [
+          0.5208333333333334,
+          0.625
+        ]
+      }
+    },
+    "persistent_hue": {
+      "false_alarm_rate": {
+        "mean": 0.6041666666666666,
+        "scene_bootstrap_95_interval": [
+          0.5416666666666666,
+          0.6875
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.2916666666666667,
+        "scene_bootstrap_95_interval": [
+          0.1875,
+          0.3958333333333333
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5520833333333334,
+        "scene_bootstrap_95_interval": [
+          0.4895833333333333,
+          0.6145833333333334
+        ]
+      }
+    },
+    "abrupt_event": {
+      "false_alarm_rate": {
+        "mean": 0.6041666666666666,
+        "scene_bootstrap_95_interval": [
+          0.5208333333333334,
+          0.6875
+        ]
+      },
+      "miss_rate": {
+        "mean": 0.3958333333333333,
+        "scene_bootstrap_95_interval": [
+          0.2916666666666667,
+          0.5
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5,
+        "scene_bootstrap_95_interval": [
+          0.4375,
+          0.5625
+        ]
+      }
+    }
+  },
+  "fold_thresholds": [
+    {
+      "held_scene": "dev24-001",
+      "threshold": 0.4866442382335663
+    },
+    {
+      "held_scene": "dev24-002",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-003",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-004",
+      "threshold": 0.4866442382335663
+    },
+    {
+      "held_scene": "dev24-005",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-006",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-007",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-008",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-009",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-010",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-011",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-012",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-013",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-014",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-015",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-016",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-017",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-018",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-019",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-020",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-021",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-022",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-023",
+      "threshold": 0.4858863055706024
+    },
+    {
+      "held_scene": "dev24-024",
+      "threshold": 0.4858863055706024
+    }
+  ],
+  "caveats": [
+    "Apparent-fit rates are optimistic, not held-out performance.",
+    "LOCO uses overlapping training sets; scene bootstrap of out-of-fold errors is descriptive, not a full refit uncertainty analysis.",
+    "No error-rate ceiling or practical utility margin is declared or met by construction.",
+    "Save threshold before any fresh test; do not refit on test, choose a world-specific threshold or invert direction."
+  ]
+}

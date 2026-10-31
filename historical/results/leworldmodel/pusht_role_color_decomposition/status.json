@@ -1,0 +1,7 @@
+{
+  "status": "complete_mechanistic",
+  "phase": "mechanistic",
+  "episodes": 256,
+  "conditions": 16,
+  "scores": 4096
+}

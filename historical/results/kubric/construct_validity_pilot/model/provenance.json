@@ -1,0 +1,143 @@
+{
+  "status": "complete",
+  "script": "<workspace>/scripts/run_vjepa2_kubric_construct_validity.py",
+  "script_sha256": "d4a397fea3ff7c87b941b6948bff23534d5d426d462dde3ac746b50676bc649b",
+  "core_script": "<workspace>/scripts/vjepa2_prediction_core.py",
+  "core_script_sha256": "c09a3b762fcd435adfee46478b41c05b076e563176e89f18d6e946b4ce8626ba",
+  "project_revision": "anonymous-source-snapshot",
+  "model": "vjepa2-g",
+  "model_spec": {
+    "architecture": "vit_giant_xformers",
+    "embed_dim": 1408,
+    "encoder_heads": 22,
+    "resolution": 256,
+    "frames_per_clip": 48,
+    "contexts": [
+      12,
+      18,
+      24,
+      30,
+      36,
+      42
+    ],
+    "num_mask_tokens": 10,
+    "use_rope": true
+  },
+  "checkpoint": "<artifact-root>/checkpoints/vitg.pt",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "checkpoint_origin": "https://dl.fbaipublicfiles.com/vjepa2/vitg.pt",
+  "vjepa2_root": "<upstream-root>/vjepa2",
+  "vjepa2_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "frozen_manifest": "<workspace>/pilot/manifest.json",
+  "frozen_manifest_sha256": "a9a49d9cd98f4f75ceec2a336c939ba68656f855f6577799ad4c8a70595588d7",
+  "rendered_root": "<workspace>/pilot/rendered",
+  "selected_scenes": 8,
+  "conditions": [
+    "clean",
+    "hue-030",
+    "hue-060",
+    "hue-120",
+    "hue-180",
+    "physical-z-0p25",
+    "physical-z-0p5",
+    "physical-z-1p0",
+    "physical-z-1p5"
+  ],
+  "controls": [
+    "target_hold",
+    "target_shuffle"
+  ],
+  "context": 12,
+  "target_tubelets": 18,
+  "score": "mean absolute predictor minus layer-normalized EMA target tokens",
+  "dtype": "bfloat16 autocast; float32 error reduction",
+  "condition_batch_size": 11,
+  "load_seconds": 50.25889849662781,
+  "runtime": [
+    {
+      "scene_id": "seed-230200",
+      "batch_size": 11,
+      "inference_seconds": 5.213378958404064,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13547601920,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230201",
+      "batch_size": 11,
+      "inference_seconds": 4.387109164148569,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230203",
+      "batch_size": 11,
+      "inference_seconds": 4.38136076182127,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230207",
+      "batch_size": 11,
+      "inference_seconds": 4.380973786115646,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230208",
+      "batch_size": 11,
+      "inference_seconds": 4.381320722401142,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230209",
+      "batch_size": 11,
+      "inference_seconds": 4.384127222001553,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230210",
+      "batch_size": 11,
+      "inference_seconds": 4.387101173400879,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    },
+    {
+      "scene_id": "seed-230211",
+      "batch_size": 11,
+      "inference_seconds": 4.3877394534647465,
+      "peak_allocated_bytes": 11407126528,
+      "peak_reserved_bytes": 13564379136,
+      "maximum_predictor_difference": 0.0
+    }
+  ],
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA A40",
+  "gpu_total_bytes": 47708110848,
+  "checkpoint_keys": [
+    "batch_size",
+    "encoder",
+    "epoch",
+    "loss",
+    "lr",
+    "opt",
+    "predictor",
+    "scaler",
+    "target_encoder",
+    "world_size"
+  ],
+  "strict_load": {
+    "encoder": "<All keys matched successfully>",
+    "target_encoder": "<All keys matched successfully>",
+    "predictor": "<All keys matched successfully>"
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

@@ -1,0 +1,65 @@
+{
+ "status": "EXPLORATORY, multifamily16, 16 scenes, 144 scene x condition rows",
+ "layers": [
+  "block_09",
+  "block_19",
+  "block_29",
+  "final"
+ ],
+ "n_rows": 144,
+ "features_dir": "..\\..\\..\\results\\24-19-16-wmpai-alex-a3-multifamily16-real-features",
+ "results": {
+  "block_09": {
+   "loso_r2": 0.24702862184687913,
+   "perm_null_mean": 0.04476447832179869,
+   "perm_p": 0.0005998800239952009,
+   "spearman_pooled": 0.3399646330680814,
+   "flag_only_r2": 0.07854243387305826,
+   "displacement_plus_flag_r2": 0.2591658181740194,
+   "mean_displacement_physical": 0.008230405859649181,
+   "mean_displacement_appearance": 0.005027391482144594,
+   "rgb_effect_only_r2": -0.00020322264060546047,
+   "rgb_effect_plus_displacement_r2": 0.1691294952968624,
+   "gain_from_displacement_over_rgb": 0.16933271793746785
+  },
+  "block_19": {
+   "loso_r2": 0.445121232344471,
+   "perm_null_mean": 0.024860131744037995,
+   "perm_p": 0.0001999600079984003,
+   "spearman_pooled": 0.386584679688128,
+   "flag_only_r2": 0.07854243387305826,
+   "displacement_plus_flag_r2": 0.4713927973086025,
+   "mean_displacement_physical": 0.013428044505417347,
+   "mean_displacement_appearance": 0.01073580700904131,
+   "rgb_effect_only_r2": -0.00020322264060546047,
+   "rgb_effect_plus_displacement_r2": 0.4244228493427421,
+   "gain_from_displacement_over_rgb": 0.42462607198334756
+  },
+  "block_29": {
+   "loso_r2": 0.7595046466502566,
+   "perm_null_mean": 0.0569890317525818,
+   "perm_p": 0.0001999600079984003,
+   "spearman_pooled": 0.48162125231090747,
+   "flag_only_r2": 0.07854243387305826,
+   "displacement_plus_flag_r2": 0.7546436951323323,
+   "mean_displacement_physical": 0.020006386563181877,
+   "mean_displacement_appearance": 0.008690640330314636,
+   "rgb_effect_only_r2": -0.00020322264060546047,
+   "rgb_effect_plus_displacement_r2": 0.780015971856343,
+   "gain_from_displacement_over_rgb": 0.7802191944969484
+  },
+  "final": {
+   "loso_r2": 0.666053595112353,
+   "perm_null_mean": 0.05539240857782456,
+   "perm_p": 0.0001999600079984003,
+   "spearman_pooled": 0.44222329394743193,
+   "flag_only_r2": 0.07854243387305826,
+   "displacement_plus_flag_r2": 0.6598632067715371,
+   "mean_displacement_physical": 0.12305233627557755,
+   "mean_displacement_appearance": 0.051919590681791306,
+   "rgb_effect_only_r2": -0.00020322264060546047,
+   "rgb_effect_plus_displacement_r2": 0.6495424748574946,
+   "gain_from_displacement_over_rgb": 0.6497456974981001
+  }
+ }
+}

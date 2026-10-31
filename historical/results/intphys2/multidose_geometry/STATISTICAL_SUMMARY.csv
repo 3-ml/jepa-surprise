@@ -1,0 +1,6 @@
+model,layer,factor,dose,metric,estimate,ci_low,ci_high,null_mean,null_low,null_high,status
+V-JEPA2-G,block_00,clean,0,global_unrelated_scale,0.311448749073243,,,,,,EXPLORATORY POST-SEALED ANALYSIS
+V-JEPA2-G,block_10,clean,0,global_unrelated_scale,0.0059500960338886855,,,,,,EXPLORATORY POST-SEALED ANALYSIS
+V-JEPA2-G,block_20,clean,0,global_unrelated_scale,0.005864763897756309,,,,,,EXPLORATORY POST-SEALED ANALYSIS
+V-JEPA2-G,block_30,clean,0,global_unrelated_scale,0.012186554441483477,,,,,,EXPLORATORY POST-SEALED ANALYSIS
+V-JEPA2-G,final,clean,0,global_unrelated_scale,0.21235861238890585,,,,,,EXPLORATORY POST-SEALED ANALYSIS

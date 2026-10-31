@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-27T09:57:34.217187+02:00",
+  "scope": "frozen final256; earlier joint statistics draft not jointly signed",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "model_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "render_seal_sha256": "21ac28470bb46e98825e43a3f13c8efa5ba2055ce142eea8b2f628d3f473ee48",
+  "run_lock_sha256": "6b332701c1733327072c8023d2d59d2a3593c492bb676602f3f3bb137e488005",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "frames": 48,
+  "context": 12,
+  "resolution": 256,
+  "batch": 1,
+  "dtype": "fp32 weights; bf16 autocast/subtraction; fp32 L1 reduction",
+  "target_encoder_residency": "disk-block",
+  "matmul_tf32": false,
+  "cudnn_tf32": true,
+  "completed_at": "2026-10-27T19:38:01.850691+02:00",
+  "scored_cells": 3072,
+  "eligible_scenes": 256,
+  "all_scores_sha256": "055700d438bf765d381c9a142bdddaf2624f519bc2850428f9109e38ca309bde"
+}

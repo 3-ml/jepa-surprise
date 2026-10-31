@@ -1,0 +1,14 @@
+{
+  "decision": "allow_development_scoring",
+  "reviewer": "coding assistant; not independent human/Alex approval",
+  "manifest_sha256": "a1b6265f7d094255b54009690fc72d6cd1c123bcd36dc60089566c49a11561fe",
+  "review_time": "2026-10-25T11:39:01.943654+02:00",
+  "basis": "State/contact assertions passed; all 288 PNG/source hashes checked; exact paired raw context; target area >=292 pixels. Contact sheet visually inspected before any new scores.",
+  "limitations": [
+    "One fixed development scene, not randomized population",
+    "Collision disabled only for inconsistent support pair",
+    "Inconsistent trajectory also moves further and rests on a lower floor; scores cannot isolate surprise from motion/position",
+    "Constant hue applied to albedo; no mass/material physics change; black background/small target"
+  ],
+  "next_action": "Score frozen native model on all six cells, hold/shuffle and exact-repeat controls; no significance/equivalence claim"
+}

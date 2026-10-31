@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "scope": "development only",
+  "started_at": "2026-10-25T16:14:56.158292+02:00",
+  "layers": [
+    "block_09",
+    "block_19",
+    "block_29",
+    "encoder_final",
+    "native_target"
+  ],
+  "encoder": "EMA target_encoder from the exact native-score checkpoint",
+  "pooling": "float32 mean of target-frame tokens 12..47; intermediate/encoder_final unnormalized, native_target per-token layer-normalized",
+  "frames": 48,
+  "context": 12,
+  "resolution": 256,
+  "batch": 1,
+  "dtype": "fp32 weights; bf16 autocast; fp32 pooling",
+  "execution_version": "v2 disk-block target, no GPU-resident full target; v1 startup MemoryError preserved",
+  "input_scores_sha256": "eba2eaf1fa82a81e93c34247e2317ad5ebf878ca89b796032c59877f2e924f30",
+  "audit_sha256": "eca4197b29ae0d4906ac76fe5e86542bc411a65ef54ae83bbfa28fd8af96848a",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "model_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "source_sha256": {
+    "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\vasi\\geometry_development24.py": "613b4be4230ac6f105366f30ca300f53b445c4eaea19c47794460db4655f8e84",
+    "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\vasi\\score_development24.py": "c584496d9c772cdb1d8fc4d1722783a0f074e74d00f3eff4c2b98e18e024c0f9",
+    "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\vasi\\disk_offload_vjepa2.py": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+    "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\vasi\\stream_vjepa2_checkpoint.py": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a",
+    "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\alex\\a3_a4_lib.py": "b550570c0ece5be100ad8ef438a7cf43f96d01438b24770cc0b531cd711dcfc6"
+  },
+  "physical_features": "gap/persistent/abrupt indicators + three frame-statistic differences; add relative geometry distance and distance*gap",
+  "appearance_features": "gap/fall/abrupt indicators + three frame-statistic differences; add relative geometry distance and distance*abrupt",
+  "completed_at": "2026-10-25T16:54:03.651510+02:00",
+  "elapsed_seconds": 2307.8554345000302,
+  "peak_allocated_bytes": 519910912,
+  "feature_sha256": "77c21e4d5851b579729e01c6d9955b5e4ea61589ee797cb8285eab39e70e9597"
+}

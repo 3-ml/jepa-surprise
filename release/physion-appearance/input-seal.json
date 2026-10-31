@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-28T01:27:03.178820+02:00",
+  "status": "pass",
+  "videos": 192,
+  "pairs": 96,
+  "segments": 5177,
+  "A_cells": 20708,
+  "B_cells": 960,
+  "old_controls_exact": 337,
+  "old_fixtures_exact": 10,
+  "files": {
+    "population.json": "96e313f78f009e9a7516c1ec3319cfb14a5dc6bf3a2e087affbd9f338bd5b4bf",
+    "input-audit.jsonl": "84192e458aaaf10e09e681d87fe0ed7ed5e20a74b23286ec3fe3956d5dbc39d6",
+    "A-input-manifest.jsonl": "28d8b59e76033b170ce4bc2845b5f2984924dcfbdf8ae05de15ec933f2e5db8a",
+    "B-input-manifest.jsonl": "38a30e41924ab0be0d93c7c07202c1cf05f8fcff6bb06e5d01e54e0a2ddb5004",
+    "old-input-recheck.json": "bf13eb472932179af9faf0ad46963632ff907be12e9c1c23ae49a036af8f97ba"
+  },
+  "elapsed_seconds": 5715.78199999989,
+  "cuda_initialized": false,
+  "freeze_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809"
+}

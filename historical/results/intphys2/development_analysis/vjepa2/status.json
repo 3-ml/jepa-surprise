@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "samples": 608,
+  "pairs": 76,
+  "layers": 5,
+  "representations_sha256": "93cbd4f56723f70e7914a8ae64b44df87d819581513fbccd53331b4b164d959a",
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

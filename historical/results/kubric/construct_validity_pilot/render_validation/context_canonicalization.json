@@ -1,0 +1,264 @@
+{
+  "status": "complete",
+  "frozen_manifest_sha256": "a9a49d9cd98f4f75ceec2a336c939ba68656f855f6577799ad4c8a70595588d7",
+  "context_frames": 12,
+  "canonicalized_outputs": 64,
+  "records": [
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-1p5"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-030"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-060"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-120"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-180"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-0p25"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-0p5"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-1p0"
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-1p5"
+    }
+  ]
+}

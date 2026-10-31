@@ -1,0 +1,19 @@
+{
+  "metric": "physical_distance_vs_depth_spearman",
+  "n_pairs": 76,
+  "V-JEPA2-G": {
+    "mean": 0.9912,
+    "ci_low": 0.8999999999999998,
+    "ci_high": 0.9999999999999999
+  },
+  "VideoMAE2-G": {
+    "mean": 0.22579999999999995,
+    "ci_low": -0.09999999999999999,
+    "ci_high": 0.3
+  },
+  "V-JEPA2-G_minus_VideoMAE2-G": {
+    "mean": 0.7653999999999999,
+    "ci_low": 0.5999999999999999,
+    "ci_high": 1.0999999999999999
+  }
+}

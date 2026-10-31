@@ -1,0 +1,7 @@
+left_model,right_model,task,metric,mean,ci_low,ci_high
+V-JEPA2-G,VideoMAE2-G,appearance,scene_clustered_pair_accuracy_delta,0.04375479166666667,0.017708333333333336,0.06979166666666667
+V-JEPA2-G,PixelSummary,appearance,scene_clustered_pair_accuracy_delta,0.19780968750000003,0.14479166666666665,0.25416666666666665
+V-JEPA2-G,VideoMAE2-G,physics_all,scene_clustered_pair_accuracy_delta,0.0469596875,0.006250000000000001,0.08958333333333332
+V-JEPA2-G,PixelSummary,physics_all,scene_clustered_pair_accuracy_delta,0.0623,0.025,0.103125
+V-JEPA2-G,VideoMAE2-G,physics_clean_only,scene_clustered_pair_accuracy_delta,0.07102333333333333,0.024999999999999998,0.12083333333333332
+V-JEPA2-G,PixelSummary,physics_clean_only,scene_clustered_pair_accuracy_delta,0.09175083333333334,0.05,0.13333333333333333

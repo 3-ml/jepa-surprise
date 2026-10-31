@@ -1,0 +1,4 @@
+left_model,right_model,task,metric,mean,ci_low,ci_high
+V-JEPA2-G,VideoMAE2-G,appearance,pair_accuracy_delta,-0.004963333333333333,-0.015,0.003333333333333333
+V-JEPA2-G,VideoMAE2-G,physics_all,pair_accuracy_delta,0.10507666666666667,0.02904166666666667,0.18087499999999995
+V-JEPA2-G,VideoMAE2-G,physics_clean_only,pair_accuracy_delta,0.13828000000000004,0.06,0.21333333333333332

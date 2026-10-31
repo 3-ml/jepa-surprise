@@ -1,0 +1,26 @@
+[
+ {
+  "batch": 1,
+  "seconds_per_batch": 7.242609899985837,
+  "seconds_per_clip": 7.242609899985837,
+  "peak_allocated_gib": 0.45186805725097656
+ },
+ {
+  "batch": 2,
+  "seconds_per_batch": 10.226405900000827,
+  "seconds_per_clip": 5.113202950000414,
+  "peak_allocated_gib": 0.7936649322509766
+ },
+ {
+  "batch": 4,
+  "seconds_per_batch": 16.663354199990863,
+  "seconds_per_clip": 4.165838549997716,
+  "peak_allocated_gib": 1.4772586822509766
+ },
+ {
+  "batch": 8,
+  "seconds_per_batch": 96.01829770000768,
+  "seconds_per_clip": 12.00228721250096,
+  "peak_allocated_gib": 2.8444461822509766
+ }
+]

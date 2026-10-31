@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "command": "python -m scripts.analyze_intphys2_grouped_probe_statistics --vjepa-predictions results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_predictions.csv --videomae-predictions results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_predictions.csv --pixel-predictions results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_predictions.csv --output-dir results/intphys2/scene_crossfit_probe_audit/sealed/statistics --bootstrap 10000 --seed 0 --bootstrap-mode global_scene --expected-scenes 57 --expected-pairs 114 --expected-folds 5 --overwrite",
+  "bootstrap": 10000,
+  "seed": 0,
+  "cluster": "scene_id",
+  "unit_before_cluster": "pair_id mean over selected samples",
+  "bootstrap_mode": "global_scene",
+  "expected_scenes": 57,
+  "expected_pairs": 114,
+  "expected_folds": 5,
+  "aggregation": "all unique out-of-fold scenes are resampled globally",
+  "runs": [
+    {
+      "label": "V-JEPA2-G",
+      "predictions": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_predictions.csv",
+      "prediction_sha256": "92a01c4be56a39ff9a3c1d06444fdd0aeda8824c77b1615a6e960c6ca54af2cc"
+    },
+    {
+      "label": "VideoMAE2-G",
+      "predictions": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_predictions.csv",
+      "prediction_sha256": "e88dfcec4636cebb64947bfb317cb1a67bd9275f346356e704e28be151d78a1d"
+    },
+    {
+      "label": "PixelSummary",
+      "predictions": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_predictions.csv",
+      "prediction_sha256": "8a13d6a972a13d5acf2b5524b98096687052fd84b76c8b21547e1f1e75e44499"
+    }
+  ],
+  "accuracy_ci": [
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "layer_name": "pixel_summary",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.7905701754385965,
+      "ci_low": 0.7368146929824562,
+      "ci_high": 0.8453947368421053
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "layer_name": "pixel_summary",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.5,
+      "ci_low": 0.48903508771929827,
+      "ci_high": 0.5098684210526315
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "layer_name": "pixel_summary",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.5175438596491229,
+      "ci_low": 0.4868421052631579,
+      "ci_high": 0.5482456140350878
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "layer_name": "block_20",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.9769736842105263,
+      "ci_low": 0.9572368421052632,
+      "ci_high": 0.993421052631579
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "layer_name": "block_30",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.5789473684210527,
+      "ci_low": 0.5416666666666666,
+      "ci_high": 0.618421052631579
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "layer_name": "block_30",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.5482456140350878,
+      "ci_low": 0.5131578947368421,
+      "ci_high": 0.5877192982456141
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "layer_name": "block_30",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.9528508771929824,
+      "ci_low": 0.9276315789473685,
+      "ci_high": 0.9758771929824561
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "layer_name": "block_00",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.4923245614035088,
+      "ci_low": 0.4725877192982456,
+      "ci_high": 0.5087719298245614
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "layer_name": "block_30",
+      "n_seed_rows": 5,
+      "n_scenes_min": 11,
+      "n_scenes_max": 12,
+      "n_pairs_min": 22,
+      "n_pairs_max": 24,
+      "n_scenes_union": 57,
+      "mean": 0.4956140350877193,
+      "ci_low": 0.4649122807017544,
+      "ci_high": 0.5219298245614035
+    }
+  ],
+  "model_delta_ci": [
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "appearance",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.02412280701754386,
+      "ci_low": -0.0010964912280701754,
+      "ci_high": 0.05043859649122807
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "PixelSummary",
+      "task": "appearance",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.18640350877192982,
+      "ci_low": 0.13486842105263158,
+      "ci_high": 0.2412280701754386
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "physics_all",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.08662280701754387,
+      "ci_low": 0.043859649122807015,
+      "ci_high": 0.13267543859649122
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "PixelSummary",
+      "task": "physics_all",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.07894736842105263,
+      "ci_low": 0.04057017543859649,
+      "ci_high": 0.11842105263157894
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.05263157894736842,
+      "ci_low": 0.0043859649122807015,
+      "ci_high": 0.10087719298245613
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "PixelSummary",
+      "task": "physics_clean_only",
+      "metric": "scene_clustered_pair_accuracy_delta",
+      "mean": 0.03070175438596491,
+      "ci_low": -0.013157894736842105,
+      "ci_high": 0.08333333333333333
+    }
+  ],
+  "split_audit": [
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 192,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 176,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "seed": 0,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "seed": 1,
+      "test_scenes": 12,
+      "test_pairs": 24,
+      "test_samples": 48,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "seed": 2,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "seed": 3,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "seed": 4,
+      "test_scenes": 11,
+      "test_pairs": 22,
+      "test_samples": 44,
+      "min_pairs_per_scene": 2,
+      "max_pairs_per_scene": 2
+    }
+  ],
+  "coverage_audit": [
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "unique_test_scenes": 57,
+      "unique_test_pairs": 114,
+      "test_folds_per_scene_min": 1,
+      "test_folds_per_scene_max": 1,
+      "pairs_per_scene_min": 2,
+      "pairs_per_scene_max": 2
+    }
+  ]
+}

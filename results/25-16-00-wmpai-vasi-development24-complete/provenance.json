@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T16:21:01.386244+02:00",
+  "code_base": "8617df6eef9bf53a1916f8716a0295f420be270d",
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "Pillow": "12.1.1",
+    "timm": "1.0.28",
+    "scipy": "1.17.1",
+    "pytest": "9.1.1"
+  },
+  "source_sha256_at_audit": {
+    "analyse_development24.py": "59ca8225c7ec6c1f576d7c851d13f046284d092b5de40854f5feb79f315b7935",
+    "audit_development24.py": "339d39ef58bafe4f7f488cd7976f6abc09380b5d39592e67b6602df1635a7ee9",
+    "canonical_development_context.py": "4e84e6f25f4396e14b93301185d84ae552050eaf6a959dcf38b1d87dc8509d38",
+    "contact_development.py": "6542817cb03dff3a419eef7a193b6978f1e47b42a5014c61c00535d920cabb24",
+    "disk_offload_vjepa2.py": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+    "geometry_batch_worker.py": "37ec063b75b75b387d6fa17904fb4a05f9dede3b0009dce726b73f942e2b070f",
+    "geometry_development24.py": "613b4be4230ac6f105366f30ca300f53b445c4eaea19c47794460db4655f8e84",
+    "plan_development24_followup.py": "79fb0772931ea55ff5ff0a93428e7cf69c7f424ac24d5657f7bd562932178c20",
+    "runtime_smoke.py": "0909047a0046dd816b4a27b449ebd6e007807084c10f8bfbbe44943bd635aa4c",
+    "run_development24.py": "303509a5d3345687d85728706e96428964b8739b782e2fcac1e0be2c784d3d16",
+    "run_v1_regression.py": "8424563100d2f9c7e52cb850f1b9b6c810ccad865d02d0c237877302a653e9ed",
+    "run_v1_regression_disk.py": "78fcf089341b2ff2a007e72c28edd2b31c77ae483165bd66bbc926d59ca5cd38",
+    "score_contact_development.py": "d7b551adbda1bc01b93bc816e386a3e21c98ddd59d82887696bc0d067848675f",
+    "score_development24.py": "c584496d9c772cdb1d8fc4d1722783a0f074e74d00f3eff4c2b98e18e024c0f9",
+    "stream_vjepa2_checkpoint.py": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a",
+    "vasi_manifest.py": "fa08678809fe1479f2f177c27daeab2a6847cd93cb8109727ae3a2b8d86f4a7c"
+  },
+  "render_environment": "Desktop Ubuntu WSL2 external-record/e516e178d9e4/kubric43; pinned bpy 4.3.0, PyBullet 3.2.7, Python 3.11.7; see renderer-smoke record",
+  "checkpoint_origin": "same public V-JEPA2-G vitg.pt as V1 regression; local verified ${JEPA_VJEPA2G_CHECKPOINT}",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "failure_handling": "No candidate replaced. Pre-score host MemoryError attempt archived; one unchanged-source retry completed."
+}

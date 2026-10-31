@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "at": "2026-10-25T21:48:52.050141+00:00",
+  "type": "execution-order-only; no scientific/numeric changes",
+  "original_freeze_sha256": "6c3fe19d099229d102d2843fa72c6f26c0a1afb934b804a784442b7c743f982f",
+  "wrapper_sha256": "7e1623c4ead75b1e0a4188b3e9f48cac1c3d74230d6c5c1b0fe78827474de6d7",
+  "retained_planned_models": [
+    "lewm",
+    "dino",
+    "jepa"
+  ],
+  "qualified_for_new_cells": [
+    "lewm",
+    "dino"
+  ],
+  "blocked_models": [
+    "jepa"
+  ],
+  "reason": "JEPA failed full-cohort archival parity; original batch-8 scorer also fails the known old fixture. Native scoring is model-specific; the blocked model remained incomplete while qualified-model new cells proceeded. This execution amendment was not a jointly ratified confirmatory protocol.",
+  "change": "The all-model barrier becomes a per-model barrier for execution only. Original combined analysis still requires every model.",
+  "unchanged": [
+    "all 256 original episodes",
+    "all 17 conditions",
+    "every native score and preprocessing formula",
+    "every tolerance",
+    "fixed contrasts and family36 analysis",
+    "all original source bytes",
+    "all sealed input bytes"
+  ],
+  "new_cells_scored_before_amendment": 0,
+  "automatic_retry": false,
+  "original_failure_sha256": "501da232964ffb215ae384d5264afbba632b187189810cf22c506b7994267429",
+  "diagnostic_sha256": "69c6c1c7130bdc856c67b95124b2a3ea71863b3ea9a9dbabaa457614484f38ac",
+  "final256_changes": []
+}

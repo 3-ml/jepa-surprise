@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-27T21:58:26.516385+02:00",
+  "status": "pass",
+  "numeric_values_checked": 211,
+  "maximum_absolute_difference": 0.0,
+  "audit_arithmetic_tolerance": 5e-14,
+  "seed": 202610256,
+  "draws": 50000,
+  "rate_auc_draws": 10000,
+  "resampling_unit": "configuration; all conditions kept together",
+  "no_original_analysis_import": true
+}

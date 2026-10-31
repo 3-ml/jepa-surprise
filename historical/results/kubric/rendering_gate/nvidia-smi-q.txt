@@ -1,0 +1,4 @@
+gpu=NVIDIA A40
+memory_mib=46068
+driver=570.211.01
+cuda=12.8

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "model_id": "vjepa2-g",
+  "role": "primary latent-predictive checkpoint",
+  "official_repository": "https://github.com/facebookresearch/vjepa2",
+  "upstream_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "source_license": "MIT",
+  "checkpoint_origin": "https://dl.fbaipublicfiles.com/vjepa2/vitg.pt",
+  "checkpoint_filename": "vitg.pt",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "checkpoint_container_key": "encoder",
+  "architecture": "vit_giant_xformers",
+  "embedding_dimension": 1408,
+  "transformer_blocks": 40,
+  "patch_size": 16,
+  "tubelet_size": 2,
+  "native_resolution": 256,
+  "native_frames_per_clip": 64,
+  "native_token_grid": [
+    32,
+    16,
+    16
+  ],
+  "relative_depth_mapping": [
+    {
+      "relative_depth": 0.0,
+      "native_layer": 0,
+      "state": "patch embedding before transformer block 1"
+    },
+    {
+      "relative_depth": 0.25,
+      "native_layer": 10,
+      "state": "output after transformer block 10"
+    },
+    {
+      "relative_depth": 0.5,
+      "native_layer": 20,
+      "state": "output after transformer block 20"
+    },
+    {
+      "relative_depth": 0.75,
+      "native_layer": 30,
+      "state": "output after transformer block 30"
+    },
+    {
+      "relative_depth": 1.0,
+      "native_layer": 40,
+      "state": "final encoder-normalized output after transformer block 40"
+    }
+  ],
+  "normalization": {
+    "resize": "bilinear to 256x256 without crop",
+    "rgb_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "inference_dtype": "bfloat16_autocast",
+  "storage_dtype": "float16",
+  "batch_candidates": [
+    2,
+    1
+  ],
+  "oom_fallback_may_change_only_batch_size": true,
+  "strict_load_required": true,
+  "status": "locked for one-pair repeatability smoke and complete Debug extraction; Main development remains gated"
+}

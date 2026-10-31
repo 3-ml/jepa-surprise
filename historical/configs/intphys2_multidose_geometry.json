@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "post-sealed exploratory",
+  "model": "V-JEPA2-G",
+  "source_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint_origin": "https://dl.fbaipublicfiles.com/vjepa2/vitg.pt",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "population": {
+    "partition": "corrected IntPhys2 development",
+    "scenes": 38,
+    "pairs": 76,
+    "sources": 152,
+    "samples": 1520
+  },
+  "layers": [
+    "block_00",
+    "block_10",
+    "block_20",
+    "block_30",
+    "final"
+  ],
+  "frame_count": 64,
+  "resolution": 256,
+  "transformations": {
+    "hue_degrees": [
+      15,
+      45,
+      90
+    ],
+    "brightness_multiplier": [
+      0.85,
+      0.65,
+      0.45
+    ],
+    "selective_recolor_degrees": [
+      45,
+      90,
+      180
+    ]
+  },
+  "analysis": {
+    "bootstrap_draws": 10000,
+    "null_draws": 10000,
+    "seed": 260903,
+    "statistical_unit": "scene",
+    "primary_projection_k": 4,
+    "joint_factor_grids": false
+  },
+  "extraction": {
+    "python": "3.10.11",
+    "pytorch": "2.5.1+cu121",
+    "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "strategy": "exact sequential transformer-block CPU/GPU offload",
+    "weights": "float32",
+    "autocast": "bfloat16",
+    "attention": "scaled dot product attention",
+    "quantized": false,
+    "peak_reserved_bytes": 738197504,
+    "new_embeddings": 912,
+    "reused_embeddings": 608,
+    "inference_seconds": 3580.3863974999695,
+    "minimum_clean_cache_cosine": 0.99999988,
+    "packed_features_sha256": "cc5c9a5c454b37a676816d6338019190724c7eeecf63965407a717582d3f83a4",
+    "samples_sha256": "9cecf623fa651e49cce2906b60d8a1f5a8835f67e8875221385358b6eca5a14d"
+  }
+}

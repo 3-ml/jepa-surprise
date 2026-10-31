@@ -1,0 +1,1759 @@
+[
+  {
+    "source": "results/02-12-34-dinowm-pusht-controlled-displacement-confirmatory256/run_dinowm_pusht_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_dinowm_pusht_controlled_displacement.py",
+      "scripts/run_dinowm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/03-15-03-jepa-wm-pusht-controlled-displacement-exploratory256/export_pusht_controlled_audit_bundle.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/export_pusht_controlled_audit_bundle.py",
+      "scripts/export_pusht_controlled_audit_bundle.py"
+    ]
+  },
+  {
+    "source": "results/03-15-03-jepa-wm-pusht-controlled-displacement-exploratory256/run_jepa_wm_pusht_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_jepa_wm_pusht_controlled_displacement.py",
+      "scripts/run_jepa_wm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/03-15-03-jepa-wm-pusht-controlled-displacement-exploratory256/smoke8/run_jepa_wm_pusht_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_jepa_wm_pusht_controlled_displacement.py",
+      "scripts/run_jepa_wm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/03-15-03-jepa-wm-pusht-controlled-displacement-exploratory256/validate_jepa_wm_pusht_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/validate_jepa_wm_pusht_controlled_displacement.py",
+      "scripts/validate_jepa_wm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/20-11-20-overnight-control-record/overnight-intphys1/run_intphys1_vjepa2_dense.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "scripts/run_intphys1_vjepa2_dense.py"
+    ]
+  },
+  {
+    "source": "results/20-11-20-overnight-control-record/overnight-intphys1/run_intphys2_dense.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/run_intphys2_dense.py",
+      "scripts/run_intphys2_dense.py"
+    ]
+  },
+  {
+    "source": "results/20-17-12-appearance-interventions-o2-harder-full/audit_script.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/20-20-50-vjepa2-g-feasibility-smokes/run_intphys2_dense.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/run_intphys2_dense.py",
+      "scripts/run_intphys2_dense.py"
+    ]
+  },
+  {
+    "source": "results/20-20-50-vjepa2-g-feasibility-smokes/vjepa2_g_smoke.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/22-20-13-vjepa2g-construct-validity-main/command.sh",
+    "status": "original command capture excluded; protocols and scientific source retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-06-lewm-tworoom-prediction-error-confirmatory256/analyze_lewm_prediction_error_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "scripts/analyze_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-06-lewm-tworoom-prediction-error-confirmatory256/run_lewm_prediction_error_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_prediction_error_audit.py",
+      "scripts/run_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-10-lewm-pusht-prediction-error-confirmatory256/analyze_lewm_prediction_error_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "scripts/analyze_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-10-lewm-pusht-prediction-error-confirmatory256/run_lewm_prediction_error_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_prediction_error_audit.py",
+      "scripts/run_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-22-lewm-pusht-role-color-pilot32/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-26-lewm-pusht-role-color-matched-pilot32/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-29-lewm-pusht-role-color-confirmatory256/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-29-lewm-pusht-role-color-confirmatory256/run_lewm_pusht_role_color_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_pusht_role_color_audit.py",
+      "scripts/run_lewm_pusht_role_color_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-35-lewm-pusht-role-color-decomposition256/analyze_lewm_role_color_decomposition.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/analyze_lewm_role_color_decomposition.py",
+      "scripts/analyze_lewm_role_color_decomposition.py"
+    ]
+  },
+  {
+    "source": "results/23-00-35-lewm-pusht-role-color-decomposition256/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-35-lewm-pusht-role-color-decomposition256/run_lewm_pusht_role_color_audit.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_pusht_role_color_audit.py",
+      "scripts/run_lewm_pusht_role_color_audit.py"
+    ]
+  },
+  {
+    "source": "results/23-00-44-lewm-tworoom-controlled-displacement-pilot32/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-46-lewm-tworoom-controlled-displacement-confirmatory256/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-46-lewm-tworoom-controlled-displacement-confirmatory256/run_lewm_tworoom_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_tworoom_controlled_displacement.py",
+      "scripts/run_lewm_tworoom_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/23-00-54-lewm-pusht-controlled-displacement-pilot32/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-58-lewm-pusht-controlled-displacement-confirmatory256/run_lewm_prediction_error_audit_helper.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/23-00-58-lewm-pusht-controlled-displacement-confirmatory256/run_lewm_pusht_controlled_displacement.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_lewm_pusht_controlled_displacement.py",
+      "scripts/run_lewm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "results/23-01-48-kubric-movia-render-timing48/hypertune.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/environments/kubric/hypertune.py"
+    ]
+  },
+  {
+    "source": "results/23-02-31-kubric-a40-render-timing-determinism/kubric_render_intervention.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/kubric_render_intervention.py",
+      "scripts/kubric_render_intervention.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/commands.sh",
+    "status": "original command capture excluded; protocols and scientific source retained",
+    "included": []
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/environment/hypertune.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/environments/kubric/hypertune.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/analyze_kubric_intervention_rendering.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/analyze_kubric_intervention_rendering.py",
+      "scripts/analyze_kubric_intervention_rendering.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/analyze_vjepa2_kubric_construct_validity.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/analyze_vjepa2_kubric_construct_validity.py",
+      "scripts/analyze_vjepa2_kubric_construct_validity.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/canonicalize_kubric_intervention_context.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/canonicalize_kubric_intervention_context.py",
+      "scripts/canonicalize_kubric_intervention_context.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/kubric_movia_base_worker.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/kubric_movia_base_worker.py",
+      "scripts/kubric_movia_base_worker.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/kubric_render_intervention.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/kubric_render_intervention.py",
+      "scripts/kubric_render_intervention.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/prepare_kubric_intervention_manifest.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/prepare_kubric_intervention_manifest.py",
+      "scripts/prepare_kubric_intervention_manifest.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/render_kubric_intervention_grid.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/render_kubric_intervention_grid.py",
+      "scripts/render_kubric_intervention_grid.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/run_intphys2_dense.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/run_intphys2_dense.py",
+      "scripts/run_intphys2_dense.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/run_vjepa2_kubric_construct_validity.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_vjepa2_kubric_construct_validity.py",
+      "release/final256/original/frozen-source/scripts/run_vjepa2_kubric_construct_validity.py",
+      "scripts/run_vjepa2_kubric_construct_validity.py"
+    ]
+  },
+  {
+    "source": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/scripts/validate_kubric_intervention_blends.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/validate_kubric_intervention_blends.py",
+      "scripts/validate_kubric_intervention_blends.py"
+    ]
+  },
+  {
+    "source": "results/25-16-00-wmpai-vasi-development24-complete/package_completion.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/25-16-00-wmpai-vasi-development24-complete/resume_scoring_once.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/25-16-14-wmpai-vasi-development24-geometry/failed-v1-source.py",
+    "status": "historical preliminary/failed-attempt code excluded; curated study implementations retained",
+    "included": []
+  },
+  {
+    "source": "results/25-19-50-wmpai-vasi-spark-cpu-setup/commands.sh",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/25-19-50-wmpai-vasi-spark-cpu-setup/package_setup.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/25-21-02-wmpai-vasi-spark-gpu-qualification/commands.sh",
+    "status": "original command capture excluded; protocols and scientific source retained",
+    "included": []
+  },
+  {
+    "source": "results/25-21-02-wmpai-vasi-spark-gpu-qualification/package_gpu_results.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-11-00-wmpai-vasi-spark-renderer-qualification/controller-sources/download_renderer_evidence.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-11-00-wmpai-vasi-spark-renderer-qualification/controller-sources/export_renderer_references.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-11-00-wmpai-vasi-spark-renderer-qualification/controller-sources/resume_renderer_evidence_transfer_v2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/audit_physion_inputs.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/audit_physion_inputs.py"
+    ]
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/check_physion_preprocessing.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/check_physion_preprocessing.py"
+    ]
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/physion_common.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/physion_common.py",
+      "release/physion-appearance/frozen-source.zip/physion_common.py",
+      "release/physion-static/frozen-source.zip/physion_common.py"
+    ]
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/physion_statistics.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/physion_statistics.py",
+      "release/physion-appearance/frozen-source.zip/physion_statistics.py",
+      "release/physion-static/frozen-source.zip/physion_statistics.py"
+    ]
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/preserve_physion_input_failure.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/code/test_physion_followups.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/test_physion_followups.py"
+    ]
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/controller-sources/download_physion_evidence.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/controller-sources/export_physion_inputs.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/controller-sources/export_physion_preprocessing.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/draft-model-code/analyse_physion_followups.py",
+    "status": "superseded Physion draft excluded; malformed runner was never repaired or executed",
+    "included": []
+  },
+  {
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/draft-model-code/run_physion_followups.py",
+    "status": "superseded Physion draft excluded; malformed runner was never repaired or executed",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/desktop/canonical_codec.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_codec.py",
+      "release/physion-appearance/frozen-source.zip/canonical_codec.py",
+      "release/physion-static/frozen-source.zip/canonical_codec.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/desktop/export_canonical_controls.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/desktop/export_canonical_controls.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/canonical_codec.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_codec.py",
+      "release/physion-appearance/frozen-source.zip/canonical_codec.py",
+      "release/physion-static/frozen-source.zip/canonical_codec.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/canonical_score.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_score.py",
+      "release/physion-appearance/frozen-source.zip/canonical_score.py",
+      "release/physion-static/frozen-source.zip/canonical_score.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/drive_gpu_qualification.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/preflight_loading_metadata.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/run_canonical_qualification.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source-v3/supervise_qualification.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/canonical_codec.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_codec.py",
+      "release/physion-appearance/frozen-source.zip/canonical_codec.py",
+      "release/physion-static/frozen-source.zip/canonical_codec.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/canonical_score.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_score.py",
+      "release/physion-appearance/frozen-source.zip/canonical_score.py",
+      "release/physion-static/frozen-source.zip/canonical_score.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/coordinate_canonical_qualification.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/export_canonical_controls.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/export_canonical_controls.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/package_canonical_verdict.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/prepare_canonical_inputs.py",
+    "status": "included pinned source",
+    "included": [
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/prepare_canonical_inputs.py"
+    ]
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/run_canonical_qualification.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/supervise_qualification.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/canonical_codec.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_codec.py",
+      "release/physion-appearance/frozen-source.zip/canonical_codec.py",
+      "release/physion-static/frozen-source.zip/canonical_codec.py"
+    ]
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/canonical_score.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/canonical_score.py",
+      "release/physion-appearance/frozen-source.zip/canonical_score.py",
+      "release/physion-static/frozen-source.zip/canonical_score.py"
+    ]
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/complete_checkpoint_handoff.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/completion_gate.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/desktop_runtime.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/desktop_runtime.py",
+      "release/physion-appearance/frozen-source.zip/desktop_runtime.py",
+      "release/physion-static/frozen-source.zip/desktop_runtime.py"
+    ]
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/freeze_and_attach_queue.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/qualify_desktop.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/queue_desktop_qualification.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/26-21-00-wmpai-vasi-physion-desktop-queue/code/source/run_vjepa2_section_surprise.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "historical/scripts/run_vjepa2_section_surprise.py",
+      "release/physion-core/source/run_vjepa2_section_surprise.py",
+      "scripts/run_vjepa2_section_surprise.py"
+    ]
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/audit_configuration.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/audit-source/audit_configuration.py"
+    ]
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/audit_final256.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/audit-source/audit_final256.py"
+    ]
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/audit_visibility.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/audit-source/audit_visibility.py"
+    ]
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/completion_gate.py",
+    "status": "historical report/packaging utility excluded; numeric tables and independent checks included",
+    "included": []
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/independent_statistics.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/audit-source/independent_statistics.py"
+    ]
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/make_report_assets.py",
+    "status": "historical report/packaging utility excluded; numeric tables and independent checks included",
+    "included": []
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/make_report_assets_v2.py",
+    "status": "historical report/packaging utility excluded; numeric tables and independent checks included",
+    "included": []
+  },
+  {
+    "source": "results/27-19-38-wmpai-vasi-final256-complete/audit-source/package_final256.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/27-20-37-wmpai-vasi-physion-desktop-qualification/repair-source/desktop_runtime.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/geometry-transfer/frozen-source.zip/desktop_runtime.py",
+      "release/physion-appearance/frozen-source.zip/desktop_runtime.py",
+      "release/physion-static/frozen-source.zip/desktop_runtime.py"
+    ]
+  },
+  {
+    "source": "results/27-20-37-wmpai-vasi-physion-desktop-qualification/repair-source/process_guard.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "results/27-20-37-wmpai-vasi-physion-desktop-qualification/repair-source/queue_desktop_qualification.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/analyze_intphys2_confirmatory_statistics.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/analyze_intphys2_confirmatory_statistics.py",
+      "scripts/analyze_intphys2_confirmatory_statistics.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_intphys2_endpoint_gate.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_intphys2_endpoint_gate.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_intphys2_layerwise_geometry.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/analyze_intphys2_layerwise_geometry.py",
+      "scripts/analyze_intphys2_layerwise_geometry.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_intphys_appearance_surprise.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_intphys_appearance_surprise.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_intphys_margin_diagnostics.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_intphys_margin_diagnostics.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_intphys_surprise_signal_windows.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_intphys_surprise_signal_windows.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_kubric_intervention_rendering.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/analyze_kubric_intervention_rendering.py",
+      "scripts/analyze_kubric_intervention_rendering.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_lewm_prediction_error_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_lewm_role_color_decomposition.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/analyze_lewm_role_color_decomposition.py",
+      "scripts/analyze_lewm_role_color_decomposition.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_segment_pixel_diffs.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_segment_pixel_diffs.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_vjepa2_counterfactual_pilot.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_vjepa2_counterfactual_pilot.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_vjepa2_kubric_construct_validity.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/analyze_vjepa2_kubric_construct_validity.py",
+      "scripts/analyze_vjepa2_kubric_construct_validity.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_vjepa2_layer_pilot.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_vjepa2_layer_pilot.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_vjepa2_layerwise_connection.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_vjepa2_layerwise_connection.py"
+    ]
+  },
+  {
+    "source": "scripts/analyze_vjepa2_workshop_static_calibration.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/analyze_vjepa2_workshop_static_calibration.py"
+    ]
+  },
+  {
+    "source": "scripts/appearance_interventions.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/appearance_interventions.py"
+    ]
+  },
+  {
+    "source": "scripts/batch_static_surprise_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/batch_static_surprise_audit.py",
+      "scripts/batch_static_surprise_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/benchmark_vjepa2g_grid_replication.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/benchmark_vjepa2g_grid_replication.py",
+      "scripts/benchmark_vjepa2g_grid_replication.py"
+    ]
+  },
+  {
+    "source": "scripts/build_intphys2_confirmatory_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/build_intphys2_confirmatory_manifest.py",
+      "scripts/build_intphys2_confirmatory_manifest.py"
+    ]
+  },
+  {
+    "source": "scripts/build_physionpp_mass_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/build_physionpp_mass_manifest.py"
+    ]
+  },
+  {
+    "source": "scripts/canonicalize_kubric_intervention_context.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/canonicalize_kubric_intervention_context.py",
+      "scripts/canonicalize_kubric_intervention_context.py"
+    ]
+  },
+  {
+    "source": "scripts/evaluate_physionpp_material_full.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/evaluate_physionpp_material_full.py"
+    ]
+  },
+  {
+    "source": "scripts/evaluate_physionpp_material_shift.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/evaluate_physionpp_material_shift.py"
+    ]
+  },
+  {
+    "source": "scripts/evaluate_surprise_metrics.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/evaluate_surprise_metrics.py"
+    ]
+  },
+  {
+    "source": "scripts/export_pusht_controlled_audit_bundle.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/export_pusht_controlled_audit_bundle.py",
+      "scripts/export_pusht_controlled_audit_bundle.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_intphys2_pixel_summary.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/extract_intphys2_pixel_summary.py",
+      "scripts/extract_intphys2_pixel_summary.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_videomae2_intphys2_layers.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/extract_videomae2_intphys2_layers.py",
+      "scripts/extract_videomae2_intphys2_layers.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2_features.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/extract_vjepa2_features.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2_hf_physionpp_material_layerwise.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/extract_vjepa2_hf_physionpp_material_layerwise.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2_intphys2_layers.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/extract_vjepa2_intphys2_layers.py",
+      "scripts/extract_vjepa2_intphys2_layers.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2_layer_features.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/extract_vjepa2_layer_features.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2_layerwise_representations.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/extract_vjepa2_layerwise_representations.py"
+    ]
+  },
+  {
+    "source": "scripts/extract_vjepa2g_grid_replication.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/extract_vjepa2g_grid_replication.py",
+      "scripts/extract_vjepa2g_grid_replication.py"
+    ]
+  },
+  {
+    "source": "scripts/finalize_transformation_manifold_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/finalize_transformation_manifold_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/finalize_vjepa2g_grid_replication.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/finalize_vjepa2g_grid_replication.py",
+      "scripts/finalize_vjepa2g_grid_replication.py"
+    ]
+  },
+  {
+    "source": "scripts/full_phase2_analysis.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/full_phase2_analysis.py"
+    ]
+  },
+  {
+    "source": "scripts/harder_appearance_interventions.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/harder_appearance_interventions.py"
+    ]
+  },
+  {
+    "source": "scripts/intphys2_confirmatory_common.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/intphys2_confirmatory_common.py",
+      "scripts/intphys2_confirmatory_common.py"
+    ]
+  },
+  {
+    "source": "scripts/intphys2_confirmatory_extraction.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/intphys2_confirmatory_extraction.py",
+      "scripts/intphys2_confirmatory_extraction.py"
+    ]
+  },
+  {
+    "source": "scripts/intphys_baseline.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/intphys_baseline.py"
+    ]
+  },
+  {
+    "source": "scripts/kubric_movia_base_worker.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/kubric_movia_base_worker.py",
+      "scripts/kubric_movia_base_worker.py"
+    ]
+  },
+  {
+    "source": "scripts/kubric_render_intervention.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/kubric_render_intervention.py",
+      "scripts/kubric_render_intervention.py"
+    ]
+  },
+  {
+    "source": "scripts/make_final_geometry_figures.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/make_final_geometry_figures.py"
+    ]
+  },
+  {
+    "source": "scripts/pack_intphys2_feature_shards.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/pack_intphys2_feature_shards.py",
+      "scripts/pack_intphys2_feature_shards.py"
+    ]
+  },
+  {
+    "source": "scripts/pack_vjepa2g_grid_replication.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/pack_vjepa2g_grid_replication.py",
+      "scripts/pack_vjepa2g_grid_replication.py"
+    ]
+  },
+  {
+    "source": "scripts/physionpp_material_intervention.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/physionpp_material_intervention.py"
+    ]
+  },
+  {
+    "source": "scripts/plot_intphys_surprise_condition_comparison.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/plot_intphys_surprise_condition_comparison.py"
+    ]
+  },
+  {
+    "source": "scripts/plot_vjepa2_layerwise_probes.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/plot_vjepa2_layerwise_probes.py"
+    ]
+  },
+  {
+    "source": "scripts/plot_vjepa2_segment_chart.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/plot_vjepa2_segment_chart.py"
+    ]
+  },
+  {
+    "source": "scripts/prepare_intphys2_confirmatory_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/prepare_intphys2_confirmatory_manifest.py",
+      "scripts/prepare_intphys2_confirmatory_manifest.py"
+    ]
+  },
+  {
+    "source": "scripts/prepare_kubric_intervention_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/prepare_kubric_intervention_manifest.py",
+      "scripts/prepare_kubric_intervention_manifest.py"
+    ]
+  },
+  {
+    "source": "scripts/render_kubric_intervention_grid.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/render_kubric_intervention_grid.py",
+      "scripts/render_kubric_intervention_grid.py"
+    ]
+  },
+  {
+    "source": "scripts/render_vjepa2_section_video.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/render_vjepa2_section_video.py"
+    ]
+  },
+  {
+    "source": "scripts/run_dinowm_pusht_controlled_displacement.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_dinowm_pusht_controlled_displacement.py",
+      "scripts/run_dinowm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "scripts/run_dinowm_pusht_native_error_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_dinowm_pusht_native_error_audit.py",
+      "scripts/run_dinowm_pusht_native_error_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys1_vjepa2_dense.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys1_vjepa2_dense.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_appearance_matrix.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys2_appearance_matrix.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_construct_validity.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys2_construct_validity.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_dense.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys2_dense.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_geometry_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_intphys2_geometry_audit.py",
+      "scripts/run_intphys2_geometry_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_geometry_freeze.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_intphys2_geometry_freeze.py",
+      "scripts/run_intphys2_geometry_freeze.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys2_geometry_sealed.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_intphys2_geometry_sealed.py",
+      "scripts/run_intphys2_geometry_sealed.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys_appearance_pilot.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys_appearance_pilot.py"
+    ]
+  },
+  {
+    "source": "scripts/run_intphys_upstream.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_intphys_upstream.py"
+    ]
+  },
+  {
+    "source": "scripts/run_jepa_wm_pusht_controlled_displacement.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_jepa_wm_pusht_controlled_displacement.py",
+      "scripts/run_jepa_wm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "scripts/run_lewm_prediction_error_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_lewm_prediction_error_audit.py",
+      "scripts/run_lewm_prediction_error_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/run_lewm_pusht_controlled_displacement.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_lewm_pusht_controlled_displacement.py",
+      "scripts/run_lewm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "scripts/run_lewm_pusht_role_color_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_lewm_pusht_role_color_audit.py",
+      "scripts/run_lewm_pusht_role_color_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/run_lewm_tworoom_controlled_displacement.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_lewm_tworoom_controlled_displacement.py",
+      "scripts/run_lewm_tworoom_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "scripts/run_transformation_manifold_audit.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_transformation_manifold_audit.py",
+      "scripts/run_transformation_manifold_audit.py"
+    ]
+  },
+  {
+    "source": "scripts/run_vjepa2_counterfactual_pilot.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/run_vjepa2_counterfactual_pilot.py"
+    ]
+  },
+  {
+    "source": "scripts/run_vjepa2_kubric_construct_validity.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_vjepa2_kubric_construct_validity.py",
+      "scripts/run_vjepa2_kubric_construct_validity.py"
+    ]
+  },
+  {
+    "source": "scripts/run_vjepa2_section_surprise.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/run_vjepa2_section_surprise.py",
+      "scripts/run_vjepa2_section_surprise.py"
+    ]
+  },
+  {
+    "source": "scripts/score_segment_static_baseline.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/score_segment_static_baseline.py"
+    ]
+  },
+  {
+    "source": "scripts/select_intphys1_vjepa2_context.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/select_intphys1_vjepa2_context.py"
+    ]
+  },
+  {
+    "source": "scripts/select_intphys2_context.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/select_intphys2_context.py"
+    ]
+  },
+  {
+    "source": "scripts/select_intphys2_pair_subset.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/select_intphys2_pair_subset.py"
+    ]
+  },
+  {
+    "source": "scripts/summarize_intphys2_appearance_subset.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/summarize_intphys2_appearance_subset.py"
+    ]
+  },
+  {
+    "source": "scripts/summarize_intphys2_construct_validity.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/summarize_intphys2_construct_validity.py"
+    ]
+  },
+  {
+    "source": "scripts/train_physionpp_mass_readout.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/train_physionpp_mass_readout.py"
+    ]
+  },
+  {
+    "source": "scripts/train_vjepa2_layerwise_probes.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/train_vjepa2_layerwise_probes.py",
+      "scripts/train_vjepa2_layerwise_probes.py"
+    ]
+  },
+  {
+    "source": "scripts/transformation_manifold_metrics.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/transformation_manifold_metrics.py",
+      "scripts/transformation_manifold_metrics.py"
+    ]
+  },
+  {
+    "source": "scripts/validate_intphys2_confirmatory_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/validate_intphys2_confirmatory_manifest.py",
+      "scripts/validate_intphys2_confirmatory_manifest.py"
+    ]
+  },
+  {
+    "source": "scripts/validate_intphys2_feature_parity.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/validate_intphys2_feature_parity.py",
+      "scripts/validate_intphys2_feature_parity.py"
+    ]
+  },
+  {
+    "source": "scripts/validate_jepa_wm_pusht_controlled_displacement.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/validate_jepa_wm_pusht_controlled_displacement.py",
+      "scripts/validate_jepa_wm_pusht_controlled_displacement.py"
+    ]
+  },
+  {
+    "source": "scripts/validate_kubric_intervention_blends.py",
+    "status": "included pinned source",
+    "included": [
+      "historical/scripts/validate_kubric_intervention_blends.py",
+      "scripts/validate_kubric_intervention_blends.py"
+    ]
+  },
+  {
+    "source": "scripts/visualize_intphys_pair_surprise.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/visualize_intphys_pair_surprise.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a1_intphys2_paired_margins.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a1_intphys2_paired_margins.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a2_multifamily16_variance.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a2_multifamily16_variance.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a2_power_study.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a2_power_study.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a2_scene_stats.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a2_scene_stats.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a3_a4_lib.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a3_a4_lib.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a3_a4_pilot8.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a3_a4_pilot8.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a3_extract_fresh_scenes.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a3_extract_fresh_scenes.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a3_geometry_vs_error.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a3_geometry_vs_error.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a3_make_pilot8_table.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a3_make_pilot8_table.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a4_intphys2_shortcut_baselines.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a4_intphys2_shortcut_baselines.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a4_multifamily16_frame_baselines.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a4_multifamily16_frame_baselines.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/a4_pilot8_frame_baselines.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/a4_pilot8_frame_baselines.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/gpu4gb_offload.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/alex/gpu4gb_offload.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/alex/r2_fetch.py",
+    "status": "private authenticated remote adapter excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/analyse_development24.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/analyse_development24.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/audit_development24.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/audit_development24.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/audit_qualified_matched_models.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/audit_qualified_matched_models.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/canonical_development_context.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/canonical_development_context.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/check_final256_runtime_storage.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/check_final256_runtime_storage_v2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/check_frozen_score_portability.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/check_runtime_after_vhd_move.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/complete_final256_storage_preparation.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/contact_development.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/contact_development.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/diagnose_jepa_original_layout.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/diagnose_jepa_original_layout.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/diagnose_jepa_original_layout_cpu.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/diagnose_jepa_original_layout_cpu.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/disk_offload_vjepa2.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/disk_offload_vjepa2.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/export_lewm_actions.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/export_lewm_actions.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/final256_analyse.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_analyse.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/final256_common.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_common.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/final256_input_gate.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_input_gate.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/final256_render_worker.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_render_worker.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/final256_score.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_score.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/freeze_final256.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/freeze_matched_followup.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/geometry_batch_worker.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/geometry_batch_worker.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/geometry_development24.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/geometry_development24.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/lewm_normalization_parity8.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/lewm_normalization_parity8.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/matched_adapters.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_adapters.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/matched_analyse.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_analyse.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/matched_common.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_common.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/matched_inputs.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_inputs.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/matched_score.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_score.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/package_final256_storage_record.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/package_revision_followup.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/package_vhd_move.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/plan_development24_followup.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/preflight_final256_storage.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/preflight_final256_storage_v2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/prepare_final256_recovery1.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/prepare_final256_storage_recovery2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/relocate_final256_scratch.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/relocate_final256_scratch_v2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/relocate_wsl_to_d.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/relocate_wsl_to_d_v2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/resume_after_vhd_move.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_development24.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_final256.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_final256_recovery1.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_final256_storage_recovery2.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_matched_followup.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_qualified_matched_models.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_v1_regression.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/run_v1_regression_disk.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "results/25-13-48-wmpai-alex-crossdevice-native-score-parity/scripts_used/run_v1_regression_disk.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/runtime_smoke.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/score_contact_development.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/score_contact_development.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/score_development24.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/score_development24.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/spark_renderer_qualification/renderer_parity.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/spark_renderer_qualification/renderer_parity.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/spark_renderer_qualification/renderer_path_adapter.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/spark_renderer_qualification/renderer_path_adapter.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/stage_vjepa_checkpoint.py",
+    "status": "operational source excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/stream_vjepa2_checkpoint.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/stream_vjepa2_checkpoint.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/test_matched_followup.py",
+    "status": "named implementation included; original attempt copy excluded (no byte-equivalence claim)",
+    "included": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/test_matched_followup.py"
+    ]
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/validate_vhd_move.py",
+    "status": "historical execution/qualification orchestration excluded",
+    "included": []
+  },
+  {
+    "source": "scripts/wmpai2026/vasi/vasi_manifest.py",
+    "status": "included pinned source",
+    "included": [
+      "scripts/wmpai2026/vasi/vasi_manifest.py"
+    ]
+  }
+]

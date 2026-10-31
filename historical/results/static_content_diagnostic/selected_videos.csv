@@ -1,0 +1,11 @@
+video_ordinal,video_id,path,frame_count,fps,complete_segment_count
+0,mass_collision_pp-copy0__mass_collision-target=cone-zdloc=1__0001_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_collision_pp-copy0\mass_collision-target=cone-zdloc=1\0001_img.mp4,463,30.0,28
+1,mass_collision_pp-copy0__mass_collision-target=pipe-zdloc=1__0003_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_collision_pp-copy0\mass_collision-target=pipe-zdloc=1\0003_img.mp4,463,30.0,28
+2,mass_collision_pp-copy1__mass_collision-target=dumbbell-zdloc=1__0002_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_collision_pp-copy1\mass_collision-target=dumbbell-zdloc=1\0002_img.mp4,463,30.0,28
+3,mass_dominoes_pp-copy0__mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0__0010_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_dominoes_pp-copy0\mass_dominoes-num_middle_objects=0-star_putfirst=0-remove_middle=0\0010_img.mp4,361,30.0,22
+4,mass_dominoes_pp-copy0__mass_dominoes-num_middle_objects=3-star_putfirst=1-remove_middle=0__0003_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_dominoes_pp-copy0\mass_dominoes-num_middle_objects=3-star_putfirst=1-remove_middle=0\0003_img.mp4,543,30.0,33
+5,mass_dominoes_pp-copy1__mass_dominoes-num_middle_objects=1-star_putfirst=1-remove_middle=0__0002_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_dominoes_pp-copy1\mass_dominoes-num_middle_objects=1-star_putfirst=1-remove_middle=0\0002_img.mp4,361,30.0,22
+6,mass_waterpush_pp-copy0__mass_waterpush-target=bowl-zdloc=2__0000_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_waterpush_pp-copy0\mass_waterpush-target=bowl-zdloc=2\0000_img.mp4,463,30.0,28
+7,mass_waterpush_pp-copy0__mass_waterpush-target=pentagon-zdloc=2__0001_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_waterpush_pp-copy0\mass_waterpush-target=pentagon-zdloc=2\0001_img.mp4,463,30.0,28
+8,mass_waterpush_pp-copy1__mass_waterpush-target=cube-zdloc=3__0000_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_waterpush_pp-copy1\mass_waterpush-target=cube-zdloc=3\0000_img.mp4,463,30.0,28
+9,mass_waterpush_pp-copy1__mass_waterpush-target=pyramid-zdloc=3__0001_img,<archive-root>\data\physionpp\mass_only\testdata_v1\mass_waterpush_pp-copy1\mass_waterpush-target=pyramid-zdloc=3\0001_img.mp4,463,30.0,28

@@ -1,0 +1,744 @@
+{
+  "at": "2026-10-28T11:38:19.651465+02:00",
+  "scope": "post-hoc development-only fit transfer; fixed-coefficient uncertainty; not mediation",
+  "results": {
+    "physical_margin": {
+      "configurations": 256,
+      "rows": 1536,
+      "draws": 50000,
+      "bootstrap_seed": 2026102801,
+      "scope": "post-hoc fixed-development-fit transfer, conditional on trained coefficients",
+      "layers": {
+        "block_09": {
+          "baseline": {
+            "mse": 1.6388778786002056e-05,
+            "R2_training_mean_reference": 0.7712943736834957,
+            "descriptive95": [
+              0.7463420668191537,
+              0.7938661144755762
+            ],
+            "out_of_training_range_rows": 55,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.593014391322905e-05,
+              "solid/clean": 1.9040428194967602e-05,
+              "solid/persistent_hue": 1.5675415961325874e-05,
+              "gap/abrupt_event": 1.3439970063587825e-05,
+              "gap/clean": 2.038990933184435e-05,
+              "gap/persistent_hue": 1.3856805251057623e-05
+            }
+          },
+          "geometry_only": {
+            "mse": 1.734209876109185e-05,
+            "R2_training_mean_reference": 0.7579907807294455,
+            "descriptive95": [
+              0.7306301371537376,
+              0.7825914931904262
+            ],
+            "out_of_training_range_rows": 13,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.607679925633788e-05,
+              "solid/clean": 1.974835305695938e-05,
+              "solid/persistent_hue": 1.5797897784297488e-05,
+              "gap/abrupt_event": 1.4890811111730984e-05,
+              "gap/clean": 2.2426294412811325e-05,
+              "gap/persistent_hue": 1.5112436944414028e-05
+            }
+          },
+          "combined": {
+            "mse": 1.6966821838596183e-05,
+            "R2_training_mean_reference": 0.7632277751829193,
+            "descriptive95": [
+              0.7377019540392021,
+              0.7865121850806268
+            ],
+            "out_of_training_range_rows": 67,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.670066288282202e-05,
+              "solid/clean": 1.9996077814163163e-05,
+              "solid/persistent_hue": 1.6307364036919775e-05,
+              "gap/abrupt_event": 1.3720851392228967e-05,
+              "gap/clean": 2.041253930618808e-05,
+              "gap/persistent_hue": 1.4663435599255082e-05
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.00806659850057646,
+            "descriptive95": [
+              -0.013811881512303411,
+              -0.0026815666819522957
+            ],
+            "simultaneous99_5": [
+              -0.01645882555054532,
+              -0.0006447845584935471
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": 0.7670697489851716,
+            "R2_95_range": [
+              0.7622581217946768,
+              0.7725014883059692
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "block_19": {
+          "baseline": {
+            "mse": 1.6388778786002056e-05,
+            "R2_training_mean_reference": 0.7712943736834957,
+            "descriptive95": [
+              0.7463420668191537,
+              0.7938661144755762
+            ],
+            "out_of_training_range_rows": 55,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.593014391322905e-05,
+              "solid/clean": 1.9040428194967602e-05,
+              "solid/persistent_hue": 1.5675415961325874e-05,
+              "gap/abrupt_event": 1.3439970063587825e-05,
+              "gap/clean": 2.038990933184435e-05,
+              "gap/persistent_hue": 1.3856805251057623e-05
+            }
+          },
+          "geometry_only": {
+            "mse": 1.7838912159457363e-05,
+            "R2_training_mean_reference": 0.7510577431359022,
+            "descriptive95": [
+              0.7247320771468679,
+              0.7750441058474083
+            ],
+            "out_of_training_range_rows": 160,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.6542559979752972e-05,
+              "solid/clean": 1.960201694327112e-05,
+              "solid/persistent_hue": 1.6431523156887632e-05,
+              "gap/abrupt_event": 1.6034378917755858e-05,
+              "gap/clean": 2.2961004984967455e-05,
+              "gap/persistent_hue": 1.5461988974109142e-05
+            }
+          },
+          "combined": {
+            "mse": 1.8766490928223545e-05,
+            "R2_training_mean_reference": 0.738113369059064,
+            "descriptive95": [
+              0.7106268400611876,
+              0.7636540158661934
+            ],
+            "out_of_training_range_rows": 208,
+            "by_world_appearance": {
+              "solid/abrupt_event": 2.0468296460283078e-05,
+              "solid/clean": 2.2229408744743578e-05,
+              "solid/persistent_hue": 2.00074537081684e-05,
+              "gap/abrupt_event": 1.371686011627312e-05,
+              "gap/clean": 2.1700707096134824e-05,
+              "gap/persistent_hue": 1.4476219443738281e-05
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.033181004624431756,
+            "descriptive95": [
+              -0.045634096201099775,
+              -0.020678754386459757
+            ],
+            "simultaneous99_5": [
+              -0.05087754317097458,
+              -0.015515143557741033
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": 0.7185301211793583,
+            "R2_95_range": [
+              0.7071706245337812,
+              0.7303535828030384
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "block_29": {
+          "baseline": {
+            "mse": 1.6388778786002056e-05,
+            "R2_training_mean_reference": 0.7712943736834957,
+            "descriptive95": [
+              0.7463420668191537,
+              0.7938661144755762
+            ],
+            "out_of_training_range_rows": 55,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.593014391322905e-05,
+              "solid/clean": 1.9040428194967602e-05,
+              "solid/persistent_hue": 1.5675415961325874e-05,
+              "gap/abrupt_event": 1.3439970063587825e-05,
+              "gap/clean": 2.038990933184435e-05,
+              "gap/persistent_hue": 1.3856805251057623e-05
+            }
+          },
+          "geometry_only": {
+            "mse": 1.689576558043963e-05,
+            "R2_training_mean_reference": 0.7642193662122205,
+            "descriptive95": [
+              0.7394323322902627,
+              0.7867276663344556
+            ],
+            "out_of_training_range_rows": 89,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.5815705422636256e-05,
+              "solid/clean": 1.9414560741625253e-05,
+              "solid/persistent_hue": 1.6054158604689013e-05,
+              "gap/abrupt_event": 1.4987410805525767e-05,
+              "gap/clean": 2.1062055513187718e-05,
+              "gap/persistent_hue": 1.4040702394973769e-05
+            }
+          },
+          "combined": {
+            "mse": 1.7012092484263665e-05,
+            "R2_training_mean_reference": 0.7625960227194608,
+            "descriptive95": [
+              0.7380392350631563,
+              0.7851684862958621
+            ],
+            "out_of_training_range_rows": 137,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.774512379012006e-05,
+              "solid/clean": 2.0404043875519882e-05,
+              "solid/persistent_hue": 1.7578585343506196e-05,
+              "gap/abrupt_event": 1.284007219856068e-05,
+              "gap/clean": 2.0237828214877115e-05,
+              "gap/persistent_hue": 1.3266901482998054e-05
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.008698350964035033,
+            "descriptive95": [
+              -0.021150392521299105,
+              0.003910205650552317
+            ],
+            "simultaneous99_5": [
+              -0.026362733120352613,
+              0.00919813936787733
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": 0.7230973912925334,
+            "R2_95_range": [
+              0.7097926840562979,
+              0.7364310024234
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "encoder_final": {
+          "baseline": {
+            "mse": 1.6388778786002056e-05,
+            "R2_training_mean_reference": 0.7712943736834957,
+            "descriptive95": [
+              0.7463420668191537,
+              0.7938661144755762
+            ],
+            "out_of_training_range_rows": 55,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.593014391322905e-05,
+              "solid/clean": 1.9040428194967602e-05,
+              "solid/persistent_hue": 1.5675415961325874e-05,
+              "gap/abrupt_event": 1.3439970063587825e-05,
+              "gap/clean": 2.038990933184435e-05,
+              "gap/persistent_hue": 1.3856805251057623e-05
+            }
+          },
+          "geometry_only": {
+            "mse": 1.668690807381513e-05,
+            "R2_training_mean_reference": 0.7671339754999033,
+            "descriptive95": [
+              0.7371043414383979,
+              0.792527871445706
+            ],
+            "out_of_training_range_rows": 2,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.341719994325914e-05,
+              "solid/clean": 1.965965781071949e-05,
+              "solid/persistent_hue": 1.3171969248614015e-05,
+              "gap/abrupt_event": 1.5700727449646296e-05,
+              "gap/clean": 2.274287458691875e-05,
+              "gap/persistent_hue": 1.542901940373308e-05
+            }
+          },
+          "combined": {
+            "mse": 1.6164134646989304e-05,
+            "R2_training_mean_reference": 0.7744292856364916,
+            "descriptive95": [
+              0.7471137509323953,
+              0.7977803923916914
+            ],
+            "out_of_training_range_rows": 57,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.4229276629953096e-05,
+              "solid/clean": 1.9791265232447812e-05,
+              "solid/persistent_hue": 1.3935082896541656e-05,
+              "gap/abrupt_event": 1.3770555345659607e-05,
+              "gap/clean": 2.0835139549984666e-05,
+              "gap/persistent_hue": 1.4423488227348992e-05
+            }
+          },
+          "incremental_R2": {
+            "mean": 0.0031349119529958842,
+            "descriptive95": [
+              -0.008360626939113358,
+              0.014187994883441067
+            ],
+            "simultaneous99_5": [
+              -0.014019410861655632,
+              0.01876433397964978
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": 0.7518445090871798,
+            "R2_95_range": [
+              0.7442270458193772,
+              0.760297343929033
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "native_target": {
+          "baseline": {
+            "mse": 1.6388778786002056e-05,
+            "R2_training_mean_reference": 0.7712943736834957,
+            "descriptive95": [
+              0.7463420668191537,
+              0.7938661144755762
+            ],
+            "out_of_training_range_rows": 55,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.593014391322905e-05,
+              "solid/clean": 1.9040428194967602e-05,
+              "solid/persistent_hue": 1.5675415961325874e-05,
+              "gap/abrupt_event": 1.3439970063587825e-05,
+              "gap/clean": 2.038990933184435e-05,
+              "gap/persistent_hue": 1.3856805251057623e-05
+            }
+          },
+          "geometry_only": {
+            "mse": 1.6820637693994982e-05,
+            "R2_training_mean_reference": 0.765267776868531,
+            "descriptive95": [
+              0.7355969608794966,
+              0.7904733019126735
+            ],
+            "out_of_training_range_rows": 2,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.3739286672415619e-05,
+              "solid/clean": 1.9784650364827723e-05,
+              "solid/persistent_hue": 1.3466627193493834e-05,
+              "gap/abrupt_event": 1.5673662962923038e-05,
+              "gap/clean": 2.278948901599179e-05,
+              "gap/persistent_hue": 1.54701099543179e-05
+            }
+          },
+          "combined": {
+            "mse": 1.629927115796057e-05,
+            "R2_training_mean_reference": 0.7725434538253803,
+            "descriptive95": [
+              0.7455927749772923,
+              0.7957065578301211
+            ],
+            "out_of_training_range_rows": 57,
+            "by_world_appearance": {
+              "solid/abrupt_event": 1.4550312490882449e-05,
+              "solid/clean": 1.9885245218383522e-05,
+              "solid/persistent_hue": 1.4220872198699018e-05,
+              "gap/abrupt_event": 1.3747804372500054e-05,
+              "gap/clean": 2.092310426865241e-05,
+              "gap/persistent_hue": 1.4468288398645976e-05
+            }
+          },
+          "incremental_R2": {
+            "mean": 0.0012490801418844372,
+            "descriptive95": [
+              -0.009408331003212988,
+              0.011524173732787852
+            ],
+            "simultaneous99_5": [
+              -0.014633901448567348,
+              0.01585886439464308
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": 0.7540309640697908,
+            "R2_95_range": [
+              0.7469051252258292,
+              0.7617848994064256
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        }
+      }
+    },
+    "appearance_score_change": {
+      "configurations": 256,
+      "rows": 2048,
+      "draws": 50000,
+      "bootstrap_seed": 2026102801,
+      "scope": "post-hoc fixed-development-fit transfer, conditional on trained coefficients",
+      "layers": {
+        "block_09": {
+          "baseline": {
+            "mse": 9.048393473342147e-06,
+            "R2_training_mean_reference": -0.0089892530499327,
+            "descriptive95": [
+              -0.04726132768262555,
+              0.029367129370190825
+            ],
+            "out_of_training_range_rows": 30,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.14872746929825e-06,
+              "solid/persistent_hue": 1.0530608887184146e-05,
+              "gap/abrupt_event": 7.384922504987797e-06,
+              "gap/persistent_hue": 9.12931503189839e-06
+            }
+          },
+          "geometry_only": {
+            "mse": 9.12492890454799e-06,
+            "R2_training_mean_reference": -0.017523743486467014,
+            "descriptive95": [
+              -0.05205519594097962,
+              0.017186634559530428
+            ],
+            "out_of_training_range_rows": 52,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.205522692886892e-06,
+              "solid/persistent_hue": 1.0110092432674954e-05,
+              "gap/abrupt_event": 7.571981510014114e-06,
+              "gap/persistent_hue": 9.612118982615995e-06
+            }
+          },
+          "combined": {
+            "mse": 9.368663254722512e-06,
+            "R2_training_mean_reference": -0.04470263890582871,
+            "descriptive95": [
+              -0.09038786493470644,
+              -0.00013986112611193672
+            ],
+            "out_of_training_range_rows": 81,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.261203581423381e-06,
+              "solid/persistent_hue": 1.0827871444503339e-05,
+              "gap/abrupt_event": 7.470985966608043e-06,
+              "gap/persistent_hue": 9.914592026355284e-06
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.03571338585589612,
+            "descriptive95": [
+              -0.05779954153744247,
+              -0.014998060302950067
+            ],
+            "simultaneous99_5": [
+              -0.06815737392524662,
+              -0.006454175820612359
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": -0.0750594690103757,
+            "R2_95_range": [
+              -0.09967402051719482,
+              -0.04922123406493743
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "block_19": {
+          "baseline": {
+            "mse": 9.048393473342147e-06,
+            "R2_training_mean_reference": -0.0089892530499327,
+            "descriptive95": [
+              -0.04726132768262555,
+              0.029367129370190825
+            ],
+            "out_of_training_range_rows": 30,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.14872746929825e-06,
+              "solid/persistent_hue": 1.0530608887184146e-05,
+              "gap/abrupt_event": 7.384922504987797e-06,
+              "gap/persistent_hue": 9.12931503189839e-06
+            }
+          },
+          "geometry_only": {
+            "mse": 9.408123274769768e-06,
+            "R2_training_mean_reference": -0.049102838374399216,
+            "descriptive95": [
+              -0.08959250290784948,
+              -0.008937043845199851
+            ],
+            "out_of_training_range_rows": 27,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.613893255895576e-06,
+              "solid/persistent_hue": 1.0514823781043093e-05,
+              "gap/abrupt_event": 7.991992971671056e-06,
+              "gap/persistent_hue": 9.511783090469356e-06
+            }
+          },
+          "combined": {
+            "mse": 9.408552311531192e-06,
+            "R2_training_mean_reference": -0.04915068040102133,
+            "descriptive95": [
+              -0.09431324602242351,
+              -0.004297300938648809
+            ],
+            "out_of_training_range_rows": 56,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.516507585351078e-06,
+              "solid/persistent_hue": 1.0852276032422414e-05,
+              "gap/abrupt_event": 7.733378529055338e-06,
+              "gap/persistent_hue": 9.532047099295934e-06
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.04016142735108877,
+            "descriptive95": [
+              -0.05819413582614313,
+              -0.023541990304817156
+            ],
+            "simultaneous99_5": [
+              -0.06666031415635519,
+              -0.01705339167655018
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": -0.029318149993170884,
+            "R2_95_range": [
+              -0.04515838944260636,
+              -0.012823371542181513
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "block_29": {
+          "baseline": {
+            "mse": 9.048393473342147e-06,
+            "R2_training_mean_reference": -0.0089892530499327,
+            "descriptive95": [
+              -0.04726132768262555,
+              0.029367129370190825
+            ],
+            "out_of_training_range_rows": 30,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.14872746929825e-06,
+              "solid/persistent_hue": 1.0530608887184146e-05,
+              "gap/abrupt_event": 7.384922504987797e-06,
+              "gap/persistent_hue": 9.12931503189839e-06
+            }
+          },
+          "geometry_only": {
+            "mse": 9.332768461849723e-06,
+            "R2_training_mean_reference": -0.04069999906088828,
+            "descriptive95": [
+              -0.08457708223809203,
+              0.0021466281956421685
+            ],
+            "out_of_training_range_rows": 45,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.650069648286278e-06,
+              "solid/persistent_hue": 1.0479400927251718e-05,
+              "gap/abrupt_event": 7.901469442498584e-06,
+              "gap/persistent_hue": 9.300133829362308e-06
+            }
+          },
+          "combined": {
+            "mse": 9.299294706655034e-06,
+            "R2_training_mean_reference": -0.0369673299025266,
+            "descriptive95": [
+              -0.0828408575272776,
+              0.008251836346312246
+            ],
+            "out_of_training_range_rows": 75,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.534539380788966e-06,
+              "solid/persistent_hue": 1.0680464085214823e-05,
+              "gap/abrupt_event": 7.667842536812012e-06,
+              "gap/persistent_hue": 9.31433282380433e-06
+            }
+          },
+          "incremental_R2": {
+            "mean": -0.027978076852593983,
+            "descriptive95": [
+              -0.04914120206981721,
+              -0.008293923654534416
+            ],
+            "simultaneous99_5": [
+              -0.05881830757903088,
+              -0.0006923765705277928
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": -0.03410398709045027,
+            "R2_95_range": [
+              -0.05348280608644835,
+              -0.014145721140419561
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "encoder_final": {
+          "baseline": {
+            "mse": 9.048393473342147e-06,
+            "R2_training_mean_reference": -0.0089892530499327,
+            "descriptive95": [
+              -0.04726132768262555,
+              0.029367129370190825
+            ],
+            "out_of_training_range_rows": 30,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.14872746929825e-06,
+              "solid/persistent_hue": 1.0530608887184146e-05,
+              "gap/abrupt_event": 7.384922504987797e-06,
+              "gap/persistent_hue": 9.12931503189839e-06
+            }
+          },
+          "geometry_only": {
+            "mse": 9.07472499703765e-06,
+            "R2_training_mean_reference": -0.011925489687239166,
+            "descriptive95": [
+              -0.044266891206486914,
+              0.02028529403434555
+            ],
+            "out_of_training_range_rows": 16,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.298453897534678e-06,
+              "solid/persistent_hue": 1.0314912238302299e-05,
+              "gap/abrupt_event": 7.638544452963359e-06,
+              "gap/persistent_hue": 9.046989399350266e-06
+            }
+          },
+          "combined": {
+            "mse": 9.023319549610105e-06,
+            "R2_training_mean_reference": -0.006193251787171672,
+            "descriptive95": [
+              -0.048910081726341495,
+              0.035903882321732944
+            ],
+            "out_of_training_range_rows": 46,
+            "by_world_appearance": {
+              "solid/abrupt_event": 8.957665694202611e-06,
+              "solid/persistent_hue": 1.1003255088213146e-05,
+              "gap/abrupt_event": 7.204856791489781e-06,
+              "gap/persistent_hue": 8.927500624534892e-06
+            }
+          },
+          "incremental_R2": {
+            "mean": 0.0027960012627607717,
+            "descriptive95": [
+              -0.014083768266982672,
+              0.01908119916127397
+            ],
+            "simultaneous99_5": [
+              -0.021409963720165456,
+              0.02627626632572557
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": -0.03160935052312953,
+            "R2_95_range": [
+              -0.04711087718685769,
+              -0.015858340858936112
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        },
+        "native_target": {
+          "baseline": {
+            "mse": 9.048393473342147e-06,
+            "R2_training_mean_reference": -0.0089892530499327,
+            "descriptive95": [
+              -0.04726132768262555,
+              0.029367129370190825
+            ],
+            "out_of_training_range_rows": 30,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.14872746929825e-06,
+              "solid/persistent_hue": 1.0530608887184146e-05,
+              "gap/abrupt_event": 7.384922504987797e-06,
+              "gap/persistent_hue": 9.12931503189839e-06
+            }
+          },
+          "geometry_only": {
+            "mse": 9.074888134501975e-06,
+            "R2_training_mean_reference": -0.011943681198114398,
+            "descriptive95": [
+              -0.04428643804032493,
+              0.0202769350332038
+            ],
+            "out_of_training_range_rows": 17,
+            "by_world_appearance": {
+              "solid/abrupt_event": 9.296543365534111e-06,
+              "solid/persistent_hue": 1.031794471359605e-05,
+              "gap/abrupt_event": 7.639031622492369e-06,
+              "gap/persistent_hue": 9.046032836385376e-06
+            }
+          },
+          "combined": {
+            "mse": 9.023632291646075e-06,
+            "R2_training_mean_reference": -0.00622812575172671,
+            "descriptive95": [
+              -0.04897845205224026,
+              0.035867088508104786
+            ],
+            "out_of_training_range_rows": 47,
+            "by_world_appearance": {
+              "solid/abrupt_event": 8.955741379794774e-06,
+              "solid/persistent_hue": 1.1007609617624269e-05,
+              "gap/abrupt_event": 7.203631278785114e-06,
+              "gap/persistent_hue": 8.927546890380138e-06
+            }
+          },
+          "incremental_R2": {
+            "mean": 0.0027611272982059677,
+            "descriptive95": [
+              -0.014159207987923476,
+              0.0190964395877678
+            ],
+            "simultaneous99_5": [
+              -0.021549425134689625,
+              0.02633643446016565
+            ],
+            "family_size": 10
+          },
+          "shuffled_geometry_control": {
+            "permutations": 1000,
+            "seed_rule": "2026102803+j; identical permutation across condition/layer/task",
+            "R2_mean": -0.03150978988817223,
+            "R2_95_range": [
+              -0.0469949910711234,
+              -0.015689003878138704
+            ],
+            "not_causal_or_confirmatory_p_value": true
+          }
+        }
+      }
+    }
+  }
+}

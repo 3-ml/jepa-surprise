@@ -1,0 +1,21 @@
+{
+  "scene_id": "dev-contact-0001",
+  "clip_id": "dev-contact-0001__control__target_hold",
+  "split": "development",
+  "physical_condition": "control",
+  "appearance_condition": "target_hold",
+  "score": 0.5017820596694946,
+  "context_sha": "1ea68a1476815e49bf2bf0379ef3616979cda91678416d552a2c4aa3bdc3f8a7",
+  "context_input_sha256": "1ea68a1476815e49bf2bf0379ef3616979cda91678416d552a2c4aa3bdc3f8a7",
+  "target_input_sha256": "7c7aa01e2a01906ccac43d60a6e2eb0e03210ae102c4b3cc5910ced4f1a38612",
+  "predictor_sha256": "da01bec686a69ddf28aed3bbe4c59d6acc83628795eda214941f4f0d53833dc2",
+  "tubelet_scores_json": "[0.5172154903411865, 0.49274611473083496, 0.5038264989852905, 0.5079514980316162, 0.499525249004364, 0.5129700899124146, 0.515098512172699, 0.4914332926273346, 0.4850662350654602, 0.5022290945053101, 0.51707524061203, 0.5002716779708862, 0.49852684140205383, 0.5012298226356506, 0.4899844527244568, 0.5113298296928406, 0.493863582611084, 0.49173426628112793]",
+  "tubelet_source_frames_json": "[[12, 13], [14, 15], [16, 17], [18, 19], [20, 21], [22, 23], [24, 25], [26, 27], [28, 29], [30, 31], [32, 33], [34, 35], [36, 37], [38, 39], [40, 41], [42, 43], [44, 45], [46, 47]]",
+  "inference_seconds": 14.12938249995932,
+  "peak_allocated_bytes": 493827584,
+  "peak_reserved_bytes": 681574400,
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "score_protocol_id": "contact-development-0001-native48-context12-l1-v1",
+  "output_status": "complete",
+  "control_source": "lawful/clean"
+}

@@ -1,0 +1,42 @@
+# Reproducibility release index
+
+## Scientific packages
+
+| Package | Included | Status |
+|---|---|---|
+| `../historical/` | Complete previously curated 476-file manifest payload plus manifest | Historical baseline, unchanged; original reproduction commands remain usable in this directory |
+| `../scripts/wmpai2026/alex/`, `../results/24-*`, `../results/25-13-48-*` | A1 paired margins; A3 geometry/error; A4 shortcuts; variance/statistics tools; tests and figure generators | Exploratory stored-data analyses, precision planning or limited engineering parity, not additional confirmatory experiments |
+| `final256/` | Frozen scientific source/tests, protocol/configs, render/input seals, raw per-clip scores, primary/threshold tables, processed statistics and independent audit | Completed 256 configurations / 3,072 clips; 28 numeric acceptance checks verified against score SHA-256 `055700d438bf765d381c9a142bdddaf2624f519bc2850428f9109e38ca309bde` |
+| `../results/25-11-42-*`, `../results/25-16-00-*`, `../results/25-16-14-*` | Contact and crossed development scores, state audits, geometry and failed-attempt evidence | Development, not independent confirmation |
+| `physion-static/` | 20,708 raw score rows, input manifest, 192-video/96-pair summaries, frozen scientific runtime | Completed static-content diagnostic; mean residual −0.028264230896752267 |
+| `physion-appearance/` | 960 rows, all six contrasts, scenario/pair/video summaries and algebraic hybrid decomposition | Completed appearance diagnostic; not causal mediation |
+| `geometry-transfer/` | Development coefficients, final numeric tables/predictions, five-location feature index and processed uncertainty | Post-hoc transfer; no new fitting in release checks |
+| `pusht-excluded-partial/` | Raw available rows, failed gate, execution amendment, input seal and scientific scorer | Excluded exploratory partial. JEPA-WM tolerance gate failed, 256 old controls unattempted; unapproved scheduling amendment allowed LeWM/DINO new cells. Combined planned analysis never ran. Do not pool with historical completed studies |
+
+The [full coverage ledger](COVERAGE.md) lists every branch result-directory identity, including preliminary, superseded and operational attempts. [source-map.json](source-map.json) gives pinned revisions, exact ZIP-member provenance, original/public hashes and modification flags. ZIPs were read as data; only selected safe-path members were extracted. No raw ZIP is redistributed.
+
+## Independent checks
+
+From repository root, `python tools/check_release.py` verifies every current manifest path/size/hash, all 476 historical manifest entries, final256's complete 12-cell-per-scene design and its 28 expected means/rates/AUROCs/identities, Physion raw-to-video-to-pair-to-summary means, 768 hybrid identities, and all 1,536 geometry physical-margin targets. It does not recalculate uncertainty intervals, run a model, draw bootstrap samples or fit a statistic. Stored uncertainty, seeds, nulls and failures remain in the records. The current manifest is separate from the unchanged historical manifest/audit.
+
+## Frozen code versus independent execution
+
+Scientific implementations are retained with source hashes. [Dependency and path contracts](DEPENDENCIES.md) enumerate role-specific external inputs, meaningful workspace suffixes and exact bundled dependency edges. Each adapted executable path was restored from its pinned original before mapping; file, source-directory, render-tree, CSV and benchmark identities remain distinct. Historical metadata references are not executable path contracts. Final256 figure helpers default to the included score file, optionally overridden with `JEPA_FINAL256_SCORES`. Figure outputs remain repository-local. The dose figures still require the omitted packed multi-dose cache; there is no private-cache fallback. No figures were rendered for this release.
+
+Historical Windows Job Object permits, ownership checks and resource-controller functions are replaced with explicit errors, not bypassed. Remote R2 parity access is disabled. The exact frozen Physion scoring core is bundled separately and wired into all three canonical adapters; mask/forward/reduction AST checks require no model imports. Source freeze hashes describe the **original** runtime; they must not be mistaken for public adapted hashes, which are in `source-map.json` and the current manifest. Acquisition entry points still expecting the original frozen workspace are archival scientific source, not a turnkey launcher. In particular source freeze validation will fail when operational files or private inputs are absent. The independent numeric checker is the supported zero-download release validation path.
+
+## Environments, hardware and missing inputs
+
+Historical pinned environments and model/data references are in `../historical/environments/`. Final256's `audit/environment.json` and `original/scores/provenance.json`, and each Physion/G `model-runtime.json`, `loading-info.json` and `freeze.json`, retain measured hardware/framework facts and original runtime hashes. Physion inference used RTX 3080, PyTorch 2.8.0+cu128, FP16/SDPA; Spark CPU replay is a parity check with the same implementation, not independent inference. The initial desktop loading failure, later one-fixture disk-offload regression, 4-GB encoder feasibility and one-scene native parity must not be generalized to all devices. Predictor output digests were not universally identical.
+
+Offline numeric checking needs Python 3.11+ standard library only. Focused synthetic tests additionally use NumPy and pytest. Inference source imports NumPy, PyTorch, Transformers, Pillow, OpenCV, pandas, SciPy, psutil; Kubric rendering additionally needs Blender/bpy, Kubric and PyBullet. Use the recorded per-study versions, not a fabricated unified lock. Physion's historical Transformers provenance is incomplete and OpenCV/NumPy metadata conflicts were recorded. No clean end-to-end inference environment is claimed.
+
+Missing external inputs include released checkpoints/model source, official IntPhys/IntPhys2/Physion++/PushT data, Kubric render trees/assets and packed multi-dose features. Source protocols and input manifests retain available identities, frame maps and hashes; absent tensors/frames are external references, not broken claims that those files are included. Physion++ dataset licensing was not located in the downloaded archive. Historical Kubric lacks a captured KuBasic asset-manifest hash, limiting exact rerendering. No dataset, weight or third-party source redistribution rights are invented.
+
+## Exclusions and engineering disposition
+
+Operational controllers, schedulers, remote-access adapters, allocation/transfer state, recovery logs, WSL relocation and queue logs are excluded. Resource/storage recovery enabled completion but supplies no independent scientific result. Qualification/parity conclusions are limited to their tested fixtures. Private collaborator exchanges and execution/task assignments are omitted. Dated scientific planning notes are adapted neutrally, retain their calculations and remain proposals rather than adopted protocols. All seven extracted protocol copies retain scientific populations, gates and hardware facts without private approval, scheduling or control instructions. The malformed Physion staging draft is superseded by the completion runtime rather than silently repaired or presented as executed code. Raw videos, render images, model weights and large external feature caches are omitted. Existing third-party notices are retained at `../scripts/KUBRIC_LICENSE`, `../scripts/KUBRIC_NOTICE` and in the historical package.
+
+## Review limitations
+
+The coverage ledger maps older dated attempts to their curated historical study family, not every original file. Some acquisition code remains frozen-workspace dependent and is not independently end-to-end tested. Independent prepublication reviews checked the member allowlist, privacy boundary, source adaptation and scientific-record coverage; this is not a legal clearance or a claim of full acquisition reproducibility. The role-specific path contracts are tested independently; acquisition-control stubs and uncaptured historical inputs remain explicit execution limitations, not an excuse for collapsed or placeholder paths. No new scientific experiment, inference, bootstrap or fit was performed to prepare this release.

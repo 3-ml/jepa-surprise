@@ -1,0 +1,89 @@
+{
+  "status": "complete_exploratory_pilot",
+  "scenes": 8,
+  "scores": 88,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2308,
+  "bootstrap_streams": "independent SHA-256-derived NumPy streams per estimand key",
+  "same_context_predictor_max_abs_difference": 0.0,
+  "clean_score_mean": 0.4962524175643921,
+  "clean_score_between_scene_sd": 0.009313425264101489,
+  "clean_predictive_sensitivity_gate": {
+    "passed": true,
+    "target_shuffle_mean_delta": 0.011746980249881758,
+    "target_shuffle_ci95": [
+      0.01054420862346889,
+      0.012836253270506866
+    ],
+    "target_shuffle_positive_scenes": 8,
+    "target_hold_mean_delta": 0.016168959438800826,
+    "target_hold_ci95": [
+      0.011617161333560944,
+      0.02137694507837297
+    ],
+    "target_hold_positive_scenes": 8
+  },
+  "aggregate_condition_mean_correlations": {
+    "score_delta_vs_rgb_l1_spearman": 0.9761904761904763,
+    "score_delta_vs_target_shift_spearman": 0.9761904761904763
+  },
+  "median_per_scene_correlations": {
+    "score_delta_vs_rgb_l1_spearman": 0.5833333333333335,
+    "score_delta_vs_target_shift_spearman": 0.5476190476190477,
+    "appearance_dose_spearman": 0.7999999999999998,
+    "physical_dose_spearman": 0.3
+  },
+  "high_physical_dose_scene_influence": {
+    "physical-z-1p0": {
+      "full_mean": 0.003123823553323739,
+      "leave_one_out_min": 0.0011379761355263768,
+      "leave_one_out_max": 0.003570518323353359,
+      "largest_value_scene": "seed-230210",
+      "largest_value": 0.017024755477905273
+    },
+    "physical-z-1p5": {
+      "full_mean": 0.0035687536001205444,
+      "leave_one_out_min": 0.0010817561830793107,
+      "leave_one_out_max": 0.004115973200116839,
+      "largest_value_scene": "seed-230210",
+      "largest_value": 0.02097773551940918
+    }
+  },
+  "matched_comparisons": [
+    {
+      "appearance_condition": "hue-120",
+      "physical_condition": "physical-z-0p25",
+      "appearance_mean_rgb_l1": 0.002929173748650725,
+      "physical_mean_rgb_l1": 0.0028508307540771123,
+      "rendered_relative_gap": 0.027108281502770153,
+      "physical_minus_appearance_score_delta": 0.00025874376296997764,
+      "ci95_low": -0.000632327049970613,
+      "ci95_high": 0.0011451570317149156,
+      "positive_scenes": 4,
+      "first_tubelet_physical_minus_appearance": -5.6259334087371826e-05,
+      "first_tubelet_ci95_low": -0.0022762566804885864,
+      "first_tubelet_ci95_high": 0.0019446611404418945,
+      "scenes": 8,
+      "physical_minus_appearance_target_shift_l1": 0.04076128266751766
+    },
+    {
+      "appearance_condition": "hue-180",
+      "physical_condition": "physical-z-0p5",
+      "appearance_mean_rgb_l1": 0.004011702485593537,
+      "physical_mean_rgb_l1": 0.004697805708010425,
+      "rendered_relative_gap": 0.15755269004069458,
+      "physical_minus_appearance_score_delta": 0.00020060688257218795,
+      "ci95_low": -0.0007914419285952833,
+      "ci95_high": 0.0010352507233619829,
+      "positive_scenes": 5,
+      "first_tubelet_physical_minus_appearance": -0.00010026246309280396,
+      "first_tubelet_ci95_low": -0.0033740559592843056,
+      "first_tubelet_ci95_high": 0.003216005861759186,
+      "scenes": 8,
+      "physical_minus_appearance_target_shift_l1": 0.0650582630187273
+    }
+  ],
+  "scores_sha256": "1ce7cb0f5e8a83012cddd1ccdb18d779763c355fe67eeb98addabf761b6c641f",
+  "render_metrics_sha256": "124d8ca9a26804426c5e4f0fa83ac9a0ed3b1eadd853fe3aae5e7d41d0a0e54e",
+  "interpretation_boundary": "Scores establish representation-space prediction-difficulty responses for direct state displacement and appearance events; they do not establish calibrated physical surprise."
+}

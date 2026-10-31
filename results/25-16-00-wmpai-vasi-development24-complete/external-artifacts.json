@@ -1,0 +1,746 @@
+{
+  "run_root": "${JEPA_VASI_WORKSPACE}\\development24-v2",
+  "note": "Raw/model PNG hashes are in the referenced external inventory; traces/media remain outside Git. No repository snapshot uploaded.",
+  "files": [
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\completion-audit-v1\\audit.json",
+      "bytes": 2369,
+      "sha256": "eca4197b29ae0d4906ac76fe5e86542bc411a65ef54ae83bbfa28fd8af96848a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\completion-audit-v2\\external-png-sha256.json",
+      "bytes": 3907584,
+      "sha256": "b0bede8af1f3e478d166f2fdefd01f074bf5f1fdad34a180c945b50ee9b2c92a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\score-worker.log",
+      "bytes": 56058,
+      "sha256": "f6eb34f3db752a53cb848ee0196aa96b23ef08b57d3f9ec0797b5204aa0e31ac"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\analysis-worker.log",
+      "bytes": 984,
+      "sha256": "d128dd81ffa34727a9d04e5b21a5be95869c25c71ef76ee90e52f99c5ba0d763"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\gap\\manifest.json",
+      "bytes": 122835,
+      "sha256": "6d8c83da4908ffdd227ee93bc6aa4bb91487ec341552c8c47f080199cf226b68"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\solid\\manifest.json",
+      "bytes": 122830,
+      "sha256": "1b91632f2866b9d12bc9e663844aac185f3b1daf918284ca7b38fa41606ef3af"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\gap\\manifest.json",
+      "bytes": 123396,
+      "sha256": "b9fe63a2bad8bf9ba14fe71df23792f598bd2332f9538c7b5e3f59cb9cc7b38b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\solid\\manifest.json",
+      "bytes": 123392,
+      "sha256": "778e85ba574f6e9435d8258d6469719da52892005e8a6d219992bb13269dda82"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\gap\\manifest.json",
+      "bytes": 123413,
+      "sha256": "68ac0b63a2eabc77423f3504a040a7f86494780c64ae4f834643734a7a14dbf8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\solid\\manifest.json",
+      "bytes": 123404,
+      "sha256": "ecda3cd5a69cdbcfb5569afeda318b46cd3a7ea2467d2a0f3e20a57484ffec4c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\gap\\manifest.json",
+      "bytes": 122835,
+      "sha256": "bf4ba6285228e5c63da80adc98224d8b763d8a2a502ebe03552a5eba739fa189"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\solid\\manifest.json",
+      "bytes": 122836,
+      "sha256": "2fcab93ca7e068293988e4b8032642b100d84c4e32a11f7d723484eb3e5c13bb"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\gap\\manifest.json",
+      "bytes": 123064,
+      "sha256": "68ad5e85dc0f41973fa036abfd43d7e5d5494b0dc5587adebb6f914aa8158451"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\solid\\manifest.json",
+      "bytes": 123066,
+      "sha256": "1cba72968360710bfa251f2d66491a9c7fe3bf70468dd5ae3ceb01f2aaedddaf"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\gap\\manifest.json",
+      "bytes": 123360,
+      "sha256": "fe4e1395a9fcec2a61f3f2d76104faf917e5617d092efd408c50ccbf4ac054fa"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\solid\\manifest.json",
+      "bytes": 123364,
+      "sha256": "98a3e98fe43b45e3dc769474039e1ac40d26dedc7bd7ec1bd65ff8b05149f2df"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\gap\\manifest.json",
+      "bytes": 123058,
+      "sha256": "160577f7f3707b7d71ec7147782148a662b93c4f55f0018bc43dee2028a086a5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\solid\\manifest.json",
+      "bytes": 123056,
+      "sha256": "3d4bc50c1c54e72c9f1be6cae26cd981615f5b8e5b3c1f8bc315a88d3495a535"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\gap\\manifest.json",
+      "bytes": 123071,
+      "sha256": "7729d374f7c6a62456313c1c1342fb5fb42a43bffa520fb385c8c18fddd5dd7d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\solid\\manifest.json",
+      "bytes": 123073,
+      "sha256": "7d7482b9563dacd279714c79b04d09c3914a0e840e3ec8a63ea1edb0b7346178"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\gap\\manifest.json",
+      "bytes": 123403,
+      "sha256": "0801fab73c812e9984c82622fb6e1a185dbb06e61d9c6529163e73ca38b68833"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\solid\\manifest.json",
+      "bytes": 123402,
+      "sha256": "9e9b3f6147e8c041ac0e45c292a576241128a2bd968653bd976dbeff1b2d0ac3"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\gap\\manifest.json",
+      "bytes": 123110,
+      "sha256": "36048e9bfc2b2fce49dc3f9261fed3f55da1ce2e244825aeed0788c33718c054"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\solid\\manifest.json",
+      "bytes": 123112,
+      "sha256": "b2ab5ffc60664d62212e1f17e4aec79c13caefa6ff63b0648bbe9b76503fd92c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\gap\\manifest.json",
+      "bytes": 122820,
+      "sha256": "9beedcccf51c6ae64453c891a1048784bda8f44037708a00a6d3c5cc85d48b1e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\solid\\manifest.json",
+      "bytes": 122809,
+      "sha256": "4849fb6c442a80f7e6796b0beb56543f4e1b08d1adaa0addd177a220e9b006e0"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\gap\\manifest.json",
+      "bytes": 123388,
+      "sha256": "74ddcaaf21e900f8dcdef6432c4fec97150f2116ca161ac3ceaf178d63db614b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\solid\\manifest.json",
+      "bytes": 123390,
+      "sha256": "42368364049d35cef045d1a14989e49240a90cc1ed691bce2716d619f032d373"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\gap\\manifest.json",
+      "bytes": 122787,
+      "sha256": "ac1fe57c4f4b4f9b259ec9446172074c738bd9df6074f2eb7c2b3b14079cd418"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\solid\\manifest.json",
+      "bytes": 122793,
+      "sha256": "c5c47b8437c05a005f75beaad44429f6014815be90843bf5e3d97ca244cf3eba"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\gap\\manifest.json",
+      "bytes": 123074,
+      "sha256": "6cacfccd2894a9507cfde56b1c3ad8e91e4185f11232c1e1d25a672aba598693"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\solid\\manifest.json",
+      "bytes": 123076,
+      "sha256": "242f9a73bff5d583c3edd56099e873160789f7bab060a8bedec7117a9b7730ab"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\gap\\manifest.json",
+      "bytes": 123078,
+      "sha256": "e2d17813d028a2ae8636a03291ceb995a1c203d640e15edccf9402909c29c6c4"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\solid\\manifest.json",
+      "bytes": 123074,
+      "sha256": "8241ff96fd5d8e147c54a9e656c892393f430197873f7e7e71b213056d2b544e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\gap\\manifest.json",
+      "bytes": 122760,
+      "sha256": "b57c04232a00d9f96b40bfc01e78b497932a0c6a71ae865a55386ce39635465d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\solid\\manifest.json",
+      "bytes": 122785,
+      "sha256": "b4e275b468864acb51a21c6c30b7f559a68386f5581fe3c019cde7578aab618c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\gap\\manifest.json",
+      "bytes": 123377,
+      "sha256": "806346750ea47ecb2c882265dd6d3d2e1e87d493f73bbd97fa657d6b49aff328"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\solid\\manifest.json",
+      "bytes": 123375,
+      "sha256": "53c81001e5e280db0150f74894d768618f33483783ff4b1847e301865f04105a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\gap\\manifest.json",
+      "bytes": 123064,
+      "sha256": "6459634c4db7bd4c0d38d68ccf01e6fee2b1407c3210d50faf33fe2b3518332c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\solid\\manifest.json",
+      "bytes": 123065,
+      "sha256": "c6bdc1a6374f33d0ad47d1820c5e218ba04d5913fd79ea6640b90a12b29a8d71"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\gap\\manifest.json",
+      "bytes": 123364,
+      "sha256": "cc46abf7329bf33114e17d03c6179acf601a25e0e28bbb9891d69c19d3dfd7e2"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\solid\\manifest.json",
+      "bytes": 123375,
+      "sha256": "4a08e19085705630753d412215b07e6f0e15fd8c02d6d75abbff5fc00f566078"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\gap\\manifest.json",
+      "bytes": 123379,
+      "sha256": "86565302ff8b9ba8b61f1de3763dabe209b5ba32ef6343b2753a8008cfbfc642"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\solid\\manifest.json",
+      "bytes": 123377,
+      "sha256": "1f2f4e80e088afc196002c6a55fddefa6247fb9b9ea8a8bc34ac8fc90dc1bdd7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\gap\\manifest.json",
+      "bytes": 122821,
+      "sha256": "48c69cb6e7f043dd784e87250cbb0acd622be45361d17f2ca8359855195d2b3d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\solid\\manifest.json",
+      "bytes": 122819,
+      "sha256": "ed10cc3d30dff394391387905f5e666c9795611adb89419c010ae987a710bb3a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\gap\\manifest.json",
+      "bytes": 123102,
+      "sha256": "a1c7208ed1fc28d040ea6fcd03e18844cd35c9320445b0eb4844990bf7b2487b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\solid\\manifest.json",
+      "bytes": 123105,
+      "sha256": "7472a91b5466ed54db9764e5f40bf0679fa3a6720ea1dcde27c3300cf8e46e2e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\gap\\manifest.json",
+      "bytes": 123092,
+      "sha256": "35e73b5ec8f7fa9681b75964e8d35d92d48ceeb206bbf1c4b81673ee238aff58"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\solid\\manifest.json",
+      "bytes": 123088,
+      "sha256": "5864f68759c5b16d494ae6511f727076c623e4abcc7bfec93b099db86114450d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\gap\\manifest.json",
+      "bytes": 123394,
+      "sha256": "e2dec42bac6e47c571c83948c2196e840cd99b3bd2ed8493238f087c80797f4b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\solid\\manifest.json",
+      "bytes": 123390,
+      "sha256": "fd52323e35b2f62cd9da0caaf9fa8b16c8a56adc6bc3e72ecac435044259f21b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\gap\\inconsistent-states.json",
+      "bytes": 1187736,
+      "sha256": "4fa1a23f38dff7583caa4a5b631d7aecb94458fa22a5d067559a281f60e1b120"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\gap\\lawful-states.json",
+      "bytes": 1126540,
+      "sha256": "4b24e6b310ff13e504d93339bf4a90038837148a6a0677b716dd05f088d61678"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\solid\\inconsistent-states.json",
+      "bytes": 1126308,
+      "sha256": "658d30ad1e3fedb04a64d3d7c0a1cb5aeb35e2b28ff6662dd29e071c5e5f8a17"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\solid\\lawful-states.json",
+      "bytes": 1187492,
+      "sha256": "c5542be25eabd124da0f4601fdbf2f46bd99c6b98acf7878f7772f83f4804437"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\gap\\inconsistent-states.json",
+      "bytes": 1199649,
+      "sha256": "52b871048bab756d627a77d4d1dd065099da7f2f47115402d190bbc57af4d707"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\gap\\lawful-states.json",
+      "bytes": 1133549,
+      "sha256": "595bb74367ca4c0fa75e1095c4fe964a7cd4b400562a89802740c3cd1f1dfedb"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\solid\\inconsistent-states.json",
+      "bytes": 1133317,
+      "sha256": "d32d25d14fee5d88fc46d7e351ab012c26fc9510cf4f57d00fe9799f74390a1e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\solid\\lawful-states.json",
+      "bytes": 1199405,
+      "sha256": "e270aa09bd40f925b0a8a6d92e4b57870a7887a6f771de73e16e154a1d6ea1a5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\gap\\inconsistent-states.json",
+      "bytes": 1201261,
+      "sha256": "fa507a340e09a2476e152e7d386f306b535d4796496abba70c5d53eacd35d2c5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\gap\\lawful-states.json",
+      "bytes": 1118311,
+      "sha256": "9154cb57929d3000e0bcef8240d3cb0766244759827698888a16ff3d66f7eb9c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\solid\\inconsistent-states.json",
+      "bytes": 1118079,
+      "sha256": "9fa06e0bbbf12ad069547d3ff1d90a208ad8d2a8f235729d95b02aa90cdb85a7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\solid\\lawful-states.json",
+      "bytes": 1201017,
+      "sha256": "9c22f5e8f0230a12ea68f8076cca550ccba10188e7ada4ab43a3712603e0761c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\gap\\inconsistent-states.json",
+      "bytes": 1191106,
+      "sha256": "a767bed93c882c2cc8999281c3b2e536c81a5989f7fd151eba5b9cc837db5d0c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\gap\\lawful-states.json",
+      "bytes": 1116671,
+      "sha256": "19b500b147ec51d7f95beebffbe9126e39404dbad8c9a4a6892add8ca781a02b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\solid\\inconsistent-states.json",
+      "bytes": 1116439,
+      "sha256": "76b934453005cc6745f17afedb50b3125d76bfcd8a7de77793244090035d7a05"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\solid\\lawful-states.json",
+      "bytes": 1190862,
+      "sha256": "c6c8eb8b67ae2751c76afde418fcaf9e9ff522d40553328b67f74b84228680af"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\gap\\inconsistent-states.json",
+      "bytes": 1189356,
+      "sha256": "36eff1075313c0f6d56cfe020f52af448eff46db4115324277fed8b7d832a467"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\gap\\lawful-states.json",
+      "bytes": 1127338,
+      "sha256": "04a5fb1d59556a4fb069f782caac19c6f212f6f490ca899a5f402b0e5712172b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\solid\\inconsistent-states.json",
+      "bytes": 1127106,
+      "sha256": "d3422468460c0c55955053c5eb9375419e41529fd63732e78853cae64a7cb6e8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\solid\\lawful-states.json",
+      "bytes": 1189112,
+      "sha256": "c63161d460c1227203504cbfb93a952d6c3855e8055ac960958eda31a64968da"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\gap\\inconsistent-states.json",
+      "bytes": 1198875,
+      "sha256": "7f7efb4df3086f4b374ae4f6f941e49f718668a16a8fcd3ad3f11a510a207606"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\gap\\lawful-states.json",
+      "bytes": 1112433,
+      "sha256": "1c6b62aedabda12a2cfeee07bc9457b16bbe24e13e4329ce75e43d1d1de43f9e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\solid\\inconsistent-states.json",
+      "bytes": 1112201,
+      "sha256": "97771218d27ebb50626a78d0e03ace260bb65874dc39d3e3e679599beb9ec869"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\solid\\lawful-states.json",
+      "bytes": 1198631,
+      "sha256": "2b5932afd7a2338466fd14fa7b8a0169c29bc933b18bd054cb699118685b5e2c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\gap\\inconsistent-states.json",
+      "bytes": 1200191,
+      "sha256": "c3c9a7b5f8bf2280c2b4ae7fc7e838b4f75e332283c9a6b0885ba055e312e298"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\gap\\lawful-states.json",
+      "bytes": 1127020,
+      "sha256": "16bf927d4fcb89329befc4ae54e74c810d95ea9e3b2582208774fdf6124df818"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\solid\\inconsistent-states.json",
+      "bytes": 1126788,
+      "sha256": "fc15429bf3c1b35dc21aec4acbd6c15f2303e8024a5d10e13f5cc326c5db785b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\solid\\lawful-states.json",
+      "bytes": 1199947,
+      "sha256": "465444c80262b7a3191abc58c36fa3072ae720057ba3e40e1874218273f6e521"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\gap\\inconsistent-states.json",
+      "bytes": 1197469,
+      "sha256": "684b4aac8bde6f6d14329b7f8168db439532fb930768082b2885c546df43172c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\gap\\lawful-states.json",
+      "bytes": 1130900,
+      "sha256": "138c00af37ff4c1a9a03e6b15c9c2dd61cbc748754bef6fd3767875c000ca05a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\solid\\inconsistent-states.json",
+      "bytes": 1130668,
+      "sha256": "c40bbc51c7633d3e3aa3db7395467c707dfc20bfa0d1e47d9f4e3cc36ec00bb8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\solid\\lawful-states.json",
+      "bytes": 1197225,
+      "sha256": "ba885510ffee8f96f55596af85d240e150dfa1ba995ce51dbea233254d577d6f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\gap\\inconsistent-states.json",
+      "bytes": 1176041,
+      "sha256": "9f881bed155597dac32f09a7c2710298b92a863e6f0b119b63c6840a0c1aa73b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\gap\\lawful-states.json",
+      "bytes": 1120137,
+      "sha256": "41d44303fe131217246041ae402d03a7a67e2022a770559319c7314a2fbcbf17"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\solid\\inconsistent-states.json",
+      "bytes": 1119905,
+      "sha256": "0ad9d364f3fba8c25173b342d5453313c8b212e14b09f6b1d91e0f465206f7ae"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\solid\\lawful-states.json",
+      "bytes": 1175797,
+      "sha256": "9554c32a2905f0f034a03a47b087583a9a907104430055c55cf6136f46527b2b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\gap\\inconsistent-states.json",
+      "bytes": 1175718,
+      "sha256": "0bcd032cdc20ce24e9fc744960495022b0fe6e140fa8a3f14789a45c0519f959"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\gap\\lawful-states.json",
+      "bytes": 1112418,
+      "sha256": "bf65fe573104040020ff5b437bdb3030e0c3c3b6399f03d42027267f0bbd9344"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\solid\\inconsistent-states.json",
+      "bytes": 1112186,
+      "sha256": "9afd3a6ca4c36b7d4bf3e0379425eaad2f088b00bc8e91dd679faa28209079d6"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\solid\\lawful-states.json",
+      "bytes": 1175474,
+      "sha256": "b31337e03f8349a0c9ba4bfe2b4489c6368acf626773bad17c11067756a6bdf2"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\gap\\inconsistent-states.json",
+      "bytes": 1180165,
+      "sha256": "bc17ff829c0f1c69521eecee08d58194c23c01348482e5dcc780e9eece474345"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\gap\\lawful-states.json",
+      "bytes": 1127125,
+      "sha256": "ad77f40e76301aee3020424ad3e0f99f8ef3ddc2bf7f7c9410c4c7bfcfe08a90"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\solid\\inconsistent-states.json",
+      "bytes": 1126893,
+      "sha256": "ed4c4a95ef1fed3497bd8d37c5e778f17f4e4cf110cdddda7293597f61026a3c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\solid\\lawful-states.json",
+      "bytes": 1179921,
+      "sha256": "3e81697c081522a9f8724a47fc15c30eed68b7a5df3035cf9caf3d2c5f441865"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\gap\\inconsistent-states.json",
+      "bytes": 1173207,
+      "sha256": "5214c5992f8138fcfbb4be3e66412d19798c12074ecf994bf0f7979224598bed"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\gap\\lawful-states.json",
+      "bytes": 1122652,
+      "sha256": "29fb142661e680cb12b6f606ffb21516859b4ca930061af2be00ece6c34882de"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\solid\\inconsistent-states.json",
+      "bytes": 1122420,
+      "sha256": "aa2df10ec3e49136cb90c4e120d6070074cc0dee215db27c04112b33e0c8b8bf"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\solid\\lawful-states.json",
+      "bytes": 1172963,
+      "sha256": "f056bfebc2da1595c0c55eaf020456bf1f86a116c01199230f9546b36b0276db"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\gap\\inconsistent-states.json",
+      "bytes": 1180476,
+      "sha256": "9ec311e5016c7ac1b55519b0df54496dfa640ab37e0d26ff3a27cd0119ce2781"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\gap\\lawful-states.json",
+      "bytes": 1116356,
+      "sha256": "48ba62ba741d521313e5512d1b4fbfbac47bc9bf89434dd249c4cda53201f008"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\solid\\inconsistent-states.json",
+      "bytes": 1116124,
+      "sha256": "bd7944780fe1d11e23d8ec2d317c71ba4f557b8e012d386aee64d6cf991afa50"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\solid\\lawful-states.json",
+      "bytes": 1180232,
+      "sha256": "92490b939cf33c83c112d34396c95494806e9bccb7323ce7ad21d268c4317312"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\gap\\inconsistent-states.json",
+      "bytes": 1198291,
+      "sha256": "09faa25908bb2433199ef5708ad1fba2152f7841cee2ff23ba38e03ac8cfc62d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\gap\\lawful-states.json",
+      "bytes": 1124077,
+      "sha256": "97c0fb73a9f453d1176e58c450c518fae6a98e6b7ab42e69fda3955404682b0f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\solid\\inconsistent-states.json",
+      "bytes": 1123845,
+      "sha256": "3ef8d57a97f086680762ad43e54cf2e021f09a187f8497116d6f00a072e1951c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\solid\\lawful-states.json",
+      "bytes": 1198047,
+      "sha256": "9e6df3a1c7e8c600a7f77b65be11a7fb862c912cab7df099f810e33e5fe1ee1b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\gap\\inconsistent-states.json",
+      "bytes": 1193991,
+      "sha256": "04c7ae4fd5ae17ed78a8fe3cd20080a2555e1eebbe86ac7e547256f9ed9936de"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\gap\\lawful-states.json",
+      "bytes": 1123940,
+      "sha256": "a9b3ec719ded58a913e1788a61b2db0ee93b943fd066c75da7effd9f5e1d0188"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\solid\\inconsistent-states.json",
+      "bytes": 1123708,
+      "sha256": "29bfb5a6912a8ba0d575cfc90a97054c6f253728c60eae5a29adc82dcfe461a6"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\solid\\lawful-states.json",
+      "bytes": 1193747,
+      "sha256": "8636bd0141283d83cfad8975e7953c07139e99d298d3b40cb548971f57de958f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\gap\\inconsistent-states.json",
+      "bytes": 1180906,
+      "sha256": "557952c90ea3050edfa41dbdab85bb6ca75f24527b1c819f3d1ee608961ab580"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\gap\\lawful-states.json",
+      "bytes": 1123875,
+      "sha256": "e18b63ef64128d31c19e7703c0d2ebfc068fe62291ddc73143c4521667b52ee0"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\solid\\inconsistent-states.json",
+      "bytes": 1123643,
+      "sha256": "5066e6ee0cc0fe3a82e0033759cd9a1d21e15746b0fc747b3a2fbabfaa577373"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\solid\\lawful-states.json",
+      "bytes": 1180662,
+      "sha256": "b9c690c6de6f0271132f10c36113e4b4dc59d229909854aacf18bbc836ca447b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\gap\\inconsistent-states.json",
+      "bytes": 1203911,
+      "sha256": "0658652e37327657902c1f3dbe5b4e92d8e2eeb60d8d99eab884035562738541"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\gap\\lawful-states.json",
+      "bytes": 1127194,
+      "sha256": "2dda18da31b6fd73445cad0221e4649cf3f1a946d9a49d6bc2229a443d6abd77"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\solid\\inconsistent-states.json",
+      "bytes": 1126962,
+      "sha256": "e54868917efcd7a77d8b2742791f6316ad672e77b9474c69900226a9a99b189b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\solid\\lawful-states.json",
+      "bytes": 1203667,
+      "sha256": "96c54c4d86a930492014dd128d460c7edf7768bbb486bdb1c2ed2f0cb0b281bb"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\gap\\inconsistent-states.json",
+      "bytes": 1196841,
+      "sha256": "947871554517234577cc34dbba2fdc567b4204a2303ddddbeaabba94bb763488"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\gap\\lawful-states.json",
+      "bytes": 1132953,
+      "sha256": "4f0ce8df3f8e9cf208d17040b3dbd781326e9cc6d4266fb535d66609c21950f5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\solid\\inconsistent-states.json",
+      "bytes": 1132721,
+      "sha256": "d1d61096106522607ed293676fada92ccaceb2a1616de0c9e7af8be0178f7e2e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\solid\\lawful-states.json",
+      "bytes": 1196597,
+      "sha256": "ee6a0e1d6347b2219ebf3488a7cba390363a458e1ce0a00f5b84b8bfa1450305"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\gap\\inconsistent-states.json",
+      "bytes": 1193442,
+      "sha256": "0af78576b9a49f4da62bca5f0b0d75fa507c839be3d9782ba85b98e398c9010c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\gap\\lawful-states.json",
+      "bytes": 1134502,
+      "sha256": "acc6503d24d9484d62e59be1f114e59365b339dfa35721703b885c5c1400fa72"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\solid\\inconsistent-states.json",
+      "bytes": 1134270,
+      "sha256": "7b3c113fc4ad42cd067dd019019847b5db634ba0ec138d40254ce4800d5ebce2"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\solid\\lawful-states.json",
+      "bytes": 1193198,
+      "sha256": "2b4633e789955dde55c8d18daf8a82cbffbd27ffd7fb37f274a039a46864fa82"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\gap\\inconsistent-states.json",
+      "bytes": 1191465,
+      "sha256": "2253f0810bf5c396a1d73814cee83afe88b630bca8142026bbabe6ec7eb5458c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\gap\\lawful-states.json",
+      "bytes": 1134438,
+      "sha256": "d54ee0ea5a019174352cfffc46eb10ec71aa422af1ae6b608acf34421a2324e9"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\solid\\inconsistent-states.json",
+      "bytes": 1134206,
+      "sha256": "388d71db922141b87aad616c3450f4b7bb83dc81d2d84ca6c239c741169cdae4"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\solid\\lawful-states.json",
+      "bytes": 1191221,
+      "sha256": "55a3822825c7d38d681ec735d7269221f0deb2f8a3675594f75ba12b1c7e9951"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\gap\\inconsistent-states.json",
+      "bytes": 1205772,
+      "sha256": "508a7a8d3c6a68431a5d085f6e52f673c4edfcb5a1a6e6d61303fdec0683be2d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\gap\\lawful-states.json",
+      "bytes": 1153569,
+      "sha256": "11fff8426eecd0d30ed435601137fef35d915247f0b10a113c19638b4f3b581a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\solid\\inconsistent-states.json",
+      "bytes": 1153337,
+      "sha256": "37ac09ec26dc43e83196f09d3a5148da12a0dabc585284c127608c4193edbf3f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\solid\\lawful-states.json",
+      "bytes": 1205528,
+      "sha256": "a854db37f19509a694e48b54dd37b1da5f307d87c80ade70e688b95f40520a06"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\gap\\inconsistent-states.json",
+      "bytes": 1201553,
+      "sha256": "b03e2fcb5407ef0a1595797a65408631deaef947e6fe356d751e0cee879911f7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\gap\\lawful-states.json",
+      "bytes": 1156013,
+      "sha256": "5d882d6934e5eeaf42d2184b5e319ce0818663d9fc208e3a65cff76ac081bb37"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\solid\\inconsistent-states.json",
+      "bytes": 1155781,
+      "sha256": "1a210b41ec184b2a4ee44daf6dfe699919e933ea1fec7351158069dbe28a2a2a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\solid\\lawful-states.json",
+      "bytes": 1201309,
+      "sha256": "ce591cb0839b2a009b2c92e61a367a06c2d52ee18aa34dbf1c09af8ed46d1075"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\gap\\inconsistent-states.json",
+      "bytes": 1202130,
+      "sha256": "90d23a6908aedf51ee1bf713ea6ee0caa20a784c3def43c0fc9a5cfbd15630e8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\gap\\lawful-states.json",
+      "bytes": 1147611,
+      "sha256": "74481cb05a7dac91058d507f6b128485f0162a80a2c72eb2741b2109b1cb7e74"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\solid\\inconsistent-states.json",
+      "bytes": 1147379,
+      "sha256": "2397147cf4e2699852508f3446f3b4ae8c7a27372db33fa24aa77abe8c772f11"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\solid\\lawful-states.json",
+      "bytes": 1201886,
+      "sha256": "e0d1d6d70103fe9863fe78e73710e72101e6f229014930abe262ee4a71f3888a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\gap\\inconsistent-states.json",
+      "bytes": 1204801,
+      "sha256": "5dc6f65da97899b1496e4cfbb1c27d03612365cf7e935e8de62e5184d26fb5f7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\gap\\lawful-states.json",
+      "bytes": 1143511,
+      "sha256": "2261c7de3e32bc324a79e4a7be88b3ece59a5bc7bdd9fcc3f7d024531c789f99"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\solid\\inconsistent-states.json",
+      "bytes": 1143279,
+      "sha256": "84dd8b24695aa2320eb8df45e878b7498be0a515a424391a07d1fdad004b436d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\solid\\lawful-states.json",
+      "bytes": 1204557,
+      "sha256": "0cc96126644a29c4337d7ba26cec274a1b1d5a07924202b287847c314e475eaf"
+    }
+  ]
+}

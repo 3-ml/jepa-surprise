@@ -1,0 +1,59 @@
+{
+  "best_test_layers": [
+    {
+      "task": "appearance",
+      "best_test_layer_index": 1,
+      "best_test_layer_name": "block_10",
+      "best_test_accuracy_mean": 0.9803977272727273,
+      "best_test_accuracy_std": 0.008004555098107618,
+      "best_test_majority_baseline_mean": 0.25
+    },
+    {
+      "task": "physics_all",
+      "best_test_layer_index": 4,
+      "best_test_layer_name": "final",
+      "best_test_accuracy_mean": 0.522064393939394,
+      "best_test_accuracy_std": 0.022908056233649346,
+      "best_test_majority_baseline_mean": 0.5
+    },
+    {
+      "task": "physics_clean_only",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "block_00",
+      "best_test_accuracy_mean": 0.5178030303030303,
+      "best_test_accuracy_std": 0.04367573718170619,
+      "best_test_majority_baseline_mean": 0.5
+    }
+  ],
+  "rows": 225,
+  "prediction_rows": 51300,
+  "tasks": [
+    "appearance",
+    "physics_all",
+    "physics_clean_only"
+  ],
+  "split_mode": "crossfit",
+  "split_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "crossfit_folds": 5,
+  "crossfit_seed": 0,
+  "representations": "results/intphys2/sealed_analysis/videomae2/representations.npz",
+  "representations_shape": [
+    912,
+    5,
+    1408
+  ],
+  "group_column": "scene_id",
+  "unique_groups": 57,
+  "unique_pairs": 114,
+  "skipped": [],
+  "train_fraction": 0.6,
+  "val_fraction": 0.2,
+  "c": 1.0,
+  "max_iter": 2000
+}

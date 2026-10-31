@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "status": "complete_paper_facing_corrective_analysis",
+  "purpose": "Replace repeated scene holdouts with exactly one test fold and one aggregated out-of-fold value per scene, plus globally scene-clustered fixed-prediction intervals.",
+  "protocol_status": "Post-hoc corrective analysis executed after the sealed population had been inspected; fixed task layers and probe hyperparameters were preserved.",
+  "disposition": "Promoted as the paper-facing IntPhys2 inference; pair-held-out and repeated scene-holdout analyses are superseded.",
+  "environment_boundary": "Exact interpreter and core library versions are recorded, but no contemporaneous complete transitive package freeze was captured for this CPU run.",
+  "split": {
+    "group": "scene_id",
+    "folds": 5,
+    "ordering": "SHA-256 ordering with crossfit seed 0, distributed round-robin over folds",
+    "roles": "For fold k, test fold k, validate fold (k+1) mod 5, and train on the other three folds.",
+    "coverage": "Every scene is tested once, validated once, and used for training three times."
+  },
+  "probe": {
+    "pipeline": "StandardScaler followed by class-balanced logistic regression",
+    "c": 1.0,
+    "max_iter": 2000,
+    "random_state": "fold index",
+    "layers": {
+      "V-JEPA2-G": {
+        "appearance": "block_20",
+        "physics_all": "block_30",
+        "physics_clean_only": "block_30"
+      },
+      "VideoMAE2-G": {
+        "appearance": "block_30",
+        "physics_all": "block_00",
+        "physics_clean_only": "block_30"
+      },
+      "PixelSummary": {
+        "all_tasks": "pixel_summary"
+      }
+    }
+  },
+  "uncertainty": {
+    "draws": 10000,
+    "seed": 0,
+    "unit_before_cluster": "Mean correctness over selected samples within pair",
+    "cluster": "Mean of both pairs within each unique out-of-fold scene",
+    "resampling": "Bootstrap all unique scene values globally with replacement",
+    "model_delta_pairing": "fold, scene_id, and pair_id",
+    "boundary": "Intervals condition on fixed out-of-fold predictions and do not include probe refitting or fold-assignment variability."
+  },
+  "populations": {
+    "development": {
+      "source": "development_analysis",
+      "scenes": 38,
+      "pairs": 76
+    },
+    "sealed": {
+      "source": "sealed_analysis",
+      "scenes": 57,
+      "pairs": 114
+    }
+  },
+  "inputs": [
+    {
+      "population": "development",
+      "model": "vjepa2",
+      "path": "results/intphys2/development_analysis/vjepa2/representations.npz",
+      "bytes": 8040028,
+      "sha256": "f20a4dfd7cc07c762c3527483bbfdb7fe23c85cfb75510587614e0b89c58e221"
+    },
+    {
+      "population": "development",
+      "model": "videomae2",
+      "path": "results/intphys2/development_analysis/videomae2/representations.npz",
+      "bytes": 8102292,
+      "sha256": "5442c4adc39cbd54a07d2de95e84087aee6be5c9f55b9997ac400ab8eabe30b2"
+    },
+    {
+      "population": "development",
+      "model": "pixel_summary",
+      "path": "results/intphys2/development_analysis/pixel_summary/representations.npz",
+      "bytes": 258226,
+      "sha256": "46c90afb69df73b8ae8b1aae4ca029d4249313c0104bf50cd2de49d7767f34b6"
+    },
+    {
+      "population": "sealed",
+      "model": "vjepa2",
+      "path": "results/intphys2/sealed_analysis/vjepa2/representations.npz",
+      "bytes": 12043162,
+      "sha256": "5307c9c38c9ffe96d3818b0f919590a5b4d90462a92d19ffa0612eaabfa0d79a"
+    },
+    {
+      "population": "sealed",
+      "model": "videomae2",
+      "path": "results/intphys2/sealed_analysis/videomae2/representations.npz",
+      "bytes": 12149383,
+      "sha256": "d7aa754debdf4e88f7a709bb620ed3082f015f683955fbceb09127c4c048eb39"
+    },
+    {
+      "population": "sealed",
+      "model": "pixel_summary",
+      "path": "results/intphys2/sealed_analysis/pixel_summary/representations.npz",
+      "bytes": 385827,
+      "sha256": "23172dbd4b016bd2e372e6c566fa822e78cbf0f980c0bec4a1054af828a8bef2"
+    }
+  ],
+  "code": [
+    {
+      "path": "scripts/train_intphys2_grouped_probes.py",
+      "sha256": "275212d29bdd11b52192376157aed38483e42508afef904ff4bbf4549cfa3a17"
+    },
+    {
+      "path": "scripts/analyze_intphys2_grouped_probe_statistics.py",
+      "sha256": "311c76029d5bcf8edf1ee81b621d5839fff6ef6fc83bb7344f06f591b9c4f191"
+    },
+    {
+      "path": "tests/test_intphys2_grouped_probes.py",
+      "sha256": "ec30194bf8be66c9c44e231eb764e63617eb7613f81c317fc1a76343ae2167e6"
+    }
+  ],
+  "commands": [
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/development_analysis/vjepa2/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/development/vjepa2 --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/development_analysis/videomae2/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/development/videomae2 --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/development_analysis/pixel_summary/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/development/pixel_summary --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.analyze_intphys2_grouped_probe_statistics --vjepa-predictions results/intphys2/scene_crossfit_probe_audit/development/vjepa2/probe_predictions.csv --videomae-predictions results/intphys2/scene_crossfit_probe_audit/development/videomae2/probe_predictions.csv --pixel-predictions results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/probe_predictions.csv --output-dir results/intphys2/scene_crossfit_probe_audit/development/statistics --bootstrap 10000 --seed 0 --bootstrap-mode global_scene --expected-scenes 38 --expected-pairs 76 --expected-folds 5 --overwrite",
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/sealed_analysis/vjepa2/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2 --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/sealed_analysis/videomae2/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/sealed/videomae2 --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.train_intphys2_grouped_probes --representations results/intphys2/sealed_analysis/pixel_summary/representations.npz --output-dir results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary --group-column scene_id --split-mode crossfit --folds 5 --crossfit-seed 0 --overwrite",
+    "python -m scripts.analyze_intphys2_grouped_probe_statistics --vjepa-predictions results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_predictions.csv --videomae-predictions results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_predictions.csv --pixel-predictions results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_predictions.csv --output-dir results/intphys2/scene_crossfit_probe_audit/sealed/statistics --bootstrap 10000 --seed 0 --bootstrap-mode global_scene --expected-scenes 57 --expected-pairs 114 --expected-folds 5 --overwrite"
+  ],
+  "runtime": {
+    "hardware": "Apple M4 CPU, 10 cores, 16 GiB system memory",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3",
+    "numpy": "2.4.3",
+    "pandas": "3.0.2",
+    "scikit_learn": "1.9.0",
+    "stages": [
+      {
+        "stage": "development_vjepa2_crossfit_probes",
+        "wall_seconds": 8.0
+      },
+      {
+        "stage": "development_videomae2_crossfit_probes",
+        "wall_seconds": 7.24
+      },
+      {
+        "stage": "development_pixel_summary_crossfit_probes",
+        "wall_seconds": 2.02
+      },
+      {
+        "stage": "development_global_scene_statistics",
+        "wall_seconds": 0.59
+      },
+      {
+        "stage": "sealed_vjepa2_crossfit_probes",
+        "wall_seconds": 11.92
+      },
+      {
+        "stage": "sealed_videomae2_crossfit_probes",
+        "wall_seconds": 12.65
+      },
+      {
+        "stage": "sealed_pixel_summary_crossfit_probes",
+        "wall_seconds": 1.99
+      },
+      {
+        "stage": "sealed_global_scene_statistics",
+        "wall_seconds": 0.66
+      }
+    ],
+    "total_wall_seconds": 45.07
+  },
+  "outputs": [
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 1080,
+      "sha256": "798021442d4f0cf2b5abec6172bedae9df382c5fa68bd204305061305b1308c5"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 819,
+      "sha256": "6042a99803a5c8e346eefe6e0a0c12e19f0577ae98ce9184e70f76ee76b2b234"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/coverage_audit.csv",
+      "bytes": 495,
+      "sha256": "2248e3e32b9035bb43e42151ce1f3d66b7681e6308cd92485a7f61db1e1bd0cb"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/split_audit.csv",
+      "bytes": 1907,
+      "sha256": "dc1bf340a6090535aa1fd482b4ed98e9ae1ae6a926dea8f8aa811a13b3054504"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/selected_predictions.csv",
+      "bytes": 1211276,
+      "sha256": "b29fbd2f8416ac401790a3de674720a47ec4217e0d796ab20153369e6260b060"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/summary.json",
+      "bytes": 19450,
+      "sha256": "166f96610acfe19ff2eff9897b7bea8cdf37fcd179de1c837345512e0b917a5c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 1096,
+      "sha256": "08ae3a86c9a2c7cd47f5d3269d15c39fef4d054f6042fe97fea9423a12d6e8b4"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 857,
+      "sha256": "8206da8c34593ebf3d4bd4ae833382dd9e364ca61ccc6b928ff5a0200b47c455"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/coverage_audit.csv",
+      "bytes": 504,
+      "sha256": "2576eb0fe6e4a1883612242bb41467167ac762fb8d791b89d34ec865a018184d"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/split_audit.csv",
+      "bytes": 1952,
+      "sha256": "4ad76bab23cddaa86ed44d20bb2f9370c7fc1e28cefefa4d1ce3e3680bcdb4cc"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/selected_predictions.csv",
+      "bytes": 1816102,
+      "sha256": "fc51b818d8861f56ac1dd271cec5e4d8cfbc5321aa118c87313d99adf5f477c0"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/summary.json",
+      "bytes": 19525,
+      "sha256": "1ac31b7c492c3214724868228900767fde9f2da6643e50f57df0ebf82c3642c1"
+    }
+  ],
+  "validation": {
+    "focused_tests": "7 passed",
+    "full_tests": "41 passed",
+    "ruff_critical": "passed",
+    "split_assignments_identical_across_models": true,
+    "bootstrap_numeric_outputs_byte_identical_on_repeat": true,
+    "skipped_tasks_or_folds": 0
+  }
+}

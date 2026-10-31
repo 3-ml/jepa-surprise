@@ -1,0 +1,6 @@
+{
+  "phase": "jepa-controls",
+  "error": "CalledProcessError(1, ['external-record/f4b70f9d0254/python', '-u', 'external-record/0368820a2614/matched_score.py', '--model', 'jepa', '--phase', 'controls'])",
+  "traceback": "Operational traceback omitted; failure reason and numeric disposition retained.",
+  "at": "2026-10-25T21:07:08.047765+00:00"
+}

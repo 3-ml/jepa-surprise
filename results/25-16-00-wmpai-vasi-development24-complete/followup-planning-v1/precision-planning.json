@@ -1,0 +1,123 @@
+{
+  "scope": "planning only, NOT a chosen final N or a scientific equivalence margin",
+  "primary_candidate_endpoints": [
+    "clean_solid",
+    "clean_gap",
+    "persistent_solid",
+    "persistent_gap"
+  ],
+  "precision_yardstick": 0.001,
+  "simulations_per_n": 5000,
+  "seed": 202610252,
+  "interval_proxy": "normal halfwidth using simulated scene SD; four-endpoint Bonferroni critical value",
+  "critical_value": 2.4977054744123737,
+  "candidates": [
+    {
+      "n": 64,
+      "clips": 768,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0014357468819778958,
+      "joint_max_halfwidth_90pct": 0.0016604444353829585,
+      "conditional_fraction_joint_halfwidth_le_0_001": 0.0,
+      "ideal_linear_render_plus_score_hours": 4.728888888888889
+    },
+    {
+      "n": 96,
+      "clips": 1152,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0011692251158466967,
+      "joint_max_halfwidth_90pct": 0.0013209988732143028,
+      "conditional_fraction_joint_halfwidth_le_0_001": 0.0376,
+      "ideal_linear_render_plus_score_hours": 7.093333333333334
+    },
+    {
+      "n": 128,
+      "clips": 1536,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0010127645884495011,
+      "joint_max_halfwidth_90pct": 0.0011286719934142906,
+      "conditional_fraction_joint_halfwidth_le_0_001": 0.439,
+      "ideal_linear_render_plus_score_hours": 9.457777777777778
+    },
+    {
+      "n": 192,
+      "clips": 2304,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0008277677994720879,
+      "joint_max_halfwidth_90pct": 0.000901932070994587,
+      "conditional_fraction_joint_halfwidth_le_0_001": 0.9972,
+      "ideal_linear_render_plus_score_hours": 14.186666666666667
+    },
+    {
+      "n": 256,
+      "clips": 3072,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0007166034927744525,
+      "joint_max_halfwidth_90pct": 0.0007742837423448485,
+      "conditional_fraction_joint_halfwidth_le_0_001": 1.0,
+      "ideal_linear_render_plus_score_hours": 18.915555555555557
+    },
+    {
+      "n": 384,
+      "clips": 4608,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.000586578724425567,
+      "joint_max_halfwidth_90pct": 0.0006246801717410584,
+      "conditional_fraction_joint_halfwidth_le_0_001": 1.0,
+      "ideal_linear_render_plus_score_hours": 28.373333333333335
+    },
+    {
+      "n": 512,
+      "clips": 6144,
+      "per_endpoint_sd": {
+        "clean_solid": 0.004707023205065735,
+        "clean_gap": 0.003927903492944454,
+        "persistent_solid": 0.003837753674521539,
+        "persistent_gap": 0.0029173259269395517
+      },
+      "joint_max_halfwidth_median": 0.0005082903073473895,
+      "joint_max_halfwidth_90pct": 0.0005370633305114787,
+      "conditional_fraction_joint_halfwidth_le_0_001": 1.0,
+      "ideal_linear_render_plus_score_hours": 37.83111111111111
+    }
+  ],
+  "smallest_listed_n_reaching_conditional_90pct": 192,
+  "caveats": [
+    "0.001 is an explicit reporting-resolution proposal, not a validated meaningful-effect margin.",
+    "Resampling 24 grid configurations is conditional on the empirical development distribution and can underrepresent new-scene tails.",
+    "This is a width-planning proxy, not a simulation proof of interval coverage or of power for the observed mean.",
+    "Four within-world margins must accompany balanced margins; cancellation cannot be reported as physical equivalence.",
+    "Runtime excludes failures, audit, wider appearance families and geometry extraction.",
+    "Nothing here freezes confirmatory sampling, sample count, decision ceilings or author approval."
+  ]
+}

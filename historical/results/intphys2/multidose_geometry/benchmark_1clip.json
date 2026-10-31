@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "strategy": "exact sequential transformer-block CPU/GPU offload",
+  "load": {
+    "load_seconds": 1.0415683999890462,
+    "strict_load": "<All keys matched successfully>",
+    "parameters": 1012173952,
+    "gradient_buffers": 0,
+    "checkpoint_keys": [
+      "batch_size",
+      "encoder",
+      "epoch",
+      "loss",
+      "lr",
+      "opt",
+      "predictor",
+      "scaler",
+      "target_encoder",
+      "world_size"
+    ]
+  },
+  "validation": [
+    {
+      "layer": "block_00",
+      "cosine": 1.0000001192092896,
+      "max_abs_diff": 0.00870513916015625,
+      "mean_abs_diff": 0.00031046359799802303
+    },
+    {
+      "layer": "block_10",
+      "cosine": 1.0,
+      "max_abs_diff": 0.1279296875,
+      "mean_abs_diff": 0.0003792674979194999
+    },
+    {
+      "layer": "block_20",
+      "cosine": 0.9999998807907104,
+      "max_abs_diff": 0.2333984375,
+      "mean_abs_diff": 0.000415035174228251
+    },
+    {
+      "layer": "block_30",
+      "cosine": 0.9999998807907104,
+      "max_abs_diff": 0.0948486328125,
+      "mean_abs_diff": 0.00025702558923512697
+    },
+    {
+      "layer": "final",
+      "cosine": 1.0,
+      "max_abs_diff": 0.003787994384765625,
+      "mean_abs_diff": 0.0001397835585521534
+    }
+  ],
+  "clips": [
+    {
+      "job_index": 1,
+      "source_id": "5109150a8bd4d2fc5a78e57f7ef0968d4f50b38fb38e88ddf78c644230e92cf9",
+      "family": "clean",
+      "dose": 0.0,
+      "seconds": 9.098130500002299,
+      "peak_allocated_bytes": 426190336,
+      "peak_reserved_bytes": 734003200,
+      "rss_start_bytes": 777707520,
+      "rss_end_bytes": 5103648768,
+      "timestamp": "2026/09/03 17:08:13.407",
+      "utilization.gpu": "43",
+      "memory.used": "793",
+      "memory.total": "4096",
+      "temperature.gpu": "61",
+      "power.draw": "47.44"
+    }
+  ],
+  "seconds_median": 9.098130500002299,
+  "seconds_p90": 9.098130500002299,
+  "peak_allocated_bytes": 426190336,
+  "peak_reserved_bytes": 734003200,
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "seed": 230826
+}

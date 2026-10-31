@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "cells": 3072,
+  "hashed_png_paths": 294912,
+  "max_context_roundoff_uint8": 1,
+  "nonzero_context_roundoff_cells": 773,
+  "all_future_PNGs_unchanged": true,
+  "all_inputs_checked_before_any_final_score": true,
+  "input_manifest_sha256": "7cfdff467d8bb1f55be8ce2f9f9a912dcd49b3a8c37332ea246700e3049e0712",
+  "render_seal_sha256": "21ac28470bb46e98825e43a3f13c8efa5ba2055ce142eea8b2f628d3f473ee48",
+  "freeze_sha256": "d5162d530edc6e638560f77801c6ab3c35dda54fd42ce1b2bbe923c36e6a1fbe"
+}

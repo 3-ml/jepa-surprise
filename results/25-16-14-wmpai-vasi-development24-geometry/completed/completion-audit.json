@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "cells": 288,
+  "shape": [
+    288,
+    5,
+    1408
+  ],
+  "finite": true,
+  "individual_files_match_matrix": true,
+  "input_index_matches_native_scores": true,
+  "analysis_recomputed_identically": true,
+  "feature_matrix_external": "${JEPA_VASI_WORKSPACE}\\development24-v2\\geometry-development-v2\\features.npy",
+  "sha256": "77c21e4d5851b579729e01c6d9955b5e4ea61589ee797cb8285eab39e70e9597"
+}

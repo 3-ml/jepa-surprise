@@ -1,0 +1,77 @@
+{
+  "status": "pass",
+  "scope": "post-score audit, no exclusions/replacements",
+  "completed_at": "2026-10-25T16:12:39.645416+02:00",
+  "scenes": 24,
+  "cells": 288,
+  "unique_png_paths_hashed": 27648,
+  "checkpoint_sha256_verified": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "control_inputs_and_exact_repeat_verified": true,
+  "max_scalar_vs_tubelet_mean_difference": 7.450580596923828e-08,
+  "min_target_area_fraction": 0.005645751953125,
+  "canonicalized_cells_with_nonzero_roundoff": 71,
+  "max_raw_context_uint8_difference": 1,
+  "max_raw_context_normalized_mean_abs": 2.742592805351307e-08,
+  "max_raw_context_changed_pixel_fraction": 1.1444091796875e-05,
+  "score_inference_seconds_total": 874.0590900003444,
+  "peak_allocated_bytes": 4555505664,
+  "independent_recomputed_margins": {
+    "clean": {
+      "solid": {
+        "mean": -0.005640645821889241,
+        "positive_count": 0,
+        "n": 24
+      },
+      "gap": {
+        "mean": 0.006747137755155563,
+        "positive_count": 23,
+        "n": 24
+      },
+      "geometry_balanced": {
+        "mean": 0.0005532459666331609,
+        "positive_count": 14,
+        "n": 24
+      }
+    },
+    "persistent_hue": {
+      "solid": {
+        "mean": -0.0075347038606802625,
+        "positive_count": 1,
+        "n": 24
+      },
+      "gap": {
+        "mean": 0.007493522018194199,
+        "positive_count": 24,
+        "n": 24
+      },
+      "geometry_balanced": {
+        "mean": -2.059092124303182e-05,
+        "positive_count": 13,
+        "n": 24
+      }
+    },
+    "abrupt_event": {
+      "solid": {
+        "mean": -0.008077026655276617,
+        "positive_count": 0,
+        "n": 24
+      },
+      "gap": {
+        "mean": 0.008096671352783838,
+        "positive_count": 24,
+        "n": 24
+      },
+      "geometry_balanced": {
+        "mean": 9.822348753611246e-06,
+        "positive_count": 11,
+        "n": 24
+      }
+    }
+  },
+  "source_sha256": "339d39ef58bafe4f7f488cd7976f6abc09380b5d39592e67b6602df1635a7ee9",
+  "limitations": [
+    "Does not rerun GPU scoring or independently reconstruct physics in a second simulator.",
+    "All-positive/all-negative empirical-bootstrap proportion intervals are degenerate; do not interpret as population certainty.",
+    "Shared procedural template; no natural-population or equivalence claim."
+  ]
+}

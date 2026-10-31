@@ -1,0 +1,52 @@
+{
+  "best_test_layers": [
+    {
+      "task": "appearance",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.8728260869565216,
+      "best_test_accuracy_std": 0.0570781558831136,
+      "best_test_majority_baseline_mean": 0.25
+    },
+    {
+      "task": "physics_all",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.47391304347826085,
+      "best_test_accuracy_std": 0.02617737951911371,
+      "best_test_majority_baseline_mean": 0.5
+    },
+    {
+      "task": "physics_clean_only",
+      "best_test_layer_index": 0,
+      "best_test_layer_name": "pixel_summary",
+      "best_test_accuracy_mean": 0.4695652173913043,
+      "best_test_accuracy_std": 0.032969023669789356,
+      "best_test_majority_baseline_mean": 0.5
+    }
+  ],
+  "rows": 45,
+  "tasks": [
+    "appearance",
+    "physics_all",
+    "physics_clean_only"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representations": "results\\intphys2\\sealed_analysis\\pixel_summary\\representations.npz",
+  "representations_shape": [
+    912,
+    1,
+    100
+  ],
+  "skipped": [],
+  "train_fraction": 0.6,
+  "val_fraction": 0.2,
+  "c": 1.0,
+  "max_iter": 2000
+}

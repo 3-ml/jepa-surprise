@@ -1,0 +1,214 @@
+{
+  "at": "2026-10-28T03:58:19.810919+02:00",
+  "study": "B",
+  "videos": 192,
+  "pairs": 96,
+  "cells": 960,
+  "columns": [
+    "persistent_hue_minus_original",
+    "target_only_hue_minus_original",
+    "persistent_brightness_minus_original",
+    "target_only_brightness_minus_original",
+    "persistent_minus_target_only_hue",
+    "persistent_minus_target_only_brightness"
+  ],
+  "seed": 2026102602,
+  "family": 6,
+  "bootstrap": {
+    "seed": 2026102602,
+    "draws": 50000,
+    "resampling_unit": "matched pair within scenario, both videos and all conditions retained",
+    "stratum_groups": {
+      "Mass-Collision": 32,
+      "Mass-Dominoes": 32,
+      "Mass-Waterpush": 32
+    },
+    "metrics": {
+      "persistent_hue_minus_original": {
+        "mean": -0.0031217116241653757,
+        "descriptive95": [
+          -0.0036718187232812243,
+          -0.002554756868630648
+        ],
+        "family_adjusted_interval": [
+          -0.0038517477663440837,
+          -0.0023562861114947323
+        ],
+        "family_size": 6
+      },
+      "target_only_hue_minus_original": {
+        "mean": -0.0006928549458583197,
+        "descriptive95": [
+          -0.0014090295415371656,
+          -2.4826390047867972e-05
+        ],
+        "family_adjusted_interval": [
+          -0.0016797737205504542,
+          0.00020956020129638106
+        ],
+        "family_size": 6
+      },
+      "persistent_brightness_minus_original": {
+        "mean": -0.002703614843388398,
+        "descriptive95": [
+          -0.003197696222923696,
+          -0.002209944650530815
+        ],
+        "family_adjusted_interval": [
+          -0.0033680106940058374,
+          -0.0020285940147005016
+        ],
+        "family_size": 6
+      },
+      "target_only_brightness_minus_original": {
+        "mean": 0.0005871249983708064,
+        "descriptive95": [
+          -0.00012935525737702846,
+          0.0013175524693603317
+        ],
+        "family_adjusted_interval": [
+          -0.00037537635200553466,
+          0.0015794774569157111
+        ],
+        "family_size": 6
+      },
+      "persistent_minus_target_only_hue": {
+        "mean": -0.0024288566783070564,
+        "descriptive95": [
+          -0.00313625392348816,
+          -0.0016342762236793832
+        ],
+        "family_adjusted_interval": [
+          -0.0033663651310942237,
+          -0.0013366059620036844
+        ],
+        "family_size": 6
+      },
+      "persistent_minus_target_only_brightness": {
+        "mean": -0.003290739841759205,
+        "descriptive95": [
+          -0.003937686715895931,
+          -0.0026417341548949477
+        ],
+        "family_adjusted_interval": [
+          -0.004151144882457124,
+          -0.0024195207722692005
+        ],
+        "family_size": 6
+      }
+    }
+  },
+  "layout_sensitivity": {
+    "seed": 2026102702,
+    "draws": 50000,
+    "resampling_unit": "layout cluster within scenario, whole paired trials retained",
+    "stratum_groups": {
+      "Mass-Collision": 13,
+      "Mass-Dominoes": 10,
+      "Mass-Waterpush": 19
+    },
+    "metrics": {
+      "persistent_hue_minus_original": {
+        "mean": -0.0031217116241653757,
+        "descriptive95": [
+          -0.003735024983543248,
+          -0.0026576788332673294
+        ],
+        "family_adjusted_interval": [
+          -0.003935873694321678,
+          -0.0024990843066900205
+        ],
+        "family_size": 6
+      },
+      "target_only_hue_minus_original": {
+        "mean": -0.0006928549458583197,
+        "descriptive95": [
+          -0.0014460274402912994,
+          -0.00017028085802336303
+        ],
+        "family_adjusted_interval": [
+          -0.0016760048255987326,
+          -1.2412309757066292e-05
+        ],
+        "family_size": 6
+      },
+      "persistent_brightness_minus_original": {
+        "mean": -0.002703614843388398,
+        "descriptive95": [
+          -0.0032519226490978835,
+          -0.0021608888148137747
+        ],
+        "family_adjusted_interval": [
+          -0.0034441511893156212,
+          -0.0019512072634591622
+        ],
+        "family_size": 6
+      },
+      "target_only_brightness_minus_original": {
+        "mean": 0.0005871249983708064,
+        "descriptive95": [
+          -7.638099871960972e-05,
+          0.0014264773234813862
+        ],
+        "family_adjusted_interval": [
+          -0.0003219151217601298,
+          0.001768045362592329
+        ],
+        "family_size": 6
+      },
+      "persistent_minus_target_only_hue": {
+        "mean": -0.0024288566783070564,
+        "descriptive95": [
+          -0.003038271085403327,
+          -0.001704018975078104
+        ],
+        "family_adjusted_interval": [
+          -0.0032630654814592044,
+          -0.0013835810303206072
+        ],
+        "family_size": 6
+      },
+      "persistent_minus_target_only_brightness": {
+        "mean": -0.003290739841759205,
+        "descriptive95": [
+          -0.004023755015342415,
+          -0.00271469021221589
+        ],
+        "family_adjusted_interval": [
+          -0.004303964095330549,
+          -0.002508924855418908
+        ],
+        "family_size": 6
+      }
+    }
+  },
+  "native_reconstruction_max_abs_error": 7.850676986276284e-08,
+  "scope": "inspected synthetic Mass diagnostic; not violation classification or mediation",
+  "scenario_means": {
+    "Mass-Collision": {
+      "persistent_hue_minus_original": -0.0019646836444735527,
+      "target_only_hue_minus_original": -0.002451523207128048,
+      "persistent_brightness_minus_original": -0.004204988479614258,
+      "target_only_brightness_minus_original": -0.002639682963490486,
+      "persistent_minus_target_only_hue": 0.00048683956265449524,
+      "persistent_minus_target_only_brightness": -0.0015653055161237717
+    },
+    "Mass-Dominoes": {
+      "persistent_hue_minus_original": -0.003126310184597969,
+      "target_only_hue_minus_original": 0.0018056761473417282,
+      "persistent_brightness_minus_original": -0.0009396262466907501,
+      "target_only_brightness_minus_original": 0.005378641188144684,
+      "persistent_minus_target_only_hue": -0.004931986331939697,
+      "persistent_minus_target_only_brightness": -0.006318267434835434
+    },
+    "Mass-Waterpush": {
+      "persistent_hue_minus_original": -0.004274141043424606,
+      "target_only_hue_minus_original": -0.001432717777788639,
+      "persistent_brightness_minus_original": -0.0029662298038601875,
+      "target_only_brightness_minus_original": -0.0009775832295417786,
+      "persistent_minus_target_only_hue": -0.0028414232656359673,
+      "persistent_minus_target_only_brightness": -0.001988646574318409
+    }
+  },
+  "cuda_initialized": false
+}

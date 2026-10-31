@@ -1,0 +1,98 @@
+{
+  "schema_version": 2,
+  "partition": "test",
+  "pairs": 114,
+  "scenes": 57,
+  "appearance_conditions": [
+    "clean",
+    "hue_090",
+    "brightness_0p45",
+    "selective_recolor_180"
+  ],
+  "protocol_status": "Post-hoc corrective analysis executed after the sealed population had been inspected; the originally selected layers and probe hyperparameters were preserved.",
+  "probe": {
+    "classifier": "StandardScaler followed by balanced logistic regression",
+    "regularization_c": 1.0,
+    "maximum_iterations": 2000,
+    "split_mode": "crossfit",
+    "fold_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "folds": 5,
+    "crossfit_seed": 0,
+    "split_unit": "scene",
+    "ordering": "Sort unique scene IDs by SHA-256 of crossfit seed 0 and scene ID, then distribute round-robin over five folds.",
+    "rotation": "For fold k, test fold k, validate fold (k+1) modulo 5, and train on the remaining three folds.",
+    "classifier_random_state": "fold index",
+    "coverage": "Every scene is tested once, validated once, and used for training three times; all pairs and appearance variants remain with their scene.",
+    "tasks": [
+      "appearance",
+      "physics_all",
+      "physics_clean_only"
+    ],
+    "fold_test_sizes": {
+      "sealed_scenes": [
+        12,
+        12,
+        11,
+        11,
+        11
+      ],
+      "sealed_pairs": [
+        24,
+        24,
+        22,
+        22,
+        22
+      ],
+      "development_scenes": [
+        8,
+        8,
+        8,
+        7,
+        7
+      ],
+      "development_pairs": [
+        16,
+        16,
+        16,
+        14,
+        14
+      ]
+    }
+  },
+  "primary_layers": {
+    "status": "Preserved from the original development selection; sealed layers were not reselected for the corrective analysis.",
+    "vjepa2": {
+      "appearance": "block_20",
+      "physics_all": "block_30",
+      "physics_clean_only": "block_30"
+    },
+    "videomae2": {
+      "appearance": "block_30",
+      "physics_all": "block_00",
+      "physics_clean_only": "block_30"
+    },
+    "pixel_summary": {
+      "appearance": "pixel_summary",
+      "physics_all": "pixel_summary",
+      "physics_clean_only": "pixel_summary"
+    }
+  },
+  "bootstrap": {
+    "unit": "unique out-of-fold scene",
+    "draws": 10000,
+    "seed": 0,
+    "interval": 0.95,
+    "pair_aggregation": "Mean correctness within each pair, then mean over both pairs in each scene.",
+    "resampling": "Sample all 57 sealed scene values globally with replacement.",
+    "model_delta_pairing": "fold, scene_id, and pair_id",
+    "predictions_refit_per_draw": false,
+    "uncertainty_boundary": "Intervals condition on fitted out-of-fold predictions and omit probe-refitting and fold-assignment variability."
+  },
+  "scope": "Current paper-facing IntPhys2 inference uses five-fold scene cross-fitting with every scene held out exactly once, one aggregated value per scene, and a global fixed-prediction scene bootstrap. Pair-held-out and repeated scene-holdout outputs remain as superseded audit trails."
+}

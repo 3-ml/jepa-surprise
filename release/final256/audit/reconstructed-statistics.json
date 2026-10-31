@@ -1,0 +1,384 @@
+{
+  "primary": {
+    "clean_solid": {
+      "mean": -0.006734183640219271,
+      "simultaneous_interval": [
+        -0.007421141802478814,
+        -0.006044556730194018
+      ],
+      "direction": "negative",
+      "maximum_half_extent": 0.0006896269100252535,
+      "reporting_precision_met": true
+    },
+    "clean_gap": {
+      "mean": 0.006907887756824493,
+      "simultaneous_interval": [
+        0.0061894034348370045,
+        0.007632392198138404
+      ],
+      "direction": "positive",
+      "maximum_half_extent": 0.0007245044413139107,
+      "reporting_precision_met": true
+    },
+    "persistent_solid": {
+      "mean": -0.007839271682314575,
+      "simultaneous_interval": [
+        -0.00844561855919892,
+        -0.007233323770196876
+      ],
+      "direction": "negative",
+      "maximum_half_extent": 0.0006063468768843453,
+      "reporting_precision_met": true
+    },
+    "persistent_gap": {
+      "mean": 0.007495353929698467,
+      "simultaneous_interval": [
+        0.006897401021706173,
+        0.008095429893000982
+      ],
+      "direction": "positive",
+      "maximum_half_extent": 0.0006000759633025144,
+      "reporting_precision_met": true
+    }
+  },
+  "secondary": {
+    "clean": {
+      "solid": {
+        "mean_margin": -0.006734183640219271,
+        "descriptive_95_mean_interval": [
+          -0.007262948216521181,
+          -0.006198946380754933
+        ],
+        "median_margin": -0.00656437873840332,
+        "positive_count": 13,
+        "ties": 0,
+        "positive_fraction": 0.05078125,
+        "descriptive_clopper_pearson_interval": [
+          0.027312525005386,
+          0.08527212595645979
+        ],
+        "false_alarm_rate": 1.0,
+        "false_alarm_95_interval": [
+          1.0,
+          1.0
+        ],
+        "miss_rate": 0.45703125,
+        "miss_95_interval": [
+          0.39453125,
+          0.51953125
+        ],
+        "balanced_accuracy": 0.271484375,
+        "balanced_accuracy_95_interval": [
+          0.240234375,
+          0.302734375
+        ],
+        "auroc": 0.0829925537109375,
+        "auroc_95_interval": [
+          0.06155319213867187,
+          0.10635414123535156
+        ]
+      },
+      "gap": {
+        "mean_margin": 0.006907887756824493,
+        "descriptive_95_mean_interval": [
+          0.006336883522453718,
+          0.007472443938604556
+        ],
+        "median_margin": 0.00667281448841095,
+        "positive_count": 239,
+        "ties": 0,
+        "positive_fraction": 0.93359375,
+        "descriptive_clopper_pearson_interval": [
+          0.8958044309384743,
+          0.9608432005610229
+        ],
+        "false_alarm_rate": 0.37890625,
+        "false_alarm_95_interval": [
+          0.3203125,
+          0.44140625
+        ],
+        "miss_rate": 0.0078125,
+        "miss_95_interval": [
+          0.0,
+          0.01953125
+        ],
+        "balanced_accuracy": 0.806640625,
+        "balanced_accuracy_95_interval": [
+          0.775390625,
+          0.8359375
+        ],
+        "auroc": 0.882293701171875,
+        "auroc_95_interval": [
+          0.8551624298095704,
+          0.9088748931884766
+        ]
+      },
+      "balanced_worlds": {
+        "mean_margin": 8.685205830261111e-05,
+        "descriptive_95_mean_interval": [
+          -0.00029148715693736447,
+          0.00046451621892629197
+        ],
+        "median_margin": 0.00045727193355560303,
+        "positive_count": 146,
+        "ties": 0,
+        "positive_fraction": 0.5703125,
+        "descriptive_clopper_pearson_interval": [
+          0.5072002576094687,
+          0.6317775737558016
+        ],
+        "false_alarm_rate": 0.689453125,
+        "false_alarm_95_interval": [
+          0.66015625,
+          0.720703125
+        ],
+        "miss_rate": 0.232421875,
+        "miss_95_interval": [
+          0.201171875,
+          0.263671875
+        ],
+        "balanced_accuracy": 0.5390625,
+        "balanced_accuracy_95_interval": [
+          0.5205078125,
+          0.5576171875
+        ],
+        "auroc": 0.4988117218017578,
+        "auroc_95_interval": [
+          0.47934703826904296,
+          0.5175840854644775
+        ]
+      }
+    },
+    "persistent_hue": {
+      "solid": {
+        "mean_margin": -0.007839271682314575,
+        "descriptive_95_mean_interval": [
+          -0.008312494642450475,
+          -0.007368964148918166
+        ],
+        "median_margin": -0.007700785994529724,
+        "positive_count": 7,
+        "ties": 0,
+        "positive_fraction": 0.02734375,
+        "descriptive_clopper_pearson_interval": [
+          0.011062786808498115,
+          0.05552459054714272
+        ],
+        "false_alarm_rate": 1.0,
+        "false_alarm_95_interval": [
+          1.0,
+          1.0
+        ],
+        "miss_rate": 0.59375,
+        "miss_95_interval": [
+          0.53125,
+          0.65234375
+        ],
+        "balanced_accuracy": 0.203125,
+        "balanced_accuracy_95_interval": [
+          0.173828125,
+          0.234375
+        ],
+        "auroc": 0.0479278564453125,
+        "auroc_95_interval": [
+          0.031356430053710936,
+          0.06575050354003906
+        ]
+      },
+      "gap": {
+        "mean_margin": 0.007495353929698467,
+        "descriptive_95_mean_interval": [
+          0.007025847036857158,
+          0.007964349607937038
+        ],
+        "median_margin": 0.007473841309547424,
+        "positive_count": 248,
+        "ties": 0,
+        "positive_fraction": 0.96875,
+        "descriptive_clopper_pearson_interval": [
+          0.9393559491280342,
+          0.9864138141028514
+        ],
+        "false_alarm_rate": 0.3046875,
+        "false_alarm_95_interval": [
+          0.24609375,
+          0.36328125
+        ],
+        "miss_rate": 0.00390625,
+        "miss_95_interval": [
+          0.0,
+          0.01171875
+        ],
+        "balanced_accuracy": 0.845703125,
+        "balanced_accuracy_95_interval": [
+          0.81640625,
+          0.875
+        ],
+        "auroc": 0.9442138671875,
+        "auroc_95_interval": [
+          0.924713134765625,
+          0.9622344970703125
+        ]
+      },
+      "balanced_worlds": {
+        "mean_margin": -0.00017195887630805373,
+        "descriptive_95_mean_interval": [
+          -0.00046441835729638115,
+          0.00011990565399173662
+        ],
+        "median_margin": 1.0706484317779541e-05,
+        "positive_count": 128,
+        "ties": 0,
+        "positive_fraction": 0.5,
+        "descriptive_clopper_pearson_interval": [
+          0.43710864894036455,
+          0.5628913510596354
+        ],
+        "false_alarm_rate": 0.65234375,
+        "false_alarm_95_interval": [
+          0.623046875,
+          0.681640625
+        ],
+        "miss_rate": 0.298828125,
+        "miss_95_interval": [
+          0.267578125,
+          0.330078125
+        ],
+        "balanced_accuracy": 0.5244140625,
+        "balanced_accuracy_95_interval": [
+          0.5068359375,
+          0.5419921875
+        ],
+        "auroc": 0.4920196533203125,
+        "auroc_95_interval": [
+          0.4761653900146484,
+          0.5074122428894043
+        ]
+      }
+    },
+    "abrupt_event": {
+      "solid": {
+        "mean_margin": -0.007850498892366886,
+        "descriptive_95_mean_interval": [
+          -0.008323668548837305,
+          -0.007379013489116915
+        ],
+        "median_margin": -0.007840529084205627,
+        "positive_count": 7,
+        "ties": 0,
+        "positive_fraction": 0.02734375,
+        "descriptive_clopper_pearson_interval": [
+          0.011062786808498115,
+          0.05552459054714272
+        ],
+        "false_alarm_rate": 1.0,
+        "false_alarm_95_interval": [
+          1.0,
+          1.0
+        ],
+        "miss_rate": 0.65625,
+        "miss_95_interval": [
+          0.59765625,
+          0.71484375
+        ],
+        "balanced_accuracy": 0.171875,
+        "balanced_accuracy_95_interval": [
+          0.142578125,
+          0.201171875
+        ],
+        "auroc": 0.0424041748046875,
+        "auroc_95_interval": [
+          0.027358627319335936,
+          0.05918922424316406
+        ]
+      },
+      "gap": {
+        "mean_margin": 0.0075534043135121465,
+        "descriptive_95_mean_interval": [
+          0.007070815481711179,
+          0.00803582919179462
+        ],
+        "median_margin": 0.007933542132377625,
+        "positive_count": 244,
+        "ties": 0,
+        "positive_fraction": 0.953125,
+        "descriptive_clopper_pearson_interval": [
+          0.9195509717714486,
+          0.975547656030563
+        ],
+        "false_alarm_rate": 0.28515625,
+        "false_alarm_95_interval": [
+          0.23046875,
+          0.34375
+        ],
+        "miss_rate": 0.0,
+        "miss_95_interval": [
+          0.0,
+          0.0
+        ],
+        "balanced_accuracy": 0.857421875,
+        "balanced_accuracy_95_interval": [
+          0.828125,
+          0.884765625
+        ],
+        "auroc": 0.947723388671875,
+        "auroc_95_interval": [
+          0.9284053802490234,
+          0.9648899078369141
+        ]
+      },
+      "balanced_worlds": {
+        "mean_margin": -0.00014854728942736983,
+        "descriptive_95_mean_interval": [
+          -0.00045034023496555166,
+          0.00015274126635631558
+        ],
+        "median_margin": 0.00014270097017288208,
+        "positive_count": 135,
+        "ties": 0,
+        "positive_fraction": 0.52734375,
+        "descriptive_clopper_pearson_interval": [
+          0.4642229873267296,
+          0.5898241594360849
+        ],
+        "false_alarm_rate": 0.642578125,
+        "false_alarm_95_interval": [
+          0.615234375,
+          0.671875
+        ],
+        "miss_rate": 0.328125,
+        "miss_95_interval": [
+          0.298828125,
+          0.357421875
+        ],
+        "balanced_accuracy": 0.5146484375,
+        "balanced_accuracy_95_interval": [
+          0.498046875,
+          0.53125
+        ],
+        "auroc": 0.49323272705078125,
+        "auroc_95_interval": [
+          0.4765815734863281,
+          0.5095292568206787
+        ]
+      }
+    }
+  },
+  "paired_appearance_change_in_balanced_margin": {
+    "persistent_hue": {
+      "mean": -0.00025881093461066484,
+      "descriptive_95_interval": [
+        -0.0006057357124518604,
+        8.759042684687311e-05
+      ]
+    },
+    "abrupt_event": {
+      "mean": -0.00023539934772998095,
+      "descriptive_95_interval": [
+        -0.0005540500205825083,
+        8.490522741340115e-05
+      ]
+    }
+  },
+  "consistent_positive_mean_ordering": false
+}

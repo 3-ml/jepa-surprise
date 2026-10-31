@@ -1,0 +1,43 @@
+{
+  "status": "frozen_final256",
+  "frozen_at": "2026-10-25T17:37:00.499265+02:00",
+  "authority": "Frozen-before-outcomes final256; earlier joint statistics draft not jointly signed",
+  "code_base_before_freeze": "43f61b699c77155e3c7371290cdcc1f0ea6f3a0a",
+  "source_sha256": {
+    "scripts/wmpai2026/vasi/final256_common.py": "0a250503e9fe8d295c20169d8d559d851574218521e869626e769253abd43c25",
+    "scripts/wmpai2026/vasi/final256_render_worker.py": "44f18da2692f586d70e8c7627211299606cac2a1b78019ed4c5aa00644d96eb2",
+    "scripts/wmpai2026/vasi/final256_score.py": "f39743349a7029c98d9ee2598cd03c2c9a8b5cbc6e7f0d7199efd341e41fb91f",
+    "scripts/wmpai2026/vasi/final256_analyse.py": "3f5dd489442afa57af01e05c27d896f3981578cb835386d379334baf8c08fbe6",
+    "scripts/wmpai2026/vasi/final256_input_gate.py": "e77cda64c1cf0062f64b360679bafa219e0c0e551f13372b2d6aa2489b873493",
+    "scripts/wmpai2026/vasi/run_final256.py": "b22eff27c6d84cde486ca4efe2c724045c8a2ec27a1f536b78df6b58697ce09c",
+    "scripts/wmpai2026/vasi/freeze_final256.py": "471eeeab6496e8f4e3ff46b039d4752eac3de0c6c7b5e01218cec4aaf1c661ba",
+    "scripts/wmpai2026/vasi/canonical_development_context.py": "4e84e6f25f4396e14b93301185d84ae552050eaf6a959dcf38b1d87dc8509d38",
+    "scripts/wmpai2026/vasi/score_development24.py": "c584496d9c772cdb1d8fc4d1722783a0f074e74d00f3eff4c2b98e18e024c0f9",
+    "scripts/wmpai2026/vasi/disk_offload_vjepa2.py": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+    "scripts/wmpai2026/vasi/stream_vjepa2_checkpoint.py": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a",
+    "scripts/run_intphys2_dense.py": "bd812402fefc7bc3c7b309b039448a5f444fb56e29d40ca7cd87c7b02afc05c6",
+    "scripts/run_vjepa2_kubric_construct_validity.py": "27e17779b97b8abbbaf9bf7ce630a3778abf1fc49a0a6c030aeb869f18a15d1d",
+    "scripts/wmpai2026/alex/a3_a4_lib.py": "b550570c0ece5be100ad8ef438a7cf43f96d01438b24770cc0b531cd711dcfc6",
+    "tests/test_wmpai_vasi_final256.py": "e44d3f35dc35707eaff724a4cae16a2447471c5af2d18f51c3b661dfbe4e2e02"
+  },
+  "artifact_sha256": {
+    "protocol.md": "889e718eee62ea45de08630e806df1764549831a183e259debaa3709393aaae3",
+    "configs.json": "d284626bb96b50a9bb6fc85988194c8441af045e13e0a3d01c710036dfb767ab",
+    "threshold.json": "72961761c133f86f1e51d45779f155a421379a61c22f0ab7af6d71b630443bdc",
+    "inspected-registry.json": "2bb71fdfb53c2694f4595eb9e9c21cbea8176369b0453b2e241d472f674cd95a"
+  },
+  "no_final_model_scores_or_renders_at_freeze": true,
+  "primary_scenes": 256,
+  "minimum_score_blind_eligible_scenes": 231,
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "package_versions": {
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.1.1",
+    "timm": "1.0.28"
+  },
+  "input_registry_trajectory_count": 50,
+  "input_registry_context_count": 98
+}

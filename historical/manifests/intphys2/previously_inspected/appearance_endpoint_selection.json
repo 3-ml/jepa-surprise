@@ -1,0 +1,3682 @@
+{
+  "schema_version": 1,
+  "dataset": "IntPhys2",
+  "split": "Main",
+  "metadata": "/jepa/data/intphys2/Main/metadata.csv",
+  "selection": "proportional largest-remainder allocation, then seeded SHA-256 ordering within strata",
+  "stratum_fields": [
+    "condition",
+    "Difficulty",
+    "Camera"
+  ],
+  "seed": "intphys2-main-endpoints-v1",
+  "fraction": 0.3333333333333333,
+  "available_pairs": 506,
+  "selected_pairs": 169,
+  "selected_videos": 338,
+  "selected_names": [
+    "017af21e830d4f045a3c3522c1e13717fa8a60231aca3289663c76ffdb23ec7e",
+    "01d4f1c6ab9c391a050507c91c92af56cc0562af229dac34dff4420327a3c41c",
+    "023a7804c368f831194d1da87d5c24b93c9a5e95e5941a97c5922928b0b16d15",
+    "03ab813637dc0ab0295f4ba813c1e5cd338d62142cfe70220fc58db7cd784ed5",
+    "0412d75b071ce599c9d8c5a1569bce4cd59dae473646ccb075fa8da9b39d47e7",
+    "04c1ec25e63edc25183d243a6202e9afd39d6d867a803499cb5b318ee3e8fb46",
+    "054d4f27f541b2806feebd882f3d1f8d942a46019564a997cce7a76f2c942d37",
+    "0587d291b5a036b91ce534ef2bde5df7af962d7203a86fcdac04067dc544dec5",
+    "06b64583d4c76516aa4eb150192598d0990449e31d9ba33d2fc5bf4244ea4f9c",
+    "0747c3fbb3c91d3e989edad0fbf19a1196eaae5eb3da0fb36fe60115cff42aa6",
+    "07b108e502b0e889ae06c0ae4fe476860292957548f431216db3ef258815797d",
+    "08f725b415cc4a0bb98ad915ccd081fe9f85a59bb294050d3c83196a5e04b8c6",
+    "0996318787089d31d84af8327bb044e77120cd0a6c6eb7425a179f932369146b",
+    "0add65242fd50825c5c3c7172623aebc56aa0c959a343c719cabc0fed3b22f09",
+    "0b9bd952a7a823176aae98ad97a4a425394b8e43f1320f618d127ff1e8bfae94",
+    "0bdc0a060f0e5ef914df1c6519c271167a07163152c03ef67572c4d9d99b5f2a",
+    "0c2783c5564673261ed9ff005afd2322a236226e23bb478a7ca510d4dc364207",
+    "0ccd2b075b7b6d3bcdfc1c24a55fa306fcf2769b9b8e280475d6b8ea3b15b209",
+    "0d426df113999eb1ce6bdeb3d53057d2428dccc4c6e7861e667831bbc8f761da",
+    "0d76b0db92f6864fb25b831589af1d85f495da771af9ef5c85b4ae247b56783b",
+    "0dbf29e70d6635783e530f85a8244bbc1c20023c2ea436f728ce18471c0f66f9",
+    "0ee7090ddee2f370f3d67dc5899d7e4d47910e79c98cc8280181e00e138fca14",
+    "10016ee86022157510a454d30f0f20976fa3c6b9fd7846b33b1c2bb1b6ca7dd7",
+    "1002905319b0ac6476b10fb962d1c82fc03666324e5fe26435bb66620eebf17a",
+    "122a7317bbce4f18c2554ca0cd86c6088d992cac89084af979d25a7e11f14ee5",
+    "12e58871cbf9f43edde99f0eaef46291b1dc404692488ff1879b2a199f9b7d5b",
+    "135810d4a72481f712bd342abfb5bb9204f1f3532ff3689cdfbb0047436f3bac",
+    "138211cfd8c0b794ba995e2b21041a9b221cdb0ae8fb2b0010e8f7a2ab33475f",
+    "1399af7e89a1108c9cbdecee8d8c0bc719120bedac750636a658faa17567f82c",
+    "14e890b24d1d9b891e22bf20bf5cdab37c43362bd2334ff8f9d96e1329b5dac4",
+    "1501f39bdc470df21edad5e452b002422f12c54030c236b928ba691dff9675c8",
+    "15660a01d0da7716e38af417e52a61f9c31148b5b4eabc1850b49cab6692f40d",
+    "15e9752d30b5cefa0c2be82fbd16af86d8ef856f11599360e14c92be43ba4335",
+    "15e9bd04a666db7a00fb886e9a92b2216f1b8714bf2a70fb66912f1010b92634",
+    "163b62fb148e95950d257ee23178e333a256c475089c2c4609951d8e19e74c0e",
+    "1657a4e3b50dd170ed90a22237610557b8414cea1f1f9fc2c190c83c96792304",
+    "16ff47bcb1d4d7385443a22d5f9ccaf8075eb817cd424047e6a8e304062a0fa7",
+    "1765ce13766b6480ea6e86bf14df9f9b465a49ce8b642c5f2763061087b2d31e",
+    "1771bb49c28dfb068cfe5cf1e39ba2d14874253c905690b697f830e45b524b0f",
+    "179cfd14e886bc12ef1ac9ce585036c182bff50870eb0e1f382198f41b195012",
+    "182cf075b8f2e645379ef9be9173af8080f5326767871ad3fd2fc75aebe3c3db",
+    "19106a00496b4b5b291670f8ee463daaf95ed17f958e3ebdaa383a7e197ecbe6",
+    "193a22592a45101e74ced0d40bacecc9b30f844c9076ddf7a3c77b5ef17e03ca",
+    "19c610d9197634879c045b8980247c27a9fe769b9a10f6dbd96d6b86dde69ceb",
+    "19c71d123e53a3ab2f3f65ded20e927a5bd5f0eada5abee6af15cd7dc52e4e92",
+    "1a5767d98dae33de5d1259c3cf4423baec4e42965bfd662d854c9ed6f16b465a",
+    "1b7e4519e38aac798004216286e6748ad02e7c0a7b86035806fc7c7b729b5be6",
+    "1c4347999f55282dfca3c21a68e54e30b1fe1b8efe5d835d5858623c18bda7f3",
+    "1e64b171de858b98ef326b755d0204778f9be4ea1921dacf6435c792c23785d8",
+    "1fa7c34af1249d82b1cba35a72d5277ba7e5333d9b4f6980c97afb1edf1a86c3",
+    "20748d38940cf102d705f577ea5848e76a5f1d76fccf3ae7d2daa0ca4535c5e2",
+    "2131354261e9f0442569c897ecf81c7fc9df8635d2c813141af27becfe757c3d",
+    "21b115e7e3c28bbd02663cdedfa70cec994d71d8f1ff001e6b82dae698943844",
+    "235a3b536424fb6d7203420cc8a305a9527978a280d63e57e69370cf951781c8",
+    "2535be14aabd05e8072ac2a89c875dbac30b7dc9347db71c2f7f2fa90880c96d",
+    "253669d6414066fd0c1ca625716d672344c3be36b735f56da5695bf8c3ba42ac",
+    "26ab6ff9796c771d24be24b5e0fff6d50f3139ffdc506b3f6441167dca5a228a",
+    "2786dba66d29860ff975353781031ce2fa384d98b8c8a5c55b998124d8b6a91d",
+    "279256862b49b8d8c0f5b55022a75809fdf9774540e235c040305f9a8d02d7c9",
+    "2a33cac35a42389e3d92e9f3b0446008c3c9846703d85a7ea629ac215c4654c7",
+    "2aa6e739df401e238e506b8d83e6b7e719a5d2da6cf990b6d13bd6683c36ce02",
+    "2b4da66a68b8ea66ffddea9b5eed0fc919b58bba52180aae58976290ba100ec7",
+    "2b9e4ebde2c9e655246b113db55ad3133103699211b4b12f98c33db2dc49637a",
+    "2d626b3bb726aed1216bd883c4ae08cb4dd77a7c437e955fd24b404b79d3ebae",
+    "2dd47968d4e32ccb7f8380ca5feb8c00c5dfab928fa04c95bda5a275de80f562",
+    "2e30d5dbe6debcb958ede17bfb824a4de404a52cd1e553267695179d18ac7473",
+    "2e97dfa19fa89184aac88417c16a1aa4e6f7208342e959fffb3fc50b3132d44a",
+    "2eb700c36863f59a994730c1ecf6f14230a7f15d04054cd7ed032db173c627cb",
+    "2ec47826bd0fe6a2cb1d7f4ed27afdc07a0e6cb7ca4dd172582de80b5ac9b7e1",
+    "300f4afd7e5e65f90df405ab9ba01c274f844d662a6715d8c9400a69f1e82f7b",
+    "3135d914d025b538abd1be097983047d51aa0657ed72e63cd97a9572087014e2",
+    "338857ebc71727cd5a8b1b1eda524242c14843577015cdb95179b6711b41ba11",
+    "355184642c6c6376410b7a5d494ed8fe14272644da15b6fdbfed7f2bcf36d419",
+    "372267074fc8ee3960cb873c03e91ee29e444cb6d1882322b8f0f3f2c3c12dcc",
+    "376be99c5ddac8724135ca8c899750c7d5e0ae6d42e84216748c0283a2a48bed",
+    "37dcf598f77ae2fdc80e829b83a6a43277aa46befa28628ad66731bef2b1d3e5",
+    "38111e124f09fbc8d7f51e3f334318de0eb8f064b494f01b239062058cdc16e0",
+    "38c6574d191d910e55b44ce8c5db26bf7f92479d778ce8493e0b8b461884a068",
+    "3908ee9dfac81fccc0b67599d2592b025a7d2caa495eef8f6dfc7d8c65bacfe1",
+    "391129cf9c849e408ff471df270ffceb1da9a272ad824117a19e6a25cb1e5732",
+    "39acaae32085a0e468c0c6cd3cfb0688d2f0fddc8e01ee054058dfa779d9f470",
+    "3a3fc3512f1c7e2d99a6963f11d23624b3b809760aa8bb8b5540628cc5594af8",
+    "3ad67a99901f217ff8586261bb54e58011c7ec9856d94396f012782f0bb13ddb",
+    "3ce00c1eaaa749958890891fa3c367c1061721196ebfca44815b25ffd5279c30",
+    "3d4b13430537820a9b8cbb984a95f30912c402283bc66835ae2c6105795dde37",
+    "3d810cf16a5bd8c9c12231353142f9b288d919855724b7eb16e55090b997124d",
+    "3dd98a2322fff140cb15b58537537d9652bf62af008d1b26754004169718762b",
+    "3e4b75433e4c518699f71cc5fb78085e2b44f91fa89004979286ee46ed366091",
+    "3f35be71b10b68531cf3cec91cb11580ba3e89158de5b1e4a4f1c979156a8a49",
+    "41190f98f326b04793e4ab0eb22fc2d2dafb323f6bd5b09f7e7520bdf4fca772",
+    "413fd56e6ebecd75459758c0e6129bfff778ae103a8ca9d75441b3ef48e83275",
+    "41e683caa4c1c975171d4769b6635790394abd51b86e3ae5aeabc1dc8949f071",
+    "42806e7d0968440c05460f13816246fa07dc07afb4bd3d8eb2d6a9739691f5b9",
+    "4290feb21f1611ac1661ec65a23187f1ef61740f7ec75a5f172c10c7e149c05d",
+    "42e8d66c90fac64a8ab7a3229d22ecb2c8e6e83a82b71a715a4651fc18b7cd94",
+    "42f17bdf4c0bc47dd69b9fd6b0b9b39ba5854c1ecf79b5942ae994ab6c27947a",
+    "4409dfa106b51d46b90016ca460976fb524c6b37c034602dfcd416cff1a19241",
+    "441b006c7435b6ec7e58948195176579d5c773f3a5e960083b12e733daa98609",
+    "442bb085121889b4204cc66d0f1440c5df34d648ae16ca91420ddefd09115dba",
+    "44d743cd290cea53cdd3837af4ea3b3b15f4368f2fcac9becda2e5b91b15f038",
+    "44e8f0632e3c548a10b05aaec7f08de272af8b25a534175a989aeea34c3601b3",
+    "45967df4de4628d9b269352b152a55a4b12a2030834c0b715a2b9db018eced33",
+    "4599df2276630675e27a1d24ce98a3fd11ca827a1cf44f3dddc8c6e267396837",
+    "4623b76dae5709bae5628ee8417f6ee303847141e91c515fda120388eb5f2592",
+    "4644d64b82c68a9cb142dadbf989c9682d3e6769027c21c0f83b5e0c061607a3",
+    "46944f644e5406762da24a63b3615ff96e9bb3e79c9499bc0fdfed9bf5400c9c",
+    "46fbea565028186b120fd03b24d482569bf6fc512b036478e9157bb56ac5a176",
+    "47080d0198d999d49f3a4cd830a0af7d054c4922ad702c25ac69f7a2aa021b5f",
+    "47d8abd46986dc9e9bd2997385214c9263d1cbd9cadff084b2d9343e0df7c40d",
+    "482241bd7da65ddd89d44e9f0c20f83bfa8317d69661d1cee766cc90c19e43fe",
+    "48b168ca1e31fd3e6080f14030ff6ba1d8de578da7a9bc63943903bc1a020b3e",
+    "48f714e7f78631f6ae55cda52d04e6270dd2e78af8671677fe95c5361d452972",
+    "493056784ba8389bf5cba561a6359ecba97fd9735a32a7c100942166794bab6d",
+    "4a406dcdde618ca470a607c41bf5de438a9575c60566560733e83abd14a863bb",
+    "4c5949850177773c0fc6a421344412d9ec824f922e6a2ff8a628cde5c53377da",
+    "4c854060306d0fef3c864b3bd2607e4d35339b8a31ecd99b835314605507dca6",
+    "4cdc5bf99ec0d7fbecec9614cfb8a8f04a3b9b491d9f1da66470e21d343ce2a5",
+    "4e157e7e6b06e8feeac0c86f0f080db71825ae098aa051533a1ee629f3182bc8",
+    "4e39a929f4840913606b3fb0f80b953cd74761690d4232837bbbe30d539576c2",
+    "4f156663ba6669bc202d1cc7d244ff8fa5f9c7c0e1d834b680da5c95973c0b2f",
+    "5025be001635072475f4dceded41e8cc9ed047c4418fb5c88cf0447858d7bc0d",
+    "51c4ce467dc5934bc65d82e9e9c1e51cb665e68ad09c3f090634bc1e592a1cab",
+    "52c897be51139f2fd686f4b3b55d12a75f343658a91ea41f1d7aa83b14368dce",
+    "546089ee7bb15a9dc6799e29f219795101ee3e35e89f0bc4d7b1bb5367adcb7d",
+    "55d83f38610f2b3d96fba2351953a56f30671e9ec3e20397827697d7864d5648",
+    "561c3ba7ac9ffe1022b1e3ec8f74e80dc3d7d6d0e51bb5b97859145d63b8c140",
+    "58c08157fe3357781f0b80ef55f5d82c3cc255ea571951a93ad435cd46c7784c",
+    "5998f4add3af076cae8ff81d04b595a5033f3e68428278f0b82cd04d8619660a",
+    "59b1a7da535e9846ad55779957346e68e3dce5337e4106cb6a4f1ba44a227820",
+    "5b7c057294dbf13c4302b747c1215ad94b6abc5505ed5cbaf8f790b36c140d8a",
+    "5c410a1c858a05b412f62aad58894fbd180e9ab8aaaacfe1436df6bb81788d79",
+    "5c87d0464423c9b515dcadad7a040963427f31ab607c6790be82a8c56ecdf361",
+    "5e7135c1af998a0d9eeadbb1c80215dd094a447f069357778b3de5175b45389f",
+    "5f1a035a566f534ce45f404fe8cb4ce6fab0e9dcdee2bc95a40ff641c914e362",
+    "600caba51ba5d4f81469e66fb75c92e9273df62efd815cbfe82fc9a3945382ae",
+    "613bda98c804e7e4c715ac5f7989e4314b788e582f99a585a7f364ffca1b69be",
+    "622f2a20333a8aa7d997075a99e27deb93dffc83c6a33431fa2572b4c3008dd2",
+    "634ef9e6ae856870c63a148276e4aa1e5887ff5d70801dffa73e916fa0d736f7",
+    "65c3778f85b2d3253d76feeb91d821ff5a79b6389158a9a64c1cee55562930d0",
+    "6814716ca839c25eb6fdfd8c42a46159c3375ac73b9ecb2a9cd1f3290db554d2",
+    "684b9f99732f79069c7786ff3d8e53bd5aaa1e83ae9b37d0e1cf9c6d99b08ef3",
+    "6b45c7616c19b1c17c7c3fd765b1027c590a4fd1688db2aead41cbd2e83b13b0",
+    "6d28412721989213ec14a4220fc6fd1c44cb5660b45e4ac16f2a3268e1ae25fe",
+    "6de22b6769adbcdf0ef1be6253f8cc5418e0c394d35771f463be632c6349cb01",
+    "6fc303fe9b4183d392af4f0f14971a350867ab7b89735229c29ea7020776d9b0",
+    "7040bc63618157a99a37ca1c5b28a1445e87009b02e0ba24e6596a4e677504a6",
+    "711611a43b9f856eac8486fb8aac9d3b36bf0e028af60b354ef86c3854d568f1",
+    "716bcdd15b08cd52398ed7ed95e10341574aec83b5d322bc3037985bdd2defba",
+    "723151be65fce52d66da353a5bad38fc4ac52639dc085b9c59a542fc43550e84",
+    "72a051de4c5ee923025aa384c16035a715e8087811c7fb98dc4545e5d977fcd9",
+    "73443250b4e47d65ee4f2ac2caf64ab7c523004b54972f5b864b9a35e1dcc9b7",
+    "73aaa41eafb0db00b1b4de2a64a95035c4eb7d24681f9a2e3794b9e092585cea",
+    "73dd19367dbd94b7f51f9d7498df2f1392ca14ce4270945b9c372fd3cce30df1",
+    "750b40a5eb33d8d2a29e4524598ca29f59b685851556f3c3ba406e80d13150cf",
+    "753659868d8811b5dfb44f02f633b2d61eb3353a5a6550690e586fd4ba329f63",
+    "7564993d86a82cd405fc84d15534586f409f4a834275fd443f2beb2117425f81",
+    "76ce6c9ec9588bc201509c866c744b10fb3664ee030ccc8c8501ed3e014bea85",
+    "770e6e3173eaa3bd8801eabe5295715d37a8865ea274ae3771b7fbbdd2a5bc3f",
+    "780fe29f730d2d7acb1743f886b5901e599c97b3340f50b952a9c560c38ddf1b",
+    "78415f5a8b7849dea8f270abf53d37bfbcbcd00ee4ac989b68cf9c2a58ca3c61",
+    "7926fec3da5fe4f8a15f91911c0b342e6eac12dc50f1b005c939144793bdf66d",
+    "794b79e0448a1010e8f2914cd7098f30bbf16a0947f1091854144fedac853358",
+    "796cf2b7f77043745e25817c22fec3b3f83ae079de2e4f591cbb104c5f89af53",
+    "79a01a7f88a41cf5f87a3a8881062981a04a6fe0431354fef9fad6ac67723b8d",
+    "7ae89bc342ec1b1c37d88014ae5247d9b3217e186e114fc79261d57b0d1881b8",
+    "7b0b07498ff49d6a62673ce20fa42ff6c3f8178931be16995132fe8c3632813f",
+    "7bdf0d1fa330e81e5edc01938b877cf2e6300cd16e3e3ded3accdb65f78bf2a0",
+    "7be5b2587016abbab68362cfe8c4553fcd0b9df8b1a21f931d84f1bf5a49c5d4",
+    "7c249631156ba31b66efdea2c881bfd15125b597ddbf2ca38d72b1e86eaba689",
+    "7e3fd048b1525cce229acfd4a63d73e33e099656ea01ef90b30d9f6a0c4b9561",
+    "7eb31487b580cfc9e5dce0fe07c9193507a26c5574e1117437519376dd3969f2",
+    "7faa38e394de878998cf235802e44a86fc4d6cc6092cd2bb7976f58320d562ff",
+    "80b491030bcaf3afdee742241fb1d799e0f92ad82f7f21ed12a349dcb5dd0f2d",
+    "80ce5b2bafe66c55666ca6b04cb41e402a7066d2e59df2e605bcb571dcf4c218",
+    "8211887a5b4213b6234b4e28750a9e5896a909aee4b2def8aca1e2a0d2fbed1b",
+    "834503c5a5a2adb6168814413d9ed04614aaf89fc7aa016a23fecbc8f06ebe75",
+    "837511d22de1e73f26aac1a815e25cbfdadef4c5b3a4926ea4bf217e7ac3c29d",
+    "83ff36b2ddd8b0aad8f02ff239e25a221d27980837aa7536548bea43972fc71d",
+    "8485753fa4b138a45e106341f40f5f9726b968c266129472d6bfae3721243739",
+    "8558d9be4c612523fe853a23ab74473c65c382f28fa1482f7a83d7ba34a3c6ff",
+    "85c5b9d31a5b61a8e48918cb5d1152676f74f6bebb1777fa451f530e8c748b53",
+    "86a1f0099dde8cc4fefc6b29ba3894aecd7ca7d9b1c6773c344ed57990faa83d",
+    "872b21663bf88103bc1b0768f14c00315f3d2b0e82531078bb7375bcd8ed44d5",
+    "8804907b3e50583ea5c6d756a2dd8bab39097258adcccfa4f752ddd89ab7f162",
+    "883397d3aa3ab0615a2229516d2fefb5219c86d995551ff42488c8af9e230401",
+    "88fdec3b88f1f9df00b7f9cbd68f5e67f1a6fd53f5abb773d30d0f1cd0d89630",
+    "891710949ce61da9dcf47a8ff83ffa2dfd4b1a9cdb8e590a2c445656a2c3947d",
+    "8934d73fd6d9a5646c9dcec33a952ace7c987d9e470861572d01b36aaad816ad",
+    "89c5923fd9ffffab6e1460ac91309bbbfd03d19f41a08a9d8bfc304c25ef3b3e",
+    "8a78104b84b142325ec9756f530cdb45e0c9cba3e840c0f1af7fd2e720582731",
+    "8a9d1896d60a028ff608ac8c56e885a32530d08714a6d02977fd6590c8928b9d",
+    "8ad6ed8bf5c3386ce620c8d96c15ef3c4b5dd728f915559fda23d18742687278",
+    "8be3561206464089522ee24e5d65d944289effad8df77be1e1d51fd41249d4e3",
+    "8cc506f13721d377d20261cb9c822b1aaed4dc1dfd8dd62015fa2c29a2f0344e",
+    "8f17ec48bffc2afe9af914c5fde9970cfb6b09d4713f78d839aef5e97f762892",
+    "8f7c386cb122895f2636fe791a0dcfb58289f3e44fcdf15f901dbfb45420d5ef",
+    "8fd387b4649bfc1a2fcf62f5e51b00b6dae4f8676088d8d38017b9a7ade0a77e",
+    "903f631caaeebc18841d43c055b6d939f62f753b0fe30eb974318fbaa209e603",
+    "905b755853e393de0895c107f94eff8f6b91efdccd116ae21fb3c229abc94b16",
+    "9175c7b48bd81716578ad991e95fac028e5eca0f3667da5fcaaa78399379ecde",
+    "92736ebe4a3d2b0254cc0a185ab4d011f0728883adf4b5cf03cab0e84cb1bf03",
+    "944940a7c8bfd05ffc2af92d3e5c9fbdceb946e89a7f0871d7b4721c6c5a26d3",
+    "96469303e3d7a59721e75b3e604b5975c4fcb2759287a4345af94a3ce9581a6d",
+    "969f354237e2a20392eadd36cf0b48f574ba964d9195b8a1aab712a76fec6a8d",
+    "96e30cf2317932d7d7cfba412b5e0679b78e0f2b787739c29a937ddc2423d0a0",
+    "9895771e31706afccd784d165f6b975141d3d4b2013e0948012756080fcc0b0b",
+    "995e338425302de7901dd87b513ca88f72a44b69ffe580e319cf588754f4d60e",
+    "997ff469ea13c3258b7d9f53f93158cfee7043c796536fa35d73d332bd14b9dd",
+    "9aaf4adb4cfe06ba4b1d4cf1aefc7f105c812a719d9b677dc056ae97bf5f748f",
+    "9b747136a92a1480769dc62caf994e5d6da7b8e333c9ab4a6cf0da3e1aedf8de",
+    "9ba999469154d5f601a2c041f829253572b8dc4a1d335a140c24a2d29ede1194",
+    "9c9e72b3434a1802368b97a7c413485ec161e363bc4b319807315ecdfb9e1aac",
+    "9cddda7cf55d36a20533e4f756a96890dab46765ed129e9289ed854450490970",
+    "9e42ffc14f2d605e3fbb296a4bf5735541f9107b5897ab6b93f52953ffbd5f2b",
+    "9f1dde55f5bf7c756a88918934286123959d0a7ffc19089e04bed2edb94f09a9",
+    "9f5ac5b50c746bab7774929cebcfcf93fbe2301261ab599153322c51b1f486c3",
+    "9f70e79b38d3e163a6e374b6ab23430a46b58757a2c4703dfe0af0540bb6ca0c",
+    "a07074b85876710338198aed3faba1a371d6d8954941a79cd776dd38b9664c12",
+    "a11ca197eb99ceb0668a57fe7a2ebcbad1bf81c28272fad81a655a758ab35407",
+    "a193e9c4cad20c18e2d26cde21b574036509eb993bfa9a1f21432701f8972d7c",
+    "a30d305bae35fecfbd48907cb79fb62716f74f94476abbead73dd939ca18360a",
+    "a31153b1f22da7424441dca34f1193f88128e56fc6e3a77eb4327d65e70e9e50",
+    "a436f075619078a159f54d52549b861467adaa2a89d2ee44626fd90429c4b1f6",
+    "a476dcbd66186e568ca72f3e066f90e1972486d344dc81c21602de57be13f596",
+    "a4f208c97bcc1fe82dbb710e3125526128b23d44e9ad7f005bc36865af0ffd1a",
+    "a53eacbcbd145c4661ad9248d7f0155cf7d89bd85c8543645ca26db3299a1f26",
+    "ab04f843aafe1e611138f5d90f2b9a15c5a5c1a9197a3aa6b40b44bd5e6f4355",
+    "ab82289d362058e528ea230eee8d4ae14da77a2012e0ad4d7773bab17cb726f3",
+    "ac3133d6c700806598ebefbd4119677fa5d3560c24ef1672c44bef1829bc960f",
+    "aca6ec7e5484728e0e43c27cc324261c1331887070f6242c4a7722b25c1a8c27",
+    "ad8c08efaa813e926bed129f64e7c987977813c4a3b7560cb7730bd3bfcf14fe",
+    "af618bed69c3822b03e29549a3543e92c8bf993488d54e753c669e6759984b24",
+    "afb40b3827ce24b46d0e77a7eb3696816e4434caa1926c5a39396e3f92ef3065",
+    "afefd7a35a4d3bc4f9e03748f4fe051ae3a90b3f6b25a6dad12742686d5acc6d",
+    "b0282ab74f2166314ef89c9e57af643d12d1b665609f5f1caa7ab9f108f876d9",
+    "b0ba9e1c3f3d5208a1a4cd89fcbff16b0c175fce90aad9734e7b23b263f11d85",
+    "b1ab2bc8c2251229202dac9b5811f1c32d936f6d4b13da869b76a087a42d6673",
+    "b283bfc10b944a2935d1c87531aac489a340f5b175131d9ac0eb5ec4f42d2688",
+    "b30efc04e1aa6e67d94e2dc360a1124476c9609c8d1ac3e2639037be06bc75ce",
+    "b33f2430f30383cd00d6def178315c4b1e90bcbb304fd38a1ef6bb26ab78d747",
+    "b59861279a590a5173a221b012d2b54cab8cb95f426bcab7a9f0e01d7f4c19cc",
+    "b5a388a235a77f2ad2734087a525bc97033cb824a6dcde495c07c56b0670b020",
+    "b5ef8bc59b26f95ab79edaed546d97cae4df7bbb1e0b991374a3aac252ff9936",
+    "b6342f1f31b35ecc5d8e1c5954e558d5ef823e03bfd51df6f18e6e31cebebfba",
+    "b6f4fec72d104937b74971714b52e7fc363c3066b284e0410a5749d3c796bbde",
+    "b713e51de6cde1e4d627ce062b9cfd63ecdc31ded4d05e403c533036a5d63220",
+    "b81f5acefbf2ef86a28f1ce350f325e88d243d59aca0dddf9aeec3be92ed8daf",
+    "b91f61ee6efab0e1d21a890c40aa9f6abea3e4f996234770ff41632e18b06d0c",
+    "ba74d77b55eb9bca8bf3e89518d6f775012ef68155b6f55e8b795407817f22d4",
+    "bbfd9ad34701dd14ac3f6b3941e94e60ee3ec4597df78b38017beebaa9bdfe04",
+    "bdca8d05b9de010a27e8f95ff3650220794873a00dba4c772bf22c9b1d573bb4",
+    "be1517eac30ce356c6871b40b0636b7ebb4baa9a21b7982da0d23870a767b9ab",
+    "be260cfc1846557e75978f69967d1e66d92bfb2763b911d471103a8e0168ad60",
+    "be3111c6d9416877cad0bef2e98cf2220b6c6898507185da0b66adfe66ca4452",
+    "bea91d70cc78a260145b1a3e960a26443370d4e401c97cdd810e79ff0caabd23",
+    "beba5e80220263d0c89f87e429cff41cc25c8a8ae641d490cea1b19d0e3ffda6",
+    "c04ddf75dc7e30b9ae93a1167fd35681d18239f019e13a414655c873e46b91ea",
+    "c08b8ba3188ed519016203cebbba011a58245d7fd4cdb40cd911f0e15bb0883a",
+    "c0d5fe94e25bc6ea8026ce68d40c0b4a528d1d6999d6e7df4911d83cd8ce64c0",
+    "c203ee7e7fb0da8daae8bebb448efa9cfb9b0322c4fdfee35463b68ae253a311",
+    "c20e0dd0b3ebaa18a257eb0a8c1401094617e194fb52d108966911ba3103db0d",
+    "c2953be7e837f1014f913c8f5b16b2726a503528821ca8cb6175f5d011493a89",
+    "c308dfea1753c78955f5fe9585752bda4b8099c970f342582b92d318a9e7b97d",
+    "c38e7faedd42775399564a05ebe8cadee61cc9f45be6a47e654609da518499c5",
+    "c509687969a46b8ee90113e0d88ad2a39ea438e7b1aa50552e88229df1db163b",
+    "c54703bdc00654c1004e3ce445989ebc5eca7477d458d0298f30d8bab5f1bd9b",
+    "c6a55f6de2d443567beaae887ebe4d88f286cfc262817039f1a77b7b1b2df31a",
+    "c84e6e48f834706948c9e432219ed40970bc4125595d45d347d81d34b8ee4796",
+    "c8aa95f84f41a872d74377b50653715d269d57d64d4c09bf7592a04f7814cd67",
+    "ca3cc21700a684b88ad26b31c2d5ee0b3e06b50a6bbdbf3fadf40f85b0a27521",
+    "ca3e63b54d1abf4eeb86e961cc774dbaa0c2411b141416b1f69d5916aa64154c",
+    "ca44bd6f25ddb461f60564fd6e3baf95f4f3cdf273d10e59df729ac8313c8e8d",
+    "cb5a77a2e9f14067618dadf22a07099f9b8bd069f6990e6503475807243d21f7",
+    "cbf2b2e195519f26543eeaec1f96265ecb55c72ec894a877ea20821aec0a7622",
+    "cc186586edaa0c557409abb3964d977ef8228898b54a146c61a4856a83fe9b9a",
+    "cd39d93bd494cd04cecca43a45474c8de050b26194d373abc026d5933052d532",
+    "cd6736300dc251eb8dd1d86b54534b52cafee43bd68e9f927a5aac6a1c7249df",
+    "ce0042f60ea6a5eb5206b40a8724a6fd113838386b17306c5f9f79784be99be4",
+    "cf71f0e3ceb507cb034ca20bba5c2097b7972501de46a50350215b79a5e5c0fa",
+    "d05677fe29d2553c76348d45fd11e4340e727e0853a4de6c3d6c0309df73eb76",
+    "d0830bc3c8f01235bfeba0685fe57790611706e03f2105e16eafe8423563a5a4",
+    "d0e0676715b9abd485ec647ab7d35e3f0b8758e5eebf2bf1651a43e758614fea",
+    "d147e9d5b2cb6d7abd64c1f61a1ecea8f65555225243794aa902a7a80586075e",
+    "d21dbad1b6a3b2cdb2f0e74ec9f8e8e83a21d5c86fe3b67171e36a3f826add3f",
+    "d2f17e7e3e4abc384f80dd7646135848eeb640b7d345677c11dc11d1f9821b07",
+    "d3c198d161d4aa5f77641a009ab647b486d2559ef20d5f1513c84d64d218a1c1",
+    "d3cbe2f5a0487cd2f61a63fbae84ba1f28f19d70d2f5c2119edb68d008bcce3d",
+    "d4670d8b6e7c6637ad236c5f3a3b4861b8129698ffa27a4e78edcaddc681eff4",
+    "d4ba68f63e9cca091e79a65a8a1181963bd4c77148d22e776981993775858eaf",
+    "d5c063de5aa6071b59510a1f759e0155dd3ad619b1b0adfaf4ea85f40247a4db",
+    "d60ae8971655320982852bf769693d79ea7ae2ee0fc6437235471ff809b33536",
+    "d62b063856a3971c7c8e745d5a767853b36e0c0e42c1f01fd0702ba1fa06937c",
+    "d7ab82095005ade21934b28e795ce714a9393daeb9a953d1f785325f9ba06fc0",
+    "d886ee6373a26de7224c74dab409b6dc2fd11036d32f778fffdf741a50f1e4c2",
+    "d89e0ad5ed31df51dcedd1fafc21e88cdce6d252b725f3acc734b4ebc0d66948",
+    "d9c1fa8933f1641b07ba33044c53564176e5bf33f7785f9c1cbf3ada192e721f",
+    "da2fda1055bee7ab7d229a5833fc7ee46bc9962b2eaa4b2904bf8cfe65009af8",
+    "da9b377f9d7ca7fa00672e901abd930d333e599fd3976ab39d31f1754603d458",
+    "db09bece6b564fb5038d1189bbd0731691e70888712a9ed416d74551d8bd3ac5",
+    "dbfa70ea7561752f5acf6c498e25150fe439773799294449dec349c76a7c0b74",
+    "dcfe8779a02e216d7a0d9964683e263b960971f9fea89fe139243a85d0e76e4c",
+    "de556ed01525f2440f0a2c37097fef6579ca99e2ec8b35dcb79aeb4d7a6db9ae",
+    "dea95849d49a28d57029e6340bc2259fbdcc1f016ea1cbb6d80e726e849160b8",
+    "dedf19b3ad1109060b7618a59a49ff13f6642dcd252620308cbada727f21c8e3",
+    "dfe65086cc42940784399c5e383c98297107ac72779a1b34c96f1958e67b9a0f",
+    "e0dfcff406c7c30840800b7277474bd77a73bde54fb96f25b166624731410a13",
+    "e0eba25316e8b26e584f0c96fb28639153c98d028f17422323a7a0d40ec4ba02",
+    "e10a88bfed19211d45a76adb747fd756f3cdfcef7dac8cd628486f7345377765",
+    "e2261b2a693eb270f441b6b4ec204e6c0cc5a2a51a39700ac4557ffd6b8f477d",
+    "e24456a3ae5ad247371fac40fd8eda1d808e77094d62f8e9baf011ac026e7225",
+    "e40af30878e19eaabac0ecfeb7654b844b830771357635b03af5f09fb1fc649c",
+    "e641e677d46be116bd2f16a5bb51a39d05a0bca7d0be715d7f12c223734d5f85",
+    "e78dc4007d3e344822d1a4e89f49d0c5ef9d3d4efe6c28425fbc6db5a637664e",
+    "e7c0f0ec770e41587a3d9f81f2eb1d3238d30e9c9188b763eaf1bc9dad893974",
+    "e831f7d99a539cabc1f4236f802de00eedc9d53e34e9425d178b249644fec018",
+    "e853c91d323330848e8f6bad3617cbfa2afa2cbc3698a7ff13db2a4b45206e73",
+    "ea84a0887471377cb4a601b8a67102151d340b380769cf0dcd4d6d4a768fc384",
+    "ea99e68648af19ec1789c656f4bfeee20bdf933fe675c78ad28dd7e05229c0a5",
+    "eae9a606cec9c55a398c52ddc3dac7d2094812de83d7cf3205c8d1fd53990c1e",
+    "eb38558a2cb0f3f529324a7bfa1d7d9c17be4a52773369ec2e57f25ef77f2620",
+    "ebc75ed6e3de95086e652be2837206809270990546b20f49f3d5a1e6ba0e151b",
+    "edf448284ec8e7d793e19aaffcef287bcbcdd2761f1ea3b46fc517332950beee",
+    "eeacc9f2e336610838e1b8b2614a3c64baec075caccabdfb7224ae6c3956ced9",
+    "eebb916391ab0cfd525f681688d9aecc593b6ea7d1ec09af61c785794abd32e2",
+    "f3e8905d9c9f76483589dfa6e4f7e9132258be57be924e84c05c1631c99842fe",
+    "f6dad37680aa250cc063a7673c702da77c11ac1797aab71e0c5d75d4fd230c8a",
+    "f8eaeae818d878cf6f6caa1d3489d74bf7f47d071ba025e070515beecc0ecf23",
+    "f9496a112d86a3d99b9a19c31c7d316086daa77d52c8372580c63e5fe9dc3738",
+    "f97d88f014164bc25854df318df8738b29c7f7532a0a531e1b029ea727187005",
+    "fa58dbb5f0c6ceaac6568d79c65336692acce75d5e06ab74b766865161cb0772",
+    "fc19ad3c022c299c68d53a8b371ea3f2cded015e9cde3cc03cb956040dc55db1",
+    "fc6d6f47a1b4e3cfa208bafc429bb23b3a56da5b0532efc49a13c1d440b5298f",
+    "fc8936a9a5617125330ab27569051c7bac21e14d36407b8a16d263852dcadafc",
+    "fcfc2737ddd12c2829b2eb7e09977cfc5694d084dc893fb04d11f47aedcf62e7",
+    "fe36d2250977f4d973df7d9c9b2efc6e3da1c802c3803c236b5213c2718bb2dd",
+    "fe75e20a9f2310239f016e2fa8bd3440804ea42ec51c0dc0aa134fefdc38969f",
+    "fea7f9879c1983372ac0a597805d1a8739293f681563eec9ae29d3a0d8c6dd5a",
+    "fffdfca434877221266a73285f571b0ef6d980a0300ab6d40baabf86ec403c71"
+  ],
+  "strata": [
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 22,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 24,
+      "selected_pairs": 8
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 20,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 22,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 24,
+      "selected_pairs": 8
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 20,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 18,
+      "selected_pairs": 6
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 22,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 24,
+      "selected_pairs": 8
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 20,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 6,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 10,
+      "selected_pairs": 3
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 22,
+      "selected_pairs": 7
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 38,
+      "selected_pairs": 13
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 24,
+      "selected_pairs": 8
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 38,
+      "selected_pairs": 13
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 8,
+      "selected_pairs": 3
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "1/1",
+      "SceneIndex": 1,
+      "member": "1",
+      "names": [
+        "0412d75b071ce599c9d8c5a1569bce4cd59dae473646ccb075fa8da9b39d47e7",
+        "0996318787089d31d84af8327bb044e77120cd0a6c6eb7425a179f932369146b"
+      ],
+      "filenames": [
+        "Videos/0412d75b071ce599c9d8c5a1569bce4cd59dae473646ccb075fa8da9b39d47e7.mp4",
+        "Videos/0996318787089d31d84af8327bb044e77120cd0a6c6eb7425a179f932369146b.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "101/1",
+      "SceneIndex": 101,
+      "member": "1",
+      "names": [
+        "e853c91d323330848e8f6bad3617cbfa2afa2cbc3698a7ff13db2a4b45206e73",
+        "ebc75ed6e3de95086e652be2837206809270990546b20f49f3d5a1e6ba0e151b"
+      ],
+      "filenames": [
+        "Videos/e853c91d323330848e8f6bad3617cbfa2afa2cbc3698a7ff13db2a4b45206e73.mp4",
+        "Videos/ebc75ed6e3de95086e652be2837206809270990546b20f49f3d5a1e6ba0e151b.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "103/2",
+      "SceneIndex": 103,
+      "member": "2",
+      "names": [
+        "d21dbad1b6a3b2cdb2f0e74ec9f8e8e83a21d5c86fe3b67171e36a3f826add3f",
+        "d4670d8b6e7c6637ad236c5f3a3b4861b8129698ffa27a4e78edcaddc681eff4"
+      ],
+      "filenames": [
+        "Videos/d21dbad1b6a3b2cdb2f0e74ec9f8e8e83a21d5c86fe3b67171e36a3f826add3f.mp4",
+        "Videos/d4670d8b6e7c6637ad236c5f3a3b4861b8129698ffa27a4e78edcaddc681eff4.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "104/1",
+      "SceneIndex": 104,
+      "member": "1",
+      "names": [
+        "372267074fc8ee3960cb873c03e91ee29e444cb6d1882322b8f0f3f2c3c12dcc",
+        "7faa38e394de878998cf235802e44a86fc4d6cc6092cd2bb7976f58320d562ff"
+      ],
+      "filenames": [
+        "Videos/372267074fc8ee3960cb873c03e91ee29e444cb6d1882322b8f0f3f2c3c12dcc.mp4",
+        "Videos/7faa38e394de878998cf235802e44a86fc4d6cc6092cd2bb7976f58320d562ff.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "104/2",
+      "SceneIndex": 104,
+      "member": "2",
+      "names": [
+        "4e39a929f4840913606b3fb0f80b953cd74761690d4232837bbbe30d539576c2",
+        "c04ddf75dc7e30b9ae93a1167fd35681d18239f019e13a414655c873e46b91ea"
+      ],
+      "filenames": [
+        "Videos/4e39a929f4840913606b3fb0f80b953cd74761690d4232837bbbe30d539576c2.mp4",
+        "Videos/c04ddf75dc7e30b9ae93a1167fd35681d18239f019e13a414655c873e46b91ea.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "108/1",
+      "SceneIndex": 108,
+      "member": "1",
+      "names": [
+        "441b006c7435b6ec7e58948195176579d5c773f3a5e960083b12e733daa98609",
+        "aca6ec7e5484728e0e43c27cc324261c1331887070f6242c4a7722b25c1a8c27"
+      ],
+      "filenames": [
+        "Videos/441b006c7435b6ec7e58948195176579d5c773f3a5e960083b12e733daa98609.mp4",
+        "Videos/aca6ec7e5484728e0e43c27cc324261c1331887070f6242c4a7722b25c1a8c27.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "108/2",
+      "SceneIndex": 108,
+      "member": "2",
+      "names": [
+        "391129cf9c849e408ff471df270ffceb1da9a272ad824117a19e6a25cb1e5732",
+        "eebb916391ab0cfd525f681688d9aecc593b6ea7d1ec09af61c785794abd32e2"
+      ],
+      "filenames": [
+        "Videos/391129cf9c849e408ff471df270ffceb1da9a272ad824117a19e6a25cb1e5732.mp4",
+        "Videos/eebb916391ab0cfd525f681688d9aecc593b6ea7d1ec09af61c785794abd32e2.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "109/2",
+      "SceneIndex": 109,
+      "member": "2",
+      "names": [
+        "19106a00496b4b5b291670f8ee463daaf95ed17f958e3ebdaa383a7e197ecbe6",
+        "c08b8ba3188ed519016203cebbba011a58245d7fd4cdb40cd911f0e15bb0883a"
+      ],
+      "filenames": [
+        "Videos/19106a00496b4b5b291670f8ee463daaf95ed17f958e3ebdaa383a7e197ecbe6.mp4",
+        "Videos/c08b8ba3188ed519016203cebbba011a58245d7fd4cdb40cd911f0e15bb0883a.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "110/2",
+      "SceneIndex": 110,
+      "member": "2",
+      "names": [
+        "0dbf29e70d6635783e530f85a8244bbc1c20023c2ea436f728ce18471c0f66f9",
+        "7040bc63618157a99a37ca1c5b28a1445e87009b02e0ba24e6596a4e677504a6"
+      ],
+      "filenames": [
+        "Videos/0dbf29e70d6635783e530f85a8244bbc1c20023c2ea436f728ce18471c0f66f9.mp4",
+        "Videos/7040bc63618157a99a37ca1c5b28a1445e87009b02e0ba24e6596a4e677504a6.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "111/1",
+      "SceneIndex": 111,
+      "member": "1",
+      "names": [
+        "2e30d5dbe6debcb958ede17bfb824a4de404a52cd1e553267695179d18ac7473",
+        "78415f5a8b7849dea8f270abf53d37bfbcbcd00ee4ac989b68cf9c2a58ca3c61"
+      ],
+      "filenames": [
+        "Videos/2e30d5dbe6debcb958ede17bfb824a4de404a52cd1e553267695179d18ac7473.mp4",
+        "Videos/78415f5a8b7849dea8f270abf53d37bfbcbcd00ee4ac989b68cf9c2a58ca3c61.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "113/2",
+      "SceneIndex": 113,
+      "member": "2",
+      "names": [
+        "837511d22de1e73f26aac1a815e25cbfdadef4c5b3a4926ea4bf217e7ac3c29d",
+        "a193e9c4cad20c18e2d26cde21b574036509eb993bfa9a1f21432701f8972d7c"
+      ],
+      "filenames": [
+        "Videos/837511d22de1e73f26aac1a815e25cbfdadef4c5b3a4926ea4bf217e7ac3c29d.mp4",
+        "Videos/a193e9c4cad20c18e2d26cde21b574036509eb993bfa9a1f21432701f8972d7c.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "116/1",
+      "SceneIndex": 116,
+      "member": "1",
+      "names": [
+        "2ec47826bd0fe6a2cb1d7f4ed27afdc07a0e6cb7ca4dd172582de80b5ac9b7e1",
+        "afb40b3827ce24b46d0e77a7eb3696816e4434caa1926c5a39396e3f92ef3065"
+      ],
+      "filenames": [
+        "Videos/2ec47826bd0fe6a2cb1d7f4ed27afdc07a0e6cb7ca4dd172582de80b5ac9b7e1.mp4",
+        "Videos/afb40b3827ce24b46d0e77a7eb3696816e4434caa1926c5a39396e3f92ef3065.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "118/2",
+      "SceneIndex": 118,
+      "member": "2",
+      "names": [
+        "a53eacbcbd145c4661ad9248d7f0155cf7d89bd85c8543645ca26db3299a1f26",
+        "fa58dbb5f0c6ceaac6568d79c65336692acce75d5e06ab74b766865161cb0772"
+      ],
+      "filenames": [
+        "Videos/a53eacbcbd145c4661ad9248d7f0155cf7d89bd85c8543645ca26db3299a1f26.mp4",
+        "Videos/fa58dbb5f0c6ceaac6568d79c65336692acce75d5e06ab74b766865161cb0772.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "119/2",
+      "SceneIndex": 119,
+      "member": "2",
+      "names": [
+        "d886ee6373a26de7224c74dab409b6dc2fd11036d32f778fffdf741a50f1e4c2",
+        "d9c1fa8933f1641b07ba33044c53564176e5bf33f7785f9c1cbf3ada192e721f"
+      ],
+      "filenames": [
+        "Videos/d886ee6373a26de7224c74dab409b6dc2fd11036d32f778fffdf741a50f1e4c2.mp4",
+        "Videos/d9c1fa8933f1641b07ba33044c53564176e5bf33f7785f9c1cbf3ada192e721f.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "12/1",
+      "SceneIndex": 12,
+      "member": "1",
+      "names": [
+        "4cdc5bf99ec0d7fbecec9614cfb8a8f04a3b9b491d9f1da66470e21d343ce2a5",
+        "8558d9be4c612523fe853a23ab74473c65c382f28fa1482f7a83d7ba34a3c6ff"
+      ],
+      "filenames": [
+        "Videos/4cdc5bf99ec0d7fbecec9614cfb8a8f04a3b9b491d9f1da66470e21d343ce2a5.mp4",
+        "Videos/8558d9be4c612523fe853a23ab74473c65c382f28fa1482f7a83d7ba34a3c6ff.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "120/1",
+      "SceneIndex": 120,
+      "member": "1",
+      "names": [
+        "08f725b415cc4a0bb98ad915ccd081fe9f85a59bb294050d3c83196a5e04b8c6",
+        "1fa7c34af1249d82b1cba35a72d5277ba7e5333d9b4f6980c97afb1edf1a86c3"
+      ],
+      "filenames": [
+        "Videos/08f725b415cc4a0bb98ad915ccd081fe9f85a59bb294050d3c83196a5e04b8c6.mp4",
+        "Videos/1fa7c34af1249d82b1cba35a72d5277ba7e5333d9b4f6980c97afb1edf1a86c3.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "120/2",
+      "SceneIndex": 120,
+      "member": "2",
+      "names": [
+        "872b21663bf88103bc1b0768f14c00315f3d2b0e82531078bb7375bcd8ed44d5",
+        "edf448284ec8e7d793e19aaffcef287bcbcdd2761f1ea3b46fc517332950beee"
+      ],
+      "filenames": [
+        "Videos/872b21663bf88103bc1b0768f14c00315f3d2b0e82531078bb7375bcd8ed44d5.mp4",
+        "Videos/edf448284ec8e7d793e19aaffcef287bcbcdd2761f1ea3b46fc517332950beee.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "122/1",
+      "SceneIndex": 122,
+      "member": "1",
+      "names": [
+        "06b64583d4c76516aa4eb150192598d0990449e31d9ba33d2fc5bf4244ea4f9c",
+        "7c249631156ba31b66efdea2c881bfd15125b597ddbf2ca38d72b1e86eaba689"
+      ],
+      "filenames": [
+        "Videos/06b64583d4c76516aa4eb150192598d0990449e31d9ba33d2fc5bf4244ea4f9c.mp4",
+        "Videos/7c249631156ba31b66efdea2c881bfd15125b597ddbf2ca38d72b1e86eaba689.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "123/1",
+      "SceneIndex": 123,
+      "member": "1",
+      "names": [
+        "8a9d1896d60a028ff608ac8c56e885a32530d08714a6d02977fd6590c8928b9d",
+        "da2fda1055bee7ab7d229a5833fc7ee46bc9962b2eaa4b2904bf8cfe65009af8"
+      ],
+      "filenames": [
+        "Videos/8a9d1896d60a028ff608ac8c56e885a32530d08714a6d02977fd6590c8928b9d.mp4",
+        "Videos/da2fda1055bee7ab7d229a5833fc7ee46bc9962b2eaa4b2904bf8cfe65009af8.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "126/2",
+      "SceneIndex": 126,
+      "member": "2",
+      "names": [
+        "1e64b171de858b98ef326b755d0204778f9be4ea1921dacf6435c792c23785d8",
+        "9aaf4adb4cfe06ba4b1d4cf1aefc7f105c812a719d9b677dc056ae97bf5f748f"
+      ],
+      "filenames": [
+        "Videos/1e64b171de858b98ef326b755d0204778f9be4ea1921dacf6435c792c23785d8.mp4",
+        "Videos/9aaf4adb4cfe06ba4b1d4cf1aefc7f105c812a719d9b677dc056ae97bf5f748f.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "127/2",
+      "SceneIndex": 127,
+      "member": "2",
+      "names": [
+        "5c87d0464423c9b515dcadad7a040963427f31ab607c6790be82a8c56ecdf361",
+        "d0830bc3c8f01235bfeba0685fe57790611706e03f2105e16eafe8423563a5a4"
+      ],
+      "filenames": [
+        "Videos/5c87d0464423c9b515dcadad7a040963427f31ab607c6790be82a8c56ecdf361.mp4",
+        "Videos/d0830bc3c8f01235bfeba0685fe57790611706e03f2105e16eafe8423563a5a4.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "128/2",
+      "SceneIndex": 128,
+      "member": "2",
+      "names": [
+        "780fe29f730d2d7acb1743f886b5901e599c97b3340f50b952a9c560c38ddf1b",
+        "d5c063de5aa6071b59510a1f759e0155dd3ad619b1b0adfaf4ea85f40247a4db"
+      ],
+      "filenames": [
+        "Videos/780fe29f730d2d7acb1743f886b5901e599c97b3340f50b952a9c560c38ddf1b.mp4",
+        "Videos/d5c063de5aa6071b59510a1f759e0155dd3ad619b1b0adfaf4ea85f40247a4db.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "13/2",
+      "SceneIndex": 13,
+      "member": "2",
+      "names": [
+        "79a01a7f88a41cf5f87a3a8881062981a04a6fe0431354fef9fad6ac67723b8d",
+        "d3cbe2f5a0487cd2f61a63fbae84ba1f28f19d70d2f5c2119edb68d008bcce3d"
+      ],
+      "filenames": [
+        "Videos/79a01a7f88a41cf5f87a3a8881062981a04a6fe0431354fef9fad6ac67723b8d.mp4",
+        "Videos/d3cbe2f5a0487cd2f61a63fbae84ba1f28f19d70d2f5c2119edb68d008bcce3d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "130/2",
+      "SceneIndex": 130,
+      "member": "2",
+      "names": [
+        "2b9e4ebde2c9e655246b113db55ad3133103699211b4b12f98c33db2dc49637a",
+        "ab04f843aafe1e611138f5d90f2b9a15c5a5c1a9197a3aa6b40b44bd5e6f4355"
+      ],
+      "filenames": [
+        "Videos/2b9e4ebde2c9e655246b113db55ad3133103699211b4b12f98c33db2dc49637a.mp4",
+        "Videos/ab04f843aafe1e611138f5d90f2b9a15c5a5c1a9197a3aa6b40b44bd5e6f4355.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "131/1",
+      "SceneIndex": 131,
+      "member": "1",
+      "names": [
+        "622f2a20333a8aa7d997075a99e27deb93dffc83c6a33431fa2572b4c3008dd2",
+        "ce0042f60ea6a5eb5206b40a8724a6fd113838386b17306c5f9f79784be99be4"
+      ],
+      "filenames": [
+        "Videos/622f2a20333a8aa7d997075a99e27deb93dffc83c6a33431fa2572b4c3008dd2.mp4",
+        "Videos/ce0042f60ea6a5eb5206b40a8724a6fd113838386b17306c5f9f79784be99be4.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "135/1",
+      "SceneIndex": 135,
+      "member": "1",
+      "names": [
+        "b713e51de6cde1e4d627ce062b9cfd63ecdc31ded4d05e403c533036a5d63220",
+        "d05677fe29d2553c76348d45fd11e4340e727e0853a4de6c3d6c0309df73eb76"
+      ],
+      "filenames": [
+        "Videos/b713e51de6cde1e4d627ce062b9cfd63ecdc31ded4d05e403c533036a5d63220.mp4",
+        "Videos/d05677fe29d2553c76348d45fd11e4340e727e0853a4de6c3d6c0309df73eb76.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "135/2",
+      "SceneIndex": 135,
+      "member": "2",
+      "names": [
+        "2b4da66a68b8ea66ffddea9b5eed0fc919b58bba52180aae58976290ba100ec7",
+        "e2261b2a693eb270f441b6b4ec204e6c0cc5a2a51a39700ac4557ffd6b8f477d"
+      ],
+      "filenames": [
+        "Videos/2b4da66a68b8ea66ffddea9b5eed0fc919b58bba52180aae58976290ba100ec7.mp4",
+        "Videos/e2261b2a693eb270f441b6b4ec204e6c0cc5a2a51a39700ac4557ffd6b8f477d.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "136/2",
+      "SceneIndex": 136,
+      "member": "2",
+      "names": [
+        "753659868d8811b5dfb44f02f633b2d61eb3353a5a6550690e586fd4ba329f63",
+        "86a1f0099dde8cc4fefc6b29ba3894aecd7ca7d9b1c6773c344ed57990faa83d"
+      ],
+      "filenames": [
+        "Videos/753659868d8811b5dfb44f02f633b2d61eb3353a5a6550690e586fd4ba329f63.mp4",
+        "Videos/86a1f0099dde8cc4fefc6b29ba3894aecd7ca7d9b1c6773c344ed57990faa83d.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "139/1",
+      "SceneIndex": 139,
+      "member": "1",
+      "names": [
+        "0587d291b5a036b91ce534ef2bde5df7af962d7203a86fcdac04067dc544dec5",
+        "6d28412721989213ec14a4220fc6fd1c44cb5660b45e4ac16f2a3268e1ae25fe"
+      ],
+      "filenames": [
+        "Videos/0587d291b5a036b91ce534ef2bde5df7af962d7203a86fcdac04067dc544dec5.mp4",
+        "Videos/6d28412721989213ec14a4220fc6fd1c44cb5660b45e4ac16f2a3268e1ae25fe.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "14/2",
+      "SceneIndex": 14,
+      "member": "2",
+      "names": [
+        "07b108e502b0e889ae06c0ae4fe476860292957548f431216db3ef258815797d",
+        "c0d5fe94e25bc6ea8026ce68d40c0b4a528d1d6999d6e7df4911d83cd8ce64c0"
+      ],
+      "filenames": [
+        "Videos/07b108e502b0e889ae06c0ae4fe476860292957548f431216db3ef258815797d.mp4",
+        "Videos/c0d5fe94e25bc6ea8026ce68d40c0b4a528d1d6999d6e7df4911d83cd8ce64c0.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "141/1",
+      "SceneIndex": 141,
+      "member": "1",
+      "names": [
+        "b1ab2bc8c2251229202dac9b5811f1c32d936f6d4b13da869b76a087a42d6673",
+        "e7c0f0ec770e41587a3d9f81f2eb1d3238d30e9c9188b763eaf1bc9dad893974"
+      ],
+      "filenames": [
+        "Videos/b1ab2bc8c2251229202dac9b5811f1c32d936f6d4b13da869b76a087a42d6673.mp4",
+        "Videos/e7c0f0ec770e41587a3d9f81f2eb1d3238d30e9c9188b763eaf1bc9dad893974.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "142/1",
+      "SceneIndex": 142,
+      "member": "1",
+      "names": [
+        "0747c3fbb3c91d3e989edad0fbf19a1196eaae5eb3da0fb36fe60115cff42aa6",
+        "73443250b4e47d65ee4f2ac2caf64ab7c523004b54972f5b864b9a35e1dcc9b7"
+      ],
+      "filenames": [
+        "Videos/0747c3fbb3c91d3e989edad0fbf19a1196eaae5eb3da0fb36fe60115cff42aa6.mp4",
+        "Videos/73443250b4e47d65ee4f2ac2caf64ab7c523004b54972f5b864b9a35e1dcc9b7.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "144/2",
+      "SceneIndex": 144,
+      "member": "2",
+      "names": [
+        "3135d914d025b538abd1be097983047d51aa0657ed72e63cd97a9572087014e2",
+        "d60ae8971655320982852bf769693d79ea7ae2ee0fc6437235471ff809b33536"
+      ],
+      "filenames": [
+        "Videos/3135d914d025b538abd1be097983047d51aa0657ed72e63cd97a9572087014e2.mp4",
+        "Videos/d60ae8971655320982852bf769693d79ea7ae2ee0fc6437235471ff809b33536.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "147/1",
+      "SceneIndex": 147,
+      "member": "1",
+      "names": [
+        "72a051de4c5ee923025aa384c16035a715e8087811c7fb98dc4545e5d977fcd9",
+        "9895771e31706afccd784d165f6b975141d3d4b2013e0948012756080fcc0b0b"
+      ],
+      "filenames": [
+        "Videos/72a051de4c5ee923025aa384c16035a715e8087811c7fb98dc4545e5d977fcd9.mp4",
+        "Videos/9895771e31706afccd784d165f6b975141d3d4b2013e0948012756080fcc0b0b.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "147/2",
+      "SceneIndex": 147,
+      "member": "2",
+      "names": [
+        "0d426df113999eb1ce6bdeb3d53057d2428dccc4c6e7861e667831bbc8f761da",
+        "235a3b536424fb6d7203420cc8a305a9527978a280d63e57e69370cf951781c8"
+      ],
+      "filenames": [
+        "Videos/0d426df113999eb1ce6bdeb3d53057d2428dccc4c6e7861e667831bbc8f761da.mp4",
+        "Videos/235a3b536424fb6d7203420cc8a305a9527978a280d63e57e69370cf951781c8.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "148/2",
+      "SceneIndex": 148,
+      "member": "2",
+      "names": [
+        "750b40a5eb33d8d2a29e4524598ca29f59b685851556f3c3ba406e80d13150cf",
+        "be1517eac30ce356c6871b40b0636b7ebb4baa9a21b7982da0d23870a767b9ab"
+      ],
+      "filenames": [
+        "Videos/750b40a5eb33d8d2a29e4524598ca29f59b685851556f3c3ba406e80d13150cf.mp4",
+        "Videos/be1517eac30ce356c6871b40b0636b7ebb4baa9a21b7982da0d23870a767b9ab.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "15/1",
+      "SceneIndex": 15,
+      "member": "1",
+      "names": [
+        "944940a7c8bfd05ffc2af92d3e5c9fbdceb946e89a7f0871d7b4721c6c5a26d3",
+        "ac3133d6c700806598ebefbd4119677fa5d3560c24ef1672c44bef1829bc960f"
+      ],
+      "filenames": [
+        "Videos/944940a7c8bfd05ffc2af92d3e5c9fbdceb946e89a7f0871d7b4721c6c5a26d3.mp4",
+        "Videos/ac3133d6c700806598ebefbd4119677fa5d3560c24ef1672c44bef1829bc960f.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "150/2",
+      "SceneIndex": 150,
+      "member": "2",
+      "names": [
+        "83ff36b2ddd8b0aad8f02ff239e25a221d27980837aa7536548bea43972fc71d",
+        "c2953be7e837f1014f913c8f5b16b2726a503528821ca8cb6175f5d011493a89"
+      ],
+      "filenames": [
+        "Videos/83ff36b2ddd8b0aad8f02ff239e25a221d27980837aa7536548bea43972fc71d.mp4",
+        "Videos/c2953be7e837f1014f913c8f5b16b2726a503528821ca8cb6175f5d011493a89.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "152/1",
+      "SceneIndex": 152,
+      "member": "1",
+      "names": [
+        "834503c5a5a2adb6168814413d9ed04614aaf89fc7aa016a23fecbc8f06ebe75",
+        "8a78104b84b142325ec9756f530cdb45e0c9cba3e840c0f1af7fd2e720582731"
+      ],
+      "filenames": [
+        "Videos/834503c5a5a2adb6168814413d9ed04614aaf89fc7aa016a23fecbc8f06ebe75.mp4",
+        "Videos/8a78104b84b142325ec9756f530cdb45e0c9cba3e840c0f1af7fd2e720582731.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "153/2",
+      "SceneIndex": 153,
+      "member": "2",
+      "names": [
+        "9e42ffc14f2d605e3fbb296a4bf5735541f9107b5897ab6b93f52953ffbd5f2b",
+        "fea7f9879c1983372ac0a597805d1a8739293f681563eec9ae29d3a0d8c6dd5a"
+      ],
+      "filenames": [
+        "Videos/9e42ffc14f2d605e3fbb296a4bf5735541f9107b5897ab6b93f52953ffbd5f2b.mp4",
+        "Videos/fea7f9879c1983372ac0a597805d1a8739293f681563eec9ae29d3a0d8c6dd5a.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "154/1",
+      "SceneIndex": 154,
+      "member": "1",
+      "names": [
+        "59b1a7da535e9846ad55779957346e68e3dce5337e4106cb6a4f1ba44a227820",
+        "e0eba25316e8b26e584f0c96fb28639153c98d028f17422323a7a0d40ec4ba02"
+      ],
+      "filenames": [
+        "Videos/59b1a7da535e9846ad55779957346e68e3dce5337e4106cb6a4f1ba44a227820.mp4",
+        "Videos/e0eba25316e8b26e584f0c96fb28639153c98d028f17422323a7a0d40ec4ba02.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "154/2",
+      "SceneIndex": 154,
+      "member": "2",
+      "names": [
+        "a07074b85876710338198aed3faba1a371d6d8954941a79cd776dd38b9664c12",
+        "dedf19b3ad1109060b7618a59a49ff13f6642dcd252620308cbada727f21c8e3"
+      ],
+      "filenames": [
+        "Videos/a07074b85876710338198aed3faba1a371d6d8954941a79cd776dd38b9664c12.mp4",
+        "Videos/dedf19b3ad1109060b7618a59a49ff13f6642dcd252620308cbada727f21c8e3.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "154_0/2",
+      "SceneIndex": 1540,
+      "member": "2",
+      "names": [
+        "0bdc0a060f0e5ef914df1c6519c271167a07163152c03ef67572c4d9d99b5f2a",
+        "794b79e0448a1010e8f2914cd7098f30bbf16a0947f1091854144fedac853358"
+      ],
+      "filenames": [
+        "Videos/0bdc0a060f0e5ef914df1c6519c271167a07163152c03ef67572c4d9d99b5f2a.mp4",
+        "Videos/794b79e0448a1010e8f2914cd7098f30bbf16a0947f1091854144fedac853358.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "155_0/2",
+      "SceneIndex": 1550,
+      "member": "2",
+      "names": [
+        "5025be001635072475f4dceded41e8cc9ed047c4418fb5c88cf0447858d7bc0d",
+        "c54703bdc00654c1004e3ce445989ebc5eca7477d458d0298f30d8bab5f1bd9b"
+      ],
+      "filenames": [
+        "Videos/5025be001635072475f4dceded41e8cc9ed047c4418fb5c88cf0447858d7bc0d.mp4",
+        "Videos/c54703bdc00654c1004e3ce445989ebc5eca7477d458d0298f30d8bab5f1bd9b.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "156/1",
+      "SceneIndex": 156,
+      "member": "1",
+      "names": [
+        "16ff47bcb1d4d7385443a22d5f9ccaf8075eb817cd424047e6a8e304062a0fa7",
+        "442bb085121889b4204cc66d0f1440c5df34d648ae16ca91420ddefd09115dba"
+      ],
+      "filenames": [
+        "Videos/16ff47bcb1d4d7385443a22d5f9ccaf8075eb817cd424047e6a8e304062a0fa7.mp4",
+        "Videos/442bb085121889b4204cc66d0f1440c5df34d648ae16ca91420ddefd09115dba.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "159/2",
+      "SceneIndex": 159,
+      "member": "2",
+      "names": [
+        "5f1a035a566f534ce45f404fe8cb4ce6fab0e9dcdee2bc95a40ff641c914e362",
+        "da9b377f9d7ca7fa00672e901abd930d333e599fd3976ab39d31f1754603d458"
+      ],
+      "filenames": [
+        "Videos/5f1a035a566f534ce45f404fe8cb4ce6fab0e9dcdee2bc95a40ff641c914e362.mp4",
+        "Videos/da9b377f9d7ca7fa00672e901abd930d333e599fd3976ab39d31f1754603d458.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "16/1",
+      "SceneIndex": 16,
+      "member": "1",
+      "names": [
+        "be3111c6d9416877cad0bef2e98cf2220b6c6898507185da0b66adfe66ca4452",
+        "fc6d6f47a1b4e3cfa208bafc429bb23b3a56da5b0532efc49a13c1d440b5298f"
+      ],
+      "filenames": [
+        "Videos/be3111c6d9416877cad0bef2e98cf2220b6c6898507185da0b66adfe66ca4452.mp4",
+        "Videos/fc6d6f47a1b4e3cfa208bafc429bb23b3a56da5b0532efc49a13c1d440b5298f.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "160/1",
+      "SceneIndex": 160,
+      "member": "1",
+      "names": [
+        "44d743cd290cea53cdd3837af4ea3b3b15f4368f2fcac9becda2e5b91b15f038",
+        "44e8f0632e3c548a10b05aaec7f08de272af8b25a534175a989aeea34c3601b3"
+      ],
+      "filenames": [
+        "Videos/44d743cd290cea53cdd3837af4ea3b3b15f4368f2fcac9becda2e5b91b15f038.mp4",
+        "Videos/44e8f0632e3c548a10b05aaec7f08de272af8b25a534175a989aeea34c3601b3.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "161/2",
+      "SceneIndex": 161,
+      "member": "2",
+      "names": [
+        "182cf075b8f2e645379ef9be9173af8080f5326767871ad3fd2fc75aebe3c3db",
+        "546089ee7bb15a9dc6799e29f219795101ee3e35e89f0bc4d7b1bb5367adcb7d"
+      ],
+      "filenames": [
+        "Videos/182cf075b8f2e645379ef9be9173af8080f5326767871ad3fd2fc75aebe3c3db.mp4",
+        "Videos/546089ee7bb15a9dc6799e29f219795101ee3e35e89f0bc4d7b1bb5367adcb7d.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "162/2",
+      "SceneIndex": 162,
+      "member": "2",
+      "names": [
+        "023a7804c368f831194d1da87d5c24b93c9a5e95e5941a97c5922928b0b16d15",
+        "4c854060306d0fef3c864b3bd2607e4d35339b8a31ecd99b835314605507dca6"
+      ],
+      "filenames": [
+        "Videos/023a7804c368f831194d1da87d5c24b93c9a5e95e5941a97c5922928b0b16d15.mp4",
+        "Videos/4c854060306d0fef3c864b3bd2607e4d35339b8a31ecd99b835314605507dca6.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "164/1",
+      "SceneIndex": 164,
+      "member": "1",
+      "names": [
+        "ca3e63b54d1abf4eeb86e961cc774dbaa0c2411b141416b1f69d5916aa64154c",
+        "eae9a606cec9c55a398c52ddc3dac7d2094812de83d7cf3205c8d1fd53990c1e"
+      ],
+      "filenames": [
+        "Videos/ca3e63b54d1abf4eeb86e961cc774dbaa0c2411b141416b1f69d5916aa64154c.mp4",
+        "Videos/eae9a606cec9c55a398c52ddc3dac7d2094812de83d7cf3205c8d1fd53990c1e.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "166/1",
+      "SceneIndex": 166,
+      "member": "1",
+      "names": [
+        "37dcf598f77ae2fdc80e829b83a6a43277aa46befa28628ad66731bef2b1d3e5",
+        "7926fec3da5fe4f8a15f91911c0b342e6eac12dc50f1b005c939144793bdf66d"
+      ],
+      "filenames": [
+        "Videos/37dcf598f77ae2fdc80e829b83a6a43277aa46befa28628ad66731bef2b1d3e5.mp4",
+        "Videos/7926fec3da5fe4f8a15f91911c0b342e6eac12dc50f1b005c939144793bdf66d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "166/2",
+      "SceneIndex": 166,
+      "member": "2",
+      "names": [
+        "300f4afd7e5e65f90df405ab9ba01c274f844d662a6715d8c9400a69f1e82f7b",
+        "a4f208c97bcc1fe82dbb710e3125526128b23d44e9ad7f005bc36865af0ffd1a"
+      ],
+      "filenames": [
+        "Videos/300f4afd7e5e65f90df405ab9ba01c274f844d662a6715d8c9400a69f1e82f7b.mp4",
+        "Videos/a4f208c97bcc1fe82dbb710e3125526128b23d44e9ad7f005bc36865af0ffd1a.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "167/1",
+      "SceneIndex": 167,
+      "member": "1",
+      "names": [
+        "054d4f27f541b2806feebd882f3d1f8d942a46019564a997cce7a76f2c942d37",
+        "6fc303fe9b4183d392af4f0f14971a350867ab7b89735229c29ea7020776d9b0"
+      ],
+      "filenames": [
+        "Videos/054d4f27f541b2806feebd882f3d1f8d942a46019564a997cce7a76f2c942d37.mp4",
+        "Videos/6fc303fe9b4183d392af4f0f14971a350867ab7b89735229c29ea7020776d9b0.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "168/1",
+      "SceneIndex": 168,
+      "member": "1",
+      "names": [
+        "8f17ec48bffc2afe9af914c5fde9970cfb6b09d4713f78d839aef5e97f762892",
+        "b30efc04e1aa6e67d94e2dc360a1124476c9609c8d1ac3e2639037be06bc75ce"
+      ],
+      "filenames": [
+        "Videos/8f17ec48bffc2afe9af914c5fde9970cfb6b09d4713f78d839aef5e97f762892.mp4",
+        "Videos/b30efc04e1aa6e67d94e2dc360a1124476c9609c8d1ac3e2639037be06bc75ce.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "169/1",
+      "SceneIndex": 169,
+      "member": "1",
+      "names": [
+        "1399af7e89a1108c9cbdecee8d8c0bc719120bedac750636a658faa17567f82c",
+        "8485753fa4b138a45e106341f40f5f9726b968c266129472d6bfae3721243739"
+      ],
+      "filenames": [
+        "Videos/1399af7e89a1108c9cbdecee8d8c0bc719120bedac750636a658faa17567f82c.mp4",
+        "Videos/8485753fa4b138a45e106341f40f5f9726b968c266129472d6bfae3721243739.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "17/2",
+      "SceneIndex": 17,
+      "member": "2",
+      "names": [
+        "15e9752d30b5cefa0c2be82fbd16af86d8ef856f11599360e14c92be43ba4335",
+        "8ad6ed8bf5c3386ce620c8d96c15ef3c4b5dd728f915559fda23d18742687278"
+      ],
+      "filenames": [
+        "Videos/15e9752d30b5cefa0c2be82fbd16af86d8ef856f11599360e14c92be43ba4335.mp4",
+        "Videos/8ad6ed8bf5c3386ce620c8d96c15ef3c4b5dd728f915559fda23d18742687278.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "173/2",
+      "SceneIndex": 173,
+      "member": "2",
+      "names": [
+        "a436f075619078a159f54d52549b861467adaa2a89d2ee44626fd90429c4b1f6",
+        "f6dad37680aa250cc063a7673c702da77c11ac1797aab71e0c5d75d4fd230c8a"
+      ],
+      "filenames": [
+        "Videos/a436f075619078a159f54d52549b861467adaa2a89d2ee44626fd90429c4b1f6.mp4",
+        "Videos/f6dad37680aa250cc063a7673c702da77c11ac1797aab71e0c5d75d4fd230c8a.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "174/2",
+      "SceneIndex": 174,
+      "member": "2",
+      "names": [
+        "15e9bd04a666db7a00fb886e9a92b2216f1b8714bf2a70fb66912f1010b92634",
+        "cb5a77a2e9f14067618dadf22a07099f9b8bd069f6990e6503475807243d21f7"
+      ],
+      "filenames": [
+        "Videos/15e9bd04a666db7a00fb886e9a92b2216f1b8714bf2a70fb66912f1010b92634.mp4",
+        "Videos/cb5a77a2e9f14067618dadf22a07099f9b8bd069f6990e6503475807243d21f7.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "176/1",
+      "SceneIndex": 176,
+      "member": "1",
+      "names": [
+        "3ad67a99901f217ff8586261bb54e58011c7ec9856d94396f012782f0bb13ddb",
+        "b81f5acefbf2ef86a28f1ce350f325e88d243d59aca0dddf9aeec3be92ed8daf"
+      ],
+      "filenames": [
+        "Videos/3ad67a99901f217ff8586261bb54e58011c7ec9856d94396f012782f0bb13ddb.mp4",
+        "Videos/b81f5acefbf2ef86a28f1ce350f325e88d243d59aca0dddf9aeec3be92ed8daf.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "178/1",
+      "SceneIndex": 178,
+      "member": "1",
+      "names": [
+        "017af21e830d4f045a3c3522c1e13717fa8a60231aca3289663c76ffdb23ec7e",
+        "5998f4add3af076cae8ff81d04b595a5033f3e68428278f0b82cd04d8619660a"
+      ],
+      "filenames": [
+        "Videos/017af21e830d4f045a3c3522c1e13717fa8a60231aca3289663c76ffdb23ec7e.mp4",
+        "Videos/5998f4add3af076cae8ff81d04b595a5033f3e68428278f0b82cd04d8619660a.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "178/2",
+      "SceneIndex": 178,
+      "member": "2",
+      "names": [
+        "796cf2b7f77043745e25817c22fec3b3f83ae079de2e4f591cbb104c5f89af53",
+        "9f70e79b38d3e163a6e374b6ab23430a46b58757a2c4703dfe0af0540bb6ca0c"
+      ],
+      "filenames": [
+        "Videos/796cf2b7f77043745e25817c22fec3b3f83ae079de2e4f591cbb104c5f89af53.mp4",
+        "Videos/9f70e79b38d3e163a6e374b6ab23430a46b58757a2c4703dfe0af0540bb6ca0c.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "179/1",
+      "SceneIndex": 179,
+      "member": "1",
+      "names": [
+        "01d4f1c6ab9c391a050507c91c92af56cc0562af229dac34dff4420327a3c41c",
+        "ea99e68648af19ec1789c656f4bfeee20bdf933fe675c78ad28dd7e05229c0a5"
+      ],
+      "filenames": [
+        "Videos/01d4f1c6ab9c391a050507c91c92af56cc0562af229dac34dff4420327a3c41c.mp4",
+        "Videos/ea99e68648af19ec1789c656f4bfeee20bdf933fe675c78ad28dd7e05229c0a5.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "18/1",
+      "SceneIndex": 18,
+      "member": "1",
+      "names": [
+        "42f17bdf4c0bc47dd69b9fd6b0b9b39ba5854c1ecf79b5942ae994ab6c27947a",
+        "fcfc2737ddd12c2829b2eb7e09977cfc5694d084dc893fb04d11f47aedcf62e7"
+      ],
+      "filenames": [
+        "Videos/42f17bdf4c0bc47dd69b9fd6b0b9b39ba5854c1ecf79b5942ae994ab6c27947a.mp4",
+        "Videos/fcfc2737ddd12c2829b2eb7e09977cfc5694d084dc893fb04d11f47aedcf62e7.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "181/2",
+      "SceneIndex": 181,
+      "member": "2",
+      "names": [
+        "2786dba66d29860ff975353781031ce2fa384d98b8c8a5c55b998124d8b6a91d",
+        "c38e7faedd42775399564a05ebe8cadee61cc9f45be6a47e654609da518499c5"
+      ],
+      "filenames": [
+        "Videos/2786dba66d29860ff975353781031ce2fa384d98b8c8a5c55b998124d8b6a91d.mp4",
+        "Videos/c38e7faedd42775399564a05ebe8cadee61cc9f45be6a47e654609da518499c5.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "182/1",
+      "SceneIndex": 182,
+      "member": "1",
+      "names": [
+        "9175c7b48bd81716578ad991e95fac028e5eca0f3667da5fcaaa78399379ecde",
+        "fffdfca434877221266a73285f571b0ef6d980a0300ab6d40baabf86ec403c71"
+      ],
+      "filenames": [
+        "Videos/9175c7b48bd81716578ad991e95fac028e5eca0f3667da5fcaaa78399379ecde.mp4",
+        "Videos/fffdfca434877221266a73285f571b0ef6d980a0300ab6d40baabf86ec403c71.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "183/1",
+      "SceneIndex": 183,
+      "member": "1",
+      "names": [
+        "482241bd7da65ddd89d44e9f0c20f83bfa8317d69661d1cee766cc90c19e43fe",
+        "dbfa70ea7561752f5acf6c498e25150fe439773799294449dec349c76a7c0b74"
+      ],
+      "filenames": [
+        "Videos/482241bd7da65ddd89d44e9f0c20f83bfa8317d69661d1cee766cc90c19e43fe.mp4",
+        "Videos/dbfa70ea7561752f5acf6c498e25150fe439773799294449dec349c76a7c0b74.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "185/2",
+      "SceneIndex": 185,
+      "member": "2",
+      "names": [
+        "0ee7090ddee2f370f3d67dc5899d7e4d47910e79c98cc8280181e00e138fca14",
+        "c8aa95f84f41a872d74377b50653715d269d57d64d4c09bf7592a04f7814cd67"
+      ],
+      "filenames": [
+        "Videos/0ee7090ddee2f370f3d67dc5899d7e4d47910e79c98cc8280181e00e138fca14.mp4",
+        "Videos/c8aa95f84f41a872d74377b50653715d269d57d64d4c09bf7592a04f7814cd67.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "186/1",
+      "SceneIndex": 186,
+      "member": "1",
+      "names": [
+        "4409dfa106b51d46b90016ca460976fb524c6b37c034602dfcd416cff1a19241",
+        "a11ca197eb99ceb0668a57fe7a2ebcbad1bf81c28272fad81a655a758ab35407"
+      ],
+      "filenames": [
+        "Videos/4409dfa106b51d46b90016ca460976fb524c6b37c034602dfcd416cff1a19241.mp4",
+        "Videos/a11ca197eb99ceb0668a57fe7a2ebcbad1bf81c28272fad81a655a758ab35407.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "187/1",
+      "SceneIndex": 187,
+      "member": "1",
+      "names": [
+        "65c3778f85b2d3253d76feeb91d821ff5a79b6389158a9a64c1cee55562930d0",
+        "c203ee7e7fb0da8daae8bebb448efa9cfb9b0322c4fdfee35463b68ae253a311"
+      ],
+      "filenames": [
+        "Videos/65c3778f85b2d3253d76feeb91d821ff5a79b6389158a9a64c1cee55562930d0.mp4",
+        "Videos/c203ee7e7fb0da8daae8bebb448efa9cfb9b0322c4fdfee35463b68ae253a311.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "187/2",
+      "SceneIndex": 187,
+      "member": "2",
+      "names": [
+        "9c9e72b3434a1802368b97a7c413485ec161e363bc4b319807315ecdfb9e1aac",
+        "beba5e80220263d0c89f87e429cff41cc25c8a8ae641d490cea1b19d0e3ffda6"
+      ],
+      "filenames": [
+        "Videos/9c9e72b3434a1802368b97a7c413485ec161e363bc4b319807315ecdfb9e1aac.mp4",
+        "Videos/beba5e80220263d0c89f87e429cff41cc25c8a8ae641d490cea1b19d0e3ffda6.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "189/1",
+      "SceneIndex": 189,
+      "member": "1",
+      "names": [
+        "1a5767d98dae33de5d1259c3cf4423baec4e42965bfd662d854c9ed6f16b465a",
+        "7be5b2587016abbab68362cfe8c4553fcd0b9df8b1a21f931d84f1bf5a49c5d4"
+      ],
+      "filenames": [
+        "Videos/1a5767d98dae33de5d1259c3cf4423baec4e42965bfd662d854c9ed6f16b465a.mp4",
+        "Videos/7be5b2587016abbab68362cfe8c4553fcd0b9df8b1a21f931d84f1bf5a49c5d4.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "19/1",
+      "SceneIndex": 19,
+      "member": "1",
+      "names": [
+        "b6f4fec72d104937b74971714b52e7fc363c3066b284e0410a5749d3c796bbde",
+        "d62b063856a3971c7c8e745d5a767853b36e0c0e42c1f01fd0702ba1fa06937c"
+      ],
+      "filenames": [
+        "Videos/b6f4fec72d104937b74971714b52e7fc363c3066b284e0410a5749d3c796bbde.mp4",
+        "Videos/d62b063856a3971c7c8e745d5a767853b36e0c0e42c1f01fd0702ba1fa06937c.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "19/2",
+      "SceneIndex": 19,
+      "member": "2",
+      "names": [
+        "14e890b24d1d9b891e22bf20bf5cdab37c43362bd2334ff8f9d96e1329b5dac4",
+        "19c71d123e53a3ab2f3f65ded20e927a5bd5f0eada5abee6af15cd7dc52e4e92"
+      ],
+      "filenames": [
+        "Videos/14e890b24d1d9b891e22bf20bf5cdab37c43362bd2334ff8f9d96e1329b5dac4.mp4",
+        "Videos/19c71d123e53a3ab2f3f65ded20e927a5bd5f0eada5abee6af15cd7dc52e4e92.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "191/2",
+      "SceneIndex": 191,
+      "member": "2",
+      "names": [
+        "2aa6e739df401e238e506b8d83e6b7e719a5d2da6cf990b6d13bd6683c36ce02",
+        "39acaae32085a0e468c0c6cd3cfb0688d2f0fddc8e01ee054058dfa779d9f470"
+      ],
+      "filenames": [
+        "Videos/2aa6e739df401e238e506b8d83e6b7e719a5d2da6cf990b6d13bd6683c36ce02.mp4",
+        "Videos/39acaae32085a0e468c0c6cd3cfb0688d2f0fddc8e01ee054058dfa779d9f470.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "193/1",
+      "SceneIndex": 193,
+      "member": "1",
+      "names": [
+        "48f714e7f78631f6ae55cda52d04e6270dd2e78af8671677fe95c5361d452972",
+        "9ba999469154d5f601a2c041f829253572b8dc4a1d335a140c24a2d29ede1194"
+      ],
+      "filenames": [
+        "Videos/48f714e7f78631f6ae55cda52d04e6270dd2e78af8671677fe95c5361d452972.mp4",
+        "Videos/9ba999469154d5f601a2c041f829253572b8dc4a1d335a140c24a2d29ede1194.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "193/2",
+      "SceneIndex": 193,
+      "member": "2",
+      "names": [
+        "42806e7d0968440c05460f13816246fa07dc07afb4bd3d8eb2d6a9739691f5b9",
+        "f8eaeae818d878cf6f6caa1d3489d74bf7f47d071ba025e070515beecc0ecf23"
+      ],
+      "filenames": [
+        "Videos/42806e7d0968440c05460f13816246fa07dc07afb4bd3d8eb2d6a9739691f5b9.mp4",
+        "Videos/f8eaeae818d878cf6f6caa1d3489d74bf7f47d071ba025e070515beecc0ecf23.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "195/1",
+      "SceneIndex": 195,
+      "member": "1",
+      "names": [
+        "4a406dcdde618ca470a607c41bf5de438a9575c60566560733e83abd14a863bb",
+        "d89e0ad5ed31df51dcedd1fafc21e88cdce6d252b725f3acc734b4ebc0d66948"
+      ],
+      "filenames": [
+        "Videos/4a406dcdde618ca470a607c41bf5de438a9575c60566560733e83abd14a863bb.mp4",
+        "Videos/d89e0ad5ed31df51dcedd1fafc21e88cdce6d252b725f3acc734b4ebc0d66948.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "196/1",
+      "SceneIndex": 196,
+      "member": "1",
+      "names": [
+        "12e58871cbf9f43edde99f0eaef46291b1dc404692488ff1879b2a199f9b7d5b",
+        "8211887a5b4213b6234b4e28750a9e5896a909aee4b2def8aca1e2a0d2fbed1b"
+      ],
+      "filenames": [
+        "Videos/12e58871cbf9f43edde99f0eaef46291b1dc404692488ff1879b2a199f9b7d5b.mp4",
+        "Videos/8211887a5b4213b6234b4e28750a9e5896a909aee4b2def8aca1e2a0d2fbed1b.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "196_1/2",
+      "SceneIndex": 1961,
+      "member": "2",
+      "names": [
+        "38111e124f09fbc8d7f51e3f334318de0eb8f064b494f01b239062058cdc16e0",
+        "92736ebe4a3d2b0254cc0a185ab4d011f0728883adf4b5cf03cab0e84cb1bf03"
+      ],
+      "filenames": [
+        "Videos/38111e124f09fbc8d7f51e3f334318de0eb8f064b494f01b239062058cdc16e0.mp4",
+        "Videos/92736ebe4a3d2b0254cc0a185ab4d011f0728883adf4b5cf03cab0e84cb1bf03.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "197_0/1",
+      "SceneIndex": 1970,
+      "member": "1",
+      "names": [
+        "d147e9d5b2cb6d7abd64c1f61a1ecea8f65555225243794aa902a7a80586075e",
+        "f9496a112d86a3d99b9a19c31c7d316086daa77d52c8372580c63e5fe9dc3738"
+      ],
+      "filenames": [
+        "Videos/d147e9d5b2cb6d7abd64c1f61a1ecea8f65555225243794aa902a7a80586075e.mp4",
+        "Videos/f9496a112d86a3d99b9a19c31c7d316086daa77d52c8372580c63e5fe9dc3738.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "197_1/1",
+      "SceneIndex": 1971,
+      "member": "1",
+      "names": [
+        "2d626b3bb726aed1216bd883c4ae08cb4dd77a7c437e955fd24b404b79d3ebae",
+        "9f1dde55f5bf7c756a88918934286123959d0a7ffc19089e04bed2edb94f09a9"
+      ],
+      "filenames": [
+        "Videos/2d626b3bb726aed1216bd883c4ae08cb4dd77a7c437e955fd24b404b79d3ebae.mp4",
+        "Videos/9f1dde55f5bf7c756a88918934286123959d0a7ffc19089e04bed2edb94f09a9.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "198_0/1",
+      "SceneIndex": 1980,
+      "member": "1",
+      "names": [
+        "bbfd9ad34701dd14ac3f6b3941e94e60ee3ec4597df78b38017beebaa9bdfe04",
+        "e10a88bfed19211d45a76adb747fd756f3cdfcef7dac8cd628486f7345377765"
+      ],
+      "filenames": [
+        "Videos/bbfd9ad34701dd14ac3f6b3941e94e60ee3ec4597df78b38017beebaa9bdfe04.mp4",
+        "Videos/e10a88bfed19211d45a76adb747fd756f3cdfcef7dac8cd628486f7345377765.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "198_0/2",
+      "SceneIndex": 1980,
+      "member": "2",
+      "names": [
+        "1765ce13766b6480ea6e86bf14df9f9b465a49ce8b642c5f2763061087b2d31e",
+        "73aaa41eafb0db00b1b4de2a64a95035c4eb7d24681f9a2e3794b9e092585cea"
+      ],
+      "filenames": [
+        "Videos/1765ce13766b6480ea6e86bf14df9f9b465a49ce8b642c5f2763061087b2d31e.mp4",
+        "Videos/73aaa41eafb0db00b1b4de2a64a95035c4eb7d24681f9a2e3794b9e092585cea.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "20/2",
+      "SceneIndex": 20,
+      "member": "2",
+      "names": [
+        "51c4ce467dc5934bc65d82e9e9c1e51cb665e68ad09c3f090634bc1e592a1cab",
+        "cf71f0e3ceb507cb034ca20bba5c2097b7972501de46a50350215b79a5e5c0fa"
+      ],
+      "filenames": [
+        "Videos/51c4ce467dc5934bc65d82e9e9c1e51cb665e68ad09c3f090634bc1e592a1cab.mp4",
+        "Videos/cf71f0e3ceb507cb034ca20bba5c2097b7972501de46a50350215b79a5e5c0fa.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "200/1",
+      "SceneIndex": 200,
+      "member": "1",
+      "names": [
+        "2e97dfa19fa89184aac88417c16a1aa4e6f7208342e959fffb3fc50b3132d44a",
+        "355184642c6c6376410b7a5d494ed8fe14272644da15b6fdbfed7f2bcf36d419"
+      ],
+      "filenames": [
+        "Videos/2e97dfa19fa89184aac88417c16a1aa4e6f7208342e959fffb3fc50b3132d44a.mp4",
+        "Videos/355184642c6c6376410b7a5d494ed8fe14272644da15b6fdbfed7f2bcf36d419.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "201/1",
+      "SceneIndex": 201,
+      "member": "1",
+      "names": [
+        "0c2783c5564673261ed9ff005afd2322a236226e23bb478a7ca510d4dc364207",
+        "7e3fd048b1525cce229acfd4a63d73e33e099656ea01ef90b30d9f6a0c4b9561"
+      ],
+      "filenames": [
+        "Videos/0c2783c5564673261ed9ff005afd2322a236226e23bb478a7ca510d4dc364207.mp4",
+        "Videos/7e3fd048b1525cce229acfd4a63d73e33e099656ea01ef90b30d9f6a0c4b9561.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "202/2",
+      "SceneIndex": 202,
+      "member": "2",
+      "names": [
+        "3ce00c1eaaa749958890891fa3c367c1061721196ebfca44815b25ffd5279c30",
+        "ab82289d362058e528ea230eee8d4ae14da77a2012e0ad4d7773bab17cb726f3"
+      ],
+      "filenames": [
+        "Videos/3ce00c1eaaa749958890891fa3c367c1061721196ebfca44815b25ffd5279c30.mp4",
+        "Videos/ab82289d362058e528ea230eee8d4ae14da77a2012e0ad4d7773bab17cb726f3.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "204/1",
+      "SceneIndex": 204,
+      "member": "1",
+      "names": [
+        "ad8c08efaa813e926bed129f64e7c987977813c4a3b7560cb7730bd3bfcf14fe",
+        "cc186586edaa0c557409abb3964d977ef8228898b54a146c61a4856a83fe9b9a"
+      ],
+      "filenames": [
+        "Videos/ad8c08efaa813e926bed129f64e7c987977813c4a3b7560cb7730bd3bfcf14fe.mp4",
+        "Videos/cc186586edaa0c557409abb3964d977ef8228898b54a146c61a4856a83fe9b9a.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "204/2",
+      "SceneIndex": 204,
+      "member": "2",
+      "names": [
+        "1771bb49c28dfb068cfe5cf1e39ba2d14874253c905690b697f830e45b524b0f",
+        "3a3fc3512f1c7e2d99a6963f11d23624b3b809760aa8bb8b5540628cc5594af8"
+      ],
+      "filenames": [
+        "Videos/1771bb49c28dfb068cfe5cf1e39ba2d14874253c905690b697f830e45b524b0f.mp4",
+        "Videos/3a3fc3512f1c7e2d99a6963f11d23624b3b809760aa8bb8b5540628cc5594af8.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "206/2",
+      "SceneIndex": 206,
+      "member": "2",
+      "names": [
+        "0ccd2b075b7b6d3bcdfc1c24a55fa306fcf2769b9b8e280475d6b8ea3b15b209",
+        "fe75e20a9f2310239f016e2fa8bd3440804ea42ec51c0dc0aa134fefdc38969f"
+      ],
+      "filenames": [
+        "Videos/0ccd2b075b7b6d3bcdfc1c24a55fa306fcf2769b9b8e280475d6b8ea3b15b209.mp4",
+        "Videos/fe75e20a9f2310239f016e2fa8bd3440804ea42ec51c0dc0aa134fefdc38969f.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "208/1",
+      "SceneIndex": 208,
+      "member": "1",
+      "names": [
+        "c84e6e48f834706948c9e432219ed40970bc4125595d45d347d81d34b8ee4796",
+        "e831f7d99a539cabc1f4236f802de00eedc9d53e34e9425d178b249644fec018"
+      ],
+      "filenames": [
+        "Videos/c84e6e48f834706948c9e432219ed40970bc4125595d45d347d81d34b8ee4796.mp4",
+        "Videos/e831f7d99a539cabc1f4236f802de00eedc9d53e34e9425d178b249644fec018.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "209/2",
+      "SceneIndex": 209,
+      "member": "2",
+      "names": [
+        "26ab6ff9796c771d24be24b5e0fff6d50f3139ffdc506b3f6441167dca5a228a",
+        "3dd98a2322fff140cb15b58537537d9652bf62af008d1b26754004169718762b"
+      ],
+      "filenames": [
+        "Videos/26ab6ff9796c771d24be24b5e0fff6d50f3139ffdc506b3f6441167dca5a228a.mp4",
+        "Videos/3dd98a2322fff140cb15b58537537d9652bf62af008d1b26754004169718762b.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "21/2",
+      "SceneIndex": 21,
+      "member": "2",
+      "names": [
+        "600caba51ba5d4f81469e66fb75c92e9273df62efd815cbfe82fc9a3945382ae",
+        "883397d3aa3ab0615a2229516d2fefb5219c86d995551ff42488c8af9e230401"
+      ],
+      "filenames": [
+        "Videos/600caba51ba5d4f81469e66fb75c92e9273df62efd815cbfe82fc9a3945382ae.mp4",
+        "Videos/883397d3aa3ab0615a2229516d2fefb5219c86d995551ff42488c8af9e230401.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "211/2",
+      "SceneIndex": 211,
+      "member": "2",
+      "names": [
+        "10016ee86022157510a454d30f0f20976fa3c6b9fd7846b33b1c2bb1b6ca7dd7",
+        "997ff469ea13c3258b7d9f53f93158cfee7043c796536fa35d73d332bd14b9dd"
+      ],
+      "filenames": [
+        "Videos/10016ee86022157510a454d30f0f20976fa3c6b9fd7846b33b1c2bb1b6ca7dd7.mp4",
+        "Videos/997ff469ea13c3258b7d9f53f93158cfee7043c796536fa35d73d332bd14b9dd.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "212/1",
+      "SceneIndex": 212,
+      "member": "1",
+      "names": [
+        "db09bece6b564fb5038d1189bbd0731691e70888712a9ed416d74551d8bd3ac5",
+        "fe36d2250977f4d973df7d9c9b2efc6e3da1c802c3803c236b5213c2718bb2dd"
+      ],
+      "filenames": [
+        "Videos/db09bece6b564fb5038d1189bbd0731691e70888712a9ed416d74551d8bd3ac5.mp4",
+        "Videos/fe36d2250977f4d973df7d9c9b2efc6e3da1c802c3803c236b5213c2718bb2dd.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "214/1",
+      "SceneIndex": 214,
+      "member": "1",
+      "names": [
+        "46944f644e5406762da24a63b3615ff96e9bb3e79c9499bc0fdfed9bf5400c9c",
+        "80b491030bcaf3afdee742241fb1d799e0f92ad82f7f21ed12a349dcb5dd0f2d"
+      ],
+      "filenames": [
+        "Videos/46944f644e5406762da24a63b3615ff96e9bb3e79c9499bc0fdfed9bf5400c9c.mp4",
+        "Videos/80b491030bcaf3afdee742241fb1d799e0f92ad82f7f21ed12a349dcb5dd0f2d.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "214/2",
+      "SceneIndex": 214,
+      "member": "2",
+      "names": [
+        "03ab813637dc0ab0295f4ba813c1e5cd338d62142cfe70220fc58db7cd784ed5",
+        "279256862b49b8d8c0f5b55022a75809fdf9774540e235c040305f9a8d02d7c9"
+      ],
+      "filenames": [
+        "Videos/03ab813637dc0ab0295f4ba813c1e5cd338d62142cfe70220fc58db7cd784ed5.mp4",
+        "Videos/279256862b49b8d8c0f5b55022a75809fdf9774540e235c040305f9a8d02d7c9.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "215/1",
+      "SceneIndex": 215,
+      "member": "1",
+      "names": [
+        "8fd387b4649bfc1a2fcf62f5e51b00b6dae4f8676088d8d38017b9a7ade0a77e",
+        "bdca8d05b9de010a27e8f95ff3650220794873a00dba4c772bf22c9b1d573bb4"
+      ],
+      "filenames": [
+        "Videos/8fd387b4649bfc1a2fcf62f5e51b00b6dae4f8676088d8d38017b9a7ade0a77e.mp4",
+        "Videos/bdca8d05b9de010a27e8f95ff3650220794873a00dba4c772bf22c9b1d573bb4.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "216_0/1",
+      "SceneIndex": 2160,
+      "member": "1",
+      "names": [
+        "4599df2276630675e27a1d24ce98a3fd11ca827a1cf44f3dddc8c6e267396837",
+        "b5a388a235a77f2ad2734087a525bc97033cb824a6dcde495c07c56b0670b020"
+      ],
+      "filenames": [
+        "Videos/4599df2276630675e27a1d24ce98a3fd11ca827a1cf44f3dddc8c6e267396837.mp4",
+        "Videos/b5a388a235a77f2ad2734087a525bc97033cb824a6dcde495c07c56b0670b020.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "216_1/1",
+      "SceneIndex": 2161,
+      "member": "1",
+      "names": [
+        "dcfe8779a02e216d7a0d9964683e263b960971f9fea89fe139243a85d0e76e4c",
+        "e641e677d46be116bd2f16a5bb51a39d05a0bca7d0be715d7f12c223734d5f85"
+      ],
+      "filenames": [
+        "Videos/dcfe8779a02e216d7a0d9964683e263b960971f9fea89fe139243a85d0e76e4c.mp4",
+        "Videos/e641e677d46be116bd2f16a5bb51a39d05a0bca7d0be715d7f12c223734d5f85.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "218/1",
+      "SceneIndex": 218,
+      "member": "1",
+      "names": [
+        "8cc506f13721d377d20261cb9c822b1aaed4dc1dfd8dd62015fa2c29a2f0344e",
+        "a476dcbd66186e568ca72f3e066f90e1972486d344dc81c21602de57be13f596"
+      ],
+      "filenames": [
+        "Videos/8cc506f13721d377d20261cb9c822b1aaed4dc1dfd8dd62015fa2c29a2f0344e.mp4",
+        "Videos/a476dcbd66186e568ca72f3e066f90e1972486d344dc81c21602de57be13f596.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "218/2",
+      "SceneIndex": 218,
+      "member": "2",
+      "names": [
+        "5e7135c1af998a0d9eeadbb1c80215dd094a447f069357778b3de5175b45389f",
+        "ba74d77b55eb9bca8bf3e89518d6f775012ef68155b6f55e8b795407817f22d4"
+      ],
+      "filenames": [
+        "Videos/5e7135c1af998a0d9eeadbb1c80215dd094a447f069357778b3de5175b45389f.mp4",
+        "Videos/ba74d77b55eb9bca8bf3e89518d6f775012ef68155b6f55e8b795407817f22d4.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "219/2",
+      "SceneIndex": 219,
+      "member": "2",
+      "names": [
+        "1657a4e3b50dd170ed90a22237610557b8414cea1f1f9fc2c190c83c96792304",
+        "716bcdd15b08cd52398ed7ed95e10341574aec83b5d322bc3037985bdd2defba"
+      ],
+      "filenames": [
+        "Videos/1657a4e3b50dd170ed90a22237610557b8414cea1f1f9fc2c190c83c96792304.mp4",
+        "Videos/716bcdd15b08cd52398ed7ed95e10341574aec83b5d322bc3037985bdd2defba.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "221/2",
+      "SceneIndex": 221,
+      "member": "2",
+      "names": [
+        "85c5b9d31a5b61a8e48918cb5d1152676f74f6bebb1777fa451f530e8c748b53",
+        "903f631caaeebc18841d43c055b6d939f62f753b0fe30eb974318fbaa209e603"
+      ],
+      "filenames": [
+        "Videos/85c5b9d31a5b61a8e48918cb5d1152676f74f6bebb1777fa451f530e8c748b53.mp4",
+        "Videos/903f631caaeebc18841d43c055b6d939f62f753b0fe30eb974318fbaa209e603.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "225/2",
+      "SceneIndex": 225,
+      "member": "2",
+      "names": [
+        "7b0b07498ff49d6a62673ce20fa42ff6c3f8178931be16995132fe8c3632813f",
+        "c20e0dd0b3ebaa18a257eb0a8c1401094617e194fb52d108966911ba3103db0d"
+      ],
+      "filenames": [
+        "Videos/7b0b07498ff49d6a62673ce20fa42ff6c3f8178931be16995132fe8c3632813f.mp4",
+        "Videos/c20e0dd0b3ebaa18a257eb0a8c1401094617e194fb52d108966911ba3103db0d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "227/1",
+      "SceneIndex": 227,
+      "member": "1",
+      "names": [
+        "21b115e7e3c28bbd02663cdedfa70cec994d71d8f1ff001e6b82dae698943844",
+        "493056784ba8389bf5cba561a6359ecba97fd9735a32a7c100942166794bab6d"
+      ],
+      "filenames": [
+        "Videos/21b115e7e3c28bbd02663cdedfa70cec994d71d8f1ff001e6b82dae698943844.mp4",
+        "Videos/493056784ba8389bf5cba561a6359ecba97fd9735a32a7c100942166794bab6d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "227/2",
+      "SceneIndex": 227,
+      "member": "2",
+      "names": [
+        "3f35be71b10b68531cf3cec91cb11580ba3e89158de5b1e4a4f1c979156a8a49",
+        "413fd56e6ebecd75459758c0e6129bfff778ae103a8ca9d75441b3ef48e83275"
+      ],
+      "filenames": [
+        "Videos/3f35be71b10b68531cf3cec91cb11580ba3e89158de5b1e4a4f1c979156a8a49.mp4",
+        "Videos/413fd56e6ebecd75459758c0e6129bfff778ae103a8ca9d75441b3ef48e83275.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "228/1",
+      "SceneIndex": 228,
+      "member": "1",
+      "names": [
+        "2dd47968d4e32ccb7f8380ca5feb8c00c5dfab928fa04c95bda5a275de80f562",
+        "8934d73fd6d9a5646c9dcec33a952ace7c987d9e470861572d01b36aaad816ad"
+      ],
+      "filenames": [
+        "Videos/2dd47968d4e32ccb7f8380ca5feb8c00c5dfab928fa04c95bda5a275de80f562.mp4",
+        "Videos/8934d73fd6d9a5646c9dcec33a952ace7c987d9e470861572d01b36aaad816ad.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "229/1",
+      "SceneIndex": 229,
+      "member": "1",
+      "names": [
+        "3e4b75433e4c518699f71cc5fb78085e2b44f91fa89004979286ee46ed366091",
+        "73dd19367dbd94b7f51f9d7498df2f1392ca14ce4270945b9c372fd3cce30df1"
+      ],
+      "filenames": [
+        "Videos/3e4b75433e4c518699f71cc5fb78085e2b44f91fa89004979286ee46ed366091.mp4",
+        "Videos/73dd19367dbd94b7f51f9d7498df2f1392ca14ce4270945b9c372fd3cce30df1.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "229/2",
+      "SceneIndex": 229,
+      "member": "2",
+      "names": [
+        "9cddda7cf55d36a20533e4f756a96890dab46765ed129e9289ed854450490970",
+        "b0ba9e1c3f3d5208a1a4cd89fcbff16b0c175fce90aad9734e7b23b263f11d85"
+      ],
+      "filenames": [
+        "Videos/9cddda7cf55d36a20533e4f756a96890dab46765ed129e9289ed854450490970.mp4",
+        "Videos/b0ba9e1c3f3d5208a1a4cd89fcbff16b0c175fce90aad9734e7b23b263f11d85.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "232/1",
+      "SceneIndex": 232,
+      "member": "1",
+      "names": [
+        "41190f98f326b04793e4ab0eb22fc2d2dafb323f6bd5b09f7e7520bdf4fca772",
+        "b283bfc10b944a2935d1c87531aac489a340f5b175131d9ac0eb5ec4f42d2688"
+      ],
+      "filenames": [
+        "Videos/41190f98f326b04793e4ab0eb22fc2d2dafb323f6bd5b09f7e7520bdf4fca772.mp4",
+        "Videos/b283bfc10b944a2935d1c87531aac489a340f5b175131d9ac0eb5ec4f42d2688.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "233/2",
+      "SceneIndex": 233,
+      "member": "2",
+      "names": [
+        "8f7c386cb122895f2636fe791a0dcfb58289f3e44fcdf15f901dbfb45420d5ef",
+        "fc8936a9a5617125330ab27569051c7bac21e14d36407b8a16d263852dcadafc"
+      ],
+      "filenames": [
+        "Videos/8f7c386cb122895f2636fe791a0dcfb58289f3e44fcdf15f901dbfb45420d5ef.mp4",
+        "Videos/fc8936a9a5617125330ab27569051c7bac21e14d36407b8a16d263852dcadafc.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "234/1",
+      "SceneIndex": 234,
+      "member": "1",
+      "names": [
+        "41e683caa4c1c975171d4769b6635790394abd51b86e3ae5aeabc1dc8949f071",
+        "b59861279a590a5173a221b012d2b54cab8cb95f426bcab7a9f0e01d7f4c19cc"
+      ],
+      "filenames": [
+        "Videos/41e683caa4c1c975171d4769b6635790394abd51b86e3ae5aeabc1dc8949f071.mp4",
+        "Videos/b59861279a590a5173a221b012d2b54cab8cb95f426bcab7a9f0e01d7f4c19cc.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "237/2",
+      "SceneIndex": 237,
+      "member": "2",
+      "names": [
+        "a30d305bae35fecfbd48907cb79fb62716f74f94476abbead73dd939ca18360a",
+        "d7ab82095005ade21934b28e795ce714a9393daeb9a953d1f785325f9ba06fc0"
+      ],
+      "filenames": [
+        "Videos/a30d305bae35fecfbd48907cb79fb62716f74f94476abbead73dd939ca18360a.mp4",
+        "Videos/d7ab82095005ade21934b28e795ce714a9393daeb9a953d1f785325f9ba06fc0.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "26/1",
+      "SceneIndex": 26,
+      "member": "1",
+      "names": [
+        "3d4b13430537820a9b8cbb984a95f30912c402283bc66835ae2c6105795dde37",
+        "995e338425302de7901dd87b513ca88f72a44b69ffe580e319cf588754f4d60e"
+      ],
+      "filenames": [
+        "Videos/3d4b13430537820a9b8cbb984a95f30912c402283bc66835ae2c6105795dde37.mp4",
+        "Videos/995e338425302de7901dd87b513ca88f72a44b69ffe580e319cf588754f4d60e.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "28/1",
+      "SceneIndex": 28,
+      "member": "1",
+      "names": [
+        "138211cfd8c0b794ba995e2b21041a9b221cdb0ae8fb2b0010e8f7a2ab33475f",
+        "eeacc9f2e336610838e1b8b2614a3c64baec075caccabdfb7224ae6c3956ced9"
+      ],
+      "filenames": [
+        "Videos/138211cfd8c0b794ba995e2b21041a9b221cdb0ae8fb2b0010e8f7a2ab33475f.mp4",
+        "Videos/eeacc9f2e336610838e1b8b2614a3c64baec075caccabdfb7224ae6c3956ced9.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "28/2",
+      "SceneIndex": 28,
+      "member": "2",
+      "names": [
+        "2131354261e9f0442569c897ecf81c7fc9df8635d2c813141af27becfe757c3d",
+        "905b755853e393de0895c107f94eff8f6b91efdccd116ae21fb3c229abc94b16"
+      ],
+      "filenames": [
+        "Videos/2131354261e9f0442569c897ecf81c7fc9df8635d2c813141af27becfe757c3d.mp4",
+        "Videos/905b755853e393de0895c107f94eff8f6b91efdccd116ae21fb3c229abc94b16.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "29/2",
+      "SceneIndex": 29,
+      "member": "2",
+      "names": [
+        "47080d0198d999d49f3a4cd830a0af7d054c4922ad702c25ac69f7a2aa021b5f",
+        "f3e8905d9c9f76483589dfa6e4f7e9132258be57be924e84c05c1631c99842fe"
+      ],
+      "filenames": [
+        "Videos/47080d0198d999d49f3a4cd830a0af7d054c4922ad702c25ac69f7a2aa021b5f.mp4",
+        "Videos/f3e8905d9c9f76483589dfa6e4f7e9132258be57be924e84c05c1631c99842fe.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "3/1",
+      "SceneIndex": 3,
+      "member": "1",
+      "names": [
+        "80ce5b2bafe66c55666ca6b04cb41e402a7066d2e59df2e605bcb571dcf4c218",
+        "9b747136a92a1480769dc62caf994e5d6da7b8e333c9ab4a6cf0da3e1aedf8de"
+      ],
+      "filenames": [
+        "Videos/80ce5b2bafe66c55666ca6b04cb41e402a7066d2e59df2e605bcb571dcf4c218.mp4",
+        "Videos/9b747136a92a1480769dc62caf994e5d6da7b8e333c9ab4a6cf0da3e1aedf8de.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "31/2",
+      "SceneIndex": 31,
+      "member": "2",
+      "names": [
+        "20748d38940cf102d705f577ea5848e76a5f1d76fccf3ae7d2daa0ca4535c5e2",
+        "2a33cac35a42389e3d92e9f3b0446008c3c9846703d85a7ea629ac215c4654c7"
+      ],
+      "filenames": [
+        "Videos/20748d38940cf102d705f577ea5848e76a5f1d76fccf3ae7d2daa0ca4535c5e2.mp4",
+        "Videos/2a33cac35a42389e3d92e9f3b0446008c3c9846703d85a7ea629ac215c4654c7.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "33/1",
+      "SceneIndex": 33,
+      "member": "1",
+      "names": [
+        "3908ee9dfac81fccc0b67599d2592b025a7d2caa495eef8f6dfc7d8c65bacfe1",
+        "4644d64b82c68a9cb142dadbf989c9682d3e6769027c21c0f83b5e0c061607a3"
+      ],
+      "filenames": [
+        "Videos/3908ee9dfac81fccc0b67599d2592b025a7d2caa495eef8f6dfc7d8c65bacfe1.mp4",
+        "Videos/4644d64b82c68a9cb142dadbf989c9682d3e6769027c21c0f83b5e0c061607a3.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "33/2",
+      "SceneIndex": 33,
+      "member": "2",
+      "names": [
+        "4f156663ba6669bc202d1cc7d244ff8fa5f9c7c0e1d834b680da5c95973c0b2f",
+        "c6a55f6de2d443567beaae887ebe4d88f286cfc262817039f1a77b7b1b2df31a"
+      ],
+      "filenames": [
+        "Videos/4f156663ba6669bc202d1cc7d244ff8fa5f9c7c0e1d834b680da5c95973c0b2f.mp4",
+        "Videos/c6a55f6de2d443567beaae887ebe4d88f286cfc262817039f1a77b7b1b2df31a.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "34/1",
+      "SceneIndex": 34,
+      "member": "1",
+      "names": [
+        "b33f2430f30383cd00d6def178315c4b1e90bcbb304fd38a1ef6bb26ab78d747",
+        "e0dfcff406c7c30840800b7277474bd77a73bde54fb96f25b166624731410a13"
+      ],
+      "filenames": [
+        "Videos/b33f2430f30383cd00d6def178315c4b1e90bcbb304fd38a1ef6bb26ab78d747.mp4",
+        "Videos/e0dfcff406c7c30840800b7277474bd77a73bde54fb96f25b166624731410a13.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "36/2",
+      "SceneIndex": 36,
+      "member": "2",
+      "names": [
+        "7ae89bc342ec1b1c37d88014ae5247d9b3217e186e114fc79261d57b0d1881b8",
+        "7eb31487b580cfc9e5dce0fe07c9193507a26c5574e1117437519376dd3969f2"
+      ],
+      "filenames": [
+        "Videos/7ae89bc342ec1b1c37d88014ae5247d9b3217e186e114fc79261d57b0d1881b8.mp4",
+        "Videos/7eb31487b580cfc9e5dce0fe07c9193507a26c5574e1117437519376dd3969f2.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "39/2",
+      "SceneIndex": 39,
+      "member": "2",
+      "names": [
+        "4c5949850177773c0fc6a421344412d9ec824f922e6a2ff8a628cde5c53377da",
+        "634ef9e6ae856870c63a148276e4aa1e5887ff5d70801dffa73e916fa0d736f7"
+      ],
+      "filenames": [
+        "Videos/4c5949850177773c0fc6a421344412d9ec824f922e6a2ff8a628cde5c53377da.mp4",
+        "Videos/634ef9e6ae856870c63a148276e4aa1e5887ff5d70801dffa73e916fa0d736f7.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "43/1",
+      "SceneIndex": 43,
+      "member": "1",
+      "names": [
+        "193a22592a45101e74ced0d40bacecc9b30f844c9076ddf7a3c77b5ef17e03ca",
+        "eb38558a2cb0f3f529324a7bfa1d7d9c17be4a52773369ec2e57f25ef77f2620"
+      ],
+      "filenames": [
+        "Videos/193a22592a45101e74ced0d40bacecc9b30f844c9076ddf7a3c77b5ef17e03ca.mp4",
+        "Videos/eb38558a2cb0f3f529324a7bfa1d7d9c17be4a52773369ec2e57f25ef77f2620.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "43/2",
+      "SceneIndex": 43,
+      "member": "2",
+      "names": [
+        "b5ef8bc59b26f95ab79edaed546d97cae4df7bbb1e0b991374a3aac252ff9936",
+        "ea84a0887471377cb4a601b8a67102151d340b380769cf0dcd4d6d4a768fc384"
+      ],
+      "filenames": [
+        "Videos/b5ef8bc59b26f95ab79edaed546d97cae4df7bbb1e0b991374a3aac252ff9936.mp4",
+        "Videos/ea84a0887471377cb4a601b8a67102151d340b380769cf0dcd4d6d4a768fc384.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "44/2",
+      "SceneIndex": 44,
+      "member": "2",
+      "names": [
+        "af618bed69c3822b03e29549a3543e92c8bf993488d54e753c669e6759984b24",
+        "b91f61ee6efab0e1d21a890c40aa9f6abea3e4f996234770ff41632e18b06d0c"
+      ],
+      "filenames": [
+        "Videos/af618bed69c3822b03e29549a3543e92c8bf993488d54e753c669e6759984b24.mp4",
+        "Videos/b91f61ee6efab0e1d21a890c40aa9f6abea3e4f996234770ff41632e18b06d0c.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "46/2",
+      "SceneIndex": 46,
+      "member": "2",
+      "names": [
+        "d0e0676715b9abd485ec647ab7d35e3f0b8758e5eebf2bf1651a43e758614fea",
+        "e78dc4007d3e344822d1a4e89f49d0c5ef9d3d4efe6c28425fbc6db5a637664e"
+      ],
+      "filenames": [
+        "Videos/d0e0676715b9abd485ec647ab7d35e3f0b8758e5eebf2bf1651a43e758614fea.mp4",
+        "Videos/e78dc4007d3e344822d1a4e89f49d0c5ef9d3d4efe6c28425fbc6db5a637664e.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "49/1",
+      "SceneIndex": 49,
+      "member": "1",
+      "names": [
+        "afefd7a35a4d3bc4f9e03748f4fe051ae3a90b3f6b25a6dad12742686d5acc6d",
+        "e24456a3ae5ad247371fac40fd8eda1d808e77094d62f8e9baf011ac026e7225"
+      ],
+      "filenames": [
+        "Videos/afefd7a35a4d3bc4f9e03748f4fe051ae3a90b3f6b25a6dad12742686d5acc6d.mp4",
+        "Videos/e24456a3ae5ad247371fac40fd8eda1d808e77094d62f8e9baf011ac026e7225.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "49/2",
+      "SceneIndex": 49,
+      "member": "2",
+      "names": [
+        "9f5ac5b50c746bab7774929cebcfcf93fbe2301261ab599153322c51b1f486c3",
+        "a31153b1f22da7424441dca34f1193f88128e56fc6e3a77eb4327d65e70e9e50"
+      ],
+      "filenames": [
+        "Videos/9f5ac5b50c746bab7774929cebcfcf93fbe2301261ab599153322c51b1f486c3.mp4",
+        "Videos/a31153b1f22da7424441dca34f1193f88128e56fc6e3a77eb4327d65e70e9e50.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "50/1",
+      "SceneIndex": 50,
+      "member": "1",
+      "names": [
+        "7bdf0d1fa330e81e5edc01938b877cf2e6300cd16e3e3ded3accdb65f78bf2a0",
+        "891710949ce61da9dcf47a8ff83ffa2dfd4b1a9cdb8e590a2c445656a2c3947d"
+      ],
+      "filenames": [
+        "Videos/7bdf0d1fa330e81e5edc01938b877cf2e6300cd16e3e3ded3accdb65f78bf2a0.mp4",
+        "Videos/891710949ce61da9dcf47a8ff83ffa2dfd4b1a9cdb8e590a2c445656a2c3947d.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "52/1",
+      "SceneIndex": 52,
+      "member": "1",
+      "names": [
+        "47d8abd46986dc9e9bd2997385214c9263d1cbd9cadff084b2d9343e0df7c40d",
+        "d3c198d161d4aa5f77641a009ab647b486d2559ef20d5f1513c84d64d218a1c1"
+      ],
+      "filenames": [
+        "Videos/47d8abd46986dc9e9bd2997385214c9263d1cbd9cadff084b2d9343e0df7c40d.mp4",
+        "Videos/d3c198d161d4aa5f77641a009ab647b486d2559ef20d5f1513c84d64d218a1c1.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "52/2",
+      "SceneIndex": 52,
+      "member": "2",
+      "names": [
+        "3d810cf16a5bd8c9c12231353142f9b288d919855724b7eb16e55090b997124d",
+        "52c897be51139f2fd686f4b3b55d12a75f343658a91ea41f1d7aa83b14368dce"
+      ],
+      "filenames": [
+        "Videos/3d810cf16a5bd8c9c12231353142f9b288d919855724b7eb16e55090b997124d.mp4",
+        "Videos/52c897be51139f2fd686f4b3b55d12a75f343658a91ea41f1d7aa83b14368dce.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "54/1",
+      "SceneIndex": 54,
+      "member": "1",
+      "names": [
+        "135810d4a72481f712bd342abfb5bb9204f1f3532ff3689cdfbb0047436f3bac",
+        "b0282ab74f2166314ef89c9e57af643d12d1b665609f5f1caa7ab9f108f876d9"
+      ],
+      "filenames": [
+        "Videos/135810d4a72481f712bd342abfb5bb9204f1f3532ff3689cdfbb0047436f3bac.mp4",
+        "Videos/b0282ab74f2166314ef89c9e57af643d12d1b665609f5f1caa7ab9f108f876d9.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "56/1",
+      "SceneIndex": 56,
+      "member": "1",
+      "names": [
+        "338857ebc71727cd5a8b1b1eda524242c14843577015cdb95179b6711b41ba11",
+        "cd39d93bd494cd04cecca43a45474c8de050b26194d373abc026d5933052d532"
+      ],
+      "filenames": [
+        "Videos/338857ebc71727cd5a8b1b1eda524242c14843577015cdb95179b6711b41ba11.mp4",
+        "Videos/cd39d93bd494cd04cecca43a45474c8de050b26194d373abc026d5933052d532.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "57/1",
+      "SceneIndex": 57,
+      "member": "1",
+      "names": [
+        "613bda98c804e7e4c715ac5f7989e4314b788e582f99a585a7f364ffca1b69be",
+        "c308dfea1753c78955f5fe9585752bda4b8099c970f342582b92d318a9e7b97d"
+      ],
+      "filenames": [
+        "Videos/613bda98c804e7e4c715ac5f7989e4314b788e582f99a585a7f364ffca1b69be.mp4",
+        "Videos/c308dfea1753c78955f5fe9585752bda4b8099c970f342582b92d318a9e7b97d.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "58/1",
+      "SceneIndex": 58,
+      "member": "1",
+      "names": [
+        "19c610d9197634879c045b8980247c27a9fe769b9a10f6dbd96d6b86dde69ceb",
+        "f97d88f014164bc25854df318df8738b29c7f7532a0a531e1b029ea727187005"
+      ],
+      "filenames": [
+        "Videos/19c610d9197634879c045b8980247c27a9fe769b9a10f6dbd96d6b86dde69ceb.mp4",
+        "Videos/f97d88f014164bc25854df318df8738b29c7f7532a0a531e1b029ea727187005.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "6/2",
+      "SceneIndex": 6,
+      "member": "2",
+      "names": [
+        "163b62fb148e95950d257ee23178e333a256c475089c2c4609951d8e19e74c0e",
+        "4e157e7e6b06e8feeac0c86f0f080db71825ae098aa051533a1ee629f3182bc8"
+      ],
+      "filenames": [
+        "Videos/163b62fb148e95950d257ee23178e333a256c475089c2c4609951d8e19e74c0e.mp4",
+        "Videos/4e157e7e6b06e8feeac0c86f0f080db71825ae098aa051533a1ee629f3182bc8.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "60/2",
+      "SceneIndex": 60,
+      "member": "2",
+      "names": [
+        "48b168ca1e31fd3e6080f14030ff6ba1d8de578da7a9bc63943903bc1a020b3e",
+        "cbf2b2e195519f26543eeaec1f96265ecb55c72ec894a877ea20821aec0a7622"
+      ],
+      "filenames": [
+        "Videos/48b168ca1e31fd3e6080f14030ff6ba1d8de578da7a9bc63943903bc1a020b3e.mp4",
+        "Videos/cbf2b2e195519f26543eeaec1f96265ecb55c72ec894a877ea20821aec0a7622.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "61/1",
+      "SceneIndex": 61,
+      "member": "1",
+      "names": [
+        "88fdec3b88f1f9df00b7f9cbd68f5e67f1a6fd53f5abb773d30d0f1cd0d89630",
+        "cd6736300dc251eb8dd1d86b54534b52cafee43bd68e9f927a5aac6a1c7249df"
+      ],
+      "filenames": [
+        "Videos/88fdec3b88f1f9df00b7f9cbd68f5e67f1a6fd53f5abb773d30d0f1cd0d89630.mp4",
+        "Videos/cd6736300dc251eb8dd1d86b54534b52cafee43bd68e9f927a5aac6a1c7249df.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "65/2",
+      "SceneIndex": 65,
+      "member": "2",
+      "names": [
+        "179cfd14e886bc12ef1ac9ce585036c182bff50870eb0e1f382198f41b195012",
+        "253669d6414066fd0c1ca625716d672344c3be36b735f56da5695bf8c3ba42ac"
+      ],
+      "filenames": [
+        "Videos/179cfd14e886bc12ef1ac9ce585036c182bff50870eb0e1f382198f41b195012.mp4",
+        "Videos/253669d6414066fd0c1ca625716d672344c3be36b735f56da5695bf8c3ba42ac.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "67/1",
+      "SceneIndex": 67,
+      "member": "1",
+      "names": [
+        "de556ed01525f2440f0a2c37097fef6579ca99e2ec8b35dcb79aeb4d7a6db9ae",
+        "dfe65086cc42940784399c5e383c98297107ac72779a1b34c96f1958e67b9a0f"
+      ],
+      "filenames": [
+        "Videos/de556ed01525f2440f0a2c37097fef6579ca99e2ec8b35dcb79aeb4d7a6db9ae.mp4",
+        "Videos/dfe65086cc42940784399c5e383c98297107ac72779a1b34c96f1958e67b9a0f.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "68/2",
+      "SceneIndex": 68,
+      "member": "2",
+      "names": [
+        "0d76b0db92f6864fb25b831589af1d85f495da771af9ef5c85b4ae247b56783b",
+        "6814716ca839c25eb6fdfd8c42a46159c3375ac73b9ecb2a9cd1f3290db554d2"
+      ],
+      "filenames": [
+        "Videos/0d76b0db92f6864fb25b831589af1d85f495da771af9ef5c85b4ae247b56783b.mp4",
+        "Videos/6814716ca839c25eb6fdfd8c42a46159c3375ac73b9ecb2a9cd1f3290db554d2.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "7/1",
+      "SceneIndex": 7,
+      "member": "1",
+      "names": [
+        "5c410a1c858a05b412f62aad58894fbd180e9ab8aaaacfe1436df6bb81788d79",
+        "fc19ad3c022c299c68d53a8b371ea3f2cded015e9cde3cc03cb956040dc55db1"
+      ],
+      "filenames": [
+        "Videos/5c410a1c858a05b412f62aad58894fbd180e9ab8aaaacfe1436df6bb81788d79.mp4",
+        "Videos/fc19ad3c022c299c68d53a8b371ea3f2cded015e9cde3cc03cb956040dc55db1.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "7/2",
+      "SceneIndex": 7,
+      "member": "2",
+      "names": [
+        "4290feb21f1611ac1661ec65a23187f1ef61740f7ec75a5f172c10c7e149c05d",
+        "969f354237e2a20392eadd36cf0b48f574ba964d9195b8a1aab712a76fec6a8d"
+      ],
+      "filenames": [
+        "Videos/4290feb21f1611ac1661ec65a23187f1ef61740f7ec75a5f172c10c7e149c05d.mp4",
+        "Videos/969f354237e2a20392eadd36cf0b48f574ba964d9195b8a1aab712a76fec6a8d.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "70/2",
+      "SceneIndex": 70,
+      "member": "2",
+      "names": [
+        "8804907b3e50583ea5c6d756a2dd8bab39097258adcccfa4f752ddd89ab7f162",
+        "d2f17e7e3e4abc384f80dd7646135848eeb640b7d345677c11dc11d1f9821b07"
+      ],
+      "filenames": [
+        "Videos/8804907b3e50583ea5c6d756a2dd8bab39097258adcccfa4f752ddd89ab7f162.mp4",
+        "Videos/d2f17e7e3e4abc384f80dd7646135848eeb640b7d345677c11dc11d1f9821b07.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "72/2",
+      "SceneIndex": 72,
+      "member": "2",
+      "names": [
+        "376be99c5ddac8724135ca8c899750c7d5e0ae6d42e84216748c0283a2a48bed",
+        "45967df4de4628d9b269352b152a55a4b12a2030834c0b715a2b9db018eced33"
+      ],
+      "filenames": [
+        "Videos/376be99c5ddac8724135ca8c899750c7d5e0ae6d42e84216748c0283a2a48bed.mp4",
+        "Videos/45967df4de4628d9b269352b152a55a4b12a2030834c0b715a2b9db018eced33.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "73/1",
+      "SceneIndex": 73,
+      "member": "1",
+      "names": [
+        "1002905319b0ac6476b10fb962d1c82fc03666324e5fe26435bb66620eebf17a",
+        "6de22b6769adbcdf0ef1be6253f8cc5418e0c394d35771f463be632c6349cb01"
+      ],
+      "filenames": [
+        "Videos/1002905319b0ac6476b10fb962d1c82fc03666324e5fe26435bb66620eebf17a.mp4",
+        "Videos/6de22b6769adbcdf0ef1be6253f8cc5418e0c394d35771f463be632c6349cb01.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "76/2",
+      "SceneIndex": 76,
+      "member": "2",
+      "names": [
+        "6b45c7616c19b1c17c7c3fd765b1027c590a4fd1688db2aead41cbd2e83b13b0",
+        "bea91d70cc78a260145b1a3e960a26443370d4e401c97cdd810e79ff0caabd23"
+      ],
+      "filenames": [
+        "Videos/6b45c7616c19b1c17c7c3fd765b1027c590a4fd1688db2aead41cbd2e83b13b0.mp4",
+        "Videos/bea91d70cc78a260145b1a3e960a26443370d4e401c97cdd810e79ff0caabd23.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "77/2",
+      "SceneIndex": 77,
+      "member": "2",
+      "names": [
+        "04c1ec25e63edc25183d243a6202e9afd39d6d867a803499cb5b318ee3e8fb46",
+        "89c5923fd9ffffab6e1460ac91309bbbfd03d19f41a08a9d8bfc304c25ef3b3e"
+      ],
+      "filenames": [
+        "Videos/04c1ec25e63edc25183d243a6202e9afd39d6d867a803499cb5b318ee3e8fb46.mp4",
+        "Videos/89c5923fd9ffffab6e1460ac91309bbbfd03d19f41a08a9d8bfc304c25ef3b3e.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "8/1",
+      "SceneIndex": 8,
+      "member": "1",
+      "names": [
+        "684b9f99732f79069c7786ff3d8e53bd5aaa1e83ae9b37d0e1cf9c6d99b08ef3",
+        "96e30cf2317932d7d7cfba412b5e0679b78e0f2b787739c29a937ddc2423d0a0"
+      ],
+      "filenames": [
+        "Videos/684b9f99732f79069c7786ff3d8e53bd5aaa1e83ae9b37d0e1cf9c6d99b08ef3.mp4",
+        "Videos/96e30cf2317932d7d7cfba412b5e0679b78e0f2b787739c29a937ddc2423d0a0.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "81/2",
+      "SceneIndex": 81,
+      "member": "2",
+      "names": [
+        "1b7e4519e38aac798004216286e6748ad02e7c0a7b86035806fc7c7b729b5be6",
+        "b6342f1f31b35ecc5d8e1c5954e558d5ef823e03bfd51df6f18e6e31cebebfba"
+      ],
+      "filenames": [
+        "Videos/1b7e4519e38aac798004216286e6748ad02e7c0a7b86035806fc7c7b729b5be6.mp4",
+        "Videos/b6342f1f31b35ecc5d8e1c5954e558d5ef823e03bfd51df6f18e6e31cebebfba.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "82/2",
+      "SceneIndex": 82,
+      "member": "2",
+      "names": [
+        "58c08157fe3357781f0b80ef55f5d82c3cc255ea571951a93ad435cd46c7784c",
+        "723151be65fce52d66da353a5bad38fc4ac52639dc085b9c59a542fc43550e84"
+      ],
+      "filenames": [
+        "Videos/58c08157fe3357781f0b80ef55f5d82c3cc255ea571951a93ad435cd46c7784c.mp4",
+        "Videos/723151be65fce52d66da353a5bad38fc4ac52639dc085b9c59a542fc43550e84.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "84/2",
+      "SceneIndex": 84,
+      "member": "2",
+      "names": [
+        "4623b76dae5709bae5628ee8417f6ee303847141e91c515fda120388eb5f2592",
+        "c509687969a46b8ee90113e0d88ad2a39ea438e7b1aa50552e88229df1db163b"
+      ],
+      "filenames": [
+        "Videos/4623b76dae5709bae5628ee8417f6ee303847141e91c515fda120388eb5f2592.mp4",
+        "Videos/c509687969a46b8ee90113e0d88ad2a39ea438e7b1aa50552e88229df1db163b.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "86/1",
+      "SceneIndex": 86,
+      "member": "1",
+      "names": [
+        "0add65242fd50825c5c3c7172623aebc56aa0c959a343c719cabc0fed3b22f09",
+        "1501f39bdc470df21edad5e452b002422f12c54030c236b928ba691dff9675c8"
+      ],
+      "filenames": [
+        "Videos/0add65242fd50825c5c3c7172623aebc56aa0c959a343c719cabc0fed3b22f09.mp4",
+        "Videos/1501f39bdc470df21edad5e452b002422f12c54030c236b928ba691dff9675c8.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "86/2",
+      "SceneIndex": 86,
+      "member": "2",
+      "names": [
+        "55d83f38610f2b3d96fba2351953a56f30671e9ec3e20397827697d7864d5648",
+        "5b7c057294dbf13c4302b747c1215ad94b6abc5505ed5cbaf8f790b36c140d8a"
+      ],
+      "filenames": [
+        "Videos/55d83f38610f2b3d96fba2351953a56f30671e9ec3e20397827697d7864d5648.mp4",
+        "Videos/5b7c057294dbf13c4302b747c1215ad94b6abc5505ed5cbaf8f790b36c140d8a.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "87/1",
+      "SceneIndex": 87,
+      "member": "1",
+      "names": [
+        "38c6574d191d910e55b44ce8c5db26bf7f92479d778ce8493e0b8b461884a068",
+        "ca3cc21700a684b88ad26b31c2d5ee0b3e06b50a6bbdbf3fadf40f85b0a27521"
+      ],
+      "filenames": [
+        "Videos/38c6574d191d910e55b44ce8c5db26bf7f92479d778ce8493e0b8b461884a068.mp4",
+        "Videos/ca3cc21700a684b88ad26b31c2d5ee0b3e06b50a6bbdbf3fadf40f85b0a27521.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "88/1",
+      "SceneIndex": 88,
+      "member": "1",
+      "names": [
+        "2eb700c36863f59a994730c1ecf6f14230a7f15d04054cd7ed032db173c627cb",
+        "46fbea565028186b120fd03b24d482569bf6fc512b036478e9157bb56ac5a176"
+      ],
+      "filenames": [
+        "Videos/2eb700c36863f59a994730c1ecf6f14230a7f15d04054cd7ed032db173c627cb.mp4",
+        "Videos/46fbea565028186b120fd03b24d482569bf6fc512b036478e9157bb56ac5a176.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "88/2",
+      "SceneIndex": 88,
+      "member": "2",
+      "names": [
+        "0b9bd952a7a823176aae98ad97a4a425394b8e43f1320f618d127ff1e8bfae94",
+        "dea95849d49a28d57029e6340bc2259fbdcc1f016ea1cbb6d80e726e849160b8"
+      ],
+      "filenames": [
+        "Videos/0b9bd952a7a823176aae98ad97a4a425394b8e43f1320f618d127ff1e8bfae94.mp4",
+        "Videos/dea95849d49a28d57029e6340bc2259fbdcc1f016ea1cbb6d80e726e849160b8.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "89/2",
+      "SceneIndex": 89,
+      "member": "2",
+      "names": [
+        "be260cfc1846557e75978f69967d1e66d92bfb2763b911d471103a8e0168ad60",
+        "ca44bd6f25ddb461f60564fd6e3baf95f4f3cdf273d10e59df729ac8313c8e8d"
+      ],
+      "filenames": [
+        "Videos/be260cfc1846557e75978f69967d1e66d92bfb2763b911d471103a8e0168ad60.mp4",
+        "Videos/ca44bd6f25ddb461f60564fd6e3baf95f4f3cdf273d10e59df729ac8313c8e8d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "91/1",
+      "SceneIndex": 91,
+      "member": "1",
+      "names": [
+        "770e6e3173eaa3bd8801eabe5295715d37a8865ea274ae3771b7fbbdd2a5bc3f",
+        "8be3561206464089522ee24e5d65d944289effad8df77be1e1d51fd41249d4e3"
+      ],
+      "filenames": [
+        "Videos/770e6e3173eaa3bd8801eabe5295715d37a8865ea274ae3771b7fbbdd2a5bc3f.mp4",
+        "Videos/8be3561206464089522ee24e5d65d944289effad8df77be1e1d51fd41249d4e3.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "92/1",
+      "SceneIndex": 92,
+      "member": "1",
+      "names": [
+        "1c4347999f55282dfca3c21a68e54e30b1fe1b8efe5d835d5858623c18bda7f3",
+        "7564993d86a82cd405fc84d15534586f409f4a834275fd443f2beb2117425f81"
+      ],
+      "filenames": [
+        "Videos/1c4347999f55282dfca3c21a68e54e30b1fe1b8efe5d835d5858623c18bda7f3.mp4",
+        "Videos/7564993d86a82cd405fc84d15534586f409f4a834275fd443f2beb2117425f81.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "92/2",
+      "SceneIndex": 92,
+      "member": "2",
+      "names": [
+        "76ce6c9ec9588bc201509c866c744b10fb3664ee030ccc8c8501ed3e014bea85",
+        "96469303e3d7a59721e75b3e604b5975c4fcb2759287a4345af94a3ce9581a6d"
+      ],
+      "filenames": [
+        "Videos/76ce6c9ec9588bc201509c866c744b10fb3664ee030ccc8c8501ed3e014bea85.mp4",
+        "Videos/96469303e3d7a59721e75b3e604b5975c4fcb2759287a4345af94a3ce9581a6d.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "93/2",
+      "SceneIndex": 93,
+      "member": "2",
+      "names": [
+        "122a7317bbce4f18c2554ca0cd86c6088d992cac89084af979d25a7e11f14ee5",
+        "e40af30878e19eaabac0ecfeb7654b844b830771357635b03af5f09fb1fc649c"
+      ],
+      "filenames": [
+        "Videos/122a7317bbce4f18c2554ca0cd86c6088d992cac89084af979d25a7e11f14ee5.mp4",
+        "Videos/e40af30878e19eaabac0ecfeb7654b844b830771357635b03af5f09fb1fc649c.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "95/1",
+      "SceneIndex": 95,
+      "member": "1",
+      "names": [
+        "42e8d66c90fac64a8ab7a3229d22ecb2c8e6e83a82b71a715a4651fc18b7cd94",
+        "d4ba68f63e9cca091e79a65a8a1181963bd4c77148d22e776981993775858eaf"
+      ],
+      "filenames": [
+        "Videos/42e8d66c90fac64a8ab7a3229d22ecb2c8e6e83a82b71a715a4651fc18b7cd94.mp4",
+        "Videos/d4ba68f63e9cca091e79a65a8a1181963bd4c77148d22e776981993775858eaf.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "96/1",
+      "SceneIndex": 96,
+      "member": "1",
+      "names": [
+        "2535be14aabd05e8072ac2a89c875dbac30b7dc9347db71c2f7f2fa90880c96d",
+        "711611a43b9f856eac8486fb8aac9d3b36bf0e028af60b354ef86c3854d568f1"
+      ],
+      "filenames": [
+        "Videos/2535be14aabd05e8072ac2a89c875dbac30b7dc9347db71c2f7f2fa90880c96d.mp4",
+        "Videos/711611a43b9f856eac8486fb8aac9d3b36bf0e028af60b354ef86c3854d568f1.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "97/1",
+      "SceneIndex": 97,
+      "member": "1",
+      "names": [
+        "15660a01d0da7716e38af417e52a61f9c31148b5b4eabc1850b49cab6692f40d",
+        "561c3ba7ac9ffe1022b1e3ec8f74e80dc3d7d6d0e51bb5b97859145d63b8c140"
+      ],
+      "filenames": [
+        "Videos/15660a01d0da7716e38af417e52a61f9c31148b5b4eabc1850b49cab6692f40d.mp4",
+        "Videos/561c3ba7ac9ffe1022b1e3ec8f74e80dc3d7d6d0e51bb5b97859145d63b8c140.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    }
+  ]
+}

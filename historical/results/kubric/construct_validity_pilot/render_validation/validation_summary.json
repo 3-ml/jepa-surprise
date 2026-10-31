@@ -1,0 +1,14 @@
+{
+  "status": "complete_validation_summary_recovered_from_successful_command_output",
+  "scenes": 8,
+  "conditions_per_scene": 9,
+  "condition_outputs": 72,
+  "frames_validated": 3456,
+  "exact_context_across_conditions": true,
+  "maximum_pre_event_uint8_difference": 0,
+  "all_blend_state_validations_passed": true,
+  "all_values_finite": true,
+  "frozen_manifest_sha256": "a9a49d9cd98f4f75ceec2a336c939ba68656f855f6577799ad4c8a70595588d7",
+  "blend_validation_sha256": "402a98fe58e4ee329279a76376b0be43dd2c4064c2e44ffd567889581bc3828e",
+  "recovery_note": "The original render_validation.json and blend-validation.json remain on the stopped cloud runtime volume. These values are copied from their successful stdout before the pod stopped; they are not a claimed byte-for-byte reconstruction of those files."
+}

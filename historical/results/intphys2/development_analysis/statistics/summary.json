@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "command": "python scripts\\analyze_intphys2_confirmatory_statistics.py --vjepa-run results\\intphys2\\development_analysis\\vjepa2 --videomae-run results\\intphys2\\development_analysis\\videomae2 --pixel-run results\\intphys2\\development_analysis\\pixel_summary --output-dir results\\intphys2\\development_analysis\\statistics --vjepa-physics-layer block_30 --videomae-physics-layer block_00 --vjepa-original-layer block_30 --videomae-original-layer block_30 --vjepa-appearance-layer block_20 --videomae-appearance-layer block_30 --bootstrap 500 --overwrite",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "bootstrap": 500,
+  "runs": [
+    {
+      "label": "V-JEPA2-G",
+      "run_dir": "results\\intphys2\\development_analysis\\vjepa2",
+      "representations_sha256": "93cbd4f56723f70e7914a8ae64b44df87d819581513fbccd53331b4b164d959a",
+      "task_layers": {
+        "appearance": "block_20",
+        "physics_all": "block_30",
+        "physics_clean_only": "block_30"
+      }
+    },
+    {
+      "label": "VideoMAE2-G",
+      "run_dir": "results\\intphys2\\development_analysis\\videomae2",
+      "representations_sha256": "48f8fb0947e71b362dec3aa677bbb3ec6384299d9dcac86bc66c1a9b0b5d87bb",
+      "task_layers": {
+        "appearance": "block_30",
+        "physics_all": "block_00",
+        "physics_clean_only": "block_30"
+      }
+    },
+    {
+      "label": "PixelSummary",
+      "run_dir": "results\\intphys2\\development_analysis\\pixel_summary",
+      "representations_sha256": "5311d0218f1f002693d8639b68a64eee5fc664ce34fcd2891421c1123bdd19ed",
+      "task_layers": {
+        "appearance": "pixel_summary",
+        "physics_all": "pixel_summary",
+        "physics_clean_only": "pixel_summary"
+      }
+    }
+  ],
+  "accuracy_ci": [
+    {
+      "model": "PixelSummary",
+      "task": "appearance",
+      "layer_name": "pixel_summary",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.90896,
+      "ci_low": 0.8633333333333333,
+      "ci_high": 0.9492083333333333
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_all",
+      "layer_name": "pixel_summary",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.48547666666666667,
+      "ci_low": 0.459125,
+      "ci_high": 0.5083333333333333
+    },
+    {
+      "model": "PixelSummary",
+      "task": "physics_clean_only",
+      "layer_name": "pixel_summary",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.48536,
+      "ci_low": 0.4333333333333334,
+      "ci_high": 0.5333333333333333
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "appearance",
+      "layer_name": "block_20",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.98992,
+      "ci_low": 0.9799999999999999,
+      "ci_high": 0.9966666666666667
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_all",
+      "layer_name": "block_30",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.5630499999999999,
+      "ci_low": 0.505,
+      "ci_high": 0.6233333333333333
+    },
+    {
+      "model": "V-JEPA2-G",
+      "task": "physics_clean_only",
+      "layer_name": "block_30",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.5690533333333333,
+      "ci_low": 0.5066666666666666,
+      "ci_high": 0.6368333333333331
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "appearance",
+      "layer_name": "block_30",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.9948633333333332,
+      "ci_low": 0.9866666666666667,
+      "ci_high": 1.0
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_all",
+      "layer_name": "block_00",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.45594000000000007,
+      "ci_low": 0.4066666666666666,
+      "ci_high": 0.5016666666666667
+    },
+    {
+      "model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "layer_name": "block_30",
+      "n_seed_pair_rows": 75,
+      "n_pairs_union": 50,
+      "mean": 0.43274666666666667,
+      "ci_low": 0.37333333333333335,
+      "ci_high": 0.49333333333333335
+    }
+  ],
+  "model_delta_ci": [
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "appearance",
+      "metric": "pair_accuracy_delta",
+      "mean": -0.004963333333333333,
+      "ci_low": -0.015,
+      "ci_high": 0.003333333333333333
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "physics_all",
+      "metric": "pair_accuracy_delta",
+      "mean": 0.10507666666666667,
+      "ci_low": 0.02904166666666667,
+      "ci_high": 0.18087499999999995
+    },
+    {
+      "left_model": "V-JEPA2-G",
+      "right_model": "VideoMAE2-G",
+      "task": "physics_clean_only",
+      "metric": "pair_accuracy_delta",
+      "mean": 0.13828000000000004,
+      "ci_low": 0.06,
+      "ci_high": 0.21333333333333332
+    }
+  ],
+  "physical_distance_trend_ci": {
+    "metric": "physical_distance_vs_depth_spearman",
+    "n_pairs": 76,
+    "V-JEPA2-G": {
+      "mean": 0.9912,
+      "ci_low": 0.8999999999999998,
+      "ci_high": 0.9999999999999999
+    },
+    "VideoMAE2-G": {
+      "mean": 0.22579999999999995,
+      "ci_low": -0.09999999999999999,
+      "ci_high": 0.3
+    },
+    "V-JEPA2-G_minus_VideoMAE2-G": {
+      "mean": 0.7653999999999999,
+      "ci_low": 0.5999999999999999,
+      "ci_high": 1.0999999999999999
+    }
+  }
+}

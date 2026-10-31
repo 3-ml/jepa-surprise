@@ -1,0 +1,8 @@
+{
+  "status": "complete_confirmatory",
+  "phase": "confirmatory",
+  "episodes": 256,
+  "conditions": 18,
+  "scores": 4608,
+  "rejected_candidates": 2
+}

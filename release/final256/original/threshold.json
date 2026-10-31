@@ -1,0 +1,7 @@
+{
+  "threshold": 0.4858863055706024,
+  "direction": "native score >= threshold",
+  "fit_split": "development24 clean only, both worlds",
+  "tie_rule": "largest threshold among maximum balanced-accuracy classifiers",
+  "source_calibration_sha256": "554a659363c6f9d9bdcaf545e755134c4aa30942a57717034fa4a4983e1c384d"
+}

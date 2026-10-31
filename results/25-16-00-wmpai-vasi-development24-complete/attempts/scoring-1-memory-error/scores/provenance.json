@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "checkpoint_sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "model_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "render_seal_sha256": "c9904223d9d9d8a91d34f8608878b40130d48d3132a3cadb8dfd770d8bd07ca7",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "dtype": "fp32 weights; bf16 autocast/subtraction; fp32 error reduction",
+  "resident_target_encoder": true,
+  "context_cache": "normalized context SHA256 only, cleared per world",
+  "activation_checkpointing": false,
+  "frames": 48,
+  "context": 12,
+  "resolution": 256,
+  "batch": 1,
+  "parity_max_abs_tubelet_atol": 1e-06,
+  "matmul_tf32": false,
+  "cudnn_tf32": true,
+  "error": "MemoryError()"
+}

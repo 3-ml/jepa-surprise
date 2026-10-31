@@ -1,0 +1,2388 @@
+{
+  "schema_version": 1,
+  "scope": "All final anonymous archive files except archive_manifest.json itself.",
+  "files": 476,
+  "bytes": 185741424,
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "bytes": 175,
+      "sha256": "86f698c21d10616f135b2900c113133beeaa499731398b590ece46699ac5b862"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6715,
+      "sha256": "f0cf0870d9c61beb7f17d1993456664dd1f833c8c4ba7c0a651e56c0f73e51d7"
+    },
+    {
+      "path": "archive_audit.json",
+      "bytes": 4922,
+      "sha256": "129ae84f4a9e024fdde9a2f787d8edfc91fb1edb892fdb0747e8b8cc37907239"
+    },
+    {
+      "path": "configs/README.md",
+      "bytes": 1386,
+      "sha256": "a1d5cb2841a48af202da9bbe03a2b08b4426d9ea8b728dc4479f7e591e56c90d"
+    },
+    {
+      "path": "configs/intphys2_confirmatory_shared.json",
+      "bytes": 6047,
+      "sha256": "c6220c97626bf0a7ec1d90c7c306b67f8a74ad0cad31a13ff352afcdc6f32ba4"
+    },
+    {
+      "path": "configs/intphys2_controlled_geometry.json",
+      "bytes": 2138,
+      "sha256": "505e59ccc3b156a979616ae9511fe3218aade30dd7364f019d4b8846b010b8e5"
+    },
+    {
+      "path": "configs/intphys2_multidose_geometry.json",
+      "bytes": 1724,
+      "sha256": "4a7a0a334dc45e174cd143facea7f1f9a2b9a1b7a046cccd5306396398711f45"
+    },
+    {
+      "path": "configs/intphys2_sealed_analysis_spec.json",
+      "bytes": 3044,
+      "sha256": "2f988053f6adc225b9ecdfdd8d114a75f2dd8fc5e554640400b52e03f48a93e8"
+    },
+    {
+      "path": "configs/original_sealed_analysis_spec/README.md",
+      "bytes": 4993,
+      "sha256": "f7e0ca1651c9586c180ba89c8be347d02d99de9045a8b1b9b75ed6d9fac7b465"
+    },
+    {
+      "path": "configs/videomae2_intphys2_confirmatory.json",
+      "bytes": 3612,
+      "sha256": "7fe05cecde48b9afcf978125fc264d1837327067fe912f0834353cf93b223e3c"
+    },
+    {
+      "path": "configs/vjepa2_intphys2_confirmatory.json",
+      "bytes": 1938,
+      "sha256": "5caa5e90c6783b0053a5527fb342549a77e66cb9c2d8627286e4ae4b3c855343"
+    },
+    {
+      "path": "environments/README.md",
+      "bytes": 947,
+      "sha256": "644b319d1af208389655263ccc115442b1db2e5f6c8c32d17f25e60039c24d6d"
+    },
+    {
+      "path": "environments/compute_resources.json",
+      "bytes": 18921,
+      "sha256": "f69583d5cfc67a06f6cc5c0cadafcbffa2457669a33f7358edaed2e5da485113"
+    },
+    {
+      "path": "environments/external_assets/README.md",
+      "bytes": 4177,
+      "sha256": "ab095c1d9532033d0e8b7ea62b8095e33f76a371ceec3d1a5ce741cffdfcb33b"
+    },
+    {
+      "path": "environments/intphys2/README.md",
+      "bytes": 394,
+      "sha256": "c6bc3125f8de4cea014b05d3872f271306ce21b4a8416d624ba94d65f3d60774"
+    },
+    {
+      "path": "environments/intphys2/requirements.txt",
+      "bytes": 161,
+      "sha256": "115e23f0be53b57f8465596e8aba654f7567ef0ecf91c5baecf2d341b578685a"
+    },
+    {
+      "path": "environments/jepa_wm/README.md",
+      "bytes": 513,
+      "sha256": "7c5a6d61787c510fddb985b4fd95f4c1856defa00053c5329f77189e34c8d5f2"
+    },
+    {
+      "path": "environments/jepa_wm/requirements.txt",
+      "bytes": 2663,
+      "sha256": "0667ab389a9ad18c25d5ad654443f8fd5ce5dec5b31136a8c4c537cb7fb3e7ce"
+    },
+    {
+      "path": "environments/kubric/Dockerfile",
+      "bytes": 980,
+      "sha256": "88901a0ddfa2516692c9dedaec5c7f676290e2611f3c5738f45e21a30047fa61"
+    },
+    {
+      "path": "environments/kubric/README.md",
+      "bytes": 3388,
+      "sha256": "e6976aae129c43827794f0d60c7a59a15dbd28aa8eb9fe0f1412b92e965ec898"
+    },
+    {
+      "path": "environments/kubric/hypertune.py",
+      "bytes": 99,
+      "sha256": "3536da843f9776de358fb29ca3a1d4e4bbab2fa3d17d93eabd9a27e2c7811ccd"
+    },
+    {
+      "path": "environments/kubric/requirements.lock",
+      "bytes": 359,
+      "sha256": "8fd1352308a65e2caab28230f18ef837c3eef52bc08a5a2fe7470226df660ad7"
+    },
+    {
+      "path": "environments/leworldmodel/requirements.txt",
+      "bytes": 192,
+      "sha256": "edc929f521134f14666c90c039cf568c15eeede794b449a7970df7d0c1c07dde"
+    },
+    {
+      "path": "environments/smoke/README.md",
+      "bytes": 747,
+      "sha256": "1c051f7b051b14ea47643841590263f329d0934cb01045ef6028aefd95b6eabf"
+    },
+    {
+      "path": "environments/smoke/requirements.txt",
+      "bytes": 993,
+      "sha256": "9abbf9e151ca1abd08533f3d02244074e588022ae461f8cb84e9588f60c6d1db"
+    },
+    {
+      "path": "environments/static_diagnostic/requirements.txt",
+      "bytes": 99,
+      "sha256": "f230b2cf5ecb4222b23c9d6231f6745b84320d92329e0cc457a3f182669f5cc7"
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 1160,
+      "sha256": "18efa3bc8067861b93c7a3be8c61fccfe3598c40a3aaca24b34b129c506c29f5"
+    },
+    {
+      "path": "figures/appendix_exploratory_trajectories.pdf",
+      "bytes": 20921,
+      "sha256": "d946e87a2355be2ef87cc7c4cdb47508595775c03eafdf5bbd3ac08a8bc15736"
+    },
+    {
+      "path": "figures/figure2_controlled_geometry_compact.pdf",
+      "bytes": 23534,
+      "sha256": "60d919845ed7ac19db48890897392bc07350b6871caf76dcffdc487fa6400328"
+    },
+    {
+      "path": "figures/figure3_lewm_construct_controls.pdf",
+      "bytes": 21769,
+      "sha256": "bdefe5abf2af5803ad6721908e71bef6ba67e49cdd9185598cbd914e15cc488f"
+    },
+    {
+      "path": "figures/figure4_intphys_scene_crossfit.pdf",
+      "bytes": 17159,
+      "sha256": "163c51a856e0dad4bae0eded873acb16134e3c8632260a793d78f5f120bdbe80"
+    },
+    {
+      "path": "manifests/README.md",
+      "bytes": 183,
+      "sha256": "987542c7fe056bc34537c01647b324052406a87bc45125c47c4e591bb8ef03f9"
+    },
+    {
+      "path": "manifests/intphys2/README.md",
+      "bytes": 965,
+      "sha256": "4d674b8b44dcef343566cfb2eccec0a3a210d84acc2a5dd62a5cb7e32976477c"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_confirmatory_pairs.csv",
+      "bytes": 277605,
+      "sha256": "7c3d8b7297d024db5699d09d2ca69e6885e7cb6c12b667081a3f91db3c543771"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_confirmatory_samples.csv",
+      "bytes": 3007328,
+      "sha256": "1ddc3677781e605f6d298992584768e414801dc1479b03184150dd2af11fd32a"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_confirmatory_transform_full_audit.json",
+      "bytes": 3676,
+      "sha256": "2067d4624e8ca6ab2e98eddbb340f98708772a9aef64a06df219856059c9b399"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_confirmatory_transform_metrics.csv",
+      "bytes": 443387,
+      "sha256": "7f9f92f1c730fce6668470978496676048180858eb926ccc476c0522334fa718"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_confirmatory_validation.json",
+      "bytes": 3737,
+      "sha256": "3cc173a667ee60b468ac9d0c7190c0f1049254f57e4bb42a8f33dec845011cba"
+    },
+    {
+      "path": "manifests/intphys2/intphys2_release_inventory.csv",
+      "bytes": 218723,
+      "sha256": "dd87ccf05f3dc09d52b7c884f2176b9f6600ce9b96ce08b3373e703dec9d04c1"
+    },
+    {
+      "path": "manifests/intphys2/previously_inspected/appearance_endpoint_selection.json",
+      "bytes": 129410,
+      "sha256": "07d3cebba1c78196d56c24c5d76191ff6b76e560bdea6d88eef797a726ba3d6b"
+    },
+    {
+      "path": "manifests/intphys2/previously_inspected/construct_validity_selection.json",
+      "bytes": 24048,
+      "sha256": "d56f5064291de45e513123dfa68ce7dbe32ae0c2a0a14f76c0f8e6df49e2febf"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 845,
+      "sha256": "8c56355ac91651af671ac5bda6aec34b85d09cc82550353924cb9d30331baaef"
+    },
+    {
+      "path": "results/dinowm/README.md",
+      "bytes": 154,
+      "sha256": "7981a778b4cecc5df1c8796135335910e892b64f2a4bc79a1818df1401812009"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/README.md",
+      "bytes": 1070,
+      "sha256": "9dcceb2c0e77b7c01e523e52201c6f646dc3a598dbc2a520caead17ff5cf5c95"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/condition_summary.csv",
+      "bytes": 3532,
+      "sha256": "19d35d3feca594169164352872355046c5b57d245d0d4191b50e3db67ee90507"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/construct_comparisons.csv",
+      "bytes": 1300,
+      "sha256": "c8bfdbf6516dc34594550b2ce1d609f43fde51c2ab14dfba9d6e79bc568fee87"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/controlled_displacement.png",
+      "bytes": 71298,
+      "sha256": "652fb8ca4a9327e32c87ad495101ae78876f65e3f4608e11dd046e7a526fd5e7"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/provenance.json",
+      "bytes": 2208,
+      "sha256": "bd2aed3413fb4de293cd5c8e977c74634be40f1790b160be3d7aab7e949e2f85"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/same_target_contrasts.csv",
+      "bytes": 1443,
+      "sha256": "62f2c3022b97898fd1f3b891efb4b3a700647d7e5a8f8819e11a16339b4bf972"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/scores.csv",
+      "bytes": 1416561,
+      "sha256": "eadf981b3e7ec9da8b4edf8b9f707b054ebf79c8f9a844e322e6c0089df15ce2"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/selection_manifest.csv",
+      "bytes": 36009,
+      "sha256": "f027f6023422c1b16c9e3e5c0b1d74e5c204dfc7c6807f23d94ad714c6bd2370"
+    },
+    {
+      "path": "results/dinowm/pusht_controlled_displacement/status.json",
+      "bytes": 144,
+      "sha256": "f102a43a797dcb2bf0fd4626989abac823721f5d1b5d58ee4d2d9dadbf88847e"
+    },
+    {
+      "path": "results/intphys2/README.md",
+      "bytes": 1431,
+      "sha256": "18d560afc09df05d2593e9fba40f0ae33ff3cd576996274ea0216d8deb9304ab"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/README.md",
+      "bytes": 1371,
+      "sha256": "65145cae9238b143c0262bea01e2f082944ec1fc8abbd9d333d9bbe42eed29b8"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/development_reference/HIGH_PRECISION_STATISTICS.csv",
+      "bytes": 54371,
+      "sha256": "79cb1bb63a6b9bec598df87a781b52149948ded4b7f0ed37d0bcac891264ee61"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/development_reference/LAYERWISE_METRICS.csv",
+      "bytes": 15619,
+      "sha256": "670601f9fe4e46aa5e4f8574e646bb0ced12e6da85b2a3391a4a56f4bf1f794e"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/development_reference/PAO_K_SENSITIVITY.csv",
+      "bytes": 7626,
+      "sha256": "cad43b79a00bad52b2e2f50ddf3e4680847901259eac47df6c398a78f50627eb"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/development_reference/SUBSPACE_SPECTRA.csv",
+      "bytes": 8778,
+      "sha256": "6010050c8ba8c171fb16b6590217646852bd3bd00cfc57d39e8943c4cb6577bc"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/DEVELOPMENT_VS_SEALED.csv",
+      "bytes": 2324,
+      "sha256": "9a64d7f270b6d62dd99ba17d97c8acd6168e2addf99f4cddccf17b1a01d88639"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/PAO_K_SENSITIVITY_SEALED.csv",
+      "bytes": 7609,
+      "sha256": "7ff3b4ef64234ab896303e577127411ee7725e7b2cc830dc814c8b5341a531f6"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/PAPER_GEOMETRY_TABLE.csv",
+      "bytes": 4212,
+      "sha256": "d6b2fd6bcfccfe6daf5ca6e83a9eceb796da78f1b324a708ca582437281120c3"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/SEALED_HIGH_PRECISION_STATISTICS.csv",
+      "bytes": 54741,
+      "sha256": "c7153c85fda0fd77f78ef59a9f0b782598e578d49d1b5293915299c74db43468"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/SEALED_LAYERWISE_METRICS.csv",
+      "bytes": 15561,
+      "sha256": "a23041224aa19bda141e9eeef2cc8c37340a208bce666c83ea4ee16dd8596bbf"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/SEALED_RESULTS.json",
+      "bytes": 220640,
+      "sha256": "39cd89b857b75a57e36213e7457589dddcfe2017dddd565f3663889a25fdc186"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/SUBSPACE_RESULTS.csv",
+      "bytes": 8750,
+      "sha256": "916c04de36940a38af7447f737f533d4ec11a27e8abacbacab6c98959bdcd81a"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/TDC_SCENE_STABILITY.csv",
+      "bytes": 567038,
+      "sha256": "0962ade6ab2d0b743e1f1b29789ff607b92859c8539baff9761081a2efcbbdcd"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/anisotropy/README.md",
+      "bytes": 7197,
+      "sha256": "6896ca0db0bea1ebece247e7db19154a2c7b8046f91f076a840a715f3740640d"
+    },
+    {
+      "path": "results/intphys2/controlled_geometry/sealed/stability/README.md",
+      "bytes": 1305,
+      "sha256": "1096ca0d22bb406e7b0f5513bdb80e6d85ac1ef597699269774788919edbb442"
+    },
+    {
+      "path": "results/intphys2/development_analysis/README.md",
+      "bytes": 869,
+      "sha256": "29964532d368e58d99da05078db6aa7d57a20dad5b79878c1f824eef87d5e11b"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/cross_layer_correlations.csv",
+      "bytes": 1470,
+      "sha256": "7fa8437e0b87ecac66781132ab3b1e18ebc78bc5b059275b6c88355e991a8788"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 1052,
+      "sha256": "55ef851689d49df6788e3868c47af1c63a0d16379adb72a846942a6e37aa6abc"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/layerwise_probe_geometry.png",
+      "bytes": 89246,
+      "sha256": "23b3148134720e146e701c6b1955463fe5f4f37af25c1951a818130cbebad6dc"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/physical_layer_distances.csv",
+      "bytes": 18770,
+      "sha256": "7cc2142c79c51788c3cce58f5b6fbd03188a290ab2753180faf9950bcbf6cb52"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/summary.json",
+      "bytes": 1756,
+      "sha256": "c08a802bbdbbeedac2c9957dbde2e0e8a689359674a0ad983be68eb552b69c47"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 38883,
+      "sha256": "de1802016ea64beda6452c9499341b68c793d1467f8ea226b71577e8a7be7e64"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/probes/probe_results.csv",
+      "bytes": 4730,
+      "sha256": "479cc8fd9cdf43fd9cc4fef3a930051c2bf55d9654d03d121793c2b3d67f8b8d"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/probes/probe_summary.csv",
+      "bytes": 824,
+      "sha256": "db98678ffa1ea9289b5fc914c414d4a1f4b76eb296dd28ddeb65445828b51e63"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/probes/split_assignments.json",
+      "bytes": 7858,
+      "sha256": "1881539e916e1054cfdc6006575e7ed940504eddd2323541e0e4e69235f6e231"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/probes/summary.json",
+      "bytes": 1253,
+      "sha256": "844e8d81563ed0dbe3dfd3e32758b0c5870a9461731afbf6ff0bdee604ee6e86"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/provenance.json",
+      "bytes": 1310,
+      "sha256": "071fe5dda15a0b18c12dbfbc6f0eb3c7513609b0c228de703f221385562a6fe4"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/representations.npz",
+      "bytes": 258226,
+      "sha256": "46c90afb69df73b8ae8b1aae4ca029d4249313c0104bf50cd2de49d7767f34b6"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/samples.csv",
+      "bytes": 411133,
+      "sha256": "f4ea3cb4de52ae71fb3e7000893315a48469e396d98914d8c16215405ce9532a"
+    },
+    {
+      "path": "results/intphys2/development_analysis/pixel_summary/status.json",
+      "bytes": 334,
+      "sha256": "796a9b57faec82c698b93380307349e9266d2b065071f9f70a7f6b0c2ed03a12"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/accuracy_ci.csv",
+      "bytes": 901,
+      "sha256": "2a1a3539b8df9803017fd9a6339a9e868b37a6023e8d6f0d3f9984b74e859b2b"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/heldout_predictions.csv",
+      "bytes": 1311096,
+      "sha256": "1bf70b07db3405af7c7b0e5659db362b52e30bd5481ebc48ab3e34e139924bf3"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/model_delta_ci.csv",
+      "bytes": 378,
+      "sha256": "3ac992bc92430ec9a3241fc6cb04aadc023af722019b1db94c3a9d4d52555010"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/physical_distance_trend_ci.json",
+      "bytes": 433,
+      "sha256": "9380e492858c971758edf99b620a07989ede40a2f676487ee475a64f7cc41dc2"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/stratified_accuracy_ci.csv",
+      "bytes": 12193,
+      "sha256": "cd0df31cdf3486756c95ca8857dc802a681a7ac9583ced92cc160580dfcbbe52"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/stratified_model_delta_ci.csv",
+      "bytes": 4833,
+      "sha256": "f2781c899d9688c89be715f252b545fa269cddee79d0e68a775ae625b2c79740"
+    },
+    {
+      "path": "results/intphys2/development_analysis/statistics/summary.json",
+      "bytes": 5435,
+      "sha256": "3cab97b7dea85001816cdb665838abde4582585d7ebe516e608eecadaadc1f4a"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/cross_layer_correlations.csv",
+      "bytes": 1886,
+      "sha256": "462b1d2e7a06d94eb3bbe4e5246b85bc679f58a8a6a310fdd94a6449f4c5dd82"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 2487,
+      "sha256": "7580144cab6184eb2f571a79fa68b083637f95cfceb008df0592d5a14ab0114f"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/layerwise_probe_geometry.png",
+      "bytes": 125380,
+      "sha256": "96d2fc27a6092e2dd1b3741c0d7056b4f91acfbf0dc55213dcf9e3eece78ca32"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/physical_layer_distances.csv",
+      "bytes": 84814,
+      "sha256": "48c05456c5b948b83fa2fbeb2b73aa6b7c306810213fd8f11325b9ab44a03a4b"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/summary.json",
+      "bytes": 2245,
+      "sha256": "c1cd0c337a171850dcae3198cc9c79da56db90107b0d3b20650de69cde29e05d"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 190474,
+      "sha256": "9dc417eab561a7b90e6d986b9bed19696d1f5f5ad241fdfa505db52ec1d23907"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/probes/probe_results.csv",
+      "bytes": 20858,
+      "sha256": "cf3e71318e2da9a160d888350ba95bccc02dfc47cd76fae778d4bc13f178ec60"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/probes/probe_summary.csv",
+      "bytes": 3498,
+      "sha256": "5ea89b125e59cdd48a2041a31c511c583218b2f96546008d61f7e46b9c8c5591"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/probes/split_assignments.json",
+      "bytes": 7858,
+      "sha256": "1881539e916e1054cfdc6006575e7ed940504eddd2323541e0e4e69235f6e231"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/probes/summary.json",
+      "bytes": 1249,
+      "sha256": "5ed195f8b94ee5697946d8f316ca30b101df3940b3f9034418ae308e238bf063"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/provenance.json",
+      "bytes": 2465,
+      "sha256": "cc31f4bcb2a32e19920f3f2c14e35acdede61783a12d557b43ea8191f01277d8"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/representations.npz",
+      "bytes": 8102292,
+      "sha256": "5442c4adc39cbd54a07d2de95e84087aee6be5c9f55b9997ac400ab8eabe30b2"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/samples.csv",
+      "bytes": 662361,
+      "sha256": "52e8f03ded60d9b547e3002616fc6bc73ef119d9ff5097447ae84b6cc3243769"
+    },
+    {
+      "path": "results/intphys2/development_analysis/videomae2/status.json",
+      "bytes": 349,
+      "sha256": "d70c5db4ea72f317e47500716790d685f24e6cf3e0f3afe6ae14f3f6e3fec0a2"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/cross_layer_correlations.csv",
+      "bytes": 1865,
+      "sha256": "46f92bec9a5b8b8f37994631353a7477e2e117b4e2816be3c15e586a97cab784"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 2472,
+      "sha256": "4fd6f5e7dca657062ea06ddbaf1e86de90f7d5bc587ef11edc61115017c1afa0"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/layerwise_probe_geometry.png",
+      "bytes": 126085,
+      "sha256": "e1f7b359fc67aed1921b0f423b502507a86b1c62f527cc7aba1a3ec383f146e4"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/physical_layer_distances.csv",
+      "bytes": 84385,
+      "sha256": "ea0256828d7d6da8992a9dc9f1d4803e3201ec923f33c0253707ffe95b904ff1"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/summary.json",
+      "bytes": 2250,
+      "sha256": "5433522dabce607bc513f69c74297637d37015a0f5238487b9d03ad892c87e76"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 189520,
+      "sha256": "fc2be6e0133ca369490b87f61c738598f0ec7fb32175c921bd9570b348f0b1e0"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/probes/probe_results.csv",
+      "bytes": 20746,
+      "sha256": "5b22fd0021a7bb4a71d9a67f38133fe254aac500684556874e8b67188ebc5f28"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/probes/probe_summary.csv",
+      "bytes": 3384,
+      "sha256": "4b31a35abf6ab854998cc31853c539f5dbfa789734c731deb9ce5c65dd456039"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/probes/split_assignments.json",
+      "bytes": 7858,
+      "sha256": "1881539e916e1054cfdc6006575e7ed940504eddd2323541e0e4e69235f6e231"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/probes/summary.json",
+      "bytes": 1230,
+      "sha256": "c69a9bf0661df357c3ad0a581a92dc16c447c00a1cd289c2f42b7c2fded48a8e"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/provenance.json",
+      "bytes": 2443,
+      "sha256": "cc59d5211470037a44e9fcb82c63900bd130a00546714dc02df4f1a0e66daffa"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/representations.npz",
+      "bytes": 8040028,
+      "sha256": "f20a4dfd7cc07c762c3527483bbfdb7fe23c85cfb75510587614e0b89c58e221"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/samples.csv",
+      "bytes": 651417,
+      "sha256": "a591b27f9e66de9a68d7e4edcb8bc9a87b8d729b14a06a82bfd50f934f1ab2b0"
+    },
+    {
+      "path": "results/intphys2/development_analysis/vjepa2/status.json",
+      "bytes": 349,
+      "sha256": "d4adc3109916b071587403c9495b8cda4e08e35f1c1194edaecf25d7429930f3"
+    },
+    {
+      "path": "results/intphys2/development_extraction/README.md",
+      "bytes": 296,
+      "sha256": "d25c5fdca5681665bab1ff7daac0e8c053f7ce23731a01950b4257e70d2d65d8"
+    },
+    {
+      "path": "results/intphys2/development_extraction/feature_parity.json",
+      "bytes": 3565,
+      "sha256": "70f7bedce43fffaee0ad3dc04dbb96efeef3eafde5477df17c7cb7ef20733a3c"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/CROSS_FACTOR_ALIGNMENT.csv",
+      "bytes": 2369,
+      "sha256": "b946b070f989fbf4eda56dd5f50645658138dfac1b7b2bf265425bc20822e54a"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/CURVATURE_METRICS.csv",
+      "bytes": 5758,
+      "sha256": "01888043b9623ffa691e280e0571a51a5a1a2195a237abd46fd42e27ce0b99ad"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/DIRECTION_BY_DOSE.csv",
+      "bytes": 14323,
+      "sha256": "2b720dd6015f166bd9a70c0f428fc60e44d8e820dd88fa750675a078fbde24de"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/DOSE_DIRECTION_KERNELS.csv",
+      "bytes": 19307,
+      "sha256": "656becf23a6cfa5516625c7e2b12b7a5c105b1b674b0a29c37b928fc009962a5"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/DOSE_RESPONSE.csv",
+      "bytes": 13875,
+      "sha256": "0846acce6e9221d4fee4f6098eda0905e25659821d2b8f5d188112d8b3f5fcfe"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/DOSE_RESPONSE_FITS.csv",
+      "bytes": 18005,
+      "sha256": "39101c63e867e26e123c55b29b964c45c4b56796022ee43ec22ba710a8ba43eb"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/EFFECTIVE_RANK.csv",
+      "bytes": 1843,
+      "sha256": "c1ffddb4134402287ba6656050d8a48d60997338098b2e5efdf6e330efbc62c2"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/GRID_FEATURE_MANIFEST.csv",
+      "bytes": 596276,
+      "sha256": "eb8c58f04d9eacab766731ad082458130abc8978341ea2987203db3779733c62"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/HUE_CIRCULARITY.csv",
+      "bytes": 2081,
+      "sha256": "c1f104095e58b700b13dddd63d432ef1469db3f967819d40db1771e961a966ae"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/IMAGE_SPACE_DOSE.csv",
+      "bytes": 356611,
+      "sha256": "4ab21b7d675156f729822108bd6e2fb33fa153c0dd3524fdfb017cf0d84c6d8f"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/INFERENCE_STRATEGY_BENCHMARK.csv",
+      "bytes": 595,
+      "sha256": "e7c6ab196f62d16adcd03f09d3058d64ab8b726c527ba7e29c5680d3268868d5"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/INTERACTIONS.csv",
+      "bytes": 209,
+      "sha256": "8b882191d704272afc97fda031a035d714db493cb39c823f62b8a72f28d671ab"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/PHYSICS_APPEARANCE_MANIFOLD.csv",
+      "bytes": 23282,
+      "sha256": "c034c878e8de2fc0ee8594768d4f3b472c0847c8dee684cade18bad5909e5ec7"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/PHYSICS_PROJECTION_CONTRAST.csv",
+      "bytes": 2845,
+      "sha256": "6594b040401a1ca6e166c331b62cce2820e9b41e2794ee546aade9b824b78a8c"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/RAY_METRICS.csv",
+      "bytes": 15732,
+      "sha256": "53c5b871e0adf19167dbd299eeeb269ed9cec0c68a55a642830d0cadbafdf3c8"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/README.md",
+      "bytes": 3036,
+      "sha256": "5092f89bafbdcb34b5f4ac526421a7e0edc589bf4b2f530818b6cf39fb1487ed"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/RUN_METADATA.json",
+      "bytes": 523,
+      "sha256": "6f2a7d391685afc7c190eeaf2b11b5f83dbe4eb3d19170ff809edf6a559a998f"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/STATISTICAL_SUMMARY.csv",
+      "bytes": 630,
+      "sha256": "a46c4dab1a5e9e2d9e13a374bd25f9ca6c7fec12b3dbdb1f9cdf96dc97b4f967"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/STRAIGHTNESS_METRICS.csv",
+      "bytes": 1906,
+      "sha256": "572ed7336573df924cca045df7d3cd2007e3579ee827c035fb2361b8baff2940"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/SUBSPACE_SPECTRA.csv",
+      "bytes": 7992,
+      "sha256": "df92bc434599faac1c76779c5b9ece17c942cef6a96fd42249f30c7202e6b587"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/TANGENT_METRICS.csv",
+      "bytes": 22529,
+      "sha256": "b277c25f2a271e191102cf239a49afda2c669808871d600e3eab210b6d560cf7"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/VJEPA2G_GRID_SUMMARY.json",
+      "bytes": 4999,
+      "sha256": "332a47e10ff4da480855ef08f5af88363b7065cc0f4c754f6d5a325c9bf55026"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/benchmark_1clip.json",
+      "bytes": 2132,
+      "sha256": "c35d5441bc0a0fc8ed73d95a8cde9b6cbb07460b29e60c928587c2d5f30cf1ef"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/extraction/README.md",
+      "bytes": 920,
+      "sha256": "7a3d91cc9f36f8fdc4beed3f2bcde16279e0e900986c322230f72f504bfbcfa3"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/hardware_runtime_log.csv",
+      "bytes": 256951,
+      "sha256": "6cc3c30df674cc201e04c6af9266cebe8bb9d8168601e2bbec9398087644948c"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/model_comparison/README.md",
+      "bytes": 825,
+      "sha256": "aa6ccc0cc0441866ba7217344747549ae4146e0b403263a7f2161695cff42467"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/runtime/README.md",
+      "bytes": 860,
+      "sha256": "e13b72feee73ef9e291ae95bbe77ec713261dc314f0f283ac8644a554b67b5e2"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/validation/README.md",
+      "bytes": 795,
+      "sha256": "069b31120f7414104b77343e9cdfffe47084e173e68849c913bf5413077f1dfe"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/vjepa2l_reference/EFFECTIVE_RANK.csv",
+      "bytes": 1847,
+      "sha256": "37f6d89a81cc48631b8372a92e4e7126e050786664017db3febeb4d3b85663d8"
+    },
+    {
+      "path": "results/intphys2/multidose_geometry/vjepa2l_reference/STRAIGHTNESS_METRICS.csv",
+      "bytes": 1906,
+      "sha256": "44b5a88b523ba8322e1697b6eb91d3635dac7e8fbd815ca3c4c754d6ea497a3c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/README.md",
+      "bytes": 2602,
+      "sha256": "24c0b4fa9df7e6da7c6e962b122df91ccdec0fb509977f0ee890eb9b4cfa8942"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/probe_predictions.csv",
+      "bytes": 1964222,
+      "sha256": "a729a255d3b2283ebee563ebe759d0a6431e8fec37ddc1f00ccf659e76e2ac25"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/probe_results.csv",
+      "bytes": 13671,
+      "sha256": "136ccc6006d7dbc80dae474329e997eaa5badeea916605b778eb5f1b782ddd09"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/probe_summary.csv",
+      "bytes": 978,
+      "sha256": "decc98c6d6fd9e08a5220ee947030252027015e9d9900c2b454a86b0544ef1c9"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "7396e8d623a76fab9c9e7719090f516f414455ab1a18547ab528387dd827f00a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/pixel_summary/summary.json",
+      "bytes": 1443,
+      "sha256": "003b34817ed3700bf3549e5f26cd009a457a3f102d74cfeeae9529bcec8b8b60"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/coverage_audit.csv",
+      "bytes": 495,
+      "sha256": "2248e3e32b9035bb43e42151ce1f3d66b7681e6308cd92485a7f61db1e1bd0cb"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/per_seed_accuracy.csv",
+      "bytes": 2637,
+      "sha256": "d41581d9490117258b9cac06c2441760202a1b5c79698c44fa44b782f0b69abf"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 1080,
+      "sha256": "798021442d4f0cf2b5abec6172bedae9df382c5fa68bd204305061305b1308c5"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 819,
+      "sha256": "6042a99803a5c8e346eefe6e0a0c12e19f0577ae98ce9184e70f76ee76b2b234"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/selected_predictions.csv",
+      "bytes": 1211276,
+      "sha256": "b29fbd2f8416ac401790a3de674720a47ec4217e0d796ab20153369e6260b060"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/split_audit.csv",
+      "bytes": 1907,
+      "sha256": "dc1bf340a6090535aa1fd482b4ed98e9ae1ae6a926dea8f8aa811a13b3054504"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/statistics/summary.json",
+      "bytes": 19450,
+      "sha256": "166f96610acfe19ff2eff9897b7bea8cdf37fcd179de1c837345512e0b917a5c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/videomae2/probe_predictions.csv",
+      "bytes": 9626374,
+      "sha256": "b795ad4f5c0ad7ef40f4b0944d4ef5184b582db7129b9bd5cb34a1b9979f2c97"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/videomae2/probe_results.csv",
+      "bytes": 65675,
+      "sha256": "422057888b3267d5186e88e2c46247499d1eec01040d7d6e9956445c1127d31a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/videomae2/probe_summary.csv",
+      "bytes": 4006,
+      "sha256": "7b3e86a2ad88b923232b1affe7ea887e887a876d205eaab25da9d6afebc6dcf7"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/videomae2/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "7396e8d623a76fab9c9e7719090f516f414455ab1a18547ab528387dd827f00a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/videomae2/summary.json",
+      "bytes": 1427,
+      "sha256": "664fd8917ca5bac90cdb45a63c591af2216ea7a32b9116682c4dc3c2d941d3c4"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/vjepa2/probe_predictions.csv",
+      "bytes": 9627186,
+      "sha256": "ec1e7bdd7b320da136272e113f729edbd0d969ff64db39a9b2201278ae1fa38b"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/vjepa2/probe_results.csv",
+      "bytes": 65675,
+      "sha256": "2b0a105baec2b77f36f9a7f729a3c95354123fa8eff9ec157b9ce154010fd917"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/vjepa2/probe_summary.csv",
+      "bytes": 3944,
+      "sha256": "44029e11145be98dc0e557220d52f9d24a9fe95fd348ce1df738a28036c3989d"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/vjepa2/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "7396e8d623a76fab9c9e7719090f516f414455ab1a18547ab528387dd827f00a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/development/vjepa2/summary.json",
+      "bytes": 1411,
+      "sha256": "890e8f12d2c68efc982cbad85dcd8c6a76cc37a508e29da54e9155f6bf72389b"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/run_record.json",
+      "bytes": 11519,
+      "sha256": "f006162823853bb33e1b2553bf8f079d6b0e69b6a2a85acab5319c6decaa4603"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_predictions.csv",
+      "bytes": 2946348,
+      "sha256": "8a13d6a972a13d5acf2b5524b98096687052fd84b76c8b21547e1f1e75e44499"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_results.csv",
+      "bytes": 13990,
+      "sha256": "af636d257f4983332f63dd4f9f19ac5f58b1829d220dc97027ffec3f3d8644c6"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/probe_summary.csv",
+      "bytes": 991,
+      "sha256": "18488413d8c35c88b9088cf9493fe66906693969c0e015b94d4f5a2158f55439"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "c6282a25ec0e87caf79558df77abda47ab4a349a5824989d0c987a2afed8089c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/pixel_summary/summary.json",
+      "bytes": 1439,
+      "sha256": "63b32b7c65bfbe4bc4d1389b90205cf156cae1d433ff8d153c3f68618d9276c1"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/coverage_audit.csv",
+      "bytes": 504,
+      "sha256": "2576eb0fe6e4a1883612242bb41467167ac762fb8d791b89d34ec865a018184d"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/per_seed_accuracy.csv",
+      "bytes": 2817,
+      "sha256": "ff4d8262c7e9a38d8be83e6307ef75d6a45dcba636e8a9045b503a561f874510"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 1096,
+      "sha256": "08ae3a86c9a2c7cd47f5d3269d15c39fef4d054f6042fe97fea9423a12d6e8b4"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 857,
+      "sha256": "8206da8c34593ebf3d4bd4ae833382dd9e364ca61ccc6b928ff5a0200b47c455"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/selected_predictions.csv",
+      "bytes": 1816102,
+      "sha256": "fc51b818d8861f56ac1dd271cec5e4d8cfbc5321aa118c87313d99adf5f477c0"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/split_audit.csv",
+      "bytes": 1952,
+      "sha256": "4ad76bab23cddaa86ed44d20bb2f9370c7fc1e28cefefa4d1ce3e3680bcdb4cc"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/statistics/summary.json",
+      "bytes": 19525,
+      "sha256": "1ac31b7c492c3214724868228900767fde9f2da6643e50f57df0ebf82c3642c1"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_predictions.csv",
+      "bytes": 14433834,
+      "sha256": "e88dfcec4636cebb64947bfb317cb1a67bd9275f346356e704e28be151d78a1d"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_results.csv",
+      "bytes": 67407,
+      "sha256": "3c907368b1a08debb880aaf7a063205f3e1ecc837cbebe8500f575f0c01c3f6d"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/probe_summary.csv",
+      "bytes": 4081,
+      "sha256": "68797e9328e1eafdf8df2ecdf7c5c44ad6637687f45d9378d115e4090db9b88a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "c6282a25ec0e87caf79558df77abda47ab4a349a5824989d0c987a2afed8089c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/videomae2/summary.json",
+      "bytes": 1421,
+      "sha256": "58b9b85f83462ddcf9315d3af75f1b4d5f632c4ce0a6f4d21e1ae1404d290cfc"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_predictions.csv",
+      "bytes": 14434768,
+      "sha256": "92a01c4be56a39ff9a3c1d06444fdd0aeda8824c77b1615a6e960c6ca54af2cc"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_results.csv",
+      "bytes": 67145,
+      "sha256": "af391d64fbbf50fe39b2c3c1165c7dcd25cd3bf16a3f6f3408e10e67137a3f6a"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/probe_summary.csv",
+      "bytes": 4045,
+      "sha256": "24bd5c08ed3a7293a283cc21e545a2f24d6ae1954d87fbbd54815327bbb74a4b"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "c6282a25ec0e87caf79558df77abda47ab4a349a5824989d0c987a2afed8089c"
+    },
+    {
+      "path": "results/intphys2/scene_crossfit_probe_audit/sealed/vjepa2/summary.json",
+      "bytes": 1417,
+      "sha256": "c6449d1ba30cdf673276dade3b7db3dafbbac2655eba7d14139e2dc620b7f304"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/README.md",
+      "bytes": 742,
+      "sha256": "6bef23f2b201b2d9cefffdd089dd3b854f2917609ba2f66116ca79cc2cec8a2f"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/pixel_summary/probe_predictions.csv",
+      "bytes": 1888973,
+      "sha256": "99ac6d71694968fd3eafec8a1e493c7deaee5069c1f9d8de16026af955ea1411"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/pixel_summary/probe_results.csv",
+      "bytes": 13190,
+      "sha256": "72006d327c5e212ec840285bc1bb80ed3710e35de78f7dc82bc7b4df49999aa0"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/pixel_summary/probe_summary.csv",
+      "bytes": 942,
+      "sha256": "720902271cc479e3c4bfb822e49342d26727499b0ba5a7ce17f14fbd00115ce9"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/pixel_summary/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "12b7d90247dcd5de4224a00ffb7bcead77523ce31306b250844c5dd0201e42e5"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/pixel_summary/summary.json",
+      "bytes": 1366,
+      "sha256": "8748544b4a9e7ddbed44a1eea9961b0817d64370fb5c9ada76b6988cca307c9d"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/per_seed_accuracy.csv",
+      "bytes": 2802,
+      "sha256": "47b31ebf7703c8573b6a34f56615a89760cfcde28a0ff3b0016dd75ae09714df"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 991,
+      "sha256": "b3f87b356b81857116a5e5cd1b4ce88da4c7d3608031b5d767182547d2e104ae"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 845,
+      "sha256": "12d7346b5c0462f12cf559dfe8f4fc76b71d1b6af86c1316a621162644150c1c"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/selected_predictions.csv",
+      "bytes": 1072077,
+      "sha256": "16f5c3b2107c16cb1220f1c29d12dd9e4d02b2d48957d4e3d68641866e74601a"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/split_audit.csv",
+      "bytes": 1907,
+      "sha256": "e013c5715d2ff1feeecc2bf2f8058a292e63b1cad38082042bef2fd75a6b6148"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/statistics/summary.json",
+      "bytes": 16525,
+      "sha256": "24ef4632e3630821fca854d6dda2e1d0ad916dc43fddc5c34914cec4c0490000"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/videomae2/probe_predictions.csv",
+      "bytes": 9248967,
+      "sha256": "dae72a177c313d23be11329f868d4a0c23788a065959bbfcf8299be8d0b86c1d"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/videomae2/probe_results.csv",
+      "bytes": 63298,
+      "sha256": "6ac94b30228534f0147debe4649feb4bb466101ab071566051742ff288a2c696"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/videomae2/probe_summary.csv",
+      "bytes": 3851,
+      "sha256": "c89b9d85004e3ee28a2b57bd46967b2f641c2d86eda0d26ea789b246373d35de"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/videomae2/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "12b7d90247dcd5de4224a00ffb7bcead77523ce31306b250844c5dd0201e42e5"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/videomae2/summary.json",
+      "bytes": 1351,
+      "sha256": "01034dd06d6362c3853723f8518ed3fbf5ffec1b6a006239148669b96148c1f6"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/vjepa2/probe_predictions.csv",
+      "bytes": 9249701,
+      "sha256": "eab38eb4ecd5802e24573f01630a788e06b42ce63070d0a86e60b4dc2601a55d"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/vjepa2/probe_results.csv",
+      "bytes": 63266,
+      "sha256": "33700253286b7020d3834937f5bafbe811bc42605b55b3526d4ed7a2754f66c2"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/vjepa2/probe_summary.csv",
+      "bytes": 3736,
+      "sha256": "9eddccd94298452e4d98a58be196bc027253259a604bc706260302dddb463ba3"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/vjepa2/split_assignments.json",
+      "bytes": 12223,
+      "sha256": "12b7d90247dcd5de4224a00ffb7bcead77523ce31306b250844c5dd0201e42e5"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/development/vjepa2/summary.json",
+      "bytes": 1333,
+      "sha256": "7f31ff041e486fc880e4f9240447f85e9ff1684c22cb4a163d61dd4d61e55cde"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/pixel_summary/probe_predictions.csv",
+      "bytes": 2831785,
+      "sha256": "9ca3c8bfe2f74f17a2e328712e393f507fc36a4bf81a3c038a6158278349f67b"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/pixel_summary/probe_results.csv",
+      "bytes": 13419,
+      "sha256": "b99398343f1a0ae3f8e44b6c2e63485204fa360c4032a69d597947b6fb87716e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/pixel_summary/probe_summary.csv",
+      "bytes": 990,
+      "sha256": "25dd0574d6484a8822364a3c4e7e290a776a8f60d8e6dbcf1d3057bbc55da17f"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/pixel_summary/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "9a01096120a1e93a653e44c632034378c0eb79860d9a81381585176be709249e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/pixel_summary/summary.json",
+      "bytes": 1364,
+      "sha256": "cddbfa53bfec2118f176081ac68eebef95fe9afad39a622c3316027f7358f847"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/per_seed_accuracy.csv",
+      "bytes": 2857,
+      "sha256": "18ccf16a7a2cf97be553fe2dc8a62c126c9ac231c14146b786a5b08c8b7ebb5f"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/scene_clustered_accuracy_ci.csv",
+      "bytes": 1021,
+      "sha256": "5235791d4681c68d05037257199f555eb6e0ffed018b05b90382660947f2949e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/scene_clustered_model_delta_ci.csv",
+      "bytes": 793,
+      "sha256": "7aa37ba00b4985b7cb2a1bc003709df9c2b2cc6c5230987da4912ce6dca41e59"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/selected_predictions.csv",
+      "bytes": 1840597,
+      "sha256": "d7afd9d85c9d79505d117eac814767b8862657c0f26a23854d6a16bed796090e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/split_audit.csv",
+      "bytes": 1952,
+      "sha256": "17c97d4dc775edc0a7ac9b41134e220d0166b86f8084da16414a99a47d73a5db"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/statistics/summary.json",
+      "bytes": 16513,
+      "sha256": "7789038baf9894abdcbce5308f03960ca76d094783bdf3f368c7e943f983846d"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/videomae2/probe_predictions.csv",
+      "bytes": 13871291,
+      "sha256": "9e23368ef0b665ffa51b7f718ff47b9d797bd5e701eedd3e00101142cb070c41"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/videomae2/probe_results.csv",
+      "bytes": 64849,
+      "sha256": "bea0dc675482d61d1f5047cd2fcaf7e712a9e7a3e8789386d14c6881b4b3b7a9"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/videomae2/probe_summary.csv",
+      "bytes": 3991,
+      "sha256": "66e784eb0ea9b942fe0156fd660cde62e80458e9ddbf23f0908cbfe7cdc48f46"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/videomae2/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "9a01096120a1e93a653e44c632034378c0eb79860d9a81381585176be709249e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/videomae2/summary.json",
+      "bytes": 1345,
+      "sha256": "b20f3e86912ff3f4c5d2f27f75d06e4ce9474169425318cb6c1a529e725e2d62"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/vjepa2/probe_predictions.csv",
+      "bytes": 13872725,
+      "sha256": "2f0bcdb83dabc107c8f413c2bd0004b66009f5d31b2b1304064e7e64bf6e7907"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/vjepa2/probe_results.csv",
+      "bytes": 64860,
+      "sha256": "af7f5668c3a6d881b033110af43220cc0d890f318796f6575d326c587c505e33"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/vjepa2/probe_summary.csv",
+      "bytes": 4045,
+      "sha256": "acfe2805734c918e7a76f0d997200f24282ba5258697819f9bbc5ceb9bd234ad"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/vjepa2/split_assignments.json",
+      "bytes": 17693,
+      "sha256": "9a01096120a1e93a653e44c632034378c0eb79860d9a81381585176be709249e"
+    },
+    {
+      "path": "results/intphys2/scene_grouped_probe_audit/sealed/vjepa2/summary.json",
+      "bytes": 1345,
+      "sha256": "a81571d39f1b97c91d9123793522c604760afe868b0c315671ab9855f7524efc"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/README.md",
+      "bytes": 1000,
+      "sha256": "41f031321b1ebb941a810ef002cbea197b5272cac4e461c0755ac68e21771590"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/feature-parity.json",
+      "bytes": 3524,
+      "sha256": "c5596fd7e773980f82c2f21d3ba87db8d2d68598911d115ac4956a9205a68df4"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/cross_layer_correlations.csv",
+      "bytes": 1470,
+      "sha256": "7fa8437e0b87ecac66781132ab3b1e18ebc78bc5b059275b6c88355e991a8788"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 1083,
+      "sha256": "002449fda429b644208995bcbea36399863aadae466e1870916d8cdedf347290"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/layerwise_probe_geometry.png",
+      "bytes": 89276,
+      "sha256": "3bb0ccf0e238f0e5de251bfed043b66b01eda57945c1c0f660b80e193f4cb8bd"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/physical_layer_distances.csv",
+      "bytes": 28031,
+      "sha256": "a035b2cadb8049ed98b00e3bec93125fce9671e80362e04b7622e5cfc148f9fd"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/summary.json",
+      "bytes": 1769,
+      "sha256": "2dad867ba64b7952a694aa61fb17a086519fce0e135d1899bd5b364198959bc4"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 56200,
+      "sha256": "58510374690a07781baca9fd4dcd7029cfa8333f02c0c67884b9ab03f3eac5d0"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/probes/probe_results.csv",
+      "bytes": 4759,
+      "sha256": "ffab8436a1c5c5001b8ffcff4735951311cb48304456eea01035261d564b8f7a"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/probes/probe_summary.csv",
+      "bytes": 874,
+      "sha256": "88327a2ef9f6b956be4f927e1bb721df7241452a04e1fee55db9b23e5e6ac9df"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/probes/split_assignments.json",
+      "bytes": 11568,
+      "sha256": "402935f528e07875282d258693051eb0f718f68be3bdd0d977e64b4e2ef01ea7"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/probes/summary.json",
+      "bytes": 1260,
+      "sha256": "6eb63a639216bb11615a19ab0494188e543b0a4bb60af896fd12d7b210d09fd9"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/provenance.json",
+      "bytes": 1299,
+      "sha256": "519f3e568426a2e176a7fe4ae0ea58d8d1d7ed5a404b118e7f8ff8952adde643"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/representations.npz",
+      "bytes": 385827,
+      "sha256": "23172dbd4b016bd2e372e6c566fa822e78cbf0f980c0bec4a1054af828a8bef2"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/samples.csv",
+      "bytes": 610237,
+      "sha256": "59bf56debdcbb7e0c8ecb757dcc19f8fb04fbe8ae45ee1dbd3adf014205220f0"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/pixel_summary/status.json",
+      "bytes": 335,
+      "sha256": "1967444c8d9ebd201ec4d080c6c82344ae3f3203e067f059a238e6102bf74b0d"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/accuracy_ci.csv",
+      "bytes": 967,
+      "sha256": "d6fa44882ddd48203e57029aab0e426f9441b8e0cd8cb72c45c9e8ca5f2dc08e"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/heldout_predictions.csv",
+      "bytes": 1977666,
+      "sha256": "4d9fbbdba4fdf8d89c88d34c83a6d5b59050f1072e18f072b8d7ad89482ed725"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/model_delta_ci.csv",
+      "bytes": 386,
+      "sha256": "43a422d65cdfbe4625cf7babc68ea7d37a44cbdb29b50710a390a72cce8ac4a7"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/physical_distance_trend_ci.json",
+      "bytes": 429,
+      "sha256": "99550d7e0532511e7664e5d64d42b1ee934a86080a94b4d3892c985c9767b7ae"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/pixel_delta_ci.csv",
+      "bytes": 391,
+      "sha256": "5a8a7ed5305ad0dbdc899d4e68dc083a4cd49653e166f34bfb6f5166c4f25e49"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/stratified_accuracy_ci.csv",
+      "bytes": 13000,
+      "sha256": "957d46d587c1805d8987e9d02be033fe8d732f9768502e02b4be22e90d42a055"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/stratified_model_delta_ci.csv",
+      "bytes": 4819,
+      "sha256": "092437f9e489081d0df5a9072bc26c6230986508e00450e91a7570a904e98d2e"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/statistics/summary.json",
+      "bytes": 5474,
+      "sha256": "2fd6e7b380f8302a82da64dbd9f5fac33a966c34b8b2862b9bf5e1882f1de99c"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/cross_layer_correlations.csv",
+      "bytes": 1775,
+      "sha256": "3ac7b4167bf75749c79b603980df23011198098de4d327e77c412f5ac56f5226"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 2558,
+      "sha256": "3e7021e747c2e602b33adcd91a6a4c001a624113a09b9652ab6d63fbcf8cec16"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/layerwise_probe_geometry.png",
+      "bytes": 122611,
+      "sha256": "8f193f2367bf6d1bdbce9064ab4b0722db47c0dde8e9b403b12d9fe0df64b24f"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/physical_layer_distances.csv",
+      "bytes": 127136,
+      "sha256": "7917ec5090eb69520065b95467c5e78bde188ada8992a83a93d766151777104d"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/summary.json",
+      "bytes": 2241,
+      "sha256": "eb6801e4b23c33b50bc6b290f0f2ccfacfefb2136dfa4b51d7ed4353a6da7c79"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 277926,
+      "sha256": "4ad3c7b6f1a2ded4e092f90f266ead7c3cd2fafd938b2d6fb9f786966295c108"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/probes/probe_results.csv",
+      "bytes": 21456,
+      "sha256": "a8c39c5c0478725093fdc3239bbf69fe0ec8c2229fe4b31d8a162e6ed371d323"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/probes/probe_summary.csv",
+      "bytes": 3610,
+      "sha256": "4c304ab78a6bae60f35f7392081c6194b4c97c479f4f5fa114489bf78e7f7cce"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/probes/split_assignments.json",
+      "bytes": 11568,
+      "sha256": "402935f528e07875282d258693051eb0f718f68be3bdd0d977e64b4e2ef01ea7"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/probes/summary.json",
+      "bytes": 1246,
+      "sha256": "b3c62fa004e72d501fc8d763a47ddeabadd30ccfb1b82d8ce20b963b549bdbd5"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/provenance.json",
+      "bytes": 2428,
+      "sha256": "2904893afcb5f544ca4a8ad264fa824c37f03b8fd7549f02880e73cacb4fa176"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/representations.npz",
+      "bytes": 12149383,
+      "sha256": "d7aa754debdf4e88f7a709bb620ed3082f015f683955fbceb09127c4c048eb39"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/samples.csv",
+      "bytes": 986873,
+      "sha256": "184bb9821279c340e76fa2c014c1222fbcdccdc551acdf50789e85a1f3e3150f"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/videomae2/status.json",
+      "bytes": 350,
+      "sha256": "b84426aa4cc1c9fe17ce34763c42249a4c83d7857f29915a3c5e59a9e765d2fb"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/cross_layer_correlations.csv",
+      "bytes": 1844,
+      "sha256": "53b133dcd7ec4d6cedf3e8af2332b452722797047f42e7c819f5ec381734f279"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/layerwise_geometry_metrics.csv",
+      "bytes": 2558,
+      "sha256": "988abb47e8da2a41b1fb92bfcbf492bf51a01958db85fc2e6b44449e2e4992e2"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/layerwise_probe_geometry.png",
+      "bytes": 124656,
+      "sha256": "d1aaa27104b0d85598166a9b755f915456ab897bd395ff12561e958e9608749a"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/physical_layer_distances.csv",
+      "bytes": 126357,
+      "sha256": "da0c574dae4d838939e157fb0c6f8f4426b2870ef19fa6eebc607747e139d0df"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/summary.json",
+      "bytes": 2244,
+      "sha256": "e0969c5397256305c55f83dffabcc1a63ab487994ce7eb583d89611b30d04938"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/geometry/video_layer_appearance_metrics.csv",
+      "bytes": 277112,
+      "sha256": "48bddaf7d6689200b04959b822a84bbea95bc40782b653ecf70eaa054f55c1a4"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/probes/probe_results.csv",
+      "bytes": 21451,
+      "sha256": "6fbc814a8ddea971fd7fcf7edd6081c2eb4a4afa8e45056f302157f6fee36feb"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/probes/probe_summary.csv",
+      "bytes": 3565,
+      "sha256": "7f45b0376c00a629cb23378b7950b128f096a43c6f44d32f98e6673fcb564d86"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/probes/split_assignments.json",
+      "bytes": 11568,
+      "sha256": "402935f528e07875282d258693051eb0f718f68be3bdd0d977e64b4e2ef01ea7"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/probes/summary.json",
+      "bytes": 1240,
+      "sha256": "0137737983cdd1902059a40b4c9eab56cac03c19fc6a6a0afbbe875a9a26364b"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/provenance.json",
+      "bytes": 2406,
+      "sha256": "67744b281856b52467c8e76709997cb2fd3b4dc4103c7b3e459770cd4833e33f"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/representations.npz",
+      "bytes": 12043162,
+      "sha256": "5307c9c38c9ffe96d3818b0f919590a5b4d90462a92d19ffa0612eaabfa0d79a"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/samples.csv",
+      "bytes": 970457,
+      "sha256": "6ae292a51855cb26292bb373983a02c0d44d1aca0347e00d30ef6798719ea87e"
+    },
+    {
+      "path": "results/intphys2/sealed_analysis/vjepa2/status.json",
+      "bytes": 350,
+      "sha256": "4d5de000c6c515a259f62352b65e9bc56c796fefad94b0ed99a071430ef4c6fb"
+    },
+    {
+      "path": "results/jepa_wm/README.md",
+      "bytes": 159,
+      "sha256": "6f68bc87050911d47dacb412e0f2f5917e12079ec5f7ef32b87aa339730c957f"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/README.md",
+      "bytes": 1680,
+      "sha256": "ebc23ae067a7ed07bc2880da414c9c9448bca2f8b7c636fd41467f1974241b4a"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/condition_summary.csv",
+      "bytes": 3508,
+      "sha256": "ee5e09780e67bcf0abb85321acf3c750922b6eb2e65ef12d8f74cb1ca8bdb398"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/construct_comparisons.csv",
+      "bytes": 1308,
+      "sha256": "178c1513826d7362864f1da4bff60fdc98d85fc693e257162bd3f9b7e21e8038"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/controlled_displacement.png",
+      "bytes": 81136,
+      "sha256": "8d294bddbdf465af7be607a1ef8184088005f34bdee372eb55282f22394e335b"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/provenance.json",
+      "bytes": 6249,
+      "sha256": "3d3fc838f064a874d90874886a3a87387f62a58f43829ef8a4104f91e063bf19"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/same_target_contrasts.csv",
+      "bytes": 966,
+      "sha256": "3d4c52200737ddef00b5c9ff5df2afc713a263ce4b7f3d8ecabd866bf0efa91b"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/scores.csv",
+      "bytes": 1413013,
+      "sha256": "df46564a9e9e76c7c244525cd8f27eff3693e9f613b015feb409199bdc9e7140"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/selection_manifest.csv",
+      "bytes": 36594,
+      "sha256": "ddd6b5fa55ccdcd78dd66fd624c2948dbc39f315efdc4e57445c4bbf0ec3de03"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/smoke_validation.json",
+      "bytes": 692,
+      "sha256": "933dcdbec13fa8dec779cab05185423e58f9eb3e66e8bc0948958f6607b52a80"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/status.json",
+      "bytes": 230,
+      "sha256": "800860d0474a5b1c89e22786bb7fe56469e90ee38399eb65807f3eefd6cafed8"
+    },
+    {
+      "path": "results/jepa_wm/pusht_controlled_displacement/validation.json",
+      "bytes": 1126,
+      "sha256": "3f9bc82b3edef25bb4b6944e2c44f3339139bdcd118d4a5ea480d9de86ff3ad7"
+    },
+    {
+      "path": "results/kubric/README.md",
+      "bytes": 536,
+      "sha256": "c168ff198d2ceb14f47e27a49bbc75c7b12144229ea2706110eb3e1cbb27de56"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/README.md",
+      "bytes": 1265,
+      "sha256": "2906a035ed186ab7d9b02e81c6a91dc35adc07b23018201ebaceb36681e55a0e"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/analysis/analysis.json",
+      "bytes": 3637,
+      "sha256": "19db3f8bf38eab58870786d4c213d8e8d5880d50a8a771375c46855174cd89a0"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/analysis/condition_summary.csv",
+      "bytes": 1784,
+      "sha256": "e13e057f80be5c75ef6338aae86d0de6b3cc32fc6a28328f10769df4309e7ab9"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/analysis/matched_comparisons.csv",
+      "bytes": 807,
+      "sha256": "8a4be3f882f8ca8621cf082660c5ffdfecdccddec83fb920519c34c2df001ff2"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/analysis/per_scene_deltas.csv",
+      "bytes": 2723,
+      "sha256": "bcfac44b41bb0ee9d99eda80a995a348b7d006f88e810f8c90089fd8b9df8f88"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/analysis/temporal_summary.csv",
+      "bytes": 16080,
+      "sha256": "8348bf26345611603582dac2ce9cc89efbdfdaea035a976deb3aa0d3c0229669"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/candidate_selection.csv",
+      "bytes": 1512,
+      "sha256": "4f1fe0e0ac9827a41de9efce387d1effb4d95e613c6edcadeec1f4de8c22f145"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/external_artifact_inventory.json",
+      "bytes": 6595,
+      "sha256": "23582d3c7d7a7772765a0d5f6bbeb046d244e199b7a57d74f405d5ea082ff546"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/external_artifact_verification.json",
+      "bytes": 450,
+      "sha256": "b41a6cf325439f233ebe62d32008f9c44b744455b4b0bb4f6b654eec9491f654"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/frozen_manifest.json",
+      "bytes": 10737,
+      "sha256": "0606bb1649f12a7875912083f4104924c0dc5020614e66bb2b42fdd9d6b28af5"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/model/provenance.json",
+      "bytes": 4341,
+      "sha256": "608ce67a4103315ce4adb6e6b50f2d6100d942c9c2764a08fd7dff1474138b1d"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/model/scores.csv",
+      "bytes": 46202,
+      "sha256": "1ce7cb0f5e8a83012cddd1ccdb18d779763c355fe67eeb98addabf761b6c641f"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/model/temporal_spatial_maps.npz",
+      "bytes": 585510,
+      "sha256": "a3bdefd21b9e0972fa52868cacf7b30f773e09a8557d03a66aa2a0a8f63467cb"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/model/vjepa-full8.time",
+      "bytes": 34,
+      "sha256": "1a2b3b9d2a81b07a860aba9362ff13456dca3e25d18a17e09187a003eb5ef405"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/provenance.json",
+      "bytes": 5444,
+      "sha256": "24ae593b9403f13a20b142a9fb9513ad73a44c96d3f10a06e3561a288f7191a4"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/blend-validation.json",
+      "bytes": 39200,
+      "sha256": "402a98fe58e4ee329279a76376b0be43dd2c4064c2e44ffd567889581bc3828e"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/blend-validation.time",
+      "bytes": 32,
+      "sha256": "4ca5591a1682563e03e38d6dc4d7b639449f5c0daaf999c1941e2a68756c6258"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/context_canonicalization.json",
+      "bytes": 5229,
+      "sha256": "24a235490ee8c8f8e081910543eff90e17447a433e5d2dadaf242b5308dae22c"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/grid.time",
+      "bytes": 38,
+      "sha256": "b921452f3ae9e4528111a6e5530519569fe745bed750cd36c7cfca9418855bd0"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/grid_run.json",
+      "bytes": 12169,
+      "sha256": "d353b33dbbd68af3bfd279e1e4d2e0be3e01d6ce733a7f92dcfba159a4dbc73b"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/render_metrics.csv",
+      "bytes": 19480,
+      "sha256": "124d8ca9a26804426c5e4f0fa83ac9a0ed3b1eadd853fe3aae5e7d41d0a0e54e"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/render_validation.json",
+      "bytes": 480,
+      "sha256": "f6d25e80b318f5167c018fd989cef33dea737a05d365eabd12952cd455e0b602"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/render_validation/validation_summary.json",
+      "bytes": 813,
+      "sha256": "83e90f6df4eeaf13a37e90f9d2ce4af699171d9026c2c3480c55bb5ad7a9e6af"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230200.png",
+      "bytes": 337919,
+      "sha256": "db6acb5b6b6c3a7ced8b704b402d07921e7dcdf6b00e51111b21d810d87d0c3a"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230201.png",
+      "bytes": 324274,
+      "sha256": "efcabe4ec21a0249b87145a9b644507fc8a3c4d1d54c4f9e58fd9902b8c52866"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230203.png",
+      "bytes": 346080,
+      "sha256": "bcb001030bd705a518a35898ece40ef4c6db8c354b041151000dccc5a359b560"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230207.png",
+      "bytes": 293885,
+      "sha256": "bc669ddc2da5584330d7e374edf8ee7a277bd04ebd9990ea07361dc173c114c6"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230208.png",
+      "bytes": 303661,
+      "sha256": "5a6217c4476e4caebbc61df3afe4b486e4bb799bffd3c7b9d08251a9ae5acc50"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230209.png",
+      "bytes": 320012,
+      "sha256": "ea385480bb02c19766edb8009e344a498b3a2b5d8df83a870430ce4b58fac54b"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230210.png",
+      "bytes": 335313,
+      "sha256": "e77a7e8b096bb4025a99c35f741c4bef08ce5d1ec9c7e39cba421eca13b3b677"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/230211.png",
+      "bytes": 335762,
+      "sha256": "5570459ea1c063d25b7a257dc0576752e556d36f1828d12f3d166692ebf684dc"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/all.png",
+      "bytes": 2491883,
+      "sha256": "d79918eb2d85140f977d1b6996dd6eaff5f15829e368948fabe8100774015392"
+    },
+    {
+      "path": "results/kubric/construct_validity_pilot/review/visibility-gate.png",
+      "bytes": 924196,
+      "sha256": "bfe18c33e54372edb754baf3f7d17f55ed390f68ded750e774b6340dffe74f67"
+    },
+    {
+      "path": "results/kubric/rendering_gate/README.md",
+      "bytes": 557,
+      "sha256": "05ea5e4835871ba56964b31cc2e476339d9f3668762f62f556cde17e705bd094"
+    },
+    {
+      "path": "results/kubric/rendering_gate/determinism.json",
+      "bytes": 411,
+      "sha256": "7db2a32511defa349d41f912dbbee3af180ee38744b6a2d75c0045c77fd3dc1a"
+    },
+    {
+      "path": "results/kubric/rendering_gate/environment.txt",
+      "bytes": 1504,
+      "sha256": "195c2785e3b6dd6437c991c17a565b63d270bfa06ea033cd5877f47325812115"
+    },
+    {
+      "path": "results/kubric/rendering_gate/key_checksums.sha256",
+      "bytes": 739,
+      "sha256": "b1ec14c0a3e0d192c20d3ebede6d91873b55c1cf6bfa582274c2221bd4ba9c59"
+    },
+    {
+      "path": "results/kubric/rendering_gate/nvidia-smi-q.txt",
+      "bytes": 60,
+      "sha256": "6c8f219375ff888cda16ac985234f9798cf39767041a21abf244ebc2fd452cd2"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp16-oidn/manifest.json",
+      "bytes": 47571,
+      "sha256": "0d583a3b54686434b1648b09219ceb68e0583293880c01450272979647b9cfc2"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp16-oidn/time.txt",
+      "bytes": 34,
+      "sha256": "54bc47aff05730d1b0612a29fde4da58ebc814ee787e8f8acea0629739be8065"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp16-optix/manifest.json",
+      "bytes": 47689,
+      "sha256": "4f3ddcb0867b613b4a404db33c055858af5186b395df02191688ee18fd4f441c"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp16-optix/time.txt",
+      "bytes": 32,
+      "sha256": "23391cd1ec6b910600ad292304a364f9ece0f9def871702d774c108ba6ddfa2f"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp64-raw-replicate/manifest.json",
+      "bytes": 47688,
+      "sha256": "63010a1be1c15fc71d0cebe29ebea77d71f1b12859c831d03dbb624cb9655e89"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp64-raw-replicate/time.txt",
+      "bytes": 32,
+      "sha256": "86f12d0d2d9e4558d7dee22a1917e1619a34f0738d5d10c61018127fdbc19594"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp64-raw/manifest.json",
+      "bytes": 47688,
+      "sha256": "ecb2e4ec1026e02452611ecb63bb6c3a6be03fb04adb7fd975bd3cc56aa62779"
+    },
+    {
+      "path": "results/kubric/rendering_gate/optix-spp64-raw/time.txt",
+      "bytes": 32,
+      "sha256": "11c2be709730b581543771b08b31989510036a944fcffd8aa443d4e1d6690bad"
+    },
+    {
+      "path": "results/kubric/rendering_gate/provenance.json",
+      "bytes": 2183,
+      "sha256": "59ea3c6435b35495037264abac6e9753424d26f3ff6a8a8dbd171a3e1a86c18b"
+    },
+    {
+      "path": "results/leworldmodel/README.md",
+      "bytes": 653,
+      "sha256": "6991e0849763ba6a4cd8839e82fe7214435a3a0f1d954749fe8e9d964ea0bbeb"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/README.md",
+      "bytes": 761,
+      "sha256": "f4e56f84d2c9906b2df89cea8d1e58ed81c2d91ed598ee1a96336e04d6a786fb"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/block_motion_interactions.csv",
+      "bytes": 748,
+      "sha256": "cf7de6e122e8b64f471206a44c9510d3bf62b4feb10b31e39f9ba7bd24002884"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/condition_summary.csv",
+      "bytes": 3555,
+      "sha256": "80b00fe9575cabd11122158651d1ec0965659c7858828c6183bb2b37f696d8cb"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/construct_comparisons.csv",
+      "bytes": 1241,
+      "sha256": "a4995ff0776a6ea18b80c7dd4ea9caece2a45138d7d29a9d30d4db3a343699dd"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/controlled_displacement.png",
+      "bytes": 75136,
+      "sha256": "041e5e6ff3b5ba19e0ff8ccc9eb69ab3dc672b77fb679b4db7eb199b7d33af2f"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/environment.txt",
+      "bytes": 2384,
+      "sha256": "d6b91c3eac424f3f1d7d264b07380c3004adee5975908070a4d0ddbd2d80233e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/provenance.json",
+      "bytes": 3085,
+      "sha256": "bef635e85bdd83e1e65df6ca3a209067b3a860859c1a99066be05cc4ca09a9a1"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/rejected_candidates.csv",
+      "bytes": 250,
+      "sha256": "9589ef8b21be208b73a76c827a02c2849e6861e9749436390cac426ea3fa0b14"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/same_target_contrasts.csv",
+      "bytes": 1365,
+      "sha256": "18fedd01b4921519dd86e37c89a78e511fef2980f381cba4369477ac4f67493e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/scores.csv",
+      "bytes": 1398096,
+      "sha256": "c30b1384c3f6c2b64aeb85eaf1f4b3f43ce584c66db5a937d171b49dcc8eda6d"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/selection_manifest.csv",
+      "bytes": 36601,
+      "sha256": "d5f9017e81db24662ff4950f8e2c94c3a56a53b9d5e56c98c6a2e9765c7e6005"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/source_selection_pool.csv",
+      "bytes": 14244,
+      "sha256": "b4fab8c8b64caa0841c6f1790ea5eeb43190e2cdb8b26e62860a295b6ebd8b6e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_action_consistency/status.json",
+      "bytes": 152,
+      "sha256": "6edb3b921e4f9c230cd9f8f1a2cc610624d0fcc10091359495dd1ec5dfa3ff22"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/README.md",
+      "bytes": 789,
+      "sha256": "3698a0c430c1a52070668e0a4c9e88847fd1dc7d1f6c808a954c6fa8a4df5333"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/condition_summary.csv",
+      "bytes": 3508,
+      "sha256": "4a2e1e38e0d142b25a73b46224b2cd4e797cbfd6e12e9af7ecd1bafcb9c8353a"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/contact_sheet.png",
+      "bytes": 89790,
+      "sha256": "b2b08243fda6df2bc7a2eef876050957f034cc4b2bde1c4d180bec7b0326ccb0"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/environment.txt",
+      "bytes": 2384,
+      "sha256": "d6b91c3eac424f3f1d7d264b07380c3004adee5975908070a4d0ddbd2d80233e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/provenance.json",
+      "bytes": 3996,
+      "sha256": "03aa864344780e85b86686b4ee2ad8f584ec5e92d58b918ca4f34b9c148421bd"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/role_matched_contrasts.csv",
+      "bytes": 632,
+      "sha256": "8a6e9bd5fe86cc8aee85bcf0e08667edc0ce48c35d46e807cd4f0f4962005a1c"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/scores.csv",
+      "bytes": 1025524,
+      "sha256": "653b5e1807c767701ea68005c0bab0d15723ceecd9aec0b9aaaa802fec9ea67f"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/selection_manifest.csv",
+      "bytes": 28284,
+      "sha256": "f5707bb0a9c3063961f1f1005445a2752eeb9528c81f55b7f46e55fb30e5556f"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/source_selection_manifest.csv",
+      "bytes": 7786,
+      "sha256": "933b6b472b1d003f3ee86448c9ce7b972a282b3203b10cb01cd002e697d66495"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/status.json",
+      "bytes": 124,
+      "sha256": "a44f2a4c95100fb5326f3cae8d01a1c8bdbcf27406961e6538a777ac7a2c6c1e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color/target_minus_persistent_summary.csv",
+      "bytes": 675,
+      "sha256": "d6338db6115a35cb36018cfdfcb0222817ee65217e35cda2600b9fada133b150"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/README.md",
+      "bytes": 858,
+      "sha256": "82e4f27036404f7d875f7ea8bb56d4661b8b773b82bdc1b178a2fdf4a33f8502"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/condition_summary.csv",
+      "bytes": 4740,
+      "sha256": "d775439e9fd9f1e3d2a0cf3516245a195f24f98b523cd80f8cfaa501946ecf41"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/contact_sheet.png",
+      "bytes": 89790,
+      "sha256": "b2b08243fda6df2bc7a2eef876050957f034cc4b2bde1c4d180bec7b0326ccb0"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/decomposition_summary.json",
+      "bytes": 2998,
+      "sha256": "064e3ee7204280f5b5bc9d782d1d864de4ed3c617c4be89cbc0afad99d0a0ebf"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/environment.txt",
+      "bytes": 2384,
+      "sha256": "d6b91c3eac424f3f1d7d264b07380c3004adee5975908070a4d0ddbd2d80233e"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/provenance.json",
+      "bytes": 4100,
+      "sha256": "76fa493f4ab97db24328958438f1b95ee92630669281c4e933c88801b1c80d44"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/role_matched_contrasts.csv",
+      "bytes": 1205,
+      "sha256": "c521bff60a3dc1fa67a7a75871da153dfb2534c301e72229a696f34f0a7cedd9"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/scores.csv",
+      "bytes": 1385351,
+      "sha256": "d098a725a363fe1f23befd3f9e2366a46d73660e79b33235d26efaa1325f94c0"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/selection_manifest.csv",
+      "bytes": 28284,
+      "sha256": "f5707bb0a9c3063961f1f1005445a2752eeb9528c81f55b7f46e55fb30e5556f"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/source_selection_manifest.csv",
+      "bytes": 7786,
+      "sha256": "933b6b472b1d003f3ee86448c9ce7b972a282b3203b10cb01cd002e697d66495"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/status.json",
+      "bytes": 122,
+      "sha256": "d64af69c29767e420b560b646f5826213c430274784f5ff6350f45cfd359be6f"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/target_minus_persistent_summary.csv",
+      "bytes": 675,
+      "sha256": "d6338db6115a35cb36018cfdfcb0222817ee65217e35cda2600b9fada133b150"
+    },
+    {
+      "path": "results/leworldmodel/pusht_role_color_decomposition/transport_summary.csv",
+      "bytes": 2716,
+      "sha256": "29bbfb6555125303e062aeced992cfeb47fa29f9bf2c8e4f0052a1a8bbb5784e"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/README.md",
+      "bytes": 819,
+      "sha256": "daf3b9044351400036e843b9b6dd6420026d072b06859622fb722a424ee5a6ba"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/condition_summary.csv",
+      "bytes": 2498,
+      "sha256": "15914bee7a38a493d79320f3d5789528395426e54b3c908239fbc921b634da93"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/construct_comparisons.csv",
+      "bytes": 1253,
+      "sha256": "46794fc05b8bda81cfc5abdfa764c5ba0fb6130c67eca5435d2245aa818bf82e"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/controlled_displacement.png",
+      "bytes": 73168,
+      "sha256": "d0ebe83871a99b31eb1fe7660eb4c2b027b010fe6051576a99c8b9cb90edd948"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/environment.txt",
+      "bytes": 2384,
+      "sha256": "d6b91c3eac424f3f1d7d264b07380c3004adee5975908070a4d0ddbd2d80233e"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/provenance.json",
+      "bytes": 2898,
+      "sha256": "e0892ba772aaef7e0ce3b0dc3a3b83e998e32a3a12f3a212c1e8b05cfd0fba10"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/same_target_contrasts.csv",
+      "bytes": 1057,
+      "sha256": "60b5feaf5dd67f0c1d0eeab45d77aeebd04f824b387348b700d51b9fb7329b8c"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/scores.csv",
+      "bytes": 1368791,
+      "sha256": "2cf29d2f48da8879e2ccf33e63d8ca407df7599e75cf4606c854c376c15e81ea"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/selection_manifest.csv",
+      "bytes": 25253,
+      "sha256": "84830a01e785e0676915505f9eafef0db9ecb6372b8c91546fcaf24abcd560d2"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/source_selection_pool.csv",
+      "bytes": 14355,
+      "sha256": "95dc8a6ac1a6f9fc6a800193b96e1b046e24acca0a72c5852c46513841315909"
+    },
+    {
+      "path": "results/leworldmodel/tworoom_action_consistency/status.json",
+      "bytes": 152,
+      "sha256": "a870f3d58018630fe0a051db5308fbb7371aa4209e2e073893f799dd5f601e3f"
+    },
+    {
+      "path": "results/static_content_diagnostic/README.md",
+      "bytes": 895,
+      "sha256": "728143b5497f59e724f3a11bbfb06728f573561302b5b395a51b58138ddda81d"
+    },
+    {
+      "path": "results/static_content_diagnostic/command.txt",
+      "bytes": 330,
+      "sha256": "a72bf6dc5e4aab3171fb547dec9a0633e5574e7b1a7d056517828c0e109ded2c"
+    },
+    {
+      "path": "results/static_content_diagnostic/segment_surprise_pixel_summary.csv",
+      "bytes": 139040,
+      "sha256": "54b5be778a663116ab6b3599dbb99aeaa1e50689b9a5bf4718a11b2caac3d060"
+    },
+    {
+      "path": "results/static_content_diagnostic/selected_videos.csv",
+      "bytes": 2355,
+      "sha256": "3163f504198f3eeb0e54942c4860f0223ff870e4720f90b91102a7266d5ad36f"
+    },
+    {
+      "path": "results/static_content_diagnostic/static_baseline_candidates.csv",
+      "bytes": 7599,
+      "sha256": "4ec180a3caf8290626bbe05213ca3adb076f429c9d488555d9e9d16f537a405e"
+    },
+    {
+      "path": "results/static_content_diagnostic/static_baseline_residuals.png",
+      "bytes": 89231,
+      "sha256": "343c9a5b8cac83ad9023d50001ab5b93865cda309daddee595c640218b4c865a"
+    },
+    {
+      "path": "results/static_content_diagnostic/summary.json",
+      "bytes": 1782,
+      "sha256": "5da73150bbfed943ba3f88022660cc72d5bad5eeda51da6da0f6d43a64540894"
+    },
+    {
+      "path": "results/static_content_diagnostic/summary_key_tables.txt",
+      "bytes": 8269,
+      "sha256": "1e53005537e000c40301127809997132443aa507b2bc1f6034d4ed7cab5f7da7"
+    },
+    {
+      "path": "results/static_content_diagnostic/surprise_vs_pixel_motion_scatter.png",
+      "bytes": 192264,
+      "sha256": "59aa8a1704c5dabb6bf97179e7d27fec17e43e31583310aeff56db773104b465"
+    },
+    {
+      "path": "scripts/KUBRIC_LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "scripts/KUBRIC_NOTICE",
+      "bytes": 153,
+      "sha256": "f48fc99f256b618e1a5b25b42efef2e14474dd74544f99377a8615a5bdb20674"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 4258,
+      "sha256": "959c3aa857b72fe02b0ffd2ecf49da3787c85f2e7d7d0d1cd59a97891b7598de"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/analyze_intphys2_confirmatory_statistics.py",
+      "bytes": 19249,
+      "sha256": "18ce354c093f1893ebe6a768117e3824a82bd8b7645e9d3c0be6933429e3e246"
+    },
+    {
+      "path": "scripts/analyze_intphys2_grouped_probe_statistics.py",
+      "bytes": 18623,
+      "sha256": "311c76029d5bcf8edf1ee81b621d5839fff6ef6fc83bb7344f06f591b9c4f191"
+    },
+    {
+      "path": "scripts/analyze_intphys2_layerwise_geometry.py",
+      "bytes": 17867,
+      "sha256": "0feeb62d7b1e450b8ca83d25fb7f48a8d9bdb505d9f84bfc5963c08835f30737"
+    },
+    {
+      "path": "scripts/analyze_kubric_intervention_rendering.py",
+      "bytes": 7257,
+      "sha256": "4b78b1307ed28a3315f00c0b407637e1c3b301d6c46a154dc9813647311f9aec"
+    },
+    {
+      "path": "scripts/analyze_lewm_role_color_decomposition.py",
+      "bytes": 2907,
+      "sha256": "ce28aa18725050918dc6fcd83eb8d7280cb6d26e97adf14d9429aa7eec9ccb00"
+    },
+    {
+      "path": "scripts/analyze_vjepa2_kubric_construct_validity.py",
+      "bytes": 15339,
+      "sha256": "ff358f4face39483012eb3f754c6febadda40048184afc5867f028dc65e5ce22"
+    },
+    {
+      "path": "scripts/batch_static_surprise_audit.py",
+      "bytes": 20040,
+      "sha256": "0c43ccaee179add5c2fd3f97ce16ae3a2333aedd005a4924ca0e571ab001e91c"
+    },
+    {
+      "path": "scripts/benchmark_vjepa2g_grid_replication.py",
+      "bytes": 13373,
+      "sha256": "56f06f33d6600826b8b6316fda2914edbd4f099b1d9e39ce650f13f78cebc9a7"
+    },
+    {
+      "path": "scripts/build_intphys2_confirmatory_manifest.py",
+      "bytes": 14869,
+      "sha256": "767939a3f7e2f33e23c6dff5b9d678a016aee662ae194d732940b16b41f17a43"
+    },
+    {
+      "path": "scripts/canonicalize_kubric_intervention_context.py",
+      "bytes": 3259,
+      "sha256": "28d199236cda8162217d11b52bb162e77c970b6402c4a27bfc62b59215fa4042"
+    },
+    {
+      "path": "scripts/export_pusht_controlled_audit_bundle.py",
+      "bytes": 4776,
+      "sha256": "bd5bb2263f4bd50497504e93a5c8ac6cf14384f8109ac0f1c3dfc38209c3444c"
+    },
+    {
+      "path": "scripts/extract_intphys2_pixel_summary.py",
+      "bytes": 9539,
+      "sha256": "3275138223855c2eff5383e87c2b5f19a882014c685dc0003a3d0f0b8023d370"
+    },
+    {
+      "path": "scripts/extract_videomae2_intphys2_layers.py",
+      "bytes": 10000,
+      "sha256": "4a4e0dae875157dca5ec3db6320185adc178e3e1b41c11192209eb93f580a84c"
+    },
+    {
+      "path": "scripts/extract_vjepa2_intphys2_layers.py",
+      "bytes": 6579,
+      "sha256": "f664d58d90e33f60b7993bd5a84708f685ffda2aef889937d7ceac5da43c2320"
+    },
+    {
+      "path": "scripts/extract_vjepa2g_grid_replication.py",
+      "bytes": 9686,
+      "sha256": "f36866826a662dee7bb8c4131be8cd9d131ecb763e0299a9dff2372cb972e012"
+    },
+    {
+      "path": "scripts/finalize_vjepa2g_grid_replication.py",
+      "bytes": 27218,
+      "sha256": "8154d79dfd7c932724b31ced974336a7bbb407758e1563a17118f031f8a9af44"
+    },
+    {
+      "path": "scripts/intphys2_confirmatory_common.py",
+      "bytes": 8505,
+      "sha256": "3ac3023da39510a4c2a95349d14a7831fb0bcee8c05a5b633ba6388bbed52491"
+    },
+    {
+      "path": "scripts/intphys2_confirmatory_extraction.py",
+      "bytes": 31746,
+      "sha256": "aac01acb6dff25254ea36478d6a031fdbaf392c491bdc863341c127f0bc953da"
+    },
+    {
+      "path": "scripts/kubric_movia_base_worker.py",
+      "bytes": 7872,
+      "sha256": "5ac14bece943f7594222cb27b63d84894bee0133f2d47f29cb1c51d14d95c3cb"
+    },
+    {
+      "path": "scripts/kubric_render_intervention.py",
+      "bytes": 11089,
+      "sha256": "761fa3b64f761d52313117ae7eaa6617f6d47f51f39d850924c24b66985b78d8"
+    },
+    {
+      "path": "scripts/make_paper_figures.py",
+      "bytes": 17364,
+      "sha256": "52db733c99297cdc1d59c26dd03f6cd05f766e2a7a8faba05c633fb9362f4360"
+    },
+    {
+      "path": "scripts/pack_intphys2_feature_shards.py",
+      "bytes": 6295,
+      "sha256": "11de574266e9bfc650d0e2575847ff8884b4829e88c22efff73d14455c630aff"
+    },
+    {
+      "path": "scripts/pack_vjepa2g_grid_replication.py",
+      "bytes": 7660,
+      "sha256": "18ac847e8ea9835132471e2895e2fd75119586e2b6e98e427c78610d44b07fc6"
+    },
+    {
+      "path": "scripts/prepare_intphys2_confirmatory_manifest.py",
+      "bytes": 20770,
+      "sha256": "2b8e53ce1eba110cc6a7d82f9c7d4d6e3a91c33dc06fa2739e9fd85ec31a659f"
+    },
+    {
+      "path": "scripts/prepare_kubric_intervention_manifest.py",
+      "bytes": 7053,
+      "sha256": "3c3344e4b82614fc2eb767acee579c26d739ba497107eee9d56bf37e98159d09"
+    },
+    {
+      "path": "scripts/render_kubric_intervention_grid.py",
+      "bytes": 5865,
+      "sha256": "50b8b013ce5c73553250849d9f4e3995f2a3197ae90fe68d5364f4d30e40a06b"
+    },
+    {
+      "path": "scripts/run_archive_smoke.py",
+      "bytes": 9784,
+      "sha256": "c4179039f43efb6b3b090217757b3be96a234737dc537395840889d055f4f4c0"
+    },
+    {
+      "path": "scripts/run_dinowm_pusht_controlled_displacement.py",
+      "bytes": 24020,
+      "sha256": "fd28fda66ec81dbb421f91ce13679705d79056466c358c6e2d5bc34ff65c94f1"
+    },
+    {
+      "path": "scripts/run_dinowm_pusht_native_error_audit.py",
+      "bytes": 15848,
+      "sha256": "5aa22584495c91b2bd4f87cf9fdb77f7018b01d5ddd8fce9285b52bc8138d382"
+    },
+    {
+      "path": "scripts/run_intphys2_geometry_audit.py",
+      "bytes": 90881,
+      "sha256": "d9678b6d839a46ebe81800231beef9da145c6d995f24b72166e3b9ad1aed6914"
+    },
+    {
+      "path": "scripts/run_intphys2_geometry_freeze.py",
+      "bytes": 80633,
+      "sha256": "e994087bb77ee9820e832b42073aa322bc9b0670f05710b9c8652276824a428a"
+    },
+    {
+      "path": "scripts/run_intphys2_geometry_sealed.py",
+      "bytes": 61788,
+      "sha256": "d403aa829cf819b4382edb0c25a781bf5874f82fc1e1aac57e04438b9938bc72"
+    },
+    {
+      "path": "scripts/run_jepa_wm_pusht_controlled_displacement.py",
+      "bytes": 36375,
+      "sha256": "93f11a28f139fdcdd2eb28c6b4825195d5ec27ab172efec9ca40cfac086318fb"
+    },
+    {
+      "path": "scripts/run_lewm_prediction_error_audit.py",
+      "bytes": 23805,
+      "sha256": "8132eae6fa566c050de6bab40e1fa73b8bd06ecd33e72cb8e6f605ae5752fe55"
+    },
+    {
+      "path": "scripts/run_lewm_pusht_controlled_displacement.py",
+      "bytes": 23182,
+      "sha256": "e85ad37cab1222427c890c4729bb887a1f2b2927796c7ad266b10fce8cfa2cea"
+    },
+    {
+      "path": "scripts/run_lewm_pusht_role_color_audit.py",
+      "bytes": 22000,
+      "sha256": "c004702eaec1cbe4b8b43b1eddd95eeaac761be02c22283d85d9bb0de5b489a7"
+    },
+    {
+      "path": "scripts/run_lewm_tworoom_controlled_displacement.py",
+      "bytes": 22178,
+      "sha256": "15762fae80efdcfae9cf0ac5c5b38608045c359da462bd89d6b4708f1b700620"
+    },
+    {
+      "path": "scripts/run_transformation_manifold_audit.py",
+      "bytes": 56632,
+      "sha256": "d96687b918ff186be76350b76ee960e411b1b2c4dee2f518f63443da1ec95dcc"
+    },
+    {
+      "path": "scripts/run_vjepa2_kubric_construct_validity.py",
+      "bytes": 11777,
+      "sha256": "61282164a65ceb9d15353cd7225d11ca189cf10d95213547812c6035cb9d275b"
+    },
+    {
+      "path": "scripts/run_vjepa2_section_surprise.py",
+      "bytes": 21055,
+      "sha256": "24598ea36b059c2645b91e86a3b613da2bad435e8e34be5f92286432fde65e20"
+    },
+    {
+      "path": "scripts/train_intphys2_grouped_probes.py",
+      "bytes": 17833,
+      "sha256": "275212d29bdd11b52192376157aed38483e42508afef904ff4bbf4549cfa3a17"
+    },
+    {
+      "path": "scripts/train_vjepa2_layerwise_probes.py",
+      "bytes": 11328,
+      "sha256": "38d43687376d153fd63d53523deab16b38cbcdd8ec81afe2b1cf536d61251032"
+    },
+    {
+      "path": "scripts/transformation_manifold_metrics.py",
+      "bytes": 6606,
+      "sha256": "ac23950d28817e74f657e8fb65c47227d7bb813aa34dfda503b55c367719ec28"
+    },
+    {
+      "path": "scripts/validate_intphys2_confirmatory_manifest.py",
+      "bytes": 34542,
+      "sha256": "4e34db884871f6453b2c09dde572febeccbc7df8d24bcae302adc2ae2e046918"
+    },
+    {
+      "path": "scripts/validate_intphys2_feature_parity.py",
+      "bytes": 12758,
+      "sha256": "0f9ba307486374101752813f634bb32a8a8132169d84304e05800f96fac81dc2"
+    },
+    {
+      "path": "scripts/validate_jepa_wm_pusht_controlled_displacement.py",
+      "bytes": 8801,
+      "sha256": "1884754ba0bd915ad86c243b6cf6e61d067a4313b99d0d16168e6ea996018031"
+    },
+    {
+      "path": "scripts/validate_kubric_intervention_blends.py",
+      "bytes": 8693,
+      "sha256": "3b0d96d5ef7e6449839d5a4376525e0759acd0ed1c557f9e0f97bbea560aeeff"
+    },
+    {
+      "path": "scripts/vjepa2_prediction_core.py",
+      "bytes": 22045,
+      "sha256": "9f1d75c1af5df5cd7c2712d7becf082d6a081065acbb0cd636c71a5a6d7ab05c"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 903,
+      "sha256": "d0e405f60e46a79678126434f66d47d4a92040ec98007cc27b3779ca9421b6c1"
+    },
+    {
+      "path": "tests/test_frozen_dino_pusht_controls.py",
+      "bytes": 2316,
+      "sha256": "539d87634339629ac013dae10102f026e65b4cae761f56846784aa1529ad6e89"
+    },
+    {
+      "path": "tests/test_intphys2_confirmatory.py",
+      "bytes": 5068,
+      "sha256": "cbd8becf7845de795ad1dc4278d6891e9f53fb952f01dcdb2f2ef468d91670a1"
+    },
+    {
+      "path": "tests/test_intphys2_confirmatory_extraction.py",
+      "bytes": 16655,
+      "sha256": "88c72f633a923caa8908b39b4d49cfbb327c3670ffc308d51ce233db7eff3169"
+    },
+    {
+      "path": "tests/test_intphys2_geometry_audit_metrics.py",
+      "bytes": 5102,
+      "sha256": "71a51644eb552c8d2f6e52dee4496b8614cededf9615f0c64aa6b03139876c8e"
+    },
+    {
+      "path": "tests/test_intphys2_grouped_probes.py",
+      "bytes": 5717,
+      "sha256": "ec30194bf8be66c9c44e231eb764e63617eb7613f81c317fc1a76343ae2167e6"
+    },
+    {
+      "path": "tests/test_lewm_prediction_error_audit.py",
+      "bytes": 4181,
+      "sha256": "fc40ff8fb1f1aba193a54d242d6569ee1b4eeac632b69210329cb13ddc26b7ed"
+    },
+    {
+      "path": "tests/test_lewm_pusht_controlled_displacement.py",
+      "bytes": 507,
+      "sha256": "b6b76ed6cd5e92ecc2793027022efda00def77a0cd941a5be49112ba7025bfb0"
+    },
+    {
+      "path": "tests/test_lewm_pusht_role_color_audit.py",
+      "bytes": 1230,
+      "sha256": "9c82d2dd9f2fee97c2804cfb2349676575f1ca1832fe6f0cd46dc9c4e4212d1f"
+    },
+    {
+      "path": "tests/test_lewm_tworoom_controlled_displacement.py",
+      "bytes": 832,
+      "sha256": "531b18e3a0178074acfb9134a6c85880322afeb3a629e745c80aaf4d17a7a815"
+    },
+    {
+      "path": "tests/test_transformation_manifold_metrics.py",
+      "bytes": 3777,
+      "sha256": "0a0d63ca97b84e265134b88b16b48845a98e9dc42a672bc1cc7815b38ae8590c"
+    },
+    {
+      "path": "tests/test_vjepa2_kubric_construct_validity.py",
+      "bytes": 1989,
+      "sha256": "e22cc710b2d07a8028c3c5504fb1203594c6ea3cd2514014dbf3206ec552973a"
+    },
+    {
+      "path": "tests/test_vjepa2_layerwise_probes.py",
+      "bytes": 2426,
+      "sha256": "8d0424a928d728d16f8cb679bb35b603270f3a7a4627af82cb2d0d5f63c0f63a"
+    },
+    {
+      "path": "tests/test_vjepa2_section_surprise.py",
+      "bytes": 916,
+      "sha256": "43950a61644d0a59832a973946587cf369087a0948d625a19a19816852c200db"
+    }
+  ]
+}

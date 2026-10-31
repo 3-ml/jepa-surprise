@@ -1,0 +1,16 @@
+seed,status,base_worker,baseline_samples_per_pixel,wall_seconds,reason
+230200,selected,official_movi_ab_worker,64,732.95,first accepted candidate
+230201,selected,project_movia_base_worker,64,160.80,second accepted candidate
+230202,technical_excluded,project_movia_base_worker,1,167.52,annotation-sample timing test outside locked 64-sample base protocol
+230203,selected,project_movia_base_worker,64,171.72,third accepted candidate
+230204,rejected,project_movia_base_worker,64,169.34,no target satisfied locked visibility rule
+230205,rejected,project_movia_base_worker,64,181.22,no target satisfied locked visibility rule
+230206,rejected,project_movia_base_worker,64,171.32,no target satisfied locked visibility rule
+230207,selected,project_movia_base_worker,64,153.20,fourth accepted candidate
+230208,selected,project_movia_base_worker,64,163.93,fifth accepted candidate
+230209,selected,project_movia_base_worker,64,150.35,sixth accepted candidate
+230210,selected,project_movia_base_worker,64,171.68,seventh accepted candidate
+230211,selected,project_movia_base_worker,64,159.29,eighth accepted candidate and quota reached
+230212,accepted_after_quota,project_movia_base_worker,64,165.31,valid candidate generated in fixed batch after quota was reached; not scored
+230213,accepted_after_quota,project_movia_base_worker,64,164.05,valid candidate generated in fixed batch after quota was reached; not scored
+230214,rejected_after_quota,project_movia_base_worker,64,169.74,no target satisfied locked visibility rule

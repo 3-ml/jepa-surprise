@@ -1,0 +1,10 @@
+task,layer_index,layer_name,split,accuracy_mean,accuracy_std,majority_baseline_mean,n_mean,seeds,groups_mean,pairs_mean
+appearance,0,pixel_summary,test,0.7910037878787879,0.048995501980305424,0.25,182.4,5,11.4,22.8
+appearance,0,pixel_summary,train,0.9700954927425516,0.010223749878308689,0.25,547.2,5,11.4,22.8
+appearance,0,pixel_summary,val,0.7861742424242424,0.061982765625768196,0.25,182.4,5,11.4,22.8
+physics_all,0,pixel_summary,test,0.500094696969697,0.0117820689507544,0.5,182.4,5,11.4,22.8
+physics_all,0,pixel_summary,train,0.5261927043544691,0.008299356606388305,0.5,547.2,5,11.4,22.8
+physics_all,0,pixel_summary,val,0.48806818181818185,0.006815550839184305,0.5,182.4,5,11.4,22.8
+physics_clean_only,0,pixel_summary,test,0.5170454545454545,0.03548294317271818,0.5,45.6,5,11.4,22.8
+physics_clean_only,0,pixel_summary,train,0.5732187420422715,0.017724904100275798,0.5,136.8,5,11.4,22.8
+physics_clean_only,0,pixel_summary,val,0.5037878787878788,0.029064411464437133,0.5,45.6,5,11.4,22.8

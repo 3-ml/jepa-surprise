@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "command": "python scripts\\extract_intphys2_pixel_summary.py --shared-config configs\\intphys2_confirmatory_shared.json --dataset-root <artifact-root>\\data\\intphys2 --partition development --output-dir results\\intphys2\\development_analysis\\pixel_summary --overwrite",
+  "shared_config": "<archive-root>\\configs\\intphys2_confirmatory_shared.json",
+  "shared_config_sha256": "2dae78803ce7318b95585fdbe21f9b49b246f9ed582b76fd636fddbfd0ef0d58",
+  "dataset_root": "<artifact-root>\\data\\intphys2",
+  "partition": "development",
+  "representations": "<archive-root>\\results\\intphys2\\development_analysis\\pixel_summary\\representations.npz",
+  "representations_sha256": "5311d0218f1f002693d8639b68a64eee5fc664ce34fcd2891421c1123bdd19ed",
+  "samples": 608,
+  "pairs": 76,
+  "sources": 152,
+  "feature_dim": 100,
+  "decode_seconds": 66.97807910095435,
+  "transform_seconds": 210.78847259806935,
+  "wall_seconds": 1227.3568166000769,
+  "python": "3.11.7",
+  "numpy": "1.26.4",
+  "claim_boundary": "Low-level pixel comparator only; no model-semantics claim is evaluated here.",
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

@@ -1,0 +1,612 @@
+{
+  "scope": "exact traces for development24 and first contact; available normalized-context hashes; seed exclusions for historical pilots; no IntPhys2 samples used",
+  "legacy_excluded_seeds": [
+    230200,
+    230201,
+    230203,
+    230207,
+    230208,
+    230209,
+    230210,
+    230211,
+    231601,
+    231602,
+    231603,
+    231604,
+    231605,
+    231606,
+    231607,
+    231608,
+    231609,
+    231610,
+    231611,
+    231612,
+    231613,
+    231614,
+    231615,
+    231616,
+    231617,
+    231618
+  ],
+  "development_seeds": [
+    2026102500,
+    2026102501,
+    2026102502,
+    2026102503,
+    2026102504,
+    2026102505,
+    2026102506,
+    2026102507,
+    2026102508,
+    2026102509,
+    2026102510,
+    2026102511,
+    2026102512,
+    2026102513,
+    2026102514,
+    2026102515,
+    2026102516,
+    2026102517,
+    2026102518,
+    2026102519,
+    2026102520,
+    2026102521,
+    2026102522,
+    2026102523
+  ],
+  "trajectory_sha256": [
+    "02c5272ad69006f58b59d299be7ee30bfd923482755d81eb9505c046c6842eaf",
+    "056eb3e69d3dec5da87b6ed09e761c504e6ac3d6bcbc9e43bc4dc10018e932da",
+    "136c18fbae4ffd8335e77c5a57b073536d3142f63f9bc3e241470b67a9eb25df",
+    "161214d2957630d6e20002c5c1501bff8478a87b0ca268f945c6d0901efc08d5",
+    "22704cad3c5f8f287fbf0f95715956ffb03b5dfeae8d52d4f6d9cde4c02149ea",
+    "23f608b39fafe1624be0eaeac662626c694560641a3c09745bd6703110b43f0e",
+    "263907b90a26804483f71ee493a68966b048613d537c3a81ee41c8ce378dca26",
+    "2891a2ce68aeb813728b1352c4039be4dcf22e2975de9bbb8d52565284624bbb",
+    "2e66a1a8b905f23d36d9740536390003841ebe01f9074d24e865e3d2c3d77178",
+    "4418f5de345c555b0d7505cc9190182b78e1a969a484f89a1c385fa3dc8999cc",
+    "5e333b80d6b4f976ce348335a46b6ce24ff43ada82fe0cf4df25b02c7ef934f7",
+    "634f2b45986b3546c8fcc6e415aac150e564ba4fa2c5e02993dcb1a9b6c994f0",
+    "644fa3803d6d2823fa29bbcba247862944fe2fc020db9a529509fa165ec014e1",
+    "7dc8b22b7a1bea0a3ac09d07ec6338ad591f353eb92530cedf985381034ef64f",
+    "7ee83afc41234b4949873dbc1cd7a728293b343e624718b70a38144c022bae66",
+    "8296f77e7fb3e137ea978e07f900aed5295ce48b62075cde501fb86d1d681049",
+    "84d4bcfebc1a4b4eeda94a1494d9a79b763958385106e1583e0554dc674d96bc",
+    "853ea06b6af010781b5c6739c7959421c0f770d61eee6915b5129dc8465d32b9",
+    "8a7c4651b88000fa059519a3f35aa0b01feafda8a9561a315a29af8cd8c5aad3",
+    "8c046e84be900a2fa5aeaa2d678f8fc85ff93db1b95fc3bfb029f7f71298c065",
+    "8c629b0591055be8583ed789cdfbf4e5fb4fa916509bf296107c09554df546b1",
+    "8d2500dcc76dcf45ecc9ebd6ddc3587e52e623d7ef0323eabad641e452f50eb9",
+    "8f9b4ff39a7c61866c4d336cb831f572f3c39f457827dddce4a5ec001843a20f",
+    "8fe97f89fd32bfe8f34b670ddf50dead6c20d250ed9a3ddd6a4a797af1476090",
+    "9af5b0f759dadf4f03e8a3542d58af8324fd91690a92b8b2c0593b47f9793954",
+    "9e1ad8f377f7a2761f63ae2c39d411bdc81db268ecf4ab0dd7e9f5df79f48a57",
+    "a31e1195903538da316c39b002191574487ba7322d447cfce246c98816276bcb",
+    "a363cd29a0c240e0011bfa53cbc89cf3cde57ccdd1a6f54002f028b2c738ac65",
+    "b1c43458a2af80dd4ee22ba3268b1b109075febf7e75dcbdd7bd1705906affac",
+    "b283b1cf3d5ff722e14f7f8a23ffebcd58fdefc87c20367874454883ce52ea98",
+    "b74d97045eccb22a71eae8c54047324a84e32e08c7dbed9c4f61561ee231bd52",
+    "b8c861d5e405976e10da0d277e6238ed6b90423492d1b8d3531967df019d9f48",
+    "c3e2a4d8f1d49318cec9257b7a4f2d53fc05667bdfc8bf78339634a2994b9d94",
+    "c9211cd905732e09563c8048b0feb076bd18b322a730ea21e6676a59eb5b71ec",
+    "cc9ceaefd94434bd07e00c8624f059825636a83d76d8eb733c2a3f3d7aa3c307",
+    "ce7b413610811b227badbf29a6a7cdf2e93009fbbb99801640c81f972978bb83",
+    "d617ec35edbaec825277e727fa0adaf99bbde7109e325aba0313299f4b612f9d",
+    "ddd0216c7b3ccb083d55d7dc6f3dc029262d8295075f8dcdb82ba553e9d65aae",
+    "debc0e9a69895eac9cf7215bc174cb874a39167ed349c974e8c9fc15039fe1ad",
+    "e219186731faf1d28c430101f569e05e41e79692d205ac91472bfc57fd528e9e",
+    "e2493b7f4f3e35210cbbea9b8167adb9179f7bd68853c19e0d46b0a95aec3741",
+    "e2c704de6ab642cc08d5e75a93a5118b65cf3696d9791c5329d29c65d679e714",
+    "e2fa2fa41cf054522f907274d41455bc023bd60019426c727199d0e71b076824",
+    "e56851660511c933adacbf103a7da0ef54ec50e9289491f864734229b29cb456",
+    "e98dc4a782bf9d13ac06366d2b7e5c89c8a50c7c6df65355a3d80239e9181094",
+    "ebf4bf3088e910088bb548aa2bbba4e348baa076604275fe9aed4579df58496b",
+    "f01f92dd6824da98b39607469c0ac0915599d57b33a9ad46d8e7f99d5170a96a",
+    "fbd470003930fdaf11e6604d98ebf8728584744921d1eab460abbb01f4d67d63",
+    "fd6f104dfd1042e6ad0a01f263f5084323de5b2f4c4f24b126ee59d12009b064",
+    "fdadcf0133325ce42fb6d47aaf2bd56cac8835f81b2e1173ed3a29597f082085"
+  ],
+  "normalized_context_sha256": [
+    "0179caac31986e4fa8cfa18a21dc941ae6f3dc9f41bf831695a40297d9cd64ce",
+    "020c85bf6971a85d5b2f97c23b1f9c38b7a70bf799c09e9c29b249c113858935",
+    "0315805b922aa940c455898cb7a0078e6d4a369662b76e20cc8be7424ce737ca",
+    "04d0beca3cfdcdf0145574ffd4a07b5a9c2609dfa78fdc3d9140ba5d422e3334",
+    "074062db45c1b8e8f27302a87865f40bf2a1b5fabfa8dc22316a903c4bc52b49",
+    "0a8b6ff748696aeff5178c238cd014a4d486051d2f8a90bcac4a79642762bad3",
+    "0bcdce73e953222659fc75affd54be2dd50baa481bb94c40900268bd44951f4f",
+    "0c1a3d8e568c0a419e3894c97625580fabb3fb200c2e7ff9dc2a93e5bafc1e12",
+    "150a633e80b81ca291e462ce0acd69b25066b23e500f78a8964b7e0dbfda403e",
+    "1b2e7dbc8189f6776f171578e2000fc6fdbb546bef60c6ee36a52e3ec14ea182",
+    "1ea68a1476815e49bf2bf0379ef3616979cda91678416d552a2c4aa3bdc3f8a7",
+    "22a129f9459cd385e37fcb94ff25edf199f5520d6ef656d39e1ea643266c730a",
+    "24a919d1dc5c23951ad8a18fec8329e4b123a3e762a4df78e176435fea9ee462",
+    "261a46392deea67142456ed44138ac41c32f81c8a3235fdfaf2acc3e1be944a3",
+    "298024c39b7a530a2dd5bf8574e13093bfa923618bb968a144c8f0b478de99e0",
+    "2c80456c32936b462777e384a6551ca01bd75b012b9d7a902e7fadbf25976e27",
+    "30e76147bf776bb001fb3d1f4a19ca5f6312b80f14a388f135e22e8febc45732",
+    "3152741626220c2b21cc1d372abec6fdeaa4079b76e9e9908ddd0f055e92499b",
+    "31b88dbca722ca8b3b84ac68ab5abcc2cf5835b85438f738110251e2e34d6fa6",
+    "339eea9a18c950c2f3c6b0a0e13827dfec7a142f79693d6a930b668bb0793f54",
+    "35d9a298a473ff739c07b3dd95a4349f0c846341b6327803f534debd75f657fc",
+    "38836ed1c848f3c78b492e8997d920df79eb9bce0c4193b333adfabbff1a9d98",
+    "3a9992a464526b4f9406d46f8d8f94626963441d9d02635335d6ebbd7b44231f",
+    "3d6c8597ee2aa7b37bda2a5e5607b2c5710a14f46fa8eeb93bac377907e2bb07",
+    "4253f973563b5ccb33ef4dbaa0df4657e9d2991fddd0a0eb3337e06bb090b9ff",
+    "473572709889bd71124f07d83de130c133ad3474c53f856fa7e2076cea738bbd",
+    "48da37d5acbc28bda970e39e78d33c7f20106078fad3938e2b8f87426b6e8186",
+    "4a75188b24bfd5bfc8ec9cc7cf5da8e9fe7f4c8a7d4bfc11d77734a8a3baccaf",
+    "4b8002ecbca0fc38282cf4b15e252c3e3d956c583964435592e5fc64458cbde3",
+    "4bd90e78af7157e4fb003fef2493ee4aa879dabad5385817215d88e0bdcf487d",
+    "4c00bcb531752cf8b35251c7703db4316e3ea16dd4a1f5406eb489b77b1b47f6",
+    "4e6d2b91083a12dc4aa42eef09428706a1999ae75fdc9f5bb6d4672de2b3e5b5",
+    "550a464d39d949c08c997905c7277502e50562c1e5a37c09bc90e3d12abdc6c2",
+    "568c5baabb3859edf09b1e313c6394d0030ba2006ee4db64b6beb2700944a544",
+    "5a1063e97a73ebac60fbfc7df66307c6b46d06d3c15b0267f6a35d9c51c774cb",
+    "5afce64d378ebaac3cd2c2edf441e584fe5bdb050aaff093a3a5ac4ed5faa291",
+    "5d7a6108a44180406e373d15463d9f1de58c28aaeda1da3f616651d8cf3aa7eb",
+    "646d27072da8f25955c764f2ec0195d1c2613b3a6ec51c56c20eeabf1e4d799d",
+    "649fed4f0b5b8dcf9787512d44a565f1c169561993181ec1148eda6766abf28a",
+    "67cf835aebc123aaf454d407417c07e7c72246a9dd9b90d4006c304060fec8a5",
+    "68649f01391ce27c07008cace8622f3b641c865013cf287312abe233cd192a35",
+    "6b17ab5809cdd1d14c4889100bd30e04bae143d2ca441f8f578b99b714504703",
+    "6b43dc9240d17c71bb7fae84cdd637699563b75f8d3246b5202a22098e51350d",
+    "6d53ba9d4f203ebbb1438302f8bb81bbb6c2acb165d48e1559c2bbe26e285386",
+    "6e5fb9729a0a4c3e069627fadc14fb5c7e68ce07d3bb3304b900cdd245e7486d",
+    "72f6a4fb4ad5b477c3831f99c8c31006bb4b04a9e2aeda88cdbc0fc6e61d350b",
+    "74097a447094988ec465834eb5fc53b76f93aa8ec3f4b75f53eced3704a6e68e",
+    "78d039cdf2497632efc039f786bf385d3f795a5aed2288b5d2e670cc635ba9a0",
+    "7d4a7e42cb01492cdfa97310b44808287be1ddaefd9659ff5a8f2338004744aa",
+    "7fe3e16faa982a505a4c1a3e6632b405f3de6b8b918163db3749ae7fd6ffdb86",
+    "8c9e90812042c063c48a9456e314bf3816b6dedc2e2975597eb79710e26c6e65",
+    "90f6618e6774ddf20e58e3d86a07bc68e54714ce4e277c52a69afafe36cde048",
+    "9bad31311b469d8300123d7da0b528e841d01469e02c61221377117532503ec6",
+    "9efbc81b94e0331fb46610709cb6987354167e927b080415b75d3a706c373c2b",
+    "a1ae89f1771bd39006978ba0b9cc143e1eedf3ed62d1f12c5ed141dded0ee75c",
+    "a393bc79eef492823c7ab0effcb41d5f0f3bf12813d62cbbba1acf6af5d967e5",
+    "a5447c8bdb1a7eee1e122878c7aa4e40d4af497c214cbcdc9c640cd92349d245",
+    "ad0b379d10f67c74e744e07454a5ade5d89970d4e8187f5dbaa82367f1ad0ae3",
+    "ad7efbb655a90e43f25c22d1d23566d343bfbcf6e779149b393d7de2a3ddec2a",
+    "ae384c97500afdc4bd6368c9e8ab21260c85bd2e858269eeecfaf8edc4be342f",
+    "af4258f9f9063945759bc04514952e7cd2108371ceb5e58ef0c888353428b669",
+    "afac46b9f6f0650686f883729e99854318a15a2d8a7ab0b855fcc855c3b47498",
+    "b39c2437b47c00531c63baf5c3ee22161ea30364a0a64a4360f0aaa46a175bb3",
+    "b6c528cd931d963e5243783b53dade8636947d0c53683c9465a5f98e35796552",
+    "b7f12af708d1d85be6f60db3001c95ff78e477bcc8dfa19c991cc01cbb74b9b1",
+    "b82cf76381a97a118a46b4f18e8515d2cf41912dbf53c7590646b161bfd1a85b",
+    "ba3b980463ff51f308a0e29229152105b385963d11e0e22a8544c1dfd195ae88",
+    "ba53e31734272833529f286e2ee457cbc0d8f01a6b5dbffb02b37755624e9e82",
+    "ba8749a85d0159316f54d2bb00af5d733e1997b9374368116b290fa92d8fe763",
+    "bb573305ee118a5af8e4890fe8b74c52bf2254a991cb731432f39b4bf91e0ceb",
+    "c8829db116e1038ed11704aeebfd305ce2229b905ad2184e5d3d0774a61aa0de",
+    "caa74c3d597f7c2bacf5d803f2379ad3f1aa283cf9e21762c8f1f58062ad2e70",
+    "cb30b86129aac259373b9b0420c765c2a034f115f4963765865a5afcd63d42f9",
+    "cc2a1b237866f098f8ebad33b931a944d8837e1503616af57f5dbd7341f7573a",
+    "ccb1019355751e9f235aa87fe1b9504a624261589ed94e6590ebbf2d6d616ac5",
+    "cf5cb5e58da8bc95f873b60de8e46890507d1797d5a9c85c9b5fe421ff094271",
+    "d10e4da3668b24a0d2f4eb64efd8d0eb7d90e32b3040455720787e3001c2230a",
+    "d5a592aaa7d8609d90c28e071ec89cbde92cdda70bb2bd70cd2b5d992477a655",
+    "d944c998d9f72b22b058a4b3d01dfc2a45e7c49fcd72ef96bfe7de827e160719",
+    "df7675ee5b0cc0452acb17243cb6f582e3babff9c559437ef22971936904def0",
+    "e1cd56b04730f647d53287b8ccf299ae771c43586702b742b7e7a3135945a0fc",
+    "e1f23e282622a394236d78215f19ad574c5672e0dbd300e072eb6a42b9eb3cff",
+    "e2ea0dda94d012a1eba171b41f4c0d40e5809037f8848b05e97db5964fecfccc",
+    "e671dc8f09b97f699ca168ebad2d52a1c1902a1e7f38825a424b80cec29899b8",
+    "e78ab71afa8812ce0176900b66c85cb5b3b8e1af9a544d466279fc5640bf73db",
+    "e80a500496858ada274994ca4fcac833a3f2bc78e27d4e1f1c20d58b67fc00ea",
+    "ea4872a74ebd7c1da784dc57ec5ace9c67a652b6cae9c0b92158917306510ea3",
+    "ea5fb0e15345da7c8ad82c609730344e0878689944989b236ce03ba630dcd1ec",
+    "efef19f37a8378e1ee1ab32c8614752f9e4c9fc59b4c1b84aac68a966b7973f7",
+    "f334e3a567f32864dbb66e2bd2e866cfc306098267f7f9d84fb41d6a1f29f6ba",
+    "f46944a81a2b61c9650bb35f1b5a1e1fc88e2b6af5371053728b23f1677c1267",
+    "f4ae2eb438681773212739688f7d16073da4a4a45eeb940b128405a7e6dda62f",
+    "f632a6116f680c7bdbba6cd6e04336c6392db9f88d878555578d4a1d9bebd249",
+    "f675583702cc6830f7e175cafde3c10b6269ae424f7eb91e213d5a20f334261f",
+    "f86263fec10b0344d4a21a03bb6cd210be38fb18014f6916a15f9d3ecab3dbc1",
+    "f8b72fd7753b208b6ac9a23f1cf68b7f059a90ecb5d51fc330d2517e3e64d75d",
+    "fcce74814618d20adeef34a5cadbe15098ff8d63aa29df0765a7d3b6b7d8bc10",
+    "fd14c1247e356d51055e573470eba1fff6bc09d7b98cb11fb70b3486c0930355"
+  ],
+  "sources": [
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\gap\\inconsistent-states.json",
+      "sha256": "4fa1a23f38dff7583caa4a5b631d7aecb94458fa22a5d067559a281f60e1b120"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\gap\\lawful-states.json",
+      "sha256": "4b24e6b310ff13e504d93339bf4a90038837148a6a0677b716dd05f088d61678"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\solid\\inconsistent-states.json",
+      "sha256": "658d30ad1e3fedb04a64d3d7c0a1cb5aeb35e2b28ff6662dd29e071c5e5f8a17"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-001\\solid\\lawful-states.json",
+      "sha256": "c5542be25eabd124da0f4601fdbf2f46bd99c6b98acf7878f7772f83f4804437"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\gap\\inconsistent-states.json",
+      "sha256": "52b871048bab756d627a77d4d1dd065099da7f2f47115402d190bbc57af4d707"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\gap\\lawful-states.json",
+      "sha256": "595bb74367ca4c0fa75e1095c4fe964a7cd4b400562a89802740c3cd1f1dfedb"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\solid\\inconsistent-states.json",
+      "sha256": "d32d25d14fee5d88fc46d7e351ab012c26fc9510cf4f57d00fe9799f74390a1e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-002\\solid\\lawful-states.json",
+      "sha256": "e270aa09bd40f925b0a8a6d92e4b57870a7887a6f771de73e16e154a1d6ea1a5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\gap\\inconsistent-states.json",
+      "sha256": "fa507a340e09a2476e152e7d386f306b535d4796496abba70c5d53eacd35d2c5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\gap\\lawful-states.json",
+      "sha256": "9154cb57929d3000e0bcef8240d3cb0766244759827698888a16ff3d66f7eb9c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\solid\\inconsistent-states.json",
+      "sha256": "9fa06e0bbbf12ad069547d3ff1d90a208ad8d2a8f235729d95b02aa90cdb85a7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-003\\solid\\lawful-states.json",
+      "sha256": "9c22f5e8f0230a12ea68f8076cca550ccba10188e7ada4ab43a3712603e0761c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\gap\\inconsistent-states.json",
+      "sha256": "a767bed93c882c2cc8999281c3b2e536c81a5989f7fd151eba5b9cc837db5d0c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\gap\\lawful-states.json",
+      "sha256": "19b500b147ec51d7f95beebffbe9126e39404dbad8c9a4a6892add8ca781a02b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\solid\\inconsistent-states.json",
+      "sha256": "76b934453005cc6745f17afedb50b3125d76bfcd8a7de77793244090035d7a05"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-004\\solid\\lawful-states.json",
+      "sha256": "c6c8eb8b67ae2751c76afde418fcaf9e9ff522d40553328b67f74b84228680af"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\gap\\inconsistent-states.json",
+      "sha256": "36eff1075313c0f6d56cfe020f52af448eff46db4115324277fed8b7d832a467"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\gap\\lawful-states.json",
+      "sha256": "04a5fb1d59556a4fb069f782caac19c6f212f6f490ca899a5f402b0e5712172b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\solid\\inconsistent-states.json",
+      "sha256": "d3422468460c0c55955053c5eb9375419e41529fd63732e78853cae64a7cb6e8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-005\\solid\\lawful-states.json",
+      "sha256": "c63161d460c1227203504cbfb93a952d6c3855e8055ac960958eda31a64968da"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\gap\\inconsistent-states.json",
+      "sha256": "7f7efb4df3086f4b374ae4f6f941e49f718668a16a8fcd3ad3f11a510a207606"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\gap\\lawful-states.json",
+      "sha256": "1c6b62aedabda12a2cfeee07bc9457b16bbe24e13e4329ce75e43d1d1de43f9e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\solid\\inconsistent-states.json",
+      "sha256": "97771218d27ebb50626a78d0e03ace260bb65874dc39d3e3e679599beb9ec869"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-006\\solid\\lawful-states.json",
+      "sha256": "2b5932afd7a2338466fd14fa7b8a0169c29bc933b18bd054cb699118685b5e2c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\gap\\inconsistent-states.json",
+      "sha256": "c3c9a7b5f8bf2280c2b4ae7fc7e838b4f75e332283c9a6b0885ba055e312e298"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\gap\\lawful-states.json",
+      "sha256": "16bf927d4fcb89329befc4ae54e74c810d95ea9e3b2582208774fdf6124df818"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\solid\\inconsistent-states.json",
+      "sha256": "fc15429bf3c1b35dc21aec4acbd6c15f2303e8024a5d10e13f5cc326c5db785b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-007\\solid\\lawful-states.json",
+      "sha256": "465444c80262b7a3191abc58c36fa3072ae720057ba3e40e1874218273f6e521"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\gap\\inconsistent-states.json",
+      "sha256": "684b4aac8bde6f6d14329b7f8168db439532fb930768082b2885c546df43172c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\gap\\lawful-states.json",
+      "sha256": "138c00af37ff4c1a9a03e6b15c9c2dd61cbc748754bef6fd3767875c000ca05a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\solid\\inconsistent-states.json",
+      "sha256": "c40bbc51c7633d3e3aa3db7395467c707dfc20bfa0d1e47d9f4e3cc36ec00bb8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-008\\solid\\lawful-states.json",
+      "sha256": "ba885510ffee8f96f55596af85d240e150dfa1ba995ce51dbea233254d577d6f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\gap\\inconsistent-states.json",
+      "sha256": "9f881bed155597dac32f09a7c2710298b92a863e6f0b119b63c6840a0c1aa73b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\gap\\lawful-states.json",
+      "sha256": "41d44303fe131217246041ae402d03a7a67e2022a770559319c7314a2fbcbf17"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\solid\\inconsistent-states.json",
+      "sha256": "0ad9d364f3fba8c25173b342d5453313c8b212e14b09f6b1d91e0f465206f7ae"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-009\\solid\\lawful-states.json",
+      "sha256": "9554c32a2905f0f034a03a47b087583a9a907104430055c55cf6136f46527b2b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\gap\\inconsistent-states.json",
+      "sha256": "0bcd032cdc20ce24e9fc744960495022b0fe6e140fa8a3f14789a45c0519f959"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\gap\\lawful-states.json",
+      "sha256": "bf65fe573104040020ff5b437bdb3030e0c3c3b6399f03d42027267f0bbd9344"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\solid\\inconsistent-states.json",
+      "sha256": "9afd3a6ca4c36b7d4bf3e0379425eaad2f088b00bc8e91dd679faa28209079d6"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-010\\solid\\lawful-states.json",
+      "sha256": "b31337e03f8349a0c9ba4bfe2b4489c6368acf626773bad17c11067756a6bdf2"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\gap\\inconsistent-states.json",
+      "sha256": "bc17ff829c0f1c69521eecee08d58194c23c01348482e5dcc780e9eece474345"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\gap\\lawful-states.json",
+      "sha256": "ad77f40e76301aee3020424ad3e0f99f8ef3ddc2bf7f7c9410c4c7bfcfe08a90"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\solid\\inconsistent-states.json",
+      "sha256": "ed4c4a95ef1fed3497bd8d37c5e778f17f4e4cf110cdddda7293597f61026a3c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-011\\solid\\lawful-states.json",
+      "sha256": "3e81697c081522a9f8724a47fc15c30eed68b7a5df3035cf9caf3d2c5f441865"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\gap\\inconsistent-states.json",
+      "sha256": "5214c5992f8138fcfbb4be3e66412d19798c12074ecf994bf0f7979224598bed"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\gap\\lawful-states.json",
+      "sha256": "29fb142661e680cb12b6f606ffb21516859b4ca930061af2be00ece6c34882de"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\solid\\inconsistent-states.json",
+      "sha256": "aa2df10ec3e49136cb90c4e120d6070074cc0dee215db27c04112b33e0c8b8bf"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-012\\solid\\lawful-states.json",
+      "sha256": "f056bfebc2da1595c0c55eaf020456bf1f86a116c01199230f9546b36b0276db"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\gap\\inconsistent-states.json",
+      "sha256": "9ec311e5016c7ac1b55519b0df54496dfa640ab37e0d26ff3a27cd0119ce2781"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\gap\\lawful-states.json",
+      "sha256": "48ba62ba741d521313e5512d1b4fbfbac47bc9bf89434dd249c4cda53201f008"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\solid\\inconsistent-states.json",
+      "sha256": "bd7944780fe1d11e23d8ec2d317c71ba4f557b8e012d386aee64d6cf991afa50"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-013\\solid\\lawful-states.json",
+      "sha256": "92490b939cf33c83c112d34396c95494806e9bccb7323ce7ad21d268c4317312"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\gap\\inconsistent-states.json",
+      "sha256": "09faa25908bb2433199ef5708ad1fba2152f7841cee2ff23ba38e03ac8cfc62d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\gap\\lawful-states.json",
+      "sha256": "97c0fb73a9f453d1176e58c450c518fae6a98e6b7ab42e69fda3955404682b0f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\solid\\inconsistent-states.json",
+      "sha256": "3ef8d57a97f086680762ad43e54cf2e021f09a187f8497116d6f00a072e1951c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-014\\solid\\lawful-states.json",
+      "sha256": "9e6df3a1c7e8c600a7f77b65be11a7fb862c912cab7df099f810e33e5fe1ee1b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\gap\\inconsistent-states.json",
+      "sha256": "04c7ae4fd5ae17ed78a8fe3cd20080a2555e1eebbe86ac7e547256f9ed9936de"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\gap\\lawful-states.json",
+      "sha256": "a9b3ec719ded58a913e1788a61b2db0ee93b943fd066c75da7effd9f5e1d0188"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\solid\\inconsistent-states.json",
+      "sha256": "29bfb5a6912a8ba0d575cfc90a97054c6f253728c60eae5a29adc82dcfe461a6"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-015\\solid\\lawful-states.json",
+      "sha256": "8636bd0141283d83cfad8975e7953c07139e99d298d3b40cb548971f57de958f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\gap\\inconsistent-states.json",
+      "sha256": "557952c90ea3050edfa41dbdab85bb6ca75f24527b1c819f3d1ee608961ab580"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\gap\\lawful-states.json",
+      "sha256": "e18b63ef64128d31c19e7703c0d2ebfc068fe62291ddc73143c4521667b52ee0"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\solid\\inconsistent-states.json",
+      "sha256": "5066e6ee0cc0fe3a82e0033759cd9a1d21e15746b0fc747b3a2fbabfaa577373"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-016\\solid\\lawful-states.json",
+      "sha256": "b9c690c6de6f0271132f10c36113e4b4dc59d229909854aacf18bbc836ca447b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\gap\\inconsistent-states.json",
+      "sha256": "0658652e37327657902c1f3dbe5b4e92d8e2eeb60d8d99eab884035562738541"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\gap\\lawful-states.json",
+      "sha256": "2dda18da31b6fd73445cad0221e4649cf3f1a946d9a49d6bc2229a443d6abd77"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\solid\\inconsistent-states.json",
+      "sha256": "e54868917efcd7a77d8b2742791f6316ad672e77b9474c69900226a9a99b189b"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-017\\solid\\lawful-states.json",
+      "sha256": "96c54c4d86a930492014dd128d460c7edf7768bbb486bdb1c2ed2f0cb0b281bb"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\gap\\inconsistent-states.json",
+      "sha256": "947871554517234577cc34dbba2fdc567b4204a2303ddddbeaabba94bb763488"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\gap\\lawful-states.json",
+      "sha256": "4f0ce8df3f8e9cf208d17040b3dbd781326e9cc6d4266fb535d66609c21950f5"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\solid\\inconsistent-states.json",
+      "sha256": "d1d61096106522607ed293676fada92ccaceb2a1616de0c9e7af8be0178f7e2e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-018\\solid\\lawful-states.json",
+      "sha256": "ee6a0e1d6347b2219ebf3488a7cba390363a458e1ce0a00f5b84b8bfa1450305"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\gap\\inconsistent-states.json",
+      "sha256": "0af78576b9a49f4da62bca5f0b0d75fa507c839be3d9782ba85b98e398c9010c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\gap\\lawful-states.json",
+      "sha256": "acc6503d24d9484d62e59be1f114e59365b339dfa35721703b885c5c1400fa72"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\solid\\inconsistent-states.json",
+      "sha256": "7b3c113fc4ad42cd067dd019019847b5db634ba0ec138d40254ce4800d5ebce2"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-019\\solid\\lawful-states.json",
+      "sha256": "2b4633e789955dde55c8d18daf8a82cbffbd27ffd7fb37f274a039a46864fa82"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\gap\\inconsistent-states.json",
+      "sha256": "2253f0810bf5c396a1d73814cee83afe88b630bca8142026bbabe6ec7eb5458c"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\gap\\lawful-states.json",
+      "sha256": "d54ee0ea5a019174352cfffc46eb10ec71aa422af1ae6b608acf34421a2324e9"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\solid\\inconsistent-states.json",
+      "sha256": "388d71db922141b87aad616c3450f4b7bb83dc81d2d84ca6c239c741169cdae4"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-020\\solid\\lawful-states.json",
+      "sha256": "55a3822825c7d38d681ec735d7269221f0deb2f8a3675594f75ba12b1c7e9951"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\gap\\inconsistent-states.json",
+      "sha256": "508a7a8d3c6a68431a5d085f6e52f673c4edfcb5a1a6e6d61303fdec0683be2d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\gap\\lawful-states.json",
+      "sha256": "11fff8426eecd0d30ed435601137fef35d915247f0b10a113c19638b4f3b581a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\solid\\inconsistent-states.json",
+      "sha256": "37ac09ec26dc43e83196f09d3a5148da12a0dabc585284c127608c4193edbf3f"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-021\\solid\\lawful-states.json",
+      "sha256": "a854db37f19509a694e48b54dd37b1da5f307d87c80ade70e688b95f40520a06"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\gap\\inconsistent-states.json",
+      "sha256": "b03e2fcb5407ef0a1595797a65408631deaef947e6fe356d751e0cee879911f7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\gap\\lawful-states.json",
+      "sha256": "5d882d6934e5eeaf42d2184b5e319ce0818663d9fc208e3a65cff76ac081bb37"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\solid\\inconsistent-states.json",
+      "sha256": "1a210b41ec184b2a4ee44daf6dfe699919e933ea1fec7351158069dbe28a2a2a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-022\\solid\\lawful-states.json",
+      "sha256": "ce591cb0839b2a009b2c92e61a367a06c2d52ee18aa34dbf1c09af8ed46d1075"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\gap\\inconsistent-states.json",
+      "sha256": "90d23a6908aedf51ee1bf713ea6ee0caa20a784c3def43c0fc9a5cfbd15630e8"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\gap\\lawful-states.json",
+      "sha256": "74481cb05a7dac91058d507f6b128485f0162a80a2c72eb2741b2109b1cb7e74"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\solid\\inconsistent-states.json",
+      "sha256": "2397147cf4e2699852508f3446f3b4ae8c7a27372db33fa24aa77abe8c772f11"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-023\\solid\\lawful-states.json",
+      "sha256": "e0d1d6d70103fe9863fe78e73710e72101e6f229014930abe262ee4a71f3888a"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\gap\\inconsistent-states.json",
+      "sha256": "5dc6f65da97899b1496e4cfbb1c27d03612365cf7e935e8de62e5184d26fb5f7"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\gap\\lawful-states.json",
+      "sha256": "2261c7de3e32bc324a79e4a7be88b3ece59a5bc7bdd9fcc3f7d024531c789f99"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\solid\\inconsistent-states.json",
+      "sha256": "84dd8b24695aa2320eb8df45e878b7498be0a515a424391a07d1fdad004b436d"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\development24-v2\\dev24-024\\solid\\lawful-states.json",
+      "sha256": "0cc96126644a29c4337d7ba26cec274a1b1d5a07924202b287847c314e475eaf"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\contact-development-1\\inconsistent-states.json",
+      "sha256": "bfa4934f8838ea0d1f41e5ce2bc6c0faf0e663c53028969adfb042017b04823e"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\contact-development-1\\lawful-states.json",
+      "sha256": "88d8f65454fe26b46c10546c9813b883be549328dc25b4e3bc0624533ccf4669"
+    },
+    {
+      "path": "${JEPA_VASI_WORKSPACE}\\contact-development-scores-1\\scores.csv",
+      "sha256": "6c2a4865d675c602db03c7d46a17e8eeac2ceccb0df0e8452f2a0e559eb77e4e"
+    },
+    {
+      "path": "${JEPA_PUBLIC_PROJECT}\\results\\23-05-00-vjepa2g-kubric-construct-validity-pilot8\\model\\scores.csv",
+      "sha256": "c0d9d8ace74fac30470fdf7da0ea0dd10c4e8c32806f7ace9d2df32868a1cab1"
+    }
+  ],
+  "limitations": "Exact comparisons against inaccessible historical full traces are not claimed; fresh generation uses no historical assets or RGB."
+}

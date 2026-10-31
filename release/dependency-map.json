@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "physion_core": {
+    "path": "release/physion-core/source/run_vjepa2_section_surprise.py",
+    "sha256": "72dddefb7e6b4c0dd87090249b9fd09ee4064b79d72a15fad3a346a60a3312ac",
+    "source": "results/26-16-41-wmpai-vasi-physion-input-audit/physion-staging-metadata.zip!source/run_vjepa2_section_surprise.py"
+  },
+  "exact_edges": [
+    {
+      "consumer": "release/{physion-static,physion-appearance,geometry-transfer}/frozen-source.zip/canonical_score.py",
+      "target": "release/physion-core/source/run_vjepa2_section_surprise.py",
+      "sha256": "72dddefb7e6b4c0dd87090249b9fd09ee4064b79d72a15fad3a346a60a3312ac",
+      "scope": "Exact completion-runtime archived core; selected by frozen source hash, not filename"
+    },
+    {
+      "consumer": "scripts/wmpai2026/alex/gpu4gb_offload.py:SAMPLES",
+      "target": "historical/manifests/intphys2/intphys2_confirmatory_samples.csv",
+      "sha256": "1ddc3677781e605f6d298992584768e414801dc1479b03184150dd2af11fd32a",
+      "scope": "Byte-identical to original main data/manifests/intphys2_confirmatory_samples.csv"
+    },
+    {
+      "consumer": "scripts/wmpai2026/vasi/{score_contact_development,score_development24,geometry_development24}.py",
+      "target": "scripts/wmpai2026/vasi/disk_offload_vjepa2.py",
+      "sha256": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+      "scope": "Pinned top-level implementation is an exact frozen final256 match; no cross-variant substitution"
+    },
+    {
+      "consumer": "scripts/wmpai2026/vasi/{score_contact_development,score_development24,geometry_development24}.py",
+      "target": "scripts/wmpai2026/vasi/stream_vjepa2_checkpoint.py",
+      "sha256": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a",
+      "scope": "Pinned top-level implementation is an exact frozen final256 match; no cross-variant substitution"
+    }
+  ],
+  "preserved_variants": [
+    {
+      "path": "historical/scripts/run_vjepa2_kubric_construct_validity.py",
+      "source_sha256": "61282164a65ceb9d15353cd7225d11ca189cf10d95213547812c6035cb9d275b",
+      "sha256": "61282164a65ceb9d15353cd7225d11ca189cf10d95213547812c6035cb9d275b",
+      "revision": "f4d890523eaa0f0a6416155f077ed8a61405c1e7"
+    },
+    {
+      "path": "historical/scripts/run_vjepa2_section_surprise.py",
+      "source_sha256": "24598ea36b059c2645b91e86a3b613da2bad435e8e34be5f92286432fde65e20",
+      "sha256": "24598ea36b059c2645b91e86a3b613da2bad435e8e34be5f92286432fde65e20",
+      "revision": "f4d890523eaa0f0a6416155f077ed8a61405c1e7"
+    },
+    {
+      "path": "release/final256/original/frozen-source/scripts/run_intphys2_dense.py",
+      "source_sha256": "bd812402fefc7bc3c7b309b039448a5f444fb56e29d40ca7cd87c7b02afc05c6",
+      "sha256": "bd812402fefc7bc3c7b309b039448a5f444fb56e29d40ca7cd87c7b02afc05c6",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    },
+    {
+      "path": "release/final256/original/frozen-source/scripts/run_vjepa2_kubric_construct_validity.py",
+      "source_sha256": "27e17779b97b8abbbaf9bf7ce630a3778abf1fc49a0a6c030aeb869f18a15d1d",
+      "sha256": "27e17779b97b8abbbaf9bf7ce630a3778abf1fc49a0a6c030aeb869f18a15d1d",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    },
+    {
+      "path": "scripts/run_intphys2_dense.py",
+      "source_sha256": "36f03b5b3ea5ecca05b0e81182d2c7ad96c47e23570d76b3de2ac2e22cd5333c",
+      "sha256": "36f03b5b3ea5ecca05b0e81182d2c7ad96c47e23570d76b3de2ac2e22cd5333c",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    },
+    {
+      "path": "scripts/run_vjepa2_kubric_construct_validity.py",
+      "source_sha256": "d4a397fea3ff7c87b941b6948bff23534d5d426d462dde3ac746b50676bc649b",
+      "sha256": "d4a397fea3ff7c87b941b6948bff23534d5d426d462dde3ac746b50676bc649b",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    },
+    {
+      "path": "scripts/run_vjepa2_section_surprise.py",
+      "source_sha256": "fcd97657328c2c7caabac411926b487f03961e20340a39b37544fccf10d6d922",
+      "sha256": "fcd97657328c2c7caabac411926b487f03961e20340a39b37544fccf10d6d922",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    },
+    {
+      "path": "release/physion-core/source/run_vjepa2_section_surprise.py",
+      "source_sha256": "72dddefb7e6b4c0dd87090249b9fd09ee4064b79d72a15fad3a346a60a3312ac",
+      "sha256": "72dddefb7e6b4c0dd87090249b9fd09ee4064b79d72a15fad3a346a60a3312ac",
+      "revision": "83ed1540dc1c675dc9b5b767abc13357bcd5b115"
+    }
+  ],
+  "limitations": [
+    "Exact edges are checked; this is not full executable closure for every historical attempt.",
+    "Acquisition wrappers with omitted execution-control dependencies remain archival and fail closed.",
+    "External model source, checkpoint, renders, tensor bundles and some legacy relative configuration paths remain external or require the original declared layout."
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "scope": "development_only_conditional_on_shared_procedural_template",
+  "attempted_scenes": 24,
+  "complete_scenes": 24,
+  "missing_scenes": [],
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261025,
+  "per_appearance": {
+    "clean": {
+      "solid_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.0,
+        "frac_pos_ci": [
+          0.0,
+          0.0
+        ],
+        "mean": -0.005640645821889241,
+        "mean_ci": [
+          -0.007587260256210963,
+          -0.0039204371472199755
+        ],
+        "median": -0.00484582781791687,
+        "median_ci": [
+          -0.006772667169570923,
+          -0.0019251704216003418
+        ]
+      },
+      "gap_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.9583333333333334,
+        "frac_pos_ci": [
+          0.875,
+          1.0
+        ],
+        "mean": 0.006747137755155563,
+        "mean_ci": [
+          0.005166797588268916,
+          0.00825249527891477
+        ],
+        "median": 0.0075630247592926025,
+        "median_ci": [
+          0.0053255558013916016,
+          0.009267628192901611
+        ]
+      },
+      "geometry_balanced_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.5833333333333334,
+        "frac_pos_ci": [
+          0.375,
+          0.7916666666666666
+        ],
+        "mean": 0.0005532459666331609,
+        "mean_ci": [
+          -0.0006907936185598373,
+          0.001740329588452975
+        ],
+        "median": 0.0012441501021385193,
+        "median_ci": [
+          -0.0007508397102355957,
+          0.0024308115243911743
+        ]
+      },
+      "between_configuration_sd_balanced": 0.0031175534308168925,
+      "leave_one_config_out_mean_range": [
+        0.00034355145433674687,
+        0.0008094284845435101
+      ],
+      "planning_only_normal_halfwidth_by_n": {
+        "32": 0.0010801771541045853,
+        "64": 0.0007638005905501387,
+        "96": 0.0006236405706947663,
+        "128": 0.0005400885770522927,
+        "192": 0.0004409804765613177,
+        "256": 0.00038190029527506933
+      },
+      "native_clip_auroc": 0.5316840277777778
+    },
+    "persistent_hue": {
+      "solid_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.041666666666666664,
+        "frac_pos_ci": [
+          0.0,
+          0.125
+        ],
+        "mean": -0.0075347038606802625,
+        "mean_ci": [
+          -0.009013055513302485,
+          -0.006060756742954254
+        ],
+        "median": -0.008001595735549927,
+        "median_ci": [
+          -0.010067611932754517,
+          -0.004869580268859863
+        ]
+      },
+      "gap_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 1.0,
+        "frac_pos_ci": [
+          1.0,
+          1.0
+        ],
+        "mean": 0.007493522018194199,
+        "mean_ci": [
+          0.006351873278617859,
+          0.00866767888267835
+        ],
+        "median": 0.007854104042053223,
+        "median_ci": [
+          0.006024181842803955,
+          0.008457690477371216
+        ]
+      },
+      "geometry_balanced_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.5416666666666666,
+        "frac_pos_ci": [
+          0.3333333333333333,
+          0.75
+        ],
+        "mean": -2.059092124303182e-05,
+        "mean_ci": [
+          -0.0009202342480421066,
+          0.0008219890296459198
+        ],
+        "median": 0.00043082237243652344,
+        "median_ci": [
+          -0.0008252114057540894,
+          0.0013370513916015625
+        ]
+      },
+      "between_configuration_sd_balanced": 0.0022393300337499415,
+      "leave_one_config_out_mean_range": [
+        -0.00019854242387025252,
+        0.00018838760645493218
+      ],
+      "planning_only_normal_halfwidth_by_n": {
+        "32": 0.0007758882715678491,
+        "64": 0.0005486358582687357,
+        "96": 0.00044795930245077124,
+        "128": 0.00038794413578392456,
+        "192": 0.00031675506045853596,
+        "256": 0.00027431792913436786
+      },
+      "native_clip_auroc": 0.5091145833333334
+    },
+    "abrupt_event": {
+      "solid_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.0,
+        "frac_pos_ci": [
+          0.0,
+          0.0
+        ],
+        "mean": -0.008077026655276617,
+        "mean_ci": [
+          -0.009205548713604609,
+          -0.006999025742212932
+        ],
+        "median": -0.007698774337768555,
+        "median_ci": [
+          -0.009805232286453247,
+          -0.006571680307388306
+        ]
+      },
+      "gap_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 1.0,
+        "frac_pos_ci": [
+          1.0,
+          1.0
+        ],
+        "mean": 0.008096671352783838,
+        "mean_ci": [
+          0.006755364437898,
+          0.009415756911039352
+        ],
+        "median": 0.00873178243637085,
+        "median_ci": [
+          0.005473613739013672,
+          0.009764224290847778
+        ]
+      },
+      "geometry_balanced_margin": {
+        "n_scenes": 24,
+        "ties": 0,
+        "frac_pos": 0.4583333333333333,
+        "frac_pos_ci": [
+          0.25,
+          0.6666666666666666
+        ],
+        "mean": 9.822348753611246e-06,
+        "mean_ci": [
+          -0.0006163163731495539,
+          0.0006412149717410406
+        ],
+        "median": -7.734447717666626e-05,
+        "median_ci": [
+          -0.0007971376180648804,
+          0.0006921142339706421
+        ]
+      },
+      "between_configuration_sd_balanced": 0.0016030584673780886,
+      "leave_one_config_out_mean_range": [
+        -0.0001124396272327589,
+        0.00014690342156783393
+      ],
+      "planning_only_normal_halfwidth_by_n": {
+        "32": 0.0005554314213315646,
+        "64": 0.0003927493245076317,
+        "96": 0.00032067848062215527,
+        "128": 0.0002777157106657823,
+        "192": 0.00022675392822852486,
+        "256": 0.00019637466225381586
+      },
+      "native_clip_auroc": 0.4934895833333333
+    }
+  },
+  "shortcut_diagnostics": {
+    "clean": {
+      "method": "Alex leave-one-base-configuration-out OLS",
+      "base_features": [
+        "static",
+        "motion",
+        "shuffled",
+        "gap_indicator",
+        "fall_indicator"
+      ],
+      "native_score_base_r2": 0.4059175987499444,
+      "native_score_with_physical_flag_r2": 0.4056709682867432,
+      "flag_r2_gain": -0.00024663046320116955,
+      "interpretation": "association only; physical flag is geometry-by-trajectory interaction, not independent causal evidence"
+    },
+    "persistent_hue": {
+      "method": "Alex leave-one-base-configuration-out OLS",
+      "base_features": [
+        "static",
+        "motion",
+        "shuffled",
+        "gap_indicator",
+        "fall_indicator"
+      ],
+      "native_score_base_r2": 0.5995553806732026,
+      "native_score_with_physical_flag_r2": 0.5964050448925011,
+      "flag_r2_gain": -0.003150335780701452,
+      "interpretation": "association only; physical flag is geometry-by-trajectory interaction, not independent causal evidence"
+    },
+    "abrupt_event": {
+      "method": "Alex leave-one-base-configuration-out OLS",
+      "base_features": [
+        "static",
+        "motion",
+        "shuffled",
+        "gap_indicator",
+        "fall_indicator"
+      ],
+      "native_score_base_r2": 0.6839464877906809,
+      "native_score_with_physical_flag_r2": 0.682250558751277,
+      "flag_r2_gain": -0.001695929039403854,
+      "interpretation": "association only; physical flag is geometry-by-trajectory interaction, not independent causal evidence"
+    }
+  },
+  "confirmatory_status": "not_frozen_or_started; practical effect and precision target remain unset",
+  "paired_appearance_effect_on_balanced_margin": {
+    "persistent_hue": {
+      "n_scenes": 24,
+      "ties": 0,
+      "frac_pos": 0.4166666666666667,
+      "frac_pos_ci": [
+        0.20833333333333334,
+        0.625
+      ],
+      "mean": -0.0005738368878761927,
+      "mean_ci": [
+        -0.001669507473707199,
+        0.0005195637543996175
+      ],
+      "median": -0.001192532479763031,
+      "median_ci": [
+        -0.001991257071495056,
+        0.001093342900276184
+      ]
+    },
+    "abrupt_event": {
+      "n_scenes": 24,
+      "ties": 0,
+      "frac_pos": 0.375,
+      "frac_pos_ci": [
+        0.20833333333333334,
+        0.5833333333333334
+      ],
+      "mean": -0.0005434236178795496,
+      "mean_ci": [
+        -0.0015133911122878392,
+        0.0004597604274749756
+      ],
+      "median": -0.0009097009897232056,
+      "median_ci": [
+        -0.0015828758478164673,
+        0.00034333765506744385
+      ]
+    }
+  },
+  "limitations": [
+    "shared scene template, selected grid; bootstrap not a natural-population confidence guarantee",
+    "different backgrounds/support geometry intentionally supply causal context; image target trajectories not necessarily identical pixels due occlusion/shadows",
+    "mean score across full image/future may dilute event effects",
+    "motion/position nuisance reduced by crossed design, not proven fully removed",
+    "no equivalence or trained threshold/causal geometry claim",
+    "negative or inconclusive results preserved without seed substitution"
+  ]
+}

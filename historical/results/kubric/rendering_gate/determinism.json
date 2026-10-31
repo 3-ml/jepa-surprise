@@ -1,0 +1,16 @@
+{
+  "optix-spp16-optix-denoiser": {
+    "frames": 48,
+    "changed_frames": 48,
+    "rgb_l1_01": 7.924431030007489e-06,
+    "changed_pixel_fraction": 0.0060036977132161455,
+    "max_uint8_difference": 1
+  },
+  "optix-spp64-no-denoiser": {
+    "frames": 48,
+    "changed_frames": 22,
+    "rgb_l1_01": 1.121969784007353e-08,
+    "changed_pixel_fraction": 8.58306884765625e-06,
+    "max_uint8_difference": 1
+  }
+}

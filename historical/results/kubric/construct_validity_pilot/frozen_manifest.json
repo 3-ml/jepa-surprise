@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "status": "targets_frozen_before_intervention_rendering",
+  "kubric_revision": "61f2422c84bab75006df33c6989e0b483db3ccfe",
+  "variant": "MOVi-A",
+  "frames": 48,
+  "resolution": [
+    256,
+    256
+  ],
+  "context_frames": 12,
+  "event_source_index_0based": 12,
+  "event_blender_frame_1based": 13,
+  "paired_samples_per_pixel": 64,
+  "paired_cycles_device": "optix",
+  "paired_denoiser": "none",
+  "conditions": [
+    {
+      "name": "clean",
+      "family": "clean",
+      "renderer_condition": "clean",
+      "dose": 0.0
+    },
+    {
+      "name": "hue-030",
+      "family": "appearance",
+      "renderer_condition": "hue",
+      "dose": 30.0,
+      "dose_unit": "degrees"
+    },
+    {
+      "name": "hue-060",
+      "family": "appearance",
+      "renderer_condition": "hue",
+      "dose": 60.0,
+      "dose_unit": "degrees"
+    },
+    {
+      "name": "hue-120",
+      "family": "appearance",
+      "renderer_condition": "hue",
+      "dose": 120.0,
+      "dose_unit": "degrees"
+    },
+    {
+      "name": "hue-180",
+      "family": "appearance",
+      "renderer_condition": "hue",
+      "dose": 180.0,
+      "dose_unit": "degrees"
+    },
+    {
+      "name": "physical-z-0p25",
+      "family": "physical",
+      "renderer_condition": "physical-z",
+      "dose": 0.25,
+      "dose_unit": "object_diameters"
+    },
+    {
+      "name": "physical-z-0p5",
+      "family": "physical",
+      "renderer_condition": "physical-z",
+      "dose": 0.5,
+      "dose_unit": "object_diameters"
+    },
+    {
+      "name": "physical-z-1p0",
+      "family": "physical",
+      "renderer_condition": "physical-z",
+      "dose": 1.0,
+      "dose_unit": "object_diameters"
+    },
+    {
+      "name": "physical-z-1p5",
+      "family": "physical",
+      "renderer_condition": "physical-z",
+      "dose": 1.5,
+      "dose_unit": "object_diameters"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "seed-230200",
+      "seed": 230200,
+      "base_output": "<workspace>/base-smoke-230200/output",
+      "source_blend": "<workspace>/base-smoke-230200/output/scene.blend",
+      "source_blend_sha256": "40ab30baa7a103cff8fabaf26bc8cd04fa27fdd61e3d67b8e76c6b5dee89c517",
+      "metadata_sha256": "1e40780a1edad1851be33f3306c51cbf65475c32e6c6c12e1ff0be056a9c9423",
+      "events_sha256": "ec401039248c64c5d7ef55d6bf54f78c66bce494d4ad2469c52db12e4213a6e3",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cube",
+        "blender_object_name": "large cyan metal cube",
+        "segmentation_area": {
+          "10": 1799,
+          "11": 1645,
+          "12": 1713
+        },
+        "centroid_frame_11_xy_01": [
+          0.31483161449432373,
+          0.4262736141681671
+        ],
+        "size_label": "large",
+        "color_label": "cyan",
+        "material": "metal",
+        "shape": "cube"
+      }
+    },
+    {
+      "scene_id": "seed-230201",
+      "seed": 230201,
+      "base_output": "<workspace>/base-smoke-fast-230201/output",
+      "source_blend": "<workspace>/base-smoke-fast-230201/output/scene.blend",
+      "source_blend_sha256": "80e8f660c9b33532d887cde512050c22a19fbb63671959262ef43ad894ae89ef",
+      "metadata_sha256": "d6c5416b77288499544fd2580a7bb4086542e3d64931e7c1497165155256ee7e",
+      "events_sha256": "1573d9805c13c808cd840e922124feef2ab506a108f1d137691b12bd75b456e7",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 2,
+        "asset_id": "sphere",
+        "blender_object_name": "large brown metal sphere",
+        "segmentation_area": {
+          "10": 1472,
+          "11": 1539,
+          "12": 1609
+        },
+        "centroid_frame_11_xy_01": [
+          0.13142681121826172,
+          0.5825241804122925
+        ],
+        "size_label": "large",
+        "color_label": "brown",
+        "material": "metal",
+        "shape": "sphere"
+      }
+    },
+    {
+      "scene_id": "seed-230203",
+      "seed": 230203,
+      "base_output": "<workspace>/base-230203/output",
+      "source_blend": "<workspace>/base-230203/output/scene.blend",
+      "source_blend_sha256": "0d3d7ded2c14381491a35e29def89d2359bb2db0d1acda395fd6f6f84e88aeae",
+      "metadata_sha256": "c9be14ece3a20d6ebdfc30cae98c3702c642d448ff32c191b897493120b044bc",
+      "events_sha256": "c88fa898db5f31903f4308114dcccebcdc81e4e0b8b0195d6c2a3bfd32b8341b",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cylinder",
+        "blender_object_name": "large red metal cylinder",
+        "segmentation_area": {
+          "10": 1737,
+          "11": 1733,
+          "12": 1731
+        },
+        "centroid_frame_11_xy_01": [
+          0.5851314663887024,
+          0.5108580589294434
+        ],
+        "size_label": "large",
+        "color_label": "red",
+        "material": "metal",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "scene_id": "seed-230207",
+      "seed": 230207,
+      "base_output": "<workspace>/base-230207/output",
+      "source_blend": "<workspace>/base-230207/output/scene.blend",
+      "source_blend_sha256": "47861d98daf9ea3172ba8a15ff6b41298ef63420427ad5756d07abbb65cfa0f7",
+      "metadata_sha256": "7a5217908585b5939bc12ca16013de8ba31d1c765ac32b31b53702e4d3e08922",
+      "events_sha256": "9084d3af731c6ef84abe7d81ae39ab59d0216b591f787d440b001a4bacb32fda",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "sphere",
+        "blender_object_name": "large cyan metal sphere",
+        "segmentation_area": {
+          "10": 737,
+          "11": 735,
+          "12": 796
+        },
+        "centroid_frame_11_xy_01": [
+          0.5204984545707703,
+          0.3732934594154358
+        ],
+        "size_label": "large",
+        "color_label": "cyan",
+        "material": "metal",
+        "shape": "sphere"
+      }
+    },
+    {
+      "scene_id": "seed-230208",
+      "seed": 230208,
+      "base_output": "<workspace>/base-230208/output",
+      "source_blend": "<workspace>/base-230208/output/scene.blend",
+      "source_blend_sha256": "2dd3e50cf3dbaf243fbf61dba8bf5e70ec6075a4008306754172879980e9ce66",
+      "metadata_sha256": "37c077d43e7123ca4323d13289fd744fe38b03d2ad6d38763e7f5785b7953126",
+      "events_sha256": "052d814dc9bdb6806e8b5ef5b30367470fc9e525ed64f3d20fd63868f16361c5",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cube",
+        "blender_object_name": "large blue rubber cube",
+        "segmentation_area": {
+          "10": 1981,
+          "11": 2008,
+          "12": 1980
+        },
+        "centroid_frame_11_xy_01": [
+          0.787888765335083,
+          0.4280467629432678
+        ],
+        "size_label": "large",
+        "color_label": "blue",
+        "material": "rubber",
+        "shape": "cube"
+      }
+    },
+    {
+      "scene_id": "seed-230209",
+      "seed": 230209,
+      "base_output": "<workspace>/base-230209/output",
+      "source_blend": "<workspace>/base-230209/output/scene.blend",
+      "source_blend_sha256": "e73bdd2d711e5b6674df3cd9ee39ca9e53bcd0873670828d567297a0b5de6279",
+      "metadata_sha256": "8f9fecdf378d90ddb0ce2cc44851a657aaf5e2773e357867674d29c98a2361a5",
+      "events_sha256": "ec3506519564b3fed7ad1eb23d451ff81c5c81b6ce4de3fb216ab17389c80c70",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cylinder",
+        "blender_object_name": "large blue metal cylinder",
+        "segmentation_area": {
+          "10": 1885,
+          "11": 1901,
+          "12": 1906
+        },
+        "centroid_frame_11_xy_01": [
+          0.7646707892417908,
+          0.4839614927768707
+        ],
+        "size_label": "large",
+        "color_label": "blue",
+        "material": "metal",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "scene_id": "seed-230210",
+      "seed": 230210,
+      "base_output": "<workspace>/base-230210/output",
+      "source_blend": "<workspace>/base-230210/output/scene.blend",
+      "source_blend_sha256": "7e6d217d0ddc1607daa51a31e36d22b5331d50c4387d8bdf214bb61dbc122594",
+      "metadata_sha256": "d4c2e8ea9775806c3a636dc0244114c0edf830a5fde484b08e8da1ed5356d16f",
+      "events_sha256": "d450b4e4b71a26352de34b5d05829e0ce45a28b1d541d3425b9cf09a2e7edbb7",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cube",
+        "blender_object_name": "large blue rubber cube",
+        "segmentation_area": {
+          "10": 2348,
+          "11": 2094,
+          "12": 1995
+        },
+        "centroid_frame_11_xy_01": [
+          0.12293615937232971,
+          0.41994017362594604
+        ],
+        "size_label": "large",
+        "color_label": "blue",
+        "material": "rubber",
+        "shape": "cube"
+      }
+    },
+    {
+      "scene_id": "seed-230211",
+      "seed": 230211,
+      "base_output": "<workspace>/base-230211/output",
+      "source_blend": "<workspace>/base-230211/output/scene.blend",
+      "source_blend_sha256": "a14883d3b6ecaa9e38ae8ff17e0fbd29a35a14efc4175f2fd4894e8e64b9079c",
+      "metadata_sha256": "a28801c358a87ae3cb2db00db07799cb03b7d94e2b070f1a5cb148bb0e18903f",
+      "events_sha256": "015c0870d8ade06d612bc88951a0c617a5411fe141f9346eec0521a715a95914",
+      "observed_passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "target": {
+        "instance_id": 1,
+        "asset_id": "cube",
+        "blender_object_name": "large red metal cube",
+        "segmentation_area": {
+          "10": 2583,
+          "11": 2564,
+          "12": 2507
+        },
+        "centroid_frame_11_xy_01": [
+          0.24778704345226288,
+          0.48388171195983887
+        ],
+        "size_label": "large",
+        "color_label": "red",
+        "material": "metal",
+        "shape": "cube"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  "external-record/ea3cbc2f8545/python.exe",
+  "-u",
+  "${JEPA_PUBLIC_PROJECT}\\scripts\\wmpai2026\\vasi\\score_contact_development.py",
+  "--data",
+  "${JEPA_VASI_WORKSPACE}\\contact-development-1",
+  "--output",
+  "${JEPA_VASI_WORKSPACE}\\contact-development-scores-1",
+  "--manifest-sha256",
+  "a1b6265f7d094255b54009690fc72d6cd1c123bcd36dc60089566c49a11561fe"
+]

@@ -1,0 +1,56 @@
+{
+  "best_test_layers": [
+    {
+      "task": "appearance",
+      "best_test_layer_index": 1,
+      "best_test_layer_name": "block_10",
+      "best_test_accuracy_mean": 0.9822916666666666,
+      "best_test_accuracy_std": 0.02346641734597666,
+      "best_test_majority_baseline_mean": 0.25
+    },
+    {
+      "task": "physics_all",
+      "best_test_layer_index": 4,
+      "best_test_layer_name": "final",
+      "best_test_accuracy_mean": 0.5166666666666666,
+      "best_test_accuracy_std": 0.018560968417922378,
+      "best_test_majority_baseline_mean": 0.5
+    },
+    {
+      "task": "physics_clean_only",
+      "best_test_layer_index": 1,
+      "best_test_layer_name": "block_10",
+      "best_test_accuracy_mean": 0.5166666666666667,
+      "best_test_accuracy_std": 0.017430417219459912,
+      "best_test_majority_baseline_mean": 0.5
+    }
+  ],
+  "rows": 225,
+  "prediction_rows": 51300,
+  "tasks": [
+    "appearance",
+    "physics_all",
+    "physics_clean_only"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representations": "results\\intphys2\\sealed_analysis\\videomae2\\representations.npz",
+  "representations_shape": [
+    912,
+    5,
+    1408
+  ],
+  "group_column": "scene_id",
+  "unique_groups": 57,
+  "unique_pairs": 114,
+  "skipped": [],
+  "train_fraction": 0.6,
+  "val_fraction": 0.2,
+  "c": 1.0,
+  "max_iter": 2000
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "config": "configs\\intphys2_confirmatory_shared.json",
+  "config_sha256": "c6220c97626bf0a7ec1d90c7c306b67f8a74ad0cad31a13ff352afcdc6f32ba4",
+  "model_config_sha256s": {
+    "vjepa2": "5caa5e90c6783b0053a5527fb342549a77e66cb9c2d8627286e4ae4b3c855343",
+    "videomae2": "7fe05cecde48b9afcf978125fc264d1837327067fe912f0834353cf93b223e3c"
+  },
+  "dataset_root": "<artifact-root>\\data\\intphys2",
+  "archive_sha256": "aae46b00767cc96f6eeb8bf967b30f3999b7543943d2cb56c71c9850e1558f9f",
+  "release_files": 1419,
+  "release_bytes": 1809567565,
+  "inventory_sha256": "dd87ccf05f3dc09d52b7c884f2176b9f6600ce9b96ce08b3373e703dec9d04c1",
+  "pairs_manifest_sha256": "7c3d8b7297d024db5699d09d2ca69e6885e7cb6c12b667081a3f91db3c543771",
+  "samples_manifest_sha256": "1ddc3677781e605f6d298992584768e414801dc1479b03184150dd2af11fd32a",
+  "transform_metrics_sha256": "7f9f92f1c730fce6668470978496676048180858eb926ccc476c0522334fa718",
+  "pairs": 536,
+  "samples": 4288,
+  "pair_counts": {
+    "Debug:debug": 30,
+    "Main:development": 76,
+    "Main:excluded_inspected_scene": 316,
+    "Main:test": 114
+  },
+  "scene_counts": {
+    "development": 38,
+    "excluded_inspected_scene": 158,
+    "test": 57
+  },
+  "inspected_pairs": 193,
+  "inspected_manifests": {
+    "inspected_endpoint": {
+      "pairs": 169,
+      "scenes": 143
+    },
+    "inspected_workshop": {
+      "pairs": 24,
+      "scenes": 24
+    }
+  },
+  "inspected_scenes": 158,
+  "debug_source_id_collisions": 8,
+  "debug_source_id_collision_equal_file_hashes": 0,
+  "selective_infeasible_pairs": 1,
+  "transform_audit": "reuse",
+  "transform_sources_verified": 440,
+  "transform_metrics_reused_from_validation_sha256": "2067d4624e8ca6ab2e98eddbb340f98708772a9aef64a06df219856059c9b399",
+  "transform_effects": {
+    "brightness_0p45": {
+      "videos": 440,
+      "feasible_videos": 440,
+      "identity_videos": 0,
+      "mean_rgb_l1_01": 0.3039828147489048,
+      "min_rgb_l1_01": 0.06264661542730393,
+      "max_rgb_l1_01": 0.4765055867581586,
+      "mean_affected_pixel_fraction": 0.9863141283392907,
+      "minimum_luma_standard_deviation_ratio": 0.44992022371569035,
+      "maximum_additional_zero_luma_fraction": 0.025737285614013672
+    },
+    "clean": {
+      "videos": 440,
+      "feasible_videos": 440,
+      "identity_videos": 440,
+      "mean_rgb_l1_01": 0.0,
+      "min_rgb_l1_01": 0.0,
+      "max_rgb_l1_01": 0.0,
+      "mean_affected_pixel_fraction": 0.0,
+      "minimum_luma_standard_deviation_ratio": 1.0,
+      "maximum_additional_zero_luma_fraction": 0.0
+    },
+    "hue_090": {
+      "videos": 440,
+      "feasible_videos": 440,
+      "identity_videos": 0,
+      "mean_rgb_l1_01": 0.09173191287778916,
+      "min_rgb_l1_01": 0.012627386423497419,
+      "max_rgb_l1_01": 0.2683472641932419,
+      "mean_affected_pixel_fraction": 0.9626249572092836,
+      "minimum_luma_standard_deviation_ratio": 0.7711937796328179,
+      "maximum_additional_zero_luma_fraction": 0.00199204683303833
+    },
+    "selective_recolor_180": {
+      "videos": 440,
+      "feasible_videos": 440,
+      "identity_videos": 0,
+      "mean_rgb_l1_01": 0.0890741645930356,
+      "min_rgb_l1_01": 0.0019629868027431514,
+      "max_rgb_l1_01": 0.3552018887077282,
+      "mean_affected_pixel_fraction": 0.6090800552205606,
+      "minimum_luma_standard_deviation_ratio": 0.7507017294242788,
+      "maximum_additional_zero_luma_fraction": 0.0019217729568481445
+    }
+  },
+  "python": "3.11.7",
+  "numpy": "1.26.4",
+  "decoder": "decord if available, otherwise PyAV",
+  "wall_seconds": 52.08688479999546,
+  "claim_boundary": "This validates data, partition, frame, and transform alignment only; it exposes no model features or confirmatory test result."
+}

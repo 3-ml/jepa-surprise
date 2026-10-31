@@ -1,0 +1,12 @@
+{
+  "status": "R2_VERIFIED",
+  "verified_at_utc": "2026-08-23T07:48:31.632999+00:00",
+  "r2_uri": "external-artifacts-not-included",
+  "files": 9369,
+  "bytes": 1187641118,
+  "missing": 0,
+  "extra": 0,
+  "hash_mismatches": 0,
+  "checksum_manifest_sha256": "1672a75aea9be960189659b700ecacf958785aaeebe020442b0c96b165bae898",
+  "method": "s5cmd independent full-prefix download followed by exact relative-path, byte-count, and SHA-256 verification"
+}

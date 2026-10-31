@@ -1,0 +1,8 @@
+{
+  "error": "ValueError('Old-control parity failed; no new cells allowed')",
+  "traceback": "Operational traceback omitted; failure reason and numeric disposition retained.",
+  "completed_rows": 1280,
+  "last_base": "pusht:12008:63",
+  "last_condition": "lawful_scale_0p0",
+  "at": "2026-10-25T21:07:07.318188+00:00"
+}

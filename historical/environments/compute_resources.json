@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "scope": "Measured compute resources for the paper-facing experiment stages retained in this artifact.",
+  "timing_semantics": {
+    "wall_seconds": "Elapsed wall-clock time measured during execution, not an estimate.",
+    "process_wall_seconds": "Whole-process elapsed time from an external timer.",
+    "component_seconds": "Instrumented time inside the process; components need not sum to process wall time.",
+    "parallelism": "All listed runs used one worker and one accelerator at most; no distributed training or inference was used."
+  },
+  "hardware": [
+    {
+      "hardware_id": "windows_rtx3080_workstation",
+      "worker_type": "local Windows workstation",
+      "processor": "not captured",
+      "system_memory_bytes": null,
+      "accelerator": {
+        "count": 1,
+        "model": "NVIDIA GeForce RTX 3080",
+        "total_memory_bytes": 12884377600
+      },
+      "runtime": {
+        "python": "3.11.7",
+        "pytorch": "2.8.0+cu128",
+        "cuda": "12.8"
+      }
+    },
+    {
+      "hardware_id": "mac_mini_m4_cpu",
+      "worker_type": "local ARM64 Mac mini",
+      "processor": "Apple M4, 10 CPU cores",
+      "system_memory_bytes": 17179869184,
+      "accelerator": null,
+      "runtime": {
+        "operating_system": "macOS 26.5.2",
+        "python": "3.12.13",
+        "pytorch": "2.13.0"
+      }
+    },
+    {
+      "hardware_id": "mac_mini_m4_crossfit_cpu",
+      "worker_type": "local ARM64 Mac mini",
+      "processor": "Apple M4, 10 CPU cores",
+      "system_memory_bytes": 17179869184,
+      "accelerator": null,
+      "runtime": {
+        "operating_system": "macOS 26.5.2",
+        "python": "3.14.3",
+        "numpy": "2.4.3",
+        "pandas": "3.0.2",
+        "scikit_learn": "1.9.0"
+      }
+    },
+    {
+      "hardware_id": "cloud_a40_worker",
+      "worker_type": "single cloud GPU worker",
+      "processor": "not captured",
+      "system_memory_bytes": null,
+      "accelerator": {
+        "count": 1,
+        "model": "NVIDIA A40",
+        "nvidia_smi_total_memory_mib": 46068,
+        "pytorch_addressable_memory_bytes": 47708110848
+      },
+      "runtime": {
+        "driver": "570.211.01",
+        "cuda": "12.8",
+        "render_python": "3.11.13",
+        "model_python": "3.13.14",
+        "pytorch": "2.11.0+cu128",
+        "blender_python_api": "4.3.0"
+      }
+    },
+    {
+      "hardware_id": "cloud_a40_jepa_wm_worker",
+      "worker_type": "single cloud GPU worker",
+      "processor": "not captured",
+      "system_memory_bytes": null,
+      "accelerator": {
+        "count": 1,
+        "model": "NVIDIA A40",
+        "nvidia_smi_total_memory_mib": 46068
+      },
+      "runtime": {
+        "driver": "580.159.04",
+        "driver_reported_cuda": "13.0",
+        "python": "3.10.12",
+        "pytorch": "2.7.0+cu126",
+        "torchvision": "0.22.0+cu126"
+      }
+    },
+    {
+      "hardware_id": "windows_rtx3050_laptop",
+      "worker_type": "local Windows laptop",
+      "processor": "not captured",
+      "system_memory_bytes": null,
+      "accelerator": {
+        "count": 1,
+        "model": "NVIDIA GeForce RTX 3050 Laptop GPU",
+        "total_memory_bytes": 4294967296
+      },
+      "runtime": {
+        "python": "3.10.11",
+        "pytorch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "numpy": "2.1.2",
+        "pandas": "2.3.3",
+        "scipy": "1.15.3",
+        "scikit_learn": "1.7.2"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": "intphys2_development_vjepa2_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "V-JEPA2-G development feature extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU",
+      "wall_seconds": 967.25,
+      "peak_accelerator_memory_bytes": 4875104768,
+      "workload": {
+        "pairs": 76,
+        "samples": 608,
+        "stored_layers": 5
+      },
+      "timing_evidence": "Completed extractor status summarized from the execution record.",
+      "archive_evidence": [
+        "results/intphys2/development_extraction/feature_parity.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_development_videomae2_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "VideoMAE2-G development feature extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU",
+      "wall_seconds": 1296.84,
+      "peak_accelerator_memory_bytes": 7814336000,
+      "workload": {
+        "pairs": 76,
+        "samples": 608,
+        "stored_layers": 5
+      },
+      "timing_evidence": "Completed extractor status summarized from the execution record.",
+      "archive_evidence": [
+        "results/intphys2/development_extraction/feature_parity.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_development_pixelsummary_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "PixelSummary development extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "CPU",
+      "wall_seconds": 1227.3568166000769,
+      "component_seconds": {
+        "decode": 66.97807910095435,
+        "transform": 210.78847259806935
+      },
+      "workload": {
+        "pairs": 76,
+        "samples": 608,
+        "feature_dimensions": 100
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/intphys2/development_analysis/pixel_summary/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_sealed_vjepa2_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "V-JEPA2-G sealed feature extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU",
+      "wall_seconds": 1207.04,
+      "workload": {
+        "pairs": 114,
+        "samples": 912,
+        "stored_layers": 5
+      },
+      "timing_evidence": "Completed extractor status summarized from the execution record.",
+      "archive_evidence": [
+        "results/intphys2/sealed_analysis/feature-parity.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_sealed_videomae2_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "VideoMAE2-G sealed feature extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU",
+      "wall_seconds": 1263.22,
+      "workload": {
+        "pairs": 114,
+        "samples": 912,
+        "stored_layers": 5
+      },
+      "timing_evidence": "Completed extractor status summarized from the execution record.",
+      "archive_evidence": [
+        "results/intphys2/sealed_analysis/feature-parity.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_sealed_pixelsummary_extraction",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "PixelSummary sealed extraction",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "CPU",
+      "wall_seconds": 1769.8101379999425,
+      "component_seconds": {
+        "decode": 91.59335900086444,
+        "transform": 306.6939626982203
+      },
+      "workload": {
+        "pairs": 114,
+        "samples": 912,
+        "feature_dimensions": 100
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/intphys2/sealed_analysis/pixel_summary/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_scene_crossfit_probe_statistics",
+      "experiment": "Corrected IntPhys2 representation study",
+      "stage": "Five-fold scene cross-fit probe fitting and global scene-bootstrap statistics",
+      "hardware_id": "mac_mini_m4_crossfit_cpu",
+      "compute_path": "CPU",
+      "wall_seconds": 45.07,
+      "component_seconds": {
+        "development_vjepa2_probes": 8.0,
+        "development_videomae2_probes": 7.24,
+        "development_pixelsummary_probes": 2.02,
+        "development_statistics": 0.59,
+        "sealed_vjepa2_probes": 11.92,
+        "sealed_videomae2_probes": 12.65,
+        "sealed_pixelsummary_probes": 1.99,
+        "sealed_statistics": 0.66
+      },
+      "workload": {
+        "development_scenes": 38,
+        "development_pairs": 76,
+        "sealed_scenes": 57,
+        "sealed_pairs": 114,
+        "feature_families": 3,
+        "tasks": 3,
+        "probe_fits": 330,
+        "bootstrap_draws_per_estimand": 10000
+      },
+      "timing_evidence": "External whole-process timers for each probe and statistics component.",
+      "archive_evidence": [
+        "results/intphys2/scene_crossfit_probe_audit/run_record.json"
+      ]
+    },
+    {
+      "stage_id": "physionpp_static_content_diagnostic",
+      "experiment": "Physion++ static-content diagnostic",
+      "stage": "V-JEPA2-L scoring, pixel-motion measurement, and frozen-frame controls",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU and CPU",
+      "wall_seconds": 48.2009829999879,
+      "peak_accelerator_memory_bytes": 723425792,
+      "workload": {
+        "videos": 10,
+        "segments": 273
+      },
+      "timing_evidence": "Instrumented summary record.",
+      "archive_evidence": [
+        "results/static_content_diagnostic/summary.json"
+      ]
+    },
+    {
+      "stage_id": "lewm_tworoom_action_consistency",
+      "experiment": "LeWorldModel action-consistency controls",
+      "stage": "TwoRoom generation, rendering, inference, and output writing",
+      "hardware_id": "mac_mini_m4_cpu",
+      "compute_path": "CPU",
+      "wall_seconds": 115.22811889648438,
+      "workload": {
+        "episodes": 256,
+        "batch_size": 16
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/leworldmodel/tworoom_action_consistency/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "lewm_pusht_action_consistency",
+      "experiment": "LeWorldModel action-consistency controls",
+      "stage": "PushT generation, rendering, inference, and output writing",
+      "hardware_id": "mac_mini_m4_cpu",
+      "compute_path": "CPU",
+      "wall_seconds": 143.37631225585938,
+      "workload": {
+        "episodes": 256,
+        "batch_size": 16
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/leworldmodel/pusht_action_consistency/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "lewm_pusht_role_color",
+      "experiment": "PushT role-color controls",
+      "stage": "Color intervention generation, rendering, inference, and output writing",
+      "hardware_id": "mac_mini_m4_cpu",
+      "compute_path": "CPU",
+      "wall_seconds": 139.11907696723938,
+      "workload": {
+        "episodes": 256,
+        "batch_size": 16
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/leworldmodel/pusht_role_color/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "lewm_pusht_role_color_decomposition",
+      "experiment": "PushT role-color decomposition",
+      "stage": "Latent extraction, score decomposition, and output writing",
+      "hardware_id": "mac_mini_m4_cpu",
+      "compute_path": "CPU",
+      "wall_seconds": 140.4094042778015,
+      "workload": {
+        "episodes": 256,
+        "batch_size": 16
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/leworldmodel/pusht_role_color_decomposition/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "kubric_rendering_gate",
+      "experiment": "Kubric renderer timing and determinism gate",
+      "stage": "Single-scene 48-frame renderer configurations",
+      "hardware_id": "cloud_a40_worker",
+      "compute_path": "GPU",
+      "component_seconds": {
+        "selected": 39.65,
+        "selected_replicate": 57.97,
+        "spp16_openimage_denoiser": 118.98,
+        "spp16_optix_denoiser": 37.84
+      },
+      "workload": {
+        "frames_per_run": 48,
+        "selected_samples_per_pixel": 64
+      },
+      "timing_evidence": "External wall-clock records summarized in provenance.",
+      "archive_evidence": [
+        "results/kubric/rendering_gate/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "kubric_construct_validity_rendering",
+      "experiment": "Kubric construct-validity pilot",
+      "stage": "Render and validate the eight-scene intervention grid",
+      "hardware_id": "cloud_a40_worker",
+      "compute_path": "GPU and CPU",
+      "process_wall_seconds": 3348.14,
+      "component_seconds": {
+        "sum_of_72_job_wall_times": 3318.2288755252957,
+        "minimum_job": 39.35066729784012,
+        "maximum_job": 51.95049503818154
+      },
+      "workload": {
+        "scenes": 8,
+        "conditions_per_scene": 9,
+        "render_jobs": 72,
+        "frames_per_job": 48
+      },
+      "timing_evidence": "Whole-process external timer plus per-job instrumented wall times.",
+      "archive_evidence": [
+        "results/kubric/construct_validity_pilot/render_validation/grid_run.json"
+      ]
+    },
+    {
+      "stage_id": "kubric_construct_validity_blend_validation",
+      "experiment": "Kubric construct-validity pilot",
+      "stage": "Independent saved-state and blend validation",
+      "hardware_id": "cloud_a40_worker",
+      "compute_path": "CPU",
+      "process_wall_seconds": 21.16,
+      "workload": {
+        "render_outputs": 72
+      },
+      "timing_evidence": "Whole-process external timer.",
+      "archive_evidence": [
+        "results/kubric/construct_validity_pilot/render_validation/blend-validation.json"
+      ]
+    },
+    {
+      "stage_id": "kubric_construct_validity_model_scoring",
+      "experiment": "Kubric construct-validity pilot",
+      "stage": "V-JEPA2-G load and scoring over eight scenes",
+      "hardware_id": "cloud_a40_worker",
+      "compute_path": "GPU",
+      "process_wall_seconds": 167.01,
+      "component_seconds": {
+        "model_load": 50.25889849662781,
+        "sum_of_eight_scene_inferences": 35.90311124175787
+      },
+      "peak_accelerator_memory_bytes": 11407126528,
+      "peak_reserved_accelerator_memory_bytes": 13564379136,
+      "workload": {
+        "scenes": 8,
+        "conditions_per_scene": 11,
+        "batch_size": 11
+      },
+      "timing_evidence": "Whole-process external timer plus instrumented model-load and per-scene inference times.",
+      "archive_evidence": [
+        "results/kubric/construct_validity_pilot/model/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "dinowm_pusht_controlled_displacement",
+      "experiment": "DINO-WM PushT controlled-displacement audit",
+      "stage": "Target rendering, frozen visual prediction, and episode bootstrap",
+      "hardware_id": "windows_rtx3080_workstation",
+      "compute_path": "GPU and CPU",
+      "wall_seconds": 143.01734113693237,
+      "workload": {
+        "episodes": 256,
+        "conditions_per_episode": 18,
+        "batch_size": 8,
+        "bootstrap_draws_per_estimand": 10000
+      },
+      "timing_evidence": "Instrumented provenance record.",
+      "archive_evidence": [
+        "results/dinowm/pusht_controlled_displacement/provenance.json"
+      ]
+    },
+    {
+      "stage_id": "jepa_wm_pusht_controlled_displacement",
+      "experiment": "JEPA-WM PushT controlled-displacement audit",
+      "stage": "Target rendering, frozen visual prediction, validation, and episode bootstrap",
+      "hardware_id": "cloud_a40_jepa_wm_worker",
+      "compute_path": "GPU and CPU",
+      "wall_seconds": 200.89726877212524,
+      "component_seconds": {
+        "successful_eight_episode_gate": 13.758994340896606
+      },
+      "workload": {
+        "episodes": 256,
+        "conditions_per_episode": 18,
+        "batch_size": 8,
+        "bootstrap_draws_per_estimand": 10000
+      },
+      "timing_evidence": "Instrumented full-run and preflight provenance records.",
+      "archive_evidence": [
+        "results/jepa_wm/pusht_controlled_displacement/provenance.json",
+        "results/jepa_wm/pusht_controlled_displacement/smoke_validation.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_controlled_geometry_sealed",
+      "experiment": "Development-frozen controlled IntPhys2 geometry",
+      "stage": "One completed sealed geometry evaluation with scene bootstrap, shuffled-correspondence nulls, and random-subspace references",
+      "hardware_id": "windows_rtx3050_laptop",
+      "compute_path": "CPU",
+      "wall_seconds": 2348.685,
+      "workload": {
+        "scenes": 57,
+        "pairs": 114,
+        "samples": 912,
+        "models": 2,
+        "layers": 5,
+        "bootstrap_draws": 10000,
+        "permutation_draws": 10000,
+        "random_subspace_draws": 10000
+      },
+      "timing_evidence": "Instrumented completed-run report.",
+      "archive_evidence": [
+        "results/intphys2/controlled_geometry/sealed/SEALED_RESULTS.json"
+      ]
+    },
+    {
+      "stage_id": "intphys2_multidose_vjepa2g_extraction",
+      "experiment": "Post-sealed exploratory V-JEPA2-G multi-dose geometry",
+      "stage": "Exact intermediate-dose feature extraction; clean and strongest-dose representations reused",
+      "hardware_id": "windows_rtx3050_laptop",
+      "compute_path": "GPU with sequential CPU/GPU block offload",
+      "wall_seconds": 3580.3863974999695,
+      "peak_accelerator_memory_bytes": 738197504,
+      "workload": {
+        "new_embeddings": 912,
+        "reused_embeddings": 608,
+        "sources": 152,
+        "layers": 5
+      },
+      "timing_evidence": "Sum of per-job encoder inference times.",
+      "archive_evidence": [
+        "results/intphys2/multidose_geometry/hardware_runtime_log.csv",
+        "results/intphys2/multidose_geometry/runtime/README.md"
+      ]
+    },
+    {
+      "stage_id": "intphys2_multidose_geometry_statistics",
+      "experiment": "Post-sealed exploratory V-JEPA2-G multi-dose geometry",
+      "stage": "Cached-feature trajectory geometry and statistical analysis",
+      "hardware_id": "windows_rtx3050_laptop",
+      "compute_path": "CPU",
+      "wall_seconds": 5038.116932600009,
+      "workload": {
+        "scenes": 38,
+        "pairs": 76,
+        "samples": 1520,
+        "layers": 5,
+        "factors": 3,
+        "bootstrap_draws": 10000,
+        "null_draws": 10000
+      },
+      "timing_evidence": "Instrumented analysis process elapsed time.",
+      "archive_evidence": [
+        "results/intphys2/multidose_geometry/RUN_METADATA.json",
+        "results/intphys2/multidose_geometry/VJEPA2G_GRID_SUMMARY.json"
+      ]
+    }
+  ],
+  "scope_boundary": [
+    "Durations cover the retained paper-facing data generation, rendering, extraction, probing, geometry, bootstrap, and inference stages with measured timings.",
+    "Untimed compact packing and figure assembly are deterministic CPU postprocessing.",
+    "The Windows workstation and laptop processors and system memory and the cloud worker processors and system memory were not captured; available accelerator information is reported without estimation."
+  ]
+}

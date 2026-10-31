@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "max_reference_difference": 0.0,
+  "reference_tolerance": 1e-06,
+  "uncached_repeat_exact": true,
+  "old_development_fixture_only": true
+}

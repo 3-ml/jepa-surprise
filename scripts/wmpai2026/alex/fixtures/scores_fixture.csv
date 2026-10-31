@@ -1,0 +1,17 @@
+scene_id,clip_id,split,physical_condition,appearance_condition,score,context_sha,state_sha
+s1,s1-lawful-clean,development,lawful,clean,0.0,ctx-s1-clean,st-s1-lawful
+s1,s1-inconsistent-clean,development,inconsistent,clean,0.5,ctx-s1-clean,st-s1-inconsistent
+s1,s1-lawful-hue,development,lawful,hue,0.05,ctx-s1-hue,st-s1-lawful
+s1,s1-inconsistent-hue,development,inconsistent,hue,0.55,ctx-s1-hue,st-s1-inconsistent
+s2,s2-lawful-clean,development,lawful,clean,0.1,ctx-s2-clean,st-s2-lawful
+s2,s2-inconsistent-clean,development,inconsistent,clean,0.6,ctx-s2-clean,st-s2-inconsistent
+s2,s2-lawful-hue,development,lawful,hue,0.15000000000000002,ctx-s2-hue,st-s2-lawful
+s2,s2-inconsistent-hue,development,inconsistent,hue,0.65,ctx-s2-hue,st-s2-inconsistent
+s3,s3-lawful-clean,confirmatory,lawful,clean,0.0,ctx-s3-clean,st-s3-lawful
+s3,s3-inconsistent-clean,confirmatory,inconsistent,clean,0.5,ctx-s3-clean,st-s3-inconsistent
+s3,s3-lawful-hue,confirmatory,lawful,hue,0.05,ctx-s3-hue,st-s3-lawful
+s3,s3-inconsistent-hue,confirmatory,inconsistent,hue,0.55,ctx-s3-hue,st-s3-inconsistent
+s4,s4-lawful-clean,confirmatory,lawful,clean,0.1,ctx-s4-clean,st-s4-lawful
+s4,s4-inconsistent-clean,confirmatory,inconsistent,clean,0.6,ctx-s4-clean,st-s4-inconsistent
+s4,s4-lawful-hue,confirmatory,lawful,hue,0.15000000000000002,ctx-s4-hue,st-s4-lawful
+s4,s4-inconsistent-hue,confirmatory,inconsistent,hue,0.65,ctx-s4-hue,st-s4-inconsistent

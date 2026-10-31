@@ -1,0 +1,730 @@
+[
+  {
+    "path": "scripts/wmpai2026/alex/a4_intphys2_shortcut_baselines.py",
+    "source_sha256": "b9baccda3e3c6831bb3676fcba4e60b19ea12bb66a0ed99edc322b0c3c0a506d",
+    "public_sha256": "26c267663594621944c6ad1975d567337dc183ec9acf11a43f04b7d5e425916b",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/a4_pilot8_frame_baselines.py",
+    "source_sha256": "55bc393bc8b4e0ad4f3a5ab2c92145546525887c9d680588f4283319a003b52c",
+    "public_sha256": "9db511a8501bb0bb00e127049b2e43f5af92689745f5b3c509f17e6525775293",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "results/24-12-36-wmpai-alex-a4-intphys2-shortcut-baselines/README.md",
+    "source_sha256": "25972729a0700a3d0a62f84fea176d00c2c91d2d25d64753b6e53221cc60f98a",
+    "public_sha256": "8fb7b18f9488081f9ff993555abc55db2865adc19d799b6ff584b188fc1f5a4c",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-13-57-wmpai-alex-a4-pilot8-frame-baselines/README.md",
+    "source_sha256": "335c7d467ab086c744f755581c21c3141e1506dbf6b2a125ee511872ee1325e8",
+    "public_sha256": "15e3a7fa4d9f9507cd6b23eb38bf9a114c1e5a6206903230dce4b8033853d935",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-18-55-wmpai-alex-a2-multifamily16-variance-proxy/README.md",
+    "source_sha256": "a70fbf3b5ec944fc880acad6a4f0f09a247316f9c8c7bf796ad0296db91cf1dd",
+    "public_sha256": "91a828c8336905d4a1dde404eb443595cda40086408c18b6b2e629f38322c637",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/a3_geometry_vs_error.py",
+    "source_sha256": "e28ab06ef590731b08a2296ad2dc2ca698dd8bc3b07b9e06d6cf990ea596d5af",
+    "public_sha256": "f4168da23ac4946b5987f258ca47e78dd53db246b5b068e37f734e7d3aac4bdc",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/a3_make_pilot8_table.py",
+    "source_sha256": "ca33e192219052180518dff076a87cd948b5794628f6534920b317aeac6a38a6",
+    "public_sha256": "4a1565ef069e84ff2a644fd0ad4bf91ff66c9502887a519882eb7059a65ff9ad",
+    "reasons": [
+      "documentation-only path reference normalization"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/a4_multifamily16_frame_baselines.py",
+    "source_sha256": "08b93bc470d40046a1e94ca5ed43601aac178446f117557dfe222e40ef7cf449",
+    "public_sha256": "e0de0ef1389a75be3b17a9ad37e6657c5fc9e65b0250a602d611a25f7954ff17",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "results/24-19-09-wmpai-alex-a3-pilot8-real-features/README.md",
+    "source_sha256": "1da6e1ed1bbfb301fe4265714aabb382d19bb2f0e023ff9e58a90eb2d00a787f",
+    "public_sha256": "cad39493eed7ccf502ab9456f4e07ee379f202d98c7d1a2b4dd953008f4ae745",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-09-wmpai-alex-a3-pilot8-real-features/feature_meta.json",
+    "source_sha256": "55834046ed2897cb80c38adacfd6abf36f9b63dd557eed61b24c914f72d697ba",
+    "public_sha256": "153bf067d4a958cbc2a0f8286e4673c0ee2b8708e56f8f9f2d881d015295b69d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-16-wmpai-alex-a3-multifamily16-real-features/README.md",
+    "source_sha256": "95ef6ddad3420acb3e8074c9a2c37a9790dff794dc0921b958d2c374ce43d035",
+    "public_sha256": "82efda910f3f0b74f64d032eafeafc066f23d7cdd991523dcd33c76fdfe45e94",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-16-wmpai-alex-a3-multifamily16-real-features/feature_meta.json",
+    "source_sha256": "2ffc59d891da67d451feced2854bc1aec5645c9d0ff1552724b5bbafc5afe4dc",
+    "public_sha256": "609aa46be67f3a19f966251c076d4a93e0fdeeb3f89faca42e2408331d989210",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-16-wmpai-alex-a3-pilot8-geometry-vs-error/README.md",
+    "source_sha256": "fddad8716a2006cce2c465375da1b395dd3358bf8b349c87270da793ead9bb97",
+    "public_sha256": "6b01677f8eaf72b9d4b4ea1cbf9c58e051070d2fcdc59b69edc1e2227d525611",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-18-wmpai-alex-a4-multifamily16-frame-baselines/README.md",
+    "source_sha256": "2404197715211a3ded537d097afc2cc7172ee81f15b2f2431a85563d071e41bb",
+    "public_sha256": "94a7281ef3c7a3fbe2e4479d7fc72318581ad87d913a2afa7b4cf5762c343979",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-19-26-wmpai-alex-a3-multifamily16-geometry-vs-error/README.md",
+    "source_sha256": "d52135112adcc918a6bd9ad64d027f7628abe64a4882191cf6049efafa7cd0dc",
+    "public_sha256": "64b509acff6e22892587ea45f25ab5bad5b895c499343e1bea2d2e7b0c6215e1",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/gpu4gb_offload.py",
+    "source_sha256": "401ea0134d8c761ba5cd90b66962bd68a59d0dc3e77f6b204d3740d4a28bdf28",
+    "public_sha256": "d8c4985673eb9e2525317794b9587ae285176a290c163c575556e392edee024f",
+    "reasons": [
+      "role-scoped external paths restored from original literals",
+      "exact-hash historical IntPhys2 sample manifest wired to bundled location",
+      "private remote parity adapter disabled"
+    ]
+  },
+  {
+    "path": "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/README.md",
+    "source_sha256": "bd188122d4beefea2e24d85116c2c7b72e0ccb567fd902db7d62526b5d88a8dd",
+    "public_sha256": "39b9847cf0743b66769902a6bec9708a84355109f189885aed92e58a3464dacc",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/shard_index.json",
+    "source_sha256": "d5f15623119911081ef48e5c0493ffe371bc85db6d5b730795ad631aba080a8a",
+    "public_sha256": "f4d3bdc1b46610e3d266bcacbd1a54cf3165ae53f83301c6cb1b6d0701d99702",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "protocol/statistics.md",
+    "source_sha256": "0f8510c6c1fa13731ff9de01f079733007626e3e7faf32e53a2a19d4067619f5",
+    "public_sha256": "24289fc10dc60bae0b7bd253a7732a8de53511837b76bd5fe943b41770bb9e79",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "docs/research_reports/2026-10-24-alex-wmpai-first-day-inventory.md",
+    "source_sha256": "55d32ae6d16d33c900baeb7bc1b4e7abd8e3afba1da978a791dd841b7e3b29c6",
+    "public_sha256": "4733d80b9cd5c79afe7ecdb8317e9d40e7e4232a5017a7b304ff4d0d4e7ce1da",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "docs/research_directions/2026-10-25-alex-review-of-development24-and-final256.md",
+    "source_sha256": "e9bee7382847b62b0338c17b4ad1e59ff1107179d5f2f72ac2ab3c38eac143ca",
+    "public_sha256": "752833c89444851020021adbe5f5b12edb53cb2bd69b9e0a36a9143f23f54093",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-13-48-wmpai-alex-crossdevice-native-score-parity/README.md",
+    "source_sha256": "4f0f7008f8618932d98e7b7e1ef3754d9f62daa7dbbb483fcc686c772c46dea6",
+    "public_sha256": "3cb0a58b98645b797132b7686ac7d07334d893f64c82b5be6aa825c1297c5386",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-13-48-wmpai-alex-crossdevice-native-score-parity/provenance.json",
+    "source_sha256": "b284cb37cfbd8a1abeb94e70e612683f719bcae24444868992d1fe47c6eeed98",
+    "public_sha256": "9c4f7ebdfe289e371204e9d416b8a97d384c86f10e940d5a45a66ded626a5662",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-13-48-wmpai-alex-crossdevice-native-score-parity/scripts_used/run_v1_regression_disk.py",
+    "source_sha256": "a66578539ea108fddd74ed2fac5fd98f104fb1d8f53191b62a43dfa6512a489c",
+    "public_sha256": "1ec00e73c8212ba1b874926384e2ad05a0335e9951d03ef164dcc95940636ab4",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/appendix_figures/README.md",
+    "source_sha256": "a567d4779fa406cdb467642a483d1e3dd4b4d3e5300f7139db8ece643776e115",
+    "public_sha256": "ffbe6c9d473f3e25ed0e260ea4731e82a22066cebd8768c40e307a956ace7c09",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/appendix_figures/scripts/dose_common.py",
+    "source_sha256": "93e120255a6a44355c7958ceeab80dab922c37f02f890a5874ec8e4a5c9c9d1c",
+    "public_sha256": "eb89d2bed1bc5d41ce500b8f5b8c770745d6cfe629085f6b84abb28426d31bf8",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/alex/appendix_figures/scripts/kubric_common.py",
+    "source_sha256": "7e3bc2dd36c55fe6e2d54c0e18631e785e71769608b4174e4c7a96b01db0c6ec",
+    "public_sha256": "5dfed87950f5d7917813eeed81d2c09cc5ca8e81e85a9c70726470ffaf64b1e7",
+    "reasons": [
+      "bundled final256 scores default, optional named override"
+    ]
+  },
+  {
+    "path": "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/execution-amendment-1.json",
+    "source_sha256": "61589ae6cd02477213e3e93d6fda99d35e754cec0dec2258ad8d11e3a55b62e6",
+    "public_sha256": "af581c10eeb583a6b4690387e261cc99b0edab166962659b97f7e4b9fc11343e",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/failure.json",
+    "source_sha256": "6cbfc245d279f3f00af138e9eac0c21bc8f65446c16baa7609354116d9e7ae37",
+    "public_sha256": "8375775016d3d959223ed2f0365f918ea5989087973ea1ff576e462d1cc8bc51",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/freeze.json",
+    "source_sha256": "6c3fe19d099229d102d2843fa72c6f26c0a1afb934b804a784442b7c743f982f",
+    "public_sha256": "1bbee981d17219cbcd05404a49d58a6d478b6734def05ae6516d172319f536c3",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/input-seal.json",
+    "source_sha256": "d6446ef1d4c6f86506b8a23c6e991769d260f11d3d7c86de1bfbe6b0e0d1323a",
+    "public_sha256": "dba64954c078c4b3b62492ad5f3a382f41d4ef0c2f7005c1c53647887358c6a6",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/jepa/controls/failure.json",
+    "source_sha256": "501da232964ffb215ae384d5264afbba632b187189810cf22c506b7994267429",
+    "public_sha256": "d3a151d6ad9edda1ea71a2819fcef3d0e5b3a914f3add675049c2ce6d7fa109b",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/audit-source/audit_configuration.py",
+    "source_sha256": "ef5b6ced64c0e3f249f33f5d210c980a625959e230d975903d399315f60624c7",
+    "public_sha256": "d89968192877e2ad942b1684e1e0bf0202fcc0f72ad2a6bb67af1a3288e85e5f",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/audit-source/audit_final256.py",
+    "source_sha256": "25683960a959717f91eb5472b9237eb89d9af5a2056a175aee3f3760267acdac",
+    "public_sha256": "66005320c5bb0b019802538e8d218295580449f5985d9f1bf66949ddb35b6005",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/audit-source/audit_visibility.py",
+    "source_sha256": "b2fe362149eb4d2ce68b3f88e5a2ac4cbde70502e48d2a8ed31e9eb76a581c27",
+    "public_sha256": "b4b9c218e3cf87286e65d7220d0f7a72356ab3bcad3aaf29e4aae25db74699a0",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/original/analysis/summary.json",
+    "source_sha256": "0b8ec044336c51b0378a334e683802363660ce3825fc3d6bac1d3f7e303e8629",
+    "public_sha256": "131219410ebbe079f44a98321e494362a4a5640ba4720aebe2f7d8aee078ace0",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/configs.json",
+    "source_sha256": "d284626bb96b50a9bb6fc85988194c8441af045e13e0a3d01c710036dfb767ab",
+    "public_sha256": "aaf1fc18092e35fca0f24800c1c2b72e89f04a437778ddcc443b26e6d8b2d987",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/freeze.json",
+    "source_sha256": "d5162d530edc6e638560f77801c6ab3c35dda54fd42ce1b2bbe923c36e6a1fbe",
+    "public_sha256": "75782684fbb4ea18070104265ad736bafd8faf03a6ddcacd5b54352be4e5666e",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_analyse.py",
+    "source_sha256": "3f5dd489442afa57af01e05c27d896f3981578cb835386d379334baf8c08fbe6",
+    "public_sha256": "af19e5b41bec8100323394b1513450546124ba5e232d1fc12b43e6083b55bbe4",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_common.py",
+    "source_sha256": "0a250503e9fe8d295c20169d8d559d851574218521e869626e769253abd43c25",
+    "public_sha256": "35e045d37a9132daee04b0cf7e3e57d7ee56bfbdef15a4f8c5876c39dd9aa609",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_render_worker.py",
+    "source_sha256": "44f18da2692f586d70e8c7627211299606cac2a1b78019ed4c5aa00644d96eb2",
+    "public_sha256": "2f2e66ee920843b31052790699d245ee468a91c224f316fe63c5d9781c1129c9",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_score.py",
+    "source_sha256": "f39743349a7029c98d9ee2598cd03c2c9a8b5cbc6e7f0d7199efd341e41fb91f",
+    "public_sha256": "7f2003756f67d66337e571a2849053034e6ec10cecb7ecaf379ee474d7bc8327",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/original/frozen-source/scripts/wmpai2026/vasi/score_development24.py",
+    "source_sha256": "c584496d9c772cdb1d8fc4d1722783a0f074e74d00f3eff4c2b98e18e024c0f9",
+    "public_sha256": "e7dd900e81f91fa596ea1d7074cb86487322dc0a57cd8bb92a8961f68ae90dab",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/final256/original/inspected-registry.json",
+    "source_sha256": "2bb71fdfb53c2694f4595eb9e9c21cbea8176369b0453b2e241d472f674cd95a",
+    "public_sha256": "7e8c4725fc9261d8ee0915aff23dc7426d747c4c46649b7ce25fdb14a0a0799d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/protocol.md",
+    "source_sha256": "889e718eee62ea45de08630e806df1764549831a183e259debaa3709393aaae3",
+    "public_sha256": "958662668fbc09d40836e71bee3336733bfd131463012e5bc29988dfded698c7",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/final256/original/render-seal.json",
+    "source_sha256": "21ac28470bb46e98825e43a3f13c8efa5ba2055ce142eea8b2f628d3f473ee48",
+    "public_sha256": "338c8ebc55c059a6aa00b61b068bcc8f48fe625fb604a1bbd3e59d79a0d0f9a0",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/final256/original/scores/provenance.json",
+    "source_sha256": "810e0e8dcab772f3df8e94eed95155c47611d029decdc034307780b05e46b7e3",
+    "public_sha256": "84bbc71b09de6b456e100b6c7ccacea9e9533cf379f2e6d860e7eec4631e651e",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/canonical_score.py",
+    "source_sha256": "3cbaac789176de534724f0586fef872a51ba74430537d4b3740850e8078a3dfb",
+    "public_sha256": "5366c5c4b85569470012b4f6f5c5d714298d95323990fac9e2e14f7dbd73dde8",
+    "reasons": [
+      "role-scoped external paths restored from original literals",
+      "exact frozen core wired separately from external model/fixture root"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/desktop_runtime.py",
+    "source_sha256": "f4884b2cba8c27a0d31d8ab5bf7fe2b3fdc2fddc19a1c53fe48161f361eeebf8",
+    "public_sha256": "b5d87b8507da46170884e57a743d71e995022fd3ca73a41465283e65fbc82841",
+    "reasons": [
+      "operational-controller implementation excluded"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/study_common.py",
+    "source_sha256": "2372ba63c7798509c4b7b34f37dbb6b986d45ce4c6704add02ce721691741820",
+    "public_sha256": "ca688e28d13d151ec1c24230233f779c422152cdaecaa7130544957d6c86e74d",
+    "reasons": [
+      "private scheduling/ownership implementation excluded; fail-closed entry points retained",
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/geometry-coefficients.json",
+    "source_sha256": "95d96300ffbb6087278febcf5bbdf3cf2d42ae7824f6d0d120e2cd4949b21ee7",
+    "public_sha256": "10c7086013e1f0226fdc2b6ea397b1f633fe8295482bffe202752e1dec85317d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/frozen-source.zip/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-appearance/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/physion-static/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/canonical_score.py",
+    "source_sha256": "3cbaac789176de534724f0586fef872a51ba74430537d4b3740850e8078a3dfb",
+    "public_sha256": "5366c5c4b85569470012b4f6f5c5d714298d95323990fac9e2e14f7dbd73dde8",
+    "reasons": [
+      "role-scoped external paths restored from original literals",
+      "exact frozen core wired separately from external model/fixture root"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/desktop_runtime.py",
+    "source_sha256": "f4884b2cba8c27a0d31d8ab5bf7fe2b3fdc2fddc19a1c53fe48161f361eeebf8",
+    "public_sha256": "b5d87b8507da46170884e57a743d71e995022fd3ca73a41465283e65fbc82841",
+    "reasons": [
+      "operational-controller implementation excluded"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/study_common.py",
+    "source_sha256": "2372ba63c7798509c4b7b34f37dbb6b986d45ce4c6704add02ce721691741820",
+    "public_sha256": "ca688e28d13d151ec1c24230233f779c422152cdaecaa7130544957d6c86e74d",
+    "reasons": [
+      "private scheduling/ownership implementation excluded; fail-closed entry points retained",
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/geometry-coefficients.json",
+    "source_sha256": "95d96300ffbb6087278febcf5bbdf3cf2d42ae7824f6d0d120e2cd4949b21ee7",
+    "public_sha256": "10c7086013e1f0226fdc2b6ea397b1f633fe8295482bffe202752e1dec85317d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-static/frozen-source.zip/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/physion-static/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/canonical_score.py",
+    "source_sha256": "3cbaac789176de534724f0586fef872a51ba74430537d4b3740850e8078a3dfb",
+    "public_sha256": "5366c5c4b85569470012b4f6f5c5d714298d95323990fac9e2e14f7dbd73dde8",
+    "reasons": [
+      "role-scoped external paths restored from original literals",
+      "exact frozen core wired separately from external model/fixture root"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/desktop_runtime.py",
+    "source_sha256": "f4884b2cba8c27a0d31d8ab5bf7fe2b3fdc2fddc19a1c53fe48161f361eeebf8",
+    "public_sha256": "b5d87b8507da46170884e57a743d71e995022fd3ca73a41465283e65fbc82841",
+    "reasons": [
+      "operational-controller implementation excluded"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/study_common.py",
+    "source_sha256": "2372ba63c7798509c4b7b34f37dbb6b986d45ce4c6704add02ce721691741820",
+    "public_sha256": "ca688e28d13d151ec1c24230233f779c422152cdaecaa7130544957d6c86e74d",
+    "reasons": [
+      "private scheduling/ownership implementation excluded; fail-closed entry points retained",
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/geometry-coefficients.json",
+    "source_sha256": "95d96300ffbb6087278febcf5bbdf3cf2d42ae7824f6d0d120e2cd4949b21ee7",
+    "public_sha256": "10c7086013e1f0226fdc2b6ea397b1f633fe8295482bffe202752e1dec85317d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/frozen-source.zip/freeze.json",
+    "source_sha256": "b8fa8f4b23a34828df8dba6d8896f8ef3b7ee95f33f50a4e0f402f4864157809",
+    "public_sha256": "657b538c8b14ee9a9de36d5d16e4a541e1618fea32b6f40b271f2fe8e2000311",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/geometry-coefficients.json",
+    "source_sha256": "95d96300ffbb6087278febcf5bbdf3cf2d42ae7824f6d0d120e2cd4949b21ee7",
+    "public_sha256": "10c7086013e1f0226fdc2b6ea397b1f633fe8295482bffe202752e1dec85317d",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "release/geometry-transfer/protocol.md",
+    "source_sha256": "b329ad341eda577615b44910b8c3be907547cedf1e73b0c371b594a4abb915f7",
+    "public_sha256": "7c692535d3dceacfa8735f5c6856c00e1d1b2c258c515284262066fb24a67d2a",
+    "reasons": [
+      "public scientific protocol; private instruction, approval, reservation, ownership and deadline content omitted"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/audit_development24.py",
+    "source_sha256": "339d39ef58bafe4f7f488cd7976f6abc09380b5d39592e67b6602df1635a7ee9",
+    "public_sha256": "667bae4f9eb818acd67e022e7413b61e0faf86e027029d8362bf7c969d5ba4db",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/geometry_development24.py",
+    "source_sha256": "613b4be4230ac6f105366f30ca300f53b445c4eaea19c47794460db4655f8e84",
+    "public_sha256": "64ee5be5afe1e5da2840fe53e3fac062b223e4e192bfa6b66d21df5f7ad610a8",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/geometry_batch_worker.py",
+    "source_sha256": "37ec063b75b75b387d6fa17904fb4a05f9dede3b0009dce726b73f942e2b070f",
+    "public_sha256": "a80bf358415253ca4d687be433b6f94fc90b50d6a66925b2984cb4330d44d19b",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/score_contact_development.py",
+    "source_sha256": "d7b551adbda1bc01b93bc816e386a3e21c98ddd59d82887696bc0d067848675f",
+    "public_sha256": "a186762fb378354b9109f07549072c88b82b196cec21a7532aa03a6f29e6b0cd",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/score_development24.py",
+    "source_sha256": "c584496d9c772cdb1d8fc4d1722783a0f074e74d00f3eff4c2b98e18e024c0f9",
+    "public_sha256": "e7dd900e81f91fa596ea1d7074cb86487322dc0a57cd8bb92a8961f68ae90dab",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "results/25-11-42-wmpai-vasi-contact-development1/score-command.json",
+    "source_sha256": "a115c9fc8e526987ef6b41a1e93e483b42e5f530d3eaceffbfe688f44f2f3dd8",
+    "public_sha256": "64383151831c958ad2b5dbac03f4d0dc867fc94cf698e97b315b364241644018",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-00-wmpai-vasi-development24-complete/attempts/scoring-1-memory-error/failure.json",
+    "source_sha256": "1fd08a3bf27a08afbb5592717199dc15c08a5836f76f8b3440f3578c1228079a",
+    "public_sha256": "678bb5ed7629520b51982e1f99037d2b37bac94ea3d1f9b2970265e62eaf172a",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-00-wmpai-vasi-development24-complete/external-artifacts.json",
+    "source_sha256": "59e15271686b94ed1d70ead2f6388a5307061104b679a9c951a625b777cfaafa",
+    "public_sha256": "6b4830d33c93379d91be9caf665cde7d4a2754c08115b1de95cf973b33030a36",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-00-wmpai-vasi-development24-complete/provenance.json",
+    "source_sha256": "8dacb72dbb2e8381d646e3bd4b17c0b6d32b7761698921dc6e767d5bb5ecea26",
+    "public_sha256": "2dbb311bec8d4d6c32b0dd24d7eb021d4f86add5a8f00c8622e4cdba03ef9028",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-14-wmpai-vasi-development24-geometry/completed/completion-audit.json",
+    "source_sha256": "1a3e421907380bcb9680ff6fc9572c1d192b98f85254431dc7cb34cbb633cf3e",
+    "public_sha256": "f92f9565773fc46ed39d577f401892b20a5270151cbbc7ecc798cf54f694dcb2",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-14-wmpai-vasi-development24-geometry/completed/provenance.json",
+    "source_sha256": "9eb9b497067dbab505321849cc53f198d0c9bae3ff322cd72d59e521056cf41c",
+    "public_sha256": "197437910e71f7c313c0052ef1b985b0dcd2db40985b39b3fab837faf6a65c7e",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/25-16-14-wmpai-vasi-development24-geometry/geometry-development-v1/provenance.json",
+    "source_sha256": "ce1a2ae45bd94adbbd4c139c78f7a928597d4322f4f9dbccc7f5cae5e5467598",
+    "public_sha256": "f6170ee95739f732483c2fa99e58438e43f6a77cec29e50be86269fa9f12642a",
+    "reasons": [
+      "scientific documentation/metadata scope or historical path-reference adaptation; numeric records unchanged"
+    ]
+  },
+  {
+    "path": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/desktop/export_canonical_controls.py",
+    "source_sha256": "afe1a6be6810a6d18459687ee656ea3e555adf0ab1d7317f0816c0e426699c6b",
+    "public_sha256": "6bb3c1847cfc13e24bdb53b895eb377df5af959223b8f47bc26f927600980096",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/export_canonical_controls.py",
+    "source_sha256": "afe1a6be6810a6d18459687ee656ea3e555adf0ab1d7317f0816c0e426699c6b",
+    "public_sha256": "6bb3c1847cfc13e24bdb53b895eb377df5af959223b8f47bc26f927600980096",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/finalize_vjepa2g_grid_replication.py",
+    "source_sha256": "885b7d4b1f79b5fea544e964003f585eaa12575199980ac896668a3b139c7759",
+    "public_sha256": "5fe236edd8baa0e15be4cd370c8381e54862ead7e8dd94901404e026afa956a0",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/run_dinowm_pusht_native_error_audit.py",
+    "source_sha256": "9155629712fb4bdac180ee1fd509f361cc5c04ae8f00a6bcedb3fd0054f4d170",
+    "public_sha256": "1dc3f0cdc3430bda0cc6c87d3b832b3caf0edd35bb5674e0edac710a40e868a0",
+    "reasons": [
+      "documentation-only path reference normalization"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/export_lewm_actions.py",
+    "source_sha256": "401c5d931870d8997ec9d08f262a59d380d11754baac9fc63dc44517cebff4e7",
+    "public_sha256": "0a8ee1b2f26fd6995da85ec8267b8bbda725669b632794435aae02a599b26d1b",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  },
+  {
+    "path": "scripts/wmpai2026/vasi/spark_renderer_qualification/renderer_path_adapter.py",
+    "source_sha256": "cafba0b2a58e83a152bac2d77836f24b0124b418100b487849945ce35c009346",
+    "public_sha256": "3aa8305e8b66f236158d19e43504f2fffbdc9cab11d24c1af834e84b6725a4b6",
+    "reasons": [
+      "role-scoped external paths restored from original literals"
+    ]
+  }
+]

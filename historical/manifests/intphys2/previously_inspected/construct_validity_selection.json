@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "dataset": "IntPhys2",
+  "split": "Main",
+  "metadata": "<intphys2-root>/Main/metadata.csv",
+  "selection": "proportional largest-remainder allocation, then seeded SHA-256 ordering within strata",
+  "stratum_fields": [
+    "condition",
+    "Difficulty",
+    "Camera"
+  ],
+  "seed": "intphys2-construct-validity-main-v1",
+  "fraction": null,
+  "requested_pairs": 24,
+  "available_pairs_total": 506,
+  "exclude_manifests": [
+    "manifests/intphys2/previously_inspected/appearance_endpoint_selection.json"
+  ],
+  "excluded_pairs": 169,
+  "available_pairs": 337,
+  "selected_pairs": 24,
+  "selected_videos": 48,
+  "selected_names": [
+    "06a0a4f3030d0a0d5fb28ecbcee951d4ff8c0b4bd54ed6cc437c6f14bb99e368",
+    "0cb5a846235b93dd694a6a67c5eb4c0d1fb6cc25ecd7fe31737d833d56f9a69d",
+    "160eee5989917d2283438fbe51583dc83906642229dfcb5ae04c26720dc19d6b",
+    "1de453b66101a0e7759445bf16020b97ec09c8ddd533bdccaab6bfbdadc176ce",
+    "275a7f2cae3119832f5a19357e5da63481e7e8ac5dc1a4decc358567fa8f56d7",
+    "36530927e8fce5b792c7341d08989073f97b0517f4122abc5cd035393e62864c",
+    "3d40834164835d954346b4f9c02eacb202f1ff996b394d7cb2d11657c5888988",
+    "3eda4eba7bdb2c382ef9c8d56a2c40e023409c4fa03b8a9a24b119bd45028799",
+    "3f0c9e69a1829e4cd7311103c6ce6cf29d1f5128d0078de94af616f7d9c921ac",
+    "4b2779c2649b64094af506b8783525387c2f7cd52dd8f5974330500866a5045e",
+    "4f2802dd6166a29edc69c65acf21bdb58750d647f57cbcb68061d404e429edcb",
+    "5128118325df717cc9999eb28a6847b42566f8414f544232c02fdc0cd61234c0",
+    "53417ee762b5b4b8e4b9bb719d8cf302d9c370bcce01559b0de24c4f2bfd38c3",
+    "56d63802e768a1a7a2a2f60596d61668170662b5a0da1ef1b627998a0bcbb954",
+    "5dcb6b4a72cc150e092bf7c7eced7e8f053a32f361ac7a4b5e0ab6ad989cbef9",
+    "6115c30b7e0e332ab2bf315bc0d880e6f9cb8cf104c45e8355dd46880141237c",
+    "66a6de26327fe7661ac4fec04da96d0710d2177afad8babdc0dd27e71b19db1e",
+    "69558fc766fe2d185e54f54a5853516ac139d7e99bbe245292894426c009ff49",
+    "72486cc8d44ec503aac6c7613a8b3af26c34e2aad43ebe0aa677b3cb4faad4ca",
+    "730f9737891b34f8e3cd2283bd2da45814f7a9e78fe08a62e531c8f1ae80d6da",
+    "7a57d6f32184a924b3e0206f8ea4bd4e1dcdc6c75dd3d813d4844ae8e107ac04",
+    "81b5789582502b0fb3437abe875dc19b2097c9ab8f57124466e8b1c2ab913e3b",
+    "86feb4b114518f4561cea3ee55f209d284a279802481365275c53c8bea6c2bbf",
+    "8b8871fd4059c109fa8ddae899a3d04aac1a6c78704e162fde7ae35df2a7b0ec",
+    "8e2d98ffd205748420b5339d06d18e482f015d919afdc25303027933f0e0dcc6",
+    "8e68ddcdc086486d6fabf55819747dd2632e50ee241e6d485c11c3a11ae4fd81",
+    "9330d38bba5d56872445096d0136faf1ab854f3c4bdc4ad8dcf43f58dee3f4d4",
+    "95c95fc75e77a00a2a064f906fb3c394674201614690b5d1848d6dacd629223e",
+    "9fc4e0153981cdd25045f76b6bf678eebed781aaa7dee85cf6a2a828936c7ee0",
+    "a725ea8ee8de0e81c1bb5f602c1fd1f9ddabd8b5812ee535c4b7cee089d5b291",
+    "aab18ebda722b8ee99e06648f067f604e49f4907558b6cf96ecf42a1776ab06a",
+    "b584436476e889e7ca35c2b7cd6204b6da4f1cbd598bf8b2e78defc2e422e243",
+    "b6d4c06d5067698cd59f308f339050fb34085da6362e77a6f930733fc5cf3421",
+    "cda41e6c6115187088345cabb591fe5e56273fccbfbaa09dcbb971069a51d32d",
+    "d022c791e9f8c8a5ecb6e021eb3518bdf4ccb16764526ca803550a8ad7155d67",
+    "d1d4bf4ce25462a7371994c6bb9cb542531acbd019aa208a13d100b8edc633ea",
+    "d2169a414305b19a6c9529b625c5884baf88788edd7afcc58de02596984e992e",
+    "d887d956625461ca8f0da8afe47f1692062cc8983027c572c38735a82942abd5",
+    "df9dfe5a1b72daddb291cce52814f5823288a67fd72ee000ec726809c1aba216",
+    "e20778396be1ddb9774fc6da2e6c8c84c14203441cb7a353e35ee4b9fd059365",
+    "e45c92c15d9be8600ff81d5f3a10a6187a5b19a0630a597c2ded976c6f8f2aaf",
+    "ea635800c1ac384c9d7bdbda01b791aecefe9a4792d8012face50e0753101e52",
+    "eed2f30f553bdad08b306ee4bca21de344f26eaee024dee288894c068d7a6b48",
+    "ef4e7e694353a882259b032f631cbe77ab82a1b94378c6f9b1e4377ed172322f",
+    "ef82b3c0977bb3c88ea1ca06e2ae8bc8aa67e4d13f8e572341c6dd303c0e88c1",
+    "f70d0ff22d6271025f61209914df43064f1895d9a7c6f73e030386bf74623913",
+    "f8279f4ac293bd81186bc495d9ab40400e7d3e2018b4f4d1c32f3d525e3ecd88",
+    "faf319d2cd35930c715722f19effd16e7d98f162d154a799358e6a4298f24926"
+  ],
+  "strata": [
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 15,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 16,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 13,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 15,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 16,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 13,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 12,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 15,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 16,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 0
+    },
+    {
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 13,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 4,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      },
+      "available_pairs": 7,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 15,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      },
+      "available_pairs": 25,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      },
+      "available_pairs": 16,
+      "selected_pairs": 1
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      },
+      "available_pairs": 25,
+      "selected_pairs": 2
+    },
+    {
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      },
+      "available_pairs": 5,
+      "selected_pairs": 1
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "0/2",
+      "SceneIndex": 0,
+      "member": "2",
+      "names": [
+        "4b2779c2649b64094af506b8783525387c2f7cd52dd8f5974330500866a5045e",
+        "66a6de26327fe7661ac4fec04da96d0710d2177afad8babdc0dd27e71b19db1e"
+      ],
+      "filenames": [
+        "Videos/4b2779c2649b64094af506b8783525387c2f7cd52dd8f5974330500866a5045e.mp4",
+        "Videos/66a6de26327fe7661ac4fec04da96d0710d2177afad8babdc0dd27e71b19db1e.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "102/1",
+      "SceneIndex": 102,
+      "member": "1",
+      "names": [
+        "81b5789582502b0fb3437abe875dc19b2097c9ab8f57124466e8b1c2ab913e3b",
+        "f8279f4ac293bd81186bc495d9ab40400e7d3e2018b4f4d1c32f3d525e3ecd88"
+      ],
+      "filenames": [
+        "Videos/81b5789582502b0fb3437abe875dc19b2097c9ab8f57124466e8b1c2ab913e3b.mp4",
+        "Videos/f8279f4ac293bd81186bc495d9ab40400e7d3e2018b4f4d1c32f3d525e3ecd88.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "106/1",
+      "SceneIndex": 106,
+      "member": "1",
+      "names": [
+        "56d63802e768a1a7a2a2f60596d61668170662b5a0da1ef1b627998a0bcbb954",
+        "8e68ddcdc086486d6fabf55819747dd2632e50ee241e6d485c11c3a11ae4fd81"
+      ],
+      "filenames": [
+        "Videos/56d63802e768a1a7a2a2f60596d61668170662b5a0da1ef1b627998a0bcbb954.mp4",
+        "Videos/8e68ddcdc086486d6fabf55819747dd2632e50ee241e6d485c11c3a11ae4fd81.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "121/2",
+      "SceneIndex": 121,
+      "member": "2",
+      "names": [
+        "5128118325df717cc9999eb28a6847b42566f8414f544232c02fdc0cd61234c0",
+        "8b8871fd4059c109fa8ddae899a3d04aac1a6c78704e162fde7ae35df2a7b0ec"
+      ],
+      "filenames": [
+        "Videos/5128118325df717cc9999eb28a6847b42566f8414f544232c02fdc0cd61234c0.mp4",
+        "Videos/8b8871fd4059c109fa8ddae899a3d04aac1a6c78704e162fde7ae35df2a7b0ec.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "132/1",
+      "SceneIndex": 132,
+      "member": "1",
+      "names": [
+        "8e2d98ffd205748420b5339d06d18e482f015d919afdc25303027933f0e0dcc6",
+        "d1d4bf4ce25462a7371994c6bb9cb542531acbd019aa208a13d100b8edc633ea"
+      ],
+      "filenames": [
+        "Videos/8e2d98ffd205748420b5339d06d18e482f015d919afdc25303027933f0e0dcc6.mp4",
+        "Videos/d1d4bf4ce25462a7371994c6bb9cb542531acbd019aa208a13d100b8edc633ea.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "133/2",
+      "SceneIndex": 133,
+      "member": "2",
+      "names": [
+        "3f0c9e69a1829e4cd7311103c6ce6cf29d1f5128d0078de94af616f7d9c921ac",
+        "d2169a414305b19a6c9529b625c5884baf88788edd7afcc58de02596984e992e"
+      ],
+      "filenames": [
+        "Videos/3f0c9e69a1829e4cd7311103c6ce6cf29d1f5128d0078de94af616f7d9c921ac.mp4",
+        "Videos/d2169a414305b19a6c9529b625c5884baf88788edd7afcc58de02596984e992e.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "145/1",
+      "SceneIndex": 145,
+      "member": "1",
+      "names": [
+        "06a0a4f3030d0a0d5fb28ecbcee951d4ff8c0b4bd54ed6cc437c6f14bb99e368",
+        "faf319d2cd35930c715722f19effd16e7d98f162d154a799358e6a4298f24926"
+      ],
+      "filenames": [
+        "Videos/06a0a4f3030d0a0d5fb28ecbcee951d4ff8c0b4bd54ed6cc437c6f14bb99e368.mp4",
+        "Videos/faf319d2cd35930c715722f19effd16e7d98f162d154a799358e6a4298f24926.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "152/2",
+      "SceneIndex": 152,
+      "member": "2",
+      "names": [
+        "3eda4eba7bdb2c382ef9c8d56a2c40e023409c4fa03b8a9a24b119bd45028799",
+        "f70d0ff22d6271025f61209914df43064f1895d9a7c6f73e030386bf74623913"
+      ],
+      "filenames": [
+        "Videos/3eda4eba7bdb2c382ef9c8d56a2c40e023409c4fa03b8a9a24b119bd45028799.mp4",
+        "Videos/f70d0ff22d6271025f61209914df43064f1895d9a7c6f73e030386bf74623913.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "165/2",
+      "SceneIndex": 165,
+      "member": "2",
+      "names": [
+        "730f9737891b34f8e3cd2283bd2da45814f7a9e78fe08a62e531c8f1ae80d6da",
+        "ef4e7e694353a882259b032f631cbe77ab82a1b94378c6f9b1e4377ed172322f"
+      ],
+      "filenames": [
+        "Videos/730f9737891b34f8e3cd2283bd2da45814f7a9e78fe08a62e531c8f1ae80d6da.mp4",
+        "Videos/ef4e7e694353a882259b032f631cbe77ab82a1b94378c6f9b1e4377ed172322f.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "169/2",
+      "SceneIndex": 169,
+      "member": "2",
+      "names": [
+        "d022c791e9f8c8a5ecb6e021eb3518bdf4ccb16764526ca803550a8ad7155d67",
+        "d887d956625461ca8f0da8afe47f1692062cc8983027c572c38735a82942abd5"
+      ],
+      "filenames": [
+        "Videos/d022c791e9f8c8a5ecb6e021eb3518bdf4ccb16764526ca803550a8ad7155d67.mp4",
+        "Videos/d887d956625461ca8f0da8afe47f1692062cc8983027c572c38735a82942abd5.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "184/1",
+      "SceneIndex": 184,
+      "member": "1",
+      "names": [
+        "95c95fc75e77a00a2a064f906fb3c394674201614690b5d1848d6dacd629223e",
+        "b6d4c06d5067698cd59f308f339050fb34085da6362e77a6f930733fc5cf3421"
+      ],
+      "filenames": [
+        "Videos/95c95fc75e77a00a2a064f906fb3c394674201614690b5d1848d6dacd629223e.mp4",
+        "Videos/b6d4c06d5067698cd59f308f339050fb34085da6362e77a6f930733fc5cf3421.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "196/2",
+      "SceneIndex": 196,
+      "member": "2",
+      "names": [
+        "3d40834164835d954346b4f9c02eacb202f1ff996b394d7cb2d11657c5888988",
+        "9330d38bba5d56872445096d0136faf1ab854f3c4bdc4ad8dcf43f58dee3f4d4"
+      ],
+      "filenames": [
+        "Videos/3d40834164835d954346b4f9c02eacb202f1ff996b394d7cb2d11657c5888988.mp4",
+        "Videos/9330d38bba5d56872445096d0136faf1ab854f3c4bdc4ad8dcf43f58dee3f4d4.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "210/1",
+      "SceneIndex": 210,
+      "member": "1",
+      "names": [
+        "5dcb6b4a72cc150e092bf7c7eced7e8f053a32f361ac7a4b5e0ab6ad989cbef9",
+        "eed2f30f553bdad08b306ee4bca21de344f26eaee024dee288894c068d7a6b48"
+      ],
+      "filenames": [
+        "Videos/5dcb6b4a72cc150e092bf7c7eced7e8f053a32f361ac7a4b5e0ab6ad989cbef9.mp4",
+        "Videos/eed2f30f553bdad08b306ee4bca21de344f26eaee024dee288894c068d7a6b48.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "215_1/1",
+      "SceneIndex": 2151,
+      "member": "1",
+      "names": [
+        "e20778396be1ddb9774fc6da2e6c8c84c14203441cb7a353e35ee4b9fd059365",
+        "ef82b3c0977bb3c88ea1ca06e2ae8bc8aa67e4d13f8e572341c6dd303c0e88c1"
+      ],
+      "filenames": [
+        "Videos/e20778396be1ddb9774fc6da2e6c8c84c14203441cb7a353e35ee4b9fd059365.mp4",
+        "Videos/ef82b3c0977bb3c88ea1ca06e2ae8bc8aa67e4d13f8e572341c6dd303c0e88c1.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "216_1/2",
+      "SceneIndex": 2161,
+      "member": "2",
+      "names": [
+        "0cb5a846235b93dd694a6a67c5eb4c0d1fb6cc25ecd7fe31737d833d56f9a69d",
+        "9fc4e0153981cdd25045f76b6bf678eebed781aaa7dee85cf6a2a828936c7ee0"
+      ],
+      "filenames": [
+        "Videos/0cb5a846235b93dd694a6a67c5eb4c0d1fb6cc25ecd7fe31737d833d56f9a69d.mp4",
+        "Videos/9fc4e0153981cdd25045f76b6bf678eebed781aaa7dee85cf6a2a828936c7ee0.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Unknown",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "217/2",
+      "SceneIndex": 217,
+      "member": "2",
+      "names": [
+        "a725ea8ee8de0e81c1bb5f602c1fd1f9ddabd8b5812ee535c4b7cee089d5b291",
+        "aab18ebda722b8ee99e06648f067f604e49f4907558b6cf96ecf42a1776ab06a"
+      ],
+      "filenames": [
+        "Videos/a725ea8ee8de0e81c1bb5f602c1fd1f9ddabd8b5812ee535c4b7cee089d5b291.mp4",
+        "Videos/aab18ebda722b8ee99e06648f067f604e49f4907558b6cf96ecf42a1776ab06a.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "233/1",
+      "SceneIndex": 233,
+      "member": "1",
+      "names": [
+        "160eee5989917d2283438fbe51583dc83906642229dfcb5ae04c26720dc19d6b",
+        "ea635800c1ac384c9d7bdbda01b791aecefe9a4792d8012face50e0753101e52"
+      ],
+      "filenames": [
+        "Videos/160eee5989917d2283438fbe51583dc83906642229dfcb5ae04c26720dc19d6b.mp4",
+        "Videos/ea635800c1ac384c9d7bdbda01b791aecefe9a4792d8012face50e0753101e52.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Hard",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "31/1",
+      "SceneIndex": 31,
+      "member": "1",
+      "names": [
+        "4f2802dd6166a29edc69c65acf21bdb58750d647f57cbcb68061d404e429edcb",
+        "b584436476e889e7ca35c2b7cd6204b6da4f1cbd598bf8b2e78defc2e422e243"
+      ],
+      "filenames": [
+        "Videos/4f2802dd6166a29edc69c65acf21bdb58750d647f57cbcb68061d404e429edcb.mp4",
+        "Videos/b584436476e889e7ca35c2b7cd6204b6da4f1cbd598bf8b2e78defc2e422e243.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Fixed"
+      }
+    },
+    {
+      "pair_id": "34/2",
+      "SceneIndex": 34,
+      "member": "2",
+      "names": [
+        "275a7f2cae3119832f5a19357e5da63481e7e8ac5dc1a4decc358567fa8f56d7",
+        "7a57d6f32184a924b3e0206f8ea4bd4e1dcdc6c75dd3d813d4844ae8e107ac04"
+      ],
+      "filenames": [
+        "Videos/275a7f2cae3119832f5a19357e5da63481e7e8ac5dc1a4decc358567fa8f56d7.mp4",
+        "Videos/7a57d6f32184a924b3e0206f8ea4bd4e1dcdc6c75dd3d813d4844ae8e107ac04.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "41/2",
+      "SceneIndex": 41,
+      "member": "2",
+      "names": [
+        "1de453b66101a0e7759445bf16020b97ec09c8ddd533bdccaab6bfbdadc176ce",
+        "e45c92c15d9be8600ff81d5f3a10a6187a5b19a0630a597c2ded976c6f8f2aaf"
+      ],
+      "filenames": [
+        "Videos/1de453b66101a0e7759445bf16020b97ec09c8ddd533bdccaab6bfbdadc176ce.mp4",
+        "Videos/e45c92c15d9be8600ff81d5f3a10a6187a5b19a0630a597c2ded976c6f8f2aaf.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "5/1",
+      "SceneIndex": 5,
+      "member": "1",
+      "names": [
+        "53417ee762b5b4b8e4b9bb719d8cf302d9c370bcce01559b0de24c4f2bfd38c3",
+        "69558fc766fe2d185e54f54a5853516ac139d7e99bbe245292894426c009ff49"
+      ],
+      "filenames": [
+        "Videos/53417ee762b5b4b8e4b9bb719d8cf302d9c370bcce01559b0de24c4f2bfd38c3.mp4",
+        "Videos/69558fc766fe2d185e54f54a5853516ac139d7e99bbe245292894426c009ff49.mp4"
+      ],
+      "stratum": {
+        "condition": "solidity",
+        "Difficulty": "Easy",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "82/1",
+      "SceneIndex": 82,
+      "member": "1",
+      "names": [
+        "6115c30b7e0e332ab2bf315bc0d880e6f9cb8cf104c45e8355dd46880141237c",
+        "86feb4b114518f4561cea3ee55f209d284a279802481365275c53c8bea6c2bbf"
+      ],
+      "filenames": [
+        "Videos/6115c30b7e0e332ab2bf315bc0d880e6f9cb8cf104c45e8355dd46880141237c.mp4",
+        "Videos/86feb4b114518f4561cea3ee55f209d284a279802481365275c53c8bea6c2bbf.mp4"
+      ],
+      "stratum": {
+        "condition": "permanence",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "87/2",
+      "SceneIndex": 87,
+      "member": "2",
+      "names": [
+        "36530927e8fce5b792c7341d08989073f97b0517f4122abc5cd035393e62864c",
+        "72486cc8d44ec503aac6c7613a8b3af26c34e2aad43ebe0aa677b3cb4faad4ca"
+      ],
+      "filenames": [
+        "Videos/36530927e8fce5b792c7341d08989073f97b0517f4122abc5cd035393e62864c.mp4",
+        "Videos/72486cc8d44ec503aac6c7613a8b3af26c34e2aad43ebe0aa677b3cb4faad4ca.mp4"
+      ],
+      "stratum": {
+        "condition": "immutability",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    },
+    {
+      "pair_id": "90/2",
+      "SceneIndex": 90,
+      "member": "2",
+      "names": [
+        "cda41e6c6115187088345cabb591fe5e56273fccbfbaa09dcbb971069a51d32d",
+        "df9dfe5a1b72daddb291cce52814f5823288a67fd72ee000ec726809c1aba216"
+      ],
+      "filenames": [
+        "Videos/cda41e6c6115187088345cabb591fe5e56273fccbfbaa09dcbb971069a51d32d.mp4",
+        "Videos/df9dfe5a1b72daddb291cce52814f5823288a67fd72ee000ec726809c1aba216.mp4"
+      ],
+      "stratum": {
+        "condition": "continuity",
+        "Difficulty": "Medium",
+        "Camera": "Moving"
+      }
+    }
+  ],
+  "pair_preserving_smoke_limit": null
+}

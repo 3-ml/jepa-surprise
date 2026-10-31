@@ -1,0 +1,4 @@
+{
+  "error": "CalledProcessError(1, ['external-record/8c870b775348/python.exe', '-u', '${JEPA_PUBLIC_PROJECT}\\\\scripts\\\\wmpai2026\\\\vasi\\\\score_development24.py', '--root', '${JEPA_VASI_WORKSPACE}\\\\development24-v2'])",
+  "at": "2026-10-25T14:06:05.856843+02:00"
+}

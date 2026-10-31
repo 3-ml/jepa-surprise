@@ -1,0 +1,1252 @@
+[
+  {
+    "record": "02-12-34-dinowm-pusht-controlled-displacement-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "03-15-03-jepa-wm-pusht-controlled-displacement-exploratory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "18-15-29-public-vjepa-h-o1-smoke",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "18-15-33-public-vjepa-h-clean",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "18-20-32-physionpp-mass-debug20-vjepa2",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "18-20-39-physionpp-mass-full-vjepa2",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "19-12-04-appearance-interventions-pilot",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "19-21-01-intphys-appearance-vjepa-h",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-10-23-intphys-appearance-o1-full-vjepa-h",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-10-48-appearance-interventions-o1-full",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-11-20-overnight-control-record",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-11-26-appearance-interventions-o2-full",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-11-53-intphys-appearance-o2-full-vjepa-h",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-13-45-appearance-interventions-o3-full",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-16-04-intphys-appearance-o3-full-vjepa-h",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-17-12-appearance-interventions-o2-harder-full",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-18-00-intphys-appearance-paired-analysis",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-20-50-vjepa2-g-feasibility-smokes",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-21-10-physionpp-material-mass-ball-pilot",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-21-35-intphys-margin-diagnostics",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "20-22-47-intphys-surprise-window-signal-audit",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-08-10-intphys2-appearance-matrix-partial",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-08-30-intphys2-main-one-third-endpoints-vjepa2-g",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-15-13-local-vjepa2-l-section-surprise",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-15-27-vjepa2-l-segment64-overlay",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-16-17-vjepa2-l-segment16-overlay",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-16-40-segment11-pixel-diff",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-16-50-segment11-static-baseline",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "21-17-30-ten-video-static-surprise-audit",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-17-42-physionpp-mass-collision-material-full",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-19-03-intphys2-endpoint-analysis-gate",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-20-00-physionpp-mask-audited-same-source-oracle",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-20-13-vjepa2g-construct-validity-main",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-12-vjepa2g-workshop-static-calibration",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-14-vjepa2-layer-extraction-pilot",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-48-lewm-tworoom-prediction-error-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-51-lewm-tworoom-prediction-error-pilot32-v2",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-52-appearance-dynamics-counterfactual-audit",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "22-23-57-lewm-pusht-prediction-error-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-06-lewm-tworoom-prediction-error-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-10-lewm-pusht-prediction-error-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-22-lewm-pusht-role-color-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-26-lewm-pusht-role-color-matched-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-29-lewm-pusht-role-color-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-35-lewm-pusht-role-color-decomposition256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-44-lewm-tworoom-controlled-displacement-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-46-lewm-tworoom-controlled-displacement-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-54-lewm-pusht-controlled-displacement-pilot32",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-00-58-lewm-pusht-controlled-displacement-confirmatory256",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-01-48-kubric-movia-render-timing48",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-02-31-kubric-a40-render-timing-determinism",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-05-00-vjepa2g-kubric-construct-validity-pilot8",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-10-14-vjepa2l-physionpp-material-layerwise-probes",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-12-34-vjepa2g-local-kdrive-layerwise-smoke3",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-12-40-vjepa2g-local-kdrive-layerwise-probe-smoke8",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-14-02-vjepa2g-workshop-layerwise-full24-local",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-14-25-vjepa2g-workshop-layerwise-probes-full24-local",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-14-44-intphys2-two-model-debug-runtime-smoke",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-15-55-intphys2-two-model-debug-extraction",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-16-17-vjepa2g-layerwise-connection-static-sensitivity",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-17-01-intphys2-two-model-development-extraction",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "23-22-48-intphys2-corrected-union-split-lock",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "24-00-06-intphys2-corrected-development-extraction",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "24-00-17-intphys2-corrected-development-probes",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "24-01-50-intphys2-corrected-sealed-test",
+    "files": [
+      "historical/README.md",
+      "historical/results/README.md",
+      "historical/archive_manifest.json"
+    ],
+    "status": "historical evidence, not a new WMPAI result",
+    "limitation": "Historical study coverage is curated rather than a one-to-one dated-directory copy; preliminary attempts/overlays and superseded probes are not independent results. Uncurated files are excluded."
+  },
+  {
+    "record": "24-11-41-wmpai-alex-a1-intphys2-paired-margins",
+    "files": [
+      "results/24-11-41-wmpai-alex-a1-intphys2-paired-margins/README.md",
+      "results/24-11-41-wmpai-alex-a1-intphys2-paired-margins/a1_summary.json",
+      "results/24-11-41-wmpai-alex-a1-intphys2-paired-margins/per_pair_scores.csv"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-12-27-wmpai-alex-a3a4-pilot8-exploratory",
+    "files": [
+      "results/24-12-27-wmpai-alex-a3a4-pilot8-exploratory/merged_pilot_table.csv",
+      "results/24-12-27-wmpai-alex-a3a4-pilot8-exploratory/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-12-28-wmpai-alex-a3a4-pilot8-exploratory-v2",
+    "files": [
+      "results/24-12-28-wmpai-alex-a3a4-pilot8-exploratory-v2/README.md",
+      "results/24-12-28-wmpai-alex-a3a4-pilot8-exploratory-v2/merged_pilot_table.csv",
+      "results/24-12-28-wmpai-alex-a3a4-pilot8-exploratory-v2/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-12-36-wmpai-alex-a4-intphys2-shortcut-baselines",
+    "files": [
+      "results/24-12-36-wmpai-alex-a4-intphys2-shortcut-baselines/README.md",
+      "results/24-12-36-wmpai-alex-a4-intphys2-shortcut-baselines/per_pair_features.csv",
+      "results/24-12-36-wmpai-alex-a4-intphys2-shortcut-baselines/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-13-57-wmpai-alex-a4-pilot8-frame-baselines",
+    "files": [
+      "results/24-13-57-wmpai-alex-a4-pilot8-frame-baselines/README.md",
+      "results/24-13-57-wmpai-alex-a4-pilot8-frame-baselines/frame_features_vs_score.csv",
+      "results/24-13-57-wmpai-alex-a4-pilot8-frame-baselines/frame_hash_verification.json",
+      "results/24-13-57-wmpai-alex-a4-pilot8-frame-baselines/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-14-39-wmpai-vasi-v1-desktop-preflight",
+    "files": [],
+    "status": "engineering/preliminary record excluded, not a completed scientific result",
+    "limitation": "No raw operational log or private handoff exported; relevant completed studies have separate records."
+  },
+  {
+    "record": "24-18-53-wmpai-alex-gpu4gb-offload-parity",
+    "files": [
+      "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/README.md",
+      "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/batch_benchmark.json",
+      "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/parity.json",
+      "results/24-18-53-wmpai-alex-gpu4gb-offload-parity/shard_index.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-18-55-wmpai-alex-a2-multifamily16-variance-proxy",
+    "files": [
+      "results/24-18-55-wmpai-alex-a2-multifamily16-variance-proxy/README.md",
+      "results/24-18-55-wmpai-alex-a2-multifamily16-variance-proxy/scene_contrasts.csv",
+      "results/24-18-55-wmpai-alex-a2-multifamily16-variance-proxy/variance_and_precision.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-19-09-wmpai-alex-a3-pilot8-real-features",
+    "files": [
+      "results/24-19-09-wmpai-alex-a3-pilot8-real-features/README.md",
+      "results/24-19-09-wmpai-alex-a3-pilot8-real-features/feature_index.csv",
+      "results/24-19-09-wmpai-alex-a3-pilot8-real-features/feature_meta.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-19-16-wmpai-alex-a3-multifamily16-real-features",
+    "files": [
+      "results/24-19-16-wmpai-alex-a3-multifamily16-real-features/README.md",
+      "results/24-19-16-wmpai-alex-a3-multifamily16-real-features/feature_index.csv",
+      "results/24-19-16-wmpai-alex-a3-multifamily16-real-features/feature_meta.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-19-16-wmpai-alex-a3-pilot8-geometry-vs-error",
+    "files": [
+      "results/24-19-16-wmpai-alex-a3-pilot8-geometry-vs-error/README.md",
+      "results/24-19-16-wmpai-alex-a3-pilot8-geometry-vs-error/displacement_vs_response.csv",
+      "results/24-19-16-wmpai-alex-a3-pilot8-geometry-vs-error/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-19-18-wmpai-alex-a4-multifamily16-frame-baselines",
+    "files": [
+      "results/24-19-18-wmpai-alex-a4-multifamily16-frame-baselines/README.md",
+      "results/24-19-18-wmpai-alex-a4-multifamily16-frame-baselines/frame_features_vs_response.csv",
+      "results/24-19-18-wmpai-alex-a4-multifamily16-frame-baselines/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-19-26-wmpai-alex-a3-multifamily16-geometry-vs-error",
+    "files": [
+      "results/24-19-26-wmpai-alex-a3-multifamily16-geometry-vs-error/README.md",
+      "results/24-19-26-wmpai-alex-a3-multifamily16-geometry-vs-error/displacement_vs_response.csv",
+      "results/24-19-26-wmpai-alex-a3-multifamily16-geometry-vs-error/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "24-20-38-wmpai-vasi-v1-disk-offload-regression",
+    "files": [],
+    "status": "engineering/preliminary record excluded, not a completed scientific result",
+    "limitation": "No raw operational log or private handoff exported; relevant completed studies have separate records."
+  },
+  {
+    "record": "25-11-11-wmpai-vasi-local-development-renderer-blocked",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-11-24-wmpai-vasi-wsl-renderer-smoke",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-11-42-wmpai-vasi-contact-development1",
+    "files": [
+      "results/25-11-42-wmpai-vasi-contact-development1/config.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/control-original-source-frame-map.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/controls.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__control__target_hold.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__control__target_shuffle.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__control__zero_intervention_repeat.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__inconsistent__abrupt_event.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__inconsistent__clean.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__inconsistent__persistent_hue.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__lawful__abrupt_event.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__lawful__clean.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/dev-contact-0001__lawful__persistent_hue.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/external-artifacts-sha256.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/manifest.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/pre-score-review.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/provenance.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/score-command.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/scores.csv",
+      "results/25-11-42-wmpai-vasi-contact-development1/state-audit.json",
+      "results/25-11-42-wmpai-vasi-contact-development1/summary.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "25-12-36-wmpai-vasi-development24",
+    "files": [
+      "results/25-16-00-wmpai-vasi-development24-complete"
+    ],
+    "status": "preliminary crossed-design development, superseded by completion",
+    "limitation": "Development is not fresh confirmatory evidence."
+  },
+  {
+    "record": "25-16-00-wmpai-vasi-development24-complete",
+    "files": [
+      "results/25-16-00-wmpai-vasi-development24-complete/analysis/scene-margins.csv",
+      "results/25-16-00-wmpai-vasi-development24-complete/analysis/summary.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/attempts/scoring-1-memory-error/failure.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/attempts/scoring-1-memory-error/scores/provenance.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/completion-audit-v2/audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/completion-audit-v2/clip-checks.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/completion-audit-v2/context-roundoff.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/completion-audit-v2/control-original-source-frame-map.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/completion-audit-v2/crossed-state-checks.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/configs.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-001/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-001/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-001/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-002/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-002/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-002/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-003/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-003/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-003/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-004/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-004/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-004/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-005/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-005/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-005/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-006/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-006/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-006/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-007/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-007/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-007/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-008/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-008/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-008/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-009/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-009/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-009/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-010/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-010/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-010/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-011/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-011/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-011/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-012/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-012/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-012/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-013/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-013/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-013/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-014/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-014/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-014/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-015/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-015/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-015/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-016/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-016/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-016/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-017/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-017/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-017/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-018/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-018/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-018/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-019/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-019/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-019/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-020/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-020/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-020/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-021/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-021/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-021/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-022/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-022/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-022/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-023/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-023/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-023/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-024/cross-world-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-024/gap/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/dev24-024/solid/state-audit.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/external-artifacts.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/followup-planning-v1/development-calibration.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/followup-planning-v1/precision-planning.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/provenance.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/render-seal.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scores/all-scores.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scores/controls.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scores/execution-parity.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scores/missing-scenes.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scores/provenance.json",
+      "results/25-16-00-wmpai-vasi-development24-complete/scoring-retry-record.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "25-16-14-wmpai-vasi-development24-geometry",
+    "files": [
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/appearance-displacements.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/completion-audit.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/feature-index.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/physical-displacements.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/progress.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/provenance.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/completed/summary.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/geometry-development-v1/provenance.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/geometry-development-v2/feature-repeat.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/geometry-development-v2/native-reference-parity.json",
+      "results/25-16-14-wmpai-vasi-development24-geometry/geometry-development-v2/progress.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "25-17-37-wmpai-vasi-final256",
+    "files": [
+      "release/final256"
+    ],
+    "status": "protocol/development stage superseded by completed final256",
+    "limitation": "Completion includes protocol, configurations, threshold and source; orchestration omitted."
+  },
+  {
+    "record": "25-18-00-wmpai-vasi-pusht-spark-preparation",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-18-36-wmpai-vasi-final256-resource-recovery",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-19-50-wmpai-vasi-spark-cpu-setup",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-21-02-wmpai-vasi-spark-gpu-qualification",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-22-03-wmpai-vasi-lewm-action-normalization",
+    "files": [
+      "release/pusht-excluded-partial"
+    ],
+    "status": "engineering normalization check; no new scientific finding",
+    "limitation": "Raw operational preparation omitted; completed historical PushT scientific records remain separate."
+  },
+  {
+    "record": "25-22-26-wmpai-vasi-final256-storage-recovery",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-22-39-wmpai-vasi-spark-portability",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "25-23-04-wmpai-vasi-pusht-matched256",
+    "files": [
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_adapters.py",
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_analyse.py",
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_common.py",
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_inputs.py",
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/matched_score.py",
+      "release/pusht-excluded-partial/pusht-followup/code/matched-v1/test_matched_followup.py",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/dino/controls/observations.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/dino/controls/rows.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/dino/new/observations.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/dino/new/rows.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/execution-amendment-1.json",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/failure.json",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/freeze.json",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/input-seal.json",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/jepa/controls/failure.json",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/jepa/controls/observations.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/jepa/controls/rows.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/lewm/controls/observations.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/lewm/controls/rows.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/lewm/new/observations.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/lewm/new/rows.jsonl",
+      "release/pusht-excluded-partial/pusht-followup/development-matched256-v1/qualified-model-audit.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "26-04-32-wmpai-vasi-wsl-d-relocation",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "26-11-00-wmpai-vasi-spark-renderer-qualification",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "26-16-41-wmpai-vasi-physion-input-audit",
+    "files": [
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/audit_physion_inputs.py",
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/check_physion_preprocessing.py",
+      "results/26-16-41-wmpai-vasi-physion-input-audit/code/test_physion_followups.py"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "26-18-25-wmpai-vasi-physion-canonical-handoff",
+    "files": [
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/desktop/export_canonical_controls.py",
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/export_canonical_controls.py",
+      "results/26-18-25-wmpai-vasi-physion-canonical-handoff/source/prepare_canonical_inputs.py"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "26-21-00-wmpai-vasi-physion-desktop-queue",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "27-19-38-wmpai-vasi-final256-complete",
+    "files": [
+      "release/final256/audit-source/audit_configuration.py",
+      "release/final256/audit-source/audit_final256.py",
+      "release/final256/audit-source/audit_visibility.py",
+      "release/final256/audit-source/independent_statistics.py",
+      "release/final256/audit-source/test_independent_statistics.py",
+      "release/final256/audit/completion-proof.json",
+      "release/final256/audit/configuration-audit.json",
+      "release/final256/audit/environment.json",
+      "release/final256/audit/reconstructed-statistics.json",
+      "release/final256/audit/statistics-audit.json",
+      "release/final256/controls-provenance-inspection.json",
+      "release/final256/figures/primary.csv",
+      "release/final256/figures/threshold-transfer.csv",
+      "release/final256/original/analysis/summary.json",
+      "release/final256/original/configs.json",
+      "release/final256/original/freeze.json",
+      "release/final256/original/frozen-source/scripts/run_intphys2_dense.py",
+      "release/final256/original/frozen-source/scripts/run_vjepa2_kubric_construct_validity.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/alex/a3_a4_lib.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/canonical_development_context.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/disk_offload_vjepa2.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_analyse.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_common.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_input_gate.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_render_worker.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/final256_score.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/score_development24.py",
+      "release/final256/original/frozen-source/scripts/wmpai2026/vasi/stream_vjepa2_checkpoint.py",
+      "release/final256/original/frozen-source/tests/test_wmpai_vasi_final256.py",
+      "release/final256/original/input-gate-manifest.json",
+      "release/final256/original/input-gate.json",
+      "release/final256/original/inspected-registry.json",
+      "release/final256/original/protocol.md",
+      "release/final256/original/render-seal.json",
+      "release/final256/original/scores/all-scores.json",
+      "release/final256/original/scores/controls.json",
+      "release/final256/original/scores/execution-parity.json",
+      "release/final256/original/scores/missing-scenes.json",
+      "release/final256/original/scores/provenance.json",
+      "release/final256/original/threshold.json",
+      "release/final256/upstream-provenance-disposition.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "27-20-37-wmpai-vasi-physion-desktop-qualification",
+    "files": [],
+    "status": "engineering attempt excluded",
+    "limitation": "Operational scheduler/controller, transfer, recovery and qualification logs omitted. Successful scientific completions retain scores and environment; no general cross-device equivalence is claimed."
+  },
+  {
+    "record": "27-23-50-wmpai-vasi-three-study-launch",
+    "files": [
+      "release/physion-static/frozen-source.zip"
+    ],
+    "status": "frozen scientific source included with separate completion records",
+    "limitation": "Launch/controller source excluded."
+  },
+  {
+    "record": "28-01-50-wmpai-vasi-physion-appearance-complete",
+    "files": [
+      "release/physion-appearance/B-complete.json",
+      "release/physion-appearance/B-input-manifest.jsonl",
+      "release/physion-appearance/B-rows.jsonl",
+      "release/physion-appearance/analysis-B/hybrid-decomposition.json",
+      "release/physion-appearance/analysis-B/pair-metrics.json",
+      "release/physion-appearance/analysis-B/summary.json",
+      "release/physion-appearance/analysis-B/video-metrics.json",
+      "release/physion-appearance/freeze.json",
+      "release/physion-appearance/frozen-source.zip/audit_physion_outputs.py",
+      "release/physion-appearance/frozen-source.zip/canonical_codec.py",
+      "release/physion-appearance/frozen-source.zip/canonical_score.py",
+      "release/physion-appearance/frozen-source.zip/cpu_geometry.py",
+      "release/physion-appearance/frozen-source.zip/desktop_runtime.py",
+      "release/physion-appearance/frozen-source.zip/extract_geometry.py",
+      "release/physion-appearance/frozen-source.zip/fit_geometry.py",
+      "release/physion-appearance/frozen-source.zip/freeze.json",
+      "release/physion-appearance/frozen-source.zip/geometry-coefficients.json",
+      "release/physion-appearance/frozen-source.zip/geometry_analysis.py",
+      "release/physion-appearance/frozen-source.zip/physion_common.py",
+      "release/physion-appearance/frozen-source.zip/physion_statistics.py",
+      "release/physion-appearance/frozen-source.zip/population.json",
+      "release/physion-appearance/frozen-source.zip/prepare_physion.py",
+      "release/physion-appearance/frozen-source.zip/protocol.md",
+      "release/physion-appearance/frozen-source.zip/run_physion.py",
+      "release/physion-appearance/frozen-source.zip/study_common.py",
+      "release/physion-appearance/frozen-source.zip/tensor_store.py",
+      "release/physion-appearance/frozen-source.zip/test_followups.py",
+      "release/physion-appearance/input-seal.json",
+      "release/physion-appearance/loading-info.json",
+      "release/physion-appearance/model-runtime.json",
+      "release/physion-appearance/population.json",
+      "release/physion-appearance/protocol.md",
+      "release/physion-appearance/runtime-member-manifest.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "28-03-55-wmpai-vasi-physion-static-complete",
+    "files": [
+      "release/physion-static/A-complete.json",
+      "release/physion-static/A-input-manifest.jsonl",
+      "release/physion-static/A-rows.jsonl",
+      "release/physion-static/analysis-A/pair-metrics.json",
+      "release/physion-static/analysis-A/summary.json",
+      "release/physion-static/analysis-A/video-metrics.json",
+      "release/physion-static/freeze.json",
+      "release/physion-static/frozen-source.zip/audit_physion_outputs.py",
+      "release/physion-static/frozen-source.zip/canonical_codec.py",
+      "release/physion-static/frozen-source.zip/canonical_score.py",
+      "release/physion-static/frozen-source.zip/cpu_geometry.py",
+      "release/physion-static/frozen-source.zip/desktop_runtime.py",
+      "release/physion-static/frozen-source.zip/extract_geometry.py",
+      "release/physion-static/frozen-source.zip/fit_geometry.py",
+      "release/physion-static/frozen-source.zip/freeze.json",
+      "release/physion-static/frozen-source.zip/geometry-coefficients.json",
+      "release/physion-static/frozen-source.zip/geometry_analysis.py",
+      "release/physion-static/frozen-source.zip/physion_common.py",
+      "release/physion-static/frozen-source.zip/physion_statistics.py",
+      "release/physion-static/frozen-source.zip/population.json",
+      "release/physion-static/frozen-source.zip/prepare_physion.py",
+      "release/physion-static/frozen-source.zip/protocol.md",
+      "release/physion-static/frozen-source.zip/run_physion.py",
+      "release/physion-static/frozen-source.zip/study_common.py",
+      "release/physion-static/frozen-source.zip/tensor_store.py",
+      "release/physion-static/frozen-source.zip/test_followups.py",
+      "release/physion-static/input-seal.json",
+      "release/physion-static/loading-info.json",
+      "release/physion-static/model-runtime.json",
+      "release/physion-static/population.json",
+      "release/physion-static/protocol.md",
+      "release/physion-static/runtime-member-manifest.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  },
+  {
+    "record": "28-11-38-wmpai-vasi-geometry-transfer-complete",
+    "files": [
+      "release/geometry-transfer/analysis-G/appearance_score_change-predictions.json",
+      "release/geometry-transfer/analysis-G/physical_margin-predictions.json",
+      "release/geometry-transfer/analysis-G/summary.json",
+      "release/geometry-transfer/freeze.json",
+      "release/geometry-transfer/frozen-source.zip/audit_physion_outputs.py",
+      "release/geometry-transfer/frozen-source.zip/canonical_codec.py",
+      "release/geometry-transfer/frozen-source.zip/canonical_score.py",
+      "release/geometry-transfer/frozen-source.zip/cpu_geometry.py",
+      "release/geometry-transfer/frozen-source.zip/desktop_runtime.py",
+      "release/geometry-transfer/frozen-source.zip/extract_geometry.py",
+      "release/geometry-transfer/frozen-source.zip/fit_geometry.py",
+      "release/geometry-transfer/frozen-source.zip/freeze.json",
+      "release/geometry-transfer/frozen-source.zip/geometry-coefficients.json",
+      "release/geometry-transfer/frozen-source.zip/geometry_analysis.py",
+      "release/geometry-transfer/frozen-source.zip/physion_common.py",
+      "release/geometry-transfer/frozen-source.zip/physion_statistics.py",
+      "release/geometry-transfer/frozen-source.zip/population.json",
+      "release/geometry-transfer/frozen-source.zip/prepare_physion.py",
+      "release/geometry-transfer/frozen-source.zip/protocol.md",
+      "release/geometry-transfer/frozen-source.zip/run_physion.py",
+      "release/geometry-transfer/frozen-source.zip/study_common.py",
+      "release/geometry-transfer/frozen-source.zip/tensor_store.py",
+      "release/geometry-transfer/frozen-source.zip/test_followups.py",
+      "release/geometry-transfer/geometry-coefficients.json",
+      "release/geometry-transfer/geometry-complete.json",
+      "release/geometry-transfer/geometry/appearance_score_change-table.json",
+      "release/geometry-transfer/geometry/feature-index.json",
+      "release/geometry-transfer/geometry/feature-parity.json",
+      "release/geometry-transfer/geometry/native-reference-parity.json",
+      "release/geometry-transfer/geometry/physical_margin-table.json",
+      "release/geometry-transfer/input-seal.json",
+      "release/geometry-transfer/loading-info.json",
+      "release/geometry-transfer/model-runtime.json",
+      "release/geometry-transfer/protocol.md",
+      "release/geometry-transfer/runtime-member-manifest.json"
+    ],
+    "status": "included selected scientific members",
+    "limitation": "Selected numeric/source records only; media, model weights and operational logs excluded."
+  }
+]

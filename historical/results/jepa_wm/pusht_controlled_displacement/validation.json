@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "rows": 4608,
+  "episodes": 256,
+  "conditions": 18,
+  "selection_identity_with_dino_wm": true,
+  "target_byte_identity_with_dino_wm": true,
+  "all_bootstrap_intervals_recomputed": true,
+  "target_hash_mismatches": 0,
+  "maximum_start_state_error": 1.52587890625e-05,
+  "maximum_official_endpoint_error": 0.0001125335693359375,
+  "maximum_same_context_visual_embedding_difference": 0.0,
+  "maximum_same_target_visual_embedding_difference": 0.0,
+  "maximum_repeated_score_difference": 0.0,
+  "all_action_intervals_positive": true,
+  "zero_action_contrasts_strictly_increase": true,
+  "opposite_action_contrasts_strictly_increase": true,
+  "opposite_above_zero_at_every_scale": true,
+  "reported_hue_minus_opposite_intervals_negative": true,
+  "paper_values": {
+    "zero_minus_lawful_0.25": 0.0004887237737420941,
+    "zero_minus_lawful_1.0": 0.0017889772716443958,
+    "opposite_minus_lawful_0.25": 0.0009758902015164501,
+    "opposite_minus_lawful_1.0": 0.003512502677040174,
+    "hue_minus_opposite_30deg_0.25": -0.03670352019253187,
+    "hue_minus_opposite_60deg_0.75": -0.12481243821093813
+  }
+}

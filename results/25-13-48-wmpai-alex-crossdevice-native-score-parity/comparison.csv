@@ -1,0 +1,5 @@
+condition,a40_scalar,vasi_desktop_scalar,laptop_scalar,abs_diff_laptop_vs_a40,abs_diff_laptop_vs_vasi,max_abs_tubelet_diff_laptop_vs_a40,max_abs_tubelet_diff_laptop_vs_vasi
+clean,0.5073335171,0.5070366859,0.5070269704,3.065e-04,9.716e-06,2.052e-03,5.879e-04
+hue-030,0.5074695349,0.5077238679,0.5077236295,2.541e-04,2.384e-07,1.656e-03,5.801e-04
+target_hold,0.5170550346,0.5169209838,0.5170878172,3.278e-05,1.668e-04,1.063e-03,6.678e-04
+target_shuffle,0.5162261128,0.5159869194,0.5160475969,1.785e-04,6.068e-05,1.391e-03,5.035e-04

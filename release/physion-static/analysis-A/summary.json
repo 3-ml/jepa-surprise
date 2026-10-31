@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-28T04:01:24.188174+02:00",
+  "study": "A",
+  "videos": 192,
+  "pairs": 96,
+  "cells": 20708,
+  "columns": [
+    "mean_original_minus_mean_static",
+    "fraction_nonpositive_residual"
+  ],
+  "seed": 2026102601,
+  "family": 1,
+  "bootstrap": {
+    "seed": 2026102601,
+    "draws": 50000,
+    "resampling_unit": "matched pair within scenario, both videos and all conditions retained",
+    "stratum_groups": {
+      "Mass-Collision": 32,
+      "Mass-Dominoes": 32,
+      "Mass-Waterpush": 32
+    },
+    "metrics": {
+      "mean_original_minus_mean_static": {
+        "mean": -0.028264230896752267,
+        "descriptive95": [
+          -0.028999057891113525,
+          -0.027525361227208604
+        ],
+        "family_adjusted_interval": [
+          -0.028999057891113525,
+          -0.027525361227208604
+        ],
+        "family_size": 1
+      },
+      "fraction_nonpositive_residual": {
+        "mean": 0.8446162607516863,
+        "descriptive95": [
+          0.8367111850993921,
+          0.8524193246543912
+        ],
+        "family_adjusted_interval": [
+          0.8367111850993921,
+          0.8524193246543912
+        ],
+        "family_size": 1
+      }
+    }
+  },
+  "layout_sensitivity": {
+    "seed": 2026102701,
+    "draws": 50000,
+    "resampling_unit": "layout cluster within scenario, whole paired trials retained",
+    "stratum_groups": {
+      "Mass-Collision": 13,
+      "Mass-Dominoes": 10,
+      "Mass-Waterpush": 19
+    },
+    "metrics": {
+      "mean_original_minus_mean_static": {
+        "mean": -0.028264230896752267,
+        "descriptive95": [
+          -0.029264756640604194,
+          -0.027421156128194513
+        ],
+        "family_adjusted_interval": [
+          -0.029264756640604194,
+          -0.027421156128194513
+        ],
+        "family_size": 1
+      },
+      "fraction_nonpositive_residual": {
+        "mean": 0.8446162607516863,
+        "descriptive95": [
+          0.8350334301989873,
+          0.8559073399466649
+        ],
+        "family_adjusted_interval": [
+          0.8350334301989873,
+          0.8559073399466649
+        ],
+        "family_size": 1
+      }
+    }
+  },
+  "native_reconstruction_max_abs_error": 9.12696123123169e-08,
+  "scope": "inspected synthetic Mass diagnostic; not violation classification or mediation",
+  "scenario_means": {
+    "Mass-Collision": {
+      "mean_original_minus_mean_static": -0.03201187874642461,
+      "fraction_nonpositive_residual": 0.8920447954822954
+    },
+    "Mass-Dominoes": {
+      "mean_original_minus_mean_static": -0.031992952523901844,
+      "fraction_nonpositive_residual": 0.8800852367727634
+    },
+    "Mass-Waterpush": {
+      "mean_original_minus_mean_static": -0.020787861419930345,
+      "fraction_nonpositive_residual": 0.76171875
+    }
+  },
+  "cuda_initialized": false
+}

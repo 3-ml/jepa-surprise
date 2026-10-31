@@ -1,0 +1,16 @@
+{
+  "scope": "single_scene_development_only_no_statistical_inference",
+  "scene_count": 1,
+  "paired_context_predictor_match": true,
+  "zero_intervention_repeat_exact": true,
+  "margins_inconsistent_minus_lawful": {
+    "clean": -0.0030546188354492188,
+    "persistent_hue": -0.003625154495239258,
+    "abrupt_event": -0.005146384239196777
+  },
+  "controls_minus_lawful_clean": {
+    "target_hold": 0.011074274778366089,
+    "target_shuffle": 0.00043892860412597656,
+    "zero_intervention_repeat": 0.0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "complete_confirmatory",
+  "phase": "confirmatory",
+  "episodes": 256,
+  "conditions": 16,
+  "scores": 4096
+}

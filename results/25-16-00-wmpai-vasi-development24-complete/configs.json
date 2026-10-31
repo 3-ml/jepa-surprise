@@ -1,0 +1,2166 @@
+{
+  "schema": 1,
+  "status": "development_only_prespecified",
+  "scenes": [
+    {
+      "scene_id": "dev24-001",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.027520947841185465,
+        -0.3,
+        7.429721999999999
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102500,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-002",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.026170021094543597,
+        -0.3,
+        7.429721999999999
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102501,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-003",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.014515002613231402,
+        -0.3,
+        7.429721999999999
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102502,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-004",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.033568536386178315,
+        -0.3,
+        7.429721999999999
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102503,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-005",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.028927769153174555,
+        -0.3,
+        8.141928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102504,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-006",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.033780135401598015,
+        -0.3,
+        8.141928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102505,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-007",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.023793324014110433,
+        -0.3,
+        8.141928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102506,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-008",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.6,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.024543909729948313,
+        -0.3,
+        8.141928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102507,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-009",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.031132187768546524,
+        -0.3,
+        7.479722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102508,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-010",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.012728310357010164,
+        -0.3,
+        7.479722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.6459999999999998,
+        0.2125,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102509,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-011",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.0164016736073661,
+        -0.3,
+        7.479722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102510,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-012",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.017190657070810227,
+        -0.3,
+        7.479722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102511,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-013",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.02576163126973908,
+        -0.3,
+        8.191928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102512,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-014",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.03183326761507933,
+        -0.3,
+        8.191928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102513,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-015",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.03274274724154888,
+        -0.3,
+        8.191928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.6459999999999998,
+        0.2125,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102514,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-016",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.65,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.024946953568117568,
+        -0.3,
+        8.191928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.6459999999999998,
+        0.2125,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102515,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-017",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.0205623489468646,
+        -0.3,
+        7.529722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102516,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-018",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.014715388353292086,
+        -0.3,
+        7.529722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102517,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-019",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.027561697196088267,
+        -0.3,
+        7.529722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.85,
+        0.2762499999999998
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102518,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-020",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.026192504289257748,
+        -0.3,
+        7.529722
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102519,
+      "nominal_contact_time": 1.18,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-021",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.00836272425982968,
+        -0.3,
+        8.241928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.2125,
+        0.5440000000000003,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102520,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-022",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.02639409386645916,
+        -0.3,
+        8.241928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        -4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.6459999999999998,
+        0.2125,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102521,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-023",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        0.022083010311114835,
+        -0.3,
+        8.241928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        4,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.85,
+        0.5185,
+        0.2125
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102522,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    },
+    {
+      "scene_id": "dev24-024",
+      "split": "development",
+      "frames": 48,
+      "fps": 12,
+      "simulation_hz": 240,
+      "collision_disable_frame": 12,
+      "gravity": [
+        0,
+        0,
+        -9.81
+      ],
+      "sphere_radius": 0.7,
+      "sphere_mass": 1.0,
+      "sphere_initial_position": [
+        -0.010555030533991889,
+        -0.3,
+        8.241928
+      ],
+      "restitution": 0.25,
+      "support_position": [
+        0,
+        0,
+        -0.12
+      ],
+      "support_half_extents": [
+        0.9,
+        0.7,
+        0.12
+      ],
+      "catch_floor_position": [
+        0,
+        0,
+        -2.6
+      ],
+      "catch_floor_half_extents": [
+        3,
+        3,
+        0.1
+      ],
+      "camera_position": [
+        8,
+        -18,
+        5
+      ],
+      "camera_look_at": [
+        0,
+        0,
+        3
+      ],
+      "camera_orthographic_scale": 13,
+      "resolution": [
+        256,
+        256
+      ],
+      "base_color_rgb": [
+        0.6459999999999998,
+        0.2125,
+        0.85
+      ],
+      "hue_degrees": 30,
+      "samples_per_pixel": 64,
+      "denoiser": "none",
+      "cycles_device": "CUDA",
+      "render_seed": 1025,
+      "minimum_target_area_fraction": 0.0025,
+      "purpose": "development24 crossed geometry/trajectory; no confirmatory evidence",
+      "scene_seed": 2026102523,
+      "nominal_contact_time": 1.24,
+      "left_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "right_rail_half_extents": [
+        0.35,
+        0.7,
+        0.12
+      ],
+      "left_rail_position": [
+        -1.25,
+        0,
+        -0.12
+      ],
+      "right_rail_position": [
+        1.25,
+        0,
+        -0.12
+      ]
+    }
+  ]
+}

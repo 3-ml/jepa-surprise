@@ -1,0 +1,52 @@
+{
+  "status": "complete_confirmatory",
+  "phase": "confirmatory",
+  "task": "tworoom",
+  "command": "scripts/run_lewm_tworoom_controlled_displacement.py --dataset <model-cache>/lewm_extracted/tworoom/tworoom.h5 --selection-manifest <manifest-cache>/tworoom-controlled-displacement-confirmatory-pool.csv --output-dir results/leworldmodel/tworoom_action_consistency --samples 256 --seed tworoom-controlled-displacement-confirmatory-v1-locked --batch-size 16 --phase confirmatory",
+  "seed": "tworoom-controlled-displacement-confirmatory-v1-locked",
+  "samples": 256,
+  "action_scales": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "hue_scale_matches": {
+    "30.0": 0.25,
+    "60.0": 0.5,
+    "120.0": 0.75,
+    "180.0": 1.0
+  },
+  "model_snapshot": "<model-cache>/hub/models--quentinll--lewm-tworooms/snapshots/77adaae0bc31deab21c93740d1f8bb947cd0bdec",
+  "weights_sha256": "566f223624ea4bfb39dbfe6ae731198dd6ea73b7b8919fed6b1ecafca810f7dd",
+  "state_dict_keys": 303,
+  "dataset": "<dataset-cache>/lewm_extracted/tworoom/tworoom.h5",
+  "dataset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+  "source_selection_manifest": "<manifest-cache>/tworoom-controlled-displacement-confirmatory-pool.csv",
+  "source_selection_manifest_sha256": "95dc8a6ac1a6f9fc6a800193b96e1b046e24acca0a72c5852c46513841315909",
+  "maximum_official_dynamics_position_error": 0.0,
+  "maximum_same_target_embedding_difference": 0.0,
+  "script_sha256": "ddfd58cef9ed20bb05420e9b91d648dec718539a2e88f1338b99d3c17b32ea70",
+  "python": "3.12.13",
+  "platform": "macOS-arm64",
+  "torch": "2.13.0",
+  "wall_seconds": 115.22811889648438,
+  "limitations": [
+    "Same-target counterfactuals test action-conditioned consistency, not the unreleased paper teleport intervention.",
+    "Scaled official action blocks are simulator-lawful but may differ in frequency from the training action distribution."
+  ],
+  "project_revision": "anonymous-source-snapshot",
+  "helper_script": "run_lewm_prediction_error_audit_helper.py",
+  "helper_script_sha256": "3192f2b0c8d0cf578ed5a1e0e9ec0798c99f77e28c828d84838ec27b7a3a5c79",
+  "code_snapshot_status": {
+    "main_runner": "exact execution snapshot preserved as run_lewm_tworoom_controlled_displacement.py",
+    "imported_helper": "post-run helper snapshot preserved; it matches the earlier exact broad-confirmatory helper, but no separate helper hash was emitted by this run"
+  },
+  "provenance_correction": {
+    "date": "2026-08-23",
+    "reason": "Base project revision and imported-helper provenance were omitted from the original run record.",
+    "claim_boundary": "No score or scientific result was changed. Pilot runner source remains unavailable where stated."
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}

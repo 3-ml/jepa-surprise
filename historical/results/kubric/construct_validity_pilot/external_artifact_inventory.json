@@ -1,0 +1,275 @@
+{
+  "status": "complete_preupload_validation",
+  "root": "<workspace>",
+  "excluded_directories": [
+    "docker",
+    "scripts"
+  ],
+  "included_directories": [
+    "base-230203",
+    "base-230204",
+    "base-230205",
+    "base-230206",
+    "base-230207",
+    "base-230208",
+    "base-230209",
+    "base-230210",
+    "base-230211",
+    "base-230212",
+    "base-230213",
+    "base-230214",
+    "base-smoke-230200",
+    "base-smoke-fast-230201",
+    "base-smoke-fast-230202",
+    "cpu-nodenoise-one-1",
+    "cpu-nodenoise-one-2",
+    "cuda-nodenoise-one-1",
+    "cuda-nodenoise-one-2",
+    "optix-nodenoise-one-1",
+    "optix-nodenoise-one-2",
+    "optix-smoke",
+    "optix-timing48",
+    "optix-timing48-fastdenoise",
+    "optix-timing48-fastdenoise-replicate",
+    "optix-timing48-spp4",
+    "optix-timing48-spp64-raw",
+    "optix-timing48-spp64-raw-replicate",
+    "pilot",
+    "timing-source"
+  ],
+  "loose_files": [
+    "cpu-nodenoise-one-1.log",
+    "cpu-nodenoise-one-1.time",
+    "cpu-nodenoise-one-2.log",
+    "cpu-nodenoise-one-2.time",
+    "cuda-nodenoise-one-1.log",
+    "cuda-nodenoise-one-2.log",
+    "optix-nodenoise-one-1.log",
+    "optix-nodenoise-one-2.log",
+    "optix-smoke.log",
+    "optix-smoke.time",
+    "optix-timing48-fastdenoise-replicate.log",
+    "optix-timing48-fastdenoise-replicate.time",
+    "optix-timing48-fastdenoise.log",
+    "optix-timing48-fastdenoise.time",
+    "optix-timing48-spp4.log",
+    "optix-timing48-spp4.time",
+    "optix-timing48-spp64-raw-replicate.log",
+    "optix-timing48-spp64-raw-replicate.time",
+    "optix-timing48-spp64-raw.log",
+    "optix-timing48-spp64-raw.time",
+    "optix-timing48.log",
+    "optix-timing48.time"
+  ],
+  "files": 9369,
+  "bytes": 1187641118,
+  "checksum_manifest": "full-artifacts-sha256sums.txt",
+  "checksum_manifest_sha256": "1672a75aea9be960189659b700ecacf958785aaeebe020442b0c96b165bae898",
+  "hash_seconds": 89.93363428115845,
+  "condition_outputs": 72,
+  "condition_frames_verified_against_manifests": 3456,
+  "base_candidates": [
+    {
+      "directory": "base-230203",
+      "seed": 230203,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 27485161
+    },
+    {
+      "directory": "base-230204",
+      "seed": 230204,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 22615396
+    },
+    {
+      "directory": "base-230205",
+      "seed": 230205,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 22659164
+    },
+    {
+      "directory": "base-230206",
+      "seed": 230206,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 22595103
+    },
+    {
+      "directory": "base-230207",
+      "seed": 230207,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 24745645
+    },
+    {
+      "directory": "base-230208",
+      "seed": 230208,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 25590329
+    },
+    {
+      "directory": "base-230209",
+      "seed": 230209,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 24232684
+    },
+    {
+      "directory": "base-230210",
+      "seed": 230210,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 26421624
+    },
+    {
+      "directory": "base-230211",
+      "seed": 230211,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 24923991
+    },
+    {
+      "directory": "base-230212",
+      "seed": 230212,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 24968964
+    },
+    {
+      "directory": "base-230213",
+      "seed": 230213,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 24845458
+    },
+    {
+      "directory": "base-230214",
+      "seed": 230214,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 22881056
+    },
+    {
+      "directory": "base-smoke-230200",
+      "seed": 230200,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 25895306
+    },
+    {
+      "directory": "base-smoke-fast-230201",
+      "seed": 230201,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 25859151
+    },
+    {
+      "directory": "base-smoke-fast-230202",
+      "seed": 230202,
+      "passes": {
+        "rgba": 48,
+        "segmentation": 48,
+        "depth": 48,
+        "forward_flow": 48,
+        "backward_flow": 48
+      },
+      "missing": [],
+      "bytes": 26677871
+    }
+  ],
+  "critical_sha256": {
+    "pilot/manifest.json": "a9a49d9cd98f4f75ceec2a336c939ba68656f855f6577799ad4c8a70595588d7",
+    "pilot/vjepa-full8/scores.csv": "1ce7cb0f5e8a83012cddd1ccdb18d779763c355fe67eeb98addabf761b6c641f",
+    "pilot/render-analysis/render_metrics.csv": "124d8ca9a26804426c5e4f0fa83ac9a0ed3b1eadd853fe3aae5e7d41d0a0e54e",
+    "pilot/blend-validation.json": "402a98fe58e4ee329279a76376b0be43dd2c4064c2e44ffd567889581bc3828e",
+    "pilot/vjepa-full8/provenance.json": "8e5033dd6395ed507030dbd968cde72013b1e651cae1b0fc3651f9799010e293"
+  }
+}

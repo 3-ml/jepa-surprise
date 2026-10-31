@@ -1,0 +1,54 @@
+{
+ "status": "EXPLORATORY, 8 scenes, stored-table analysis; not held-out evidence",
+ "source_hashes": {
+  "results\\23-05-00-vjepa2g-kubric-construct-validity-pilot8\\model\\scores.csv": "c0d9d8ace74fac30470fdf7da0ea0dd10c4e8c32806f7ace9d2df32868a1cab1",
+  "results\\23-05-00-vjepa2g-kubric-construct-validity-pilot8\\render_validation\\render_metrics.csv": "e676dd38a659b516a2795a6ede5c6b2b41101a07b3e28bb9140ff8b026f07a4b",
+  "results\\23-05-00-vjepa2g-kubric-construct-validity-pilot8\\render_validation\\blend-validation.json": "d0e226fe406d10c1a57e6433175978ed1e12465a9796e79ef6eeb290e18178cf"
+ },
+ "independent_validity_check": {
+  "blend_rows": 64,
+  "scenes": 8,
+  "all_passed": true,
+  "non_target_transform_max_abs": 0.0,
+  "pre_event_target_transform_max_abs": 0.0,
+  "appearance_target_transform_max_abs": 0.0,
+  "physical_target_transform_min_abs": NaN,
+  "appearance_other_material_equal_all": true,
+  "event_center_in_frame_all": true,
+  "render_rows": 72,
+  "context_exact_all": true,
+  "state_validation_passed_all": true,
+  "min_target_segmentation_area_px": 0,
+  "changed_pixel_fraction_range_nonclean": [
+   0.009969499376085,
+   0.557149675157335
+  ],
+  "pass": false
+ },
+ "A3_geometry_to_error": {
+  "predictor": "target_shift_l1_layernorm",
+  "loso_r2": -0.01088561459104942,
+  "perm_null_mean_r2": -0.03935731723270806,
+  "perm_p": 0.3117376524695061,
+  "spearman_pooled": 0.5569597069597069,
+  "n_rows": 64
+ },
+ "A4_shortcut_nested": {
+  "rgb_l1": {
+   "base_loso_r2": -0.10528392459312297,
+   "with_physical_flag_loso_r2": -0.10994587437679759,
+   "gain": -0.004661949783674624
+  },
+  "changed_pixel_fraction": {
+   "base_loso_r2": -0.04697427691871625,
+   "with_physical_flag_loso_r2": -0.050942558221344525,
+   "gain": -0.003968281302628274
+  },
+  "encoder_shift": {
+   "base_loso_r2": -0.01088561459104942,
+   "with_physical_flag_loso_r2": -0.02581940939705185,
+   "gain": -0.014933794806002432
+  }
+ },
+ "perm": 5000
+}

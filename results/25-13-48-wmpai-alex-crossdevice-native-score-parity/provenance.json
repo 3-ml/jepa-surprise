@@ -1,0 +1,65 @@
+{
+  "run_status": "pass",
+  "command": "python run_v1_regression_disk.py   (run from the scratch crossdevice folder, copies of Vasi's scripts)",
+  "scene": "seed-230200",
+  "conditions": [
+    "clean",
+    "hue-030",
+    "target_hold",
+    "target_shuffle"
+  ],
+  "python": "3.10.11",
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_total_mib": 4096,
+  "gpu_free_bytes_before_run": 3463865959,
+  "os": "Windows 11 Home 10.0.26200",
+  "checkpoint_path_laptop": "${JEPA_VJEPA2G_CHECKPOINT}",
+  "checkpoint_bytes": 16464208210,
+  "checkpoint_sha256_supplied_not_recomputed": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e",
+  "vjepa2_source": "${JEPA_VJEPA2_SOURCE}",
+  "vjepa2_revision": "204698b45b3712590f06245fbfba32d3be539812",
+  "frames_path_laptop": "${JEPA_PILOT8_FRAMES}\\seed-230200\\<condition>\\frames",
+  "archived_reference_scores": "results/23-05-00-vjepa2g-kubric-construct-validity-pilot8/model/scores.csv",
+  "vasi_reference_scores": "git show origin/wmpai/vasi-experiments:results/24-20-38-wmpai-vasi-v1-disk-offload-regression/scores.json",
+  "script_sha256_run_copies": {
+    "run_v1_regression_disk.py": "9af20f19c5489c7ffd28ab19365d59ea5a86116a121f4665b5f169d7d2955e27",
+    "disk_offload_vjepa2.py": "365d1ea8862a72c48948b928fc3aa2fffe3bbff7d97d747b14467bfbafa3e143",
+    "stream_vjepa2_checkpoint.py": "b5fca7815ba38980f99251b72a50f21dc241b2a5e0f17b73edcaa05feb8c6b6a"
+  },
+  "script_sha256_published_copy_run_v1_regression_disk": "a66578539ea108fddd74ed2fac5fd98f104fb1d8f53191b62a43dfa6512a489c",
+  "edits_to_copies": [
+    "EDIT 1: ROOT set to repo root (parents[3] resolves wrongly outside the repo).",
+    "EDIT 2: scratch folder added to sys.path so the copied disk_offload_vjepa2 is imported.",
+    "EDIT 3: CHECKPOINT path changed to ${JEPA_VJEPA2G_CHECKPOINT}.",
+    "EDIT 4: MODEL_ROOT changed to ${JEPA_VJEPA2_SOURCE}.",
+    "EDIT 5: FRAMES changed to ${JEPA_PILOT8_FRAMES}\\seed-230200 (same per-condition frames/ layout; archived frame hashes were checked against the archive sums by the script).",
+    "EDIT 6: OUTPUT changed from a D: path to a new folder inside the scratch folder. Published copy redacts the scratch path to a relative name.",
+    "EDIT 7: the full SHA-256 of the 16 GB checkpoint was NOT recomputed (not rehashed in this run); the script checks file size 16464208210 bytes instead. The supplied hash is recorded in provenance.",
+    "EDIT 8: GPU free-memory guard lowered from 5 GiB to 3 GiB, because this 4 GiB card cannot report 5 GiB free. Observed free before the run: 3463865959 bytes.",
+    "EDIT 9: hashlib.file_digest (Python 3.11+) replaced with a chunked sha256 loop, because this laptop runs Python 3.10.11. The first attempt failed at this line before any GPU work (exit 1); the second attempt is the reported run."
+  ],
+  "tolerance_precommitted_scalar_atol": 0.002,
+  "model_load_seconds": 15.596254100004444,
+  "peak_gpu_allocated_bytes_max_over_conditions": 493827584,
+  "peak_gpu_reserved_bytes_max_over_conditions": 681574400,
+  "peak_gpu_note": "torch.cuda peak stats reset per condition; they cover the forward passes, not the full load phase; nvidia-smi total use was not sampled.",
+  "wall_time_seconds_second_run_incl_model_load": 118,
+  "max_abs_scalar_diff_laptop_vs_a40": 0.00030654669999996553,
+  "max_abs_scalar_diff_laptop_vs_vasi": 0.00016683340000001046,
+  "max_abs_tubelet_diff_laptop_vs_a40": 0.0020523667335510254,
+  "max_abs_tubelet_diff_laptop_vs_vasi": 0.0006677508354187012,
+  "model_input_sha256_match_vasi": {
+    "clean": true,
+    "hue-030": true,
+    "target_hold": true,
+    "target_shuffle": true
+  },
+  "predictor_sha256_match_vasi": {
+    "clean": false,
+    "hue-030": false,
+    "target_hold": false,
+    "target_shuffle": false
+  }
+}

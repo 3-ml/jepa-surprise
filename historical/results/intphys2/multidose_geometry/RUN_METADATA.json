@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 5038.116932600009,
+  "status": "EXPLORATORY POST-SEALED ANALYSIS",
+  "outputs": [
+    "CROSS_FACTOR_ALIGNMENT.csv",
+    "CURVATURE_METRICS.csv",
+    "DIRECTION_BY_DOSE.csv",
+    "DOSE_DIRECTION_KERNELS.csv",
+    "DOSE_RESPONSE.csv",
+    "DOSE_RESPONSE_FITS.csv",
+    "EFFECTIVE_RANK.csv",
+    "HUE_CIRCULARITY.csv",
+    "PHYSICS_APPEARANCE_MANIFOLD.csv",
+    "RAY_METRICS.csv",
+    "STATISTICAL_SUMMARY.csv",
+    "STRAIGHTNESS_METRICS.csv",
+    "SUBSPACE_SPECTRA.csv",
+    "TANGENT_METRICS.csv"
+  ]
+}

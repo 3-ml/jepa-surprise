@@ -1,0 +1,10 @@
+model,task,unique_test_scenes,unique_test_pairs,test_folds_per_scene_min,test_folds_per_scene_max,pairs_per_scene_min,pairs_per_scene_max
+PixelSummary,appearance,38,76,1,1,2,2
+PixelSummary,physics_all,38,76,1,1,2,2
+PixelSummary,physics_clean_only,38,76,1,1,2,2
+V-JEPA2-G,appearance,38,76,1,1,2,2
+V-JEPA2-G,physics_all,38,76,1,1,2,2
+V-JEPA2-G,physics_clean_only,38,76,1,1,2,2
+VideoMAE2-G,appearance,38,76,1,1,2,2
+VideoMAE2-G,physics_all,38,76,1,1,2,2
+VideoMAE2-G,physics_clean_only,38,76,1,1,2,2

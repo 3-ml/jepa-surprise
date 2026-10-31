@@ -1,0 +1,7 @@
+{
+  "scalar_abs_difference": 0.0,
+  "max_abs_tubelet_difference": 0.0,
+  "tolerance": 1e-06,
+  "reference_scores_sha256": "6c2a4865d675c602db03c7d46a17e8eeac2ceccb0df0e8452f2a0e559eb77e4e",
+  "status": "pass"
+}

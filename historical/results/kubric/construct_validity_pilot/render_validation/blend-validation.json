@@ -1,0 +1,1191 @@
+{
+  "status": "complete",
+  "conditions_validated": 64,
+  "all_passed": true,
+  "rows": [
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.3026273846626282,
+        0.5762200951576233,
+        11.309542655944824
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.3026273846626282,
+        0.5762200951576233,
+        11.309542655944824
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.3026273846626282,
+        0.5762200951576233,
+        11.309542655944824
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.3026273846626282,
+        0.5762200951576233,
+        11.309542655944824
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.2995339632034302,
+        0.6072151064872742,
+        11.13502311706543
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.3500000238418579
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.29634201526641846,
+        0.6391971707344055,
+        10.960502624511719
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.7000000476837158
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.28964316844940186,
+        0.7063171863555908,
+        10.61146354675293
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.4000000953674316
+    },
+    {
+      "scene_id": "seed-230200",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.28248870372772217,
+        0.7780028581619263,
+        10.26242446899414
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.1000001430511475
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.1280936747789383,
+        0.3992280066013336,
+        8.940649032592773
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.1280936747789383,
+        0.3992280066013336,
+        8.940649032592773
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.1280936747789383,
+        0.3992280066013336,
+        8.940649032592773
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.1280936747789383,
+        0.3992280066013336,
+        8.940649032592773
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.12001541256904602,
+        0.4337730407714844,
+        8.750575065612793
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 2.9802322387695312e-08,
+      "z_displacement_world": 0.3499999940395355
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.11157829314470291,
+        0.46985211968421936,
+        8.560500144958496
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.699999988079071
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.09352803975343704,
+        0.5470401644706726,
+        8.180352210998535
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.399999976158142
+    },
+    {
+      "scene_id": "seed-230201",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.0737183466553688,
+        0.6317518353462219,
+        7.800203323364258
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.099999964237213
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5970996618270874,
+        0.48208940029144287,
+        9.687299728393555
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5970996618270874,
+        0.48208940029144287,
+        9.687299728393555
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5970996618270874,
+        0.48208940029144287,
+        9.687299728393555
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5970996618270874,
+        0.48208940029144287,
+        9.687299728393555
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5989945530891418,
+        0.5159092545509338,
+        9.501870155334473
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 2.9802322387695312e-08,
+      "z_displacement_world": 0.3499999940395355
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.6009649038314819,
+        0.5510753393173218,
+        9.316441535949707
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.699999988079071
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.6051506400108337,
+        0.6257811188697815,
+        8.945584297180176
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.399999976158142
+    },
+    {
+      "scene_id": "seed-230203",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.6096984148025513,
+        0.70694899559021,
+        8.574726104736328
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.099999964237213
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5162203907966614,
+        0.6253368258476257,
+        12.329766273498535
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5162203907966614,
+        0.6253368258476257,
+        12.329766273498535
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5162203907966614,
+        0.6253368258476257,
+        12.329766273498535
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5162203907966614,
+        0.6253368258476257,
+        12.329766273498535
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.516449511051178,
+        0.6545426249504089,
+        12.158027648925781
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 2.9802322387695312e-08,
+      "z_displacement_world": 0.3499999940395355
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5166851878166199,
+        0.6845852732658386,
+        11.986289978027344
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.699999988079071
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.517177402973175,
+        0.7473295331001282,
+        11.642813682556152
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.399999976158142
+    },
+    {
+      "scene_id": "seed-230207",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.5176995992660522,
+        0.813888430595398,
+        11.299336433410645
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.099999964237213
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.7940837144851685,
+        0.5669716000556946,
+        11.414033889770508
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.7940837144851685,
+        0.5669716000556946,
+        11.414033889770508
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.7940837144851685,
+        0.5669716000556946,
+        11.414033889770508
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.7940837144851685,
+        0.5669716000556946,
+        11.414033889770508
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.7986992597579956,
+        0.5974465012550354,
+        11.237662315368652
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.3500000238418579
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8034619688987732,
+        0.628893256187439,
+        11.061291694641113
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.7000000476837158
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8134581446647644,
+        0.6948943734169006,
+        10.708548545837402
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.4000000953674316
+    },
+    {
+      "scene_id": "seed-230208",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8241352438926697,
+        0.7653917074203491,
+        10.355806350708008
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.1000001430511475
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8914076089859009,
+        0.5982939600944519,
+        11.720052719116211
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8914076089859009,
+        0.5982939600944519,
+        11.720052719116211
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8914076089859009,
+        0.5982939600944519,
+        11.720052719116211
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8914076089859009,
+        0.5982939600944519,
+        11.720052719116211
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.8974685072898865,
+        0.6283348798751831,
+        11.541336059570312
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.35000014305114746
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.9037200212478638,
+        0.6593207120895386,
+        11.36262035369873
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.7000002861022949
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.9168322682380676,
+        0.7243116497993469,
+        11.00518798828125
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.4000005722045898
+    },
+    {
+      "scene_id": "seed-230209",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.930824875831604,
+        0.793665885925293,
+        10.64775562286377
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.1000008583068848
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.10048848390579224,
+        0.5724246501922607,
+        10.412752151489258
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.10048848390579224,
+        0.5724246501922607,
+        10.412752151489258
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.10048848390579224,
+        0.5724246501922607,
+        10.412752151489258
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.10048848390579224,
+        0.5724246501922607,
+        10.412752151489258
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.09392956644296646,
+        0.6063838601112366,
+        10.244564056396484
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 2.9802322387695312e-08,
+      "z_displacement_world": 0.3499999940395355
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.0871516540646553,
+        0.6414766907691956,
+        10.076375007629395
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.699999988079071
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.07289362698793411,
+        0.7152982950210571,
+        9.739996910095215
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.399999976158142
+    },
+    {
+      "scene_id": "seed-230210",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.057615552097558975,
+        0.794401228427887,
+        9.403618812561035
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.099999964237213
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-030",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.20688457787036896,
+        0.5204687118530273,
+        10.043298721313477
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-060",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.20688457787036896,
+        0.5204687118530273,
+        10.043298721313477
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-120",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.20688457787036896,
+        0.5204687118530273,
+        10.043298721313477
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "hue-180",
+      "family": "appearance",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.20688457787036896,
+        0.5204687118530273,
+        10.043298721313477
+      ],
+      "target_event_center_in_frame": true,
+      "target_transform_max_abs": 0.0
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-0p25",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.2014888972043991,
+        0.5540337562561035,
+        9.861763000488281
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 2.9802322387695312e-08,
+      "z_displacement_world": 0.3499999940395355
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-0p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.19589082896709442,
+        0.5888576507568359,
+        9.680227279663086
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 5.960464477539063e-08,
+      "z_displacement_world": 0.699999988079071
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-1p0",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.18404032289981842,
+        0.6625765562057495,
+        9.317156791687012
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 1.399999976158142
+    },
+    {
+      "scene_id": "seed-230211",
+      "condition": "physical-z-1p5",
+      "family": "physical",
+      "passed": true,
+      "non_target_transform_max_abs": 0.0,
+      "target_pre_event_transform_max_abs": 0.0,
+      "other_material_fields_equal": true,
+      "non_target_base_colors_equal": true,
+      "target_pre_event_base_color_equal": true,
+      "target_event_projection_xyz": [
+        0.1712287813425064,
+        0.74227374792099,
+        8.954086303710938
+      ],
+      "target_event_center_in_frame": true,
+      "target_after_declared_delta_max_abs": 1.1920928955078125e-07,
+      "z_displacement_world": 2.099999964237213
+    }
+  ]
+}

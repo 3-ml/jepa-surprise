@@ -1,0 +1,60 @@
+{
+  "status": "complete_timing_and_determinism_gate",
+  "project_revision": "anonymous-source-snapshot",
+  "script": "scripts/kubric_render_intervention.py",
+  "script_sha256": "ff720598f41503e185faea4616c0c83448d5a8bffdcaed0e13c83c95a78828d2",
+  "protocol": "README.md",
+  "kubric_revision": "61f2422c84bab75006df33c6989e0b483db3ccfe",
+  "source_blend_sha256": "f2e1c4fb7607c7f7bd66b626ad67f762d59af425f0c80940d72ed90be553f839",
+  "source_scene_seed": 230148,
+  "runtime": {
+    "python": "3.11.13",
+    "bpy": "4.3.0",
+    "numpy": "1.26.4"
+  },
+  "selected_setting": {
+    "cycles_device": "OPTIX",
+    "samples_per_pixel": 64,
+    "denoiser": "none",
+    "frames": 48,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "timing_seconds": {
+    "selected": 39.65,
+    "selected_replicate": 57.97,
+    "spp16_openimage_denoiser": 118.98,
+    "spp16_optix_denoiser": 37.84
+  },
+  "determinism": {
+    "optix-spp16-optix-denoiser": {
+      "frames": 48,
+      "changed_frames": 48,
+      "rgb_l1_01": 7.924431030007489e-06,
+      "changed_pixel_fraction": 0.0060036977132161455,
+      "max_uint8_difference": 1
+    },
+    "optix-spp64-no-denoiser": {
+      "frames": 48,
+      "changed_frames": 22,
+      "rgb_l1_01": 1.121969784007353e-08,
+      "changed_pixel_fraction": 8.58306884765625e-06,
+      "max_uint8_difference": 1
+    }
+  },
+  "decision": "The selected and repeated renders both fall in the predeclared 15\u201360 second branch, so the pilot scale is eight accepted scenes. Raw 64-sample OptiX was selected over 16-sample OptiX denoising because repeat pixel variation was far smaller.",
+  "limitations": [
+    "Cloud runtime image is mutable and no runtime image digest was exposed.",
+    "OptiX decoded pixels are nearly but not bitwise deterministic; the measured bound is recorded.",
+    "Timing uses one previously generated MOVi-A scene."
+  ],
+  "cloud_runtime": {
+    "gpu": "NVIDIA A40",
+    "gpu_memory_mib": 46068,
+    "driver": "570.211.01",
+    "cost_per_hour_usd": 0.44
+  },
+  "embedded_execution_hash_scope": "Hashes recorded by the experiment describe pre-anonymization execution artifacts. Final anonymous file hashes are in archive_manifest.json."
+}
