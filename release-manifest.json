@@ -14,8 +14,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3710,
-      "sha256": "e461a391b80b9cc862283667965b7b9f19160ea5ebc6a27ab2d56ecb8a492cff"
+      "bytes": 4051,
+      "sha256": "c63ef86e895691c71adb4fde63cc54e6b5c0f606838e347e44b13c6d984e4902"
+    },
+    {
+      "path": "docs/LOCAL_EXECUTION.md",
+      "bytes": 10632,
+      "sha256": "0d20c3502bca2fcf5c8cbc1598a6a15219fc45324ab23ded232484076cb79787"
     },
     {
       "path": "docs/reproducibility-source.tex",
@@ -2444,13 +2449,13 @@
     },
     {
       "path": "release/DEPENDENCIES.md",
-      "bytes": 9271,
-      "sha256": "e3f5704778ad230be67b1ecc5cfa085d1429bfaf05aba1fcb104360243a709cd"
+      "bytes": 9666,
+      "sha256": "33decc1fe1d6d52d216905618c985ccd7cf53c40deb15b142f5331206b6458f9"
     },
     {
       "path": "release/README.md",
-      "bytes": 8424,
-      "sha256": "61456ccc8d52481f9851bdd763681199a0602e8a5af1856806b065181eb00d38"
+      "bytes": 8687,
+      "sha256": "5a26f364b00de7abf2b8535661ad7633f5c39bb5b0f5bcf2df0c7d7d65f79c4c"
     },
     {
       "path": "release/adaptations.json",
@@ -4858,6 +4863,16 @@
       "sha256": "fa08678809fe1479f2f177c27daeab2a6847cd93cb8109727ae3a2b8d86f4a7c"
     },
     {
+      "path": "tests/test_local_cli.py",
+      "bytes": 2122,
+      "sha256": "37bb9dd610d5e1cdf82609a84a68c88121fa43953de72ba613cde9c617d04b0a"
+    },
+    {
+      "path": "tests/test_local_runtime.py",
+      "bytes": 24854,
+      "sha256": "8baf8c783f95a756ddc48367bf9132f1e69371d4abcb4847bbab860191ab6f96"
+    },
+    {
       "path": "tests/test_wmpai_alex_a2_dev24_stats.py",
       "bytes": 6803,
       "sha256": "02c5e985a561ef6570efe985e361b2222c619d8af48093c19301dcf0a77e9e3e"
@@ -4906,8 +4921,18 @@
       "path": "tools/check_release.py",
       "bytes": 6266,
       "sha256": "8df5b207683244bdb5635bf51f88fc79e9d788a329f970016132b24417c8df73"
+    },
+    {
+      "path": "tools/local_runtime.py",
+      "bytes": 24638,
+      "sha256": "d83a0d4e8acfe28605d9bc7cd3548947532ad19e5bebe470d9e306ab7a86c6e8"
+    },
+    {
+      "path": "tools/run_local.py",
+      "bytes": 2331,
+      "sha256": "b057593662193bbb867cbc4647a427275aff881e299efdef25a4453b9c2548f0"
     }
   ],
-  "files": 981,
-  "bytes": 310147488
+  "files": 986,
+  "bytes": 310213064
 }

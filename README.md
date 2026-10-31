@@ -21,6 +21,8 @@ python tools/check_release.py
 
 No dependencies, model loading, downloads, fitting or new bootstrap are required. Role-specific input and exact dependency wiring are described in [the dependency map](release/DEPENDENCIES.md) and tested without importing experiment modules. Checks verify current and historical byte manifests, final256 identities and all 28 figure-generator numeric acceptance checks, Physion row-to-summary means and hybrid identities, and geometry target lineage. Reconstructing or checking stored statistics is not a new experiment.
 
+[Local execution](docs/LOCAL_EXECUTION.md) provides explicit, controller-free launchers for the combined Physion studies, geometry extraction and scoring already-sealed final256 renders. They require complete hash-matched external input bundles and the recorded runtime/device; CPU validation is not a claim of full inference reproduction.
+
 `historical/` is the unchanged curated anonymous scientific package, including its original manifest, audit, scripts, environments, compact representations and results. Run its original commands **from that directory**. Its README's historical scope and release status are preserved as evidence, not a claim that it includes the newer work.
 
 The published camera-ready technical record remains unchanged at [`camera-ready-2026`](https://github.com/3-ml/jepa-surprise/tree/camera-ready-2026); `docs/reproducibility*` is preserved byte-for-byte. The expanded scientific package is pinned by the `reproducibility-2026-10-31` tag. It includes source snapshots and derived records, with the independent-execution limits documented in the release index.
