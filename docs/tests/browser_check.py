@@ -2,6 +2,7 @@
 from pathlib import Path
 from urllib.parse import urlsplit
 import argparse
+import hashlib
 import json
 import tempfile
 
@@ -39,6 +40,8 @@ def main():
                 assert response.status == 200
                 expect(page.locator('h1')).to_have_text(TITLE)
                 assert page.title() == TITLE
+                css_version = hashlib.sha256((Path(__file__).resolve().parents[1] / 'style.css').read_bytes()).hexdigest()[:12]
+                expect(page.locator('link[rel="stylesheet"]')).to_have_attribute('href', './style.css?v=' + css_version)
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), name
                 expect(page.get_by_role('link', name='Paper', exact=True)).to_have_attribute('href', 'https://arxiv.org/abs/2611.01815')
                 expect(page.get_by_role('link', name='Code & results')).to_have_attribute('href', 'https://github.com/3-ml/jepa-surprise')
