@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="An empirical study of representation readouts, latent geometry, and the physical-surprise interpretation of video world-model prediction errors.">
+  <title>When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?</title>
+  <link rel="canonical" href="https://3-ml.github.io/jepa-surprise/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?">
+  <meta property="og:description" content="Representation accessibility, geometry, and native prediction error answer different questions about physical understanding.">
+  <meta property="og:url" content="https://3-ml.github.io/jepa-surprise/">
+  <meta property="og:image" content="https://3-ml.github.io/jepa-surprise/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="citation_title" content="When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?">
+  <meta name="citation_author" content="Anton Hristov">
+  <meta name="citation_author" content="Aleksandar Slavov">
+  <meta name="citation_author" content="Vasil Vasilev">
+  <meta name="citation_publication_date" content="2026/11/01">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2611.01815">
+  <meta name="citation_arxiv_id" content="2611.01815">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#research">Skip to the research</a>
+  <header class="masthead wrap">
+    <a class="wordmark" href="#top" aria-label="JEPA Surprise, top of page"><span class="mark" aria-hidden="true">●</span> JEPA / Surprise</a>
+    <nav aria-label="On this page"><a href="#research">Research</a><a href="#resources">Resources</a><a href="#citation">Cite</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="paper-title">
+      <a class="venue" href="https://www.worldmodels-physicalai.com/">NeurIPS 2026 workshop · World Models in Physical AI</a>
+      <h1 id="paper-title">When Does <span>Latent Prediction Error</span> Support Physical Surprise Claims in Video World Models?</h1>
+      <div class="authors">
+        <a href="https://toni.foo/">Anton Hristov<sup>1,*</sup></a>
+        <span>Aleksandar Slavov<sup>2,*</sup></span>
+        <span>Vasil Vasilev<sup>1,*</sup></span>
+      </div>
+      <p class="affiliations"><span><sup>1</sup> Technology School Electronic Systems (TUES)</span><span><sup>2</sup> Baba Tonka High School of Mathematics</span></p>
+      <p class="equal-contribution">* Equal contribution</p>
+      <div class="paper-links">
+        <a class="button primary" href="https://arxiv.org/abs/2611.01815">Paper <span aria-hidden="true">↗</span></a>
+        <a class="button" href="https://github.com/3-ml/jepa-surprise">Code &amp; results <span aria-hidden="true">↗</span></a>
+        <a class="button quiet" href="#citation">BibTeX <span aria-hidden="true">↓</span></a>
+      </div>
+      <details class="abstract" id="abstract">
+        <summary>Abstract</summary>
+        <p>Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty. We present an evaluation framework that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error. On IntPhys2, a benchmark of physically possible and impossible events, we compare representations from latent prediction, masked pixel reconstruction, and simple visual statistics. Appearance remains easy to decode, while V-JEPA2 exposes modest information about whether events are possible or impossible. Looking at the latent geometry, appearance changes become smaller compared with differences between videos, their directions line up more consistently across scenes, and their overlap with physical changes decreases in deeper layers. Across action-conditioned models, incorrect actions raise prediction error, while appearance changes also produce substantial responses. In Physion++ video clips, repeating a single frame can produce higher error than the original clip, while changing color throughout the clip can lower it. Using Kubric, a simulation and rendering framework, we find that impossible events can produce lower error than possible events. A fixed error threshold also incorrectly flags many possible events as impossible. A model can therefore represent physical information and respond to incorrect actions without its native prediction error reliably measuring physical surprise.</p>
+      </details>
+    </section>
+
+    <section class="research wrap" id="research" aria-labelledby="research-heading">
+      <div class="section-heading"><p class="eyebrow">Evaluation framework</p><h2 id="research-heading">Three questions to ask of a world model.</h2></div>
+      <div class="question-grid">
+        <a href="#readouts" class="question"><span class="number">01</span><h3>What can be read out?</h3><p>Test which labels a linear classifier can recover from frozen representations.</p><span class="question-link">Representation accessibility <span aria-hidden="true">↗</span></span></a>
+        <a href="#geometry" class="question"><span class="number">02</span><h3>How are differences organized?</h3><p>Measure the size, alignment, and overlap of appearance and physical changes.</p><span class="question-link">Latent geometry <span aria-hidden="true">↗</span></span></a>
+        <a href="#prediction-error" class="question"><span class="number">03</span><h3>What changes the error?</h3><p>Control actions, appearance, motion, and physical validity within each native scorer.</p><span class="question-link">Prediction-error controls <span aria-hidden="true">↗</span></span></a>
+      </div>
+
+      <article class="finding" id="readouts">
+        <div class="finding-copy"><p class="eyebrow">01 / Readouts</p><h2>Classifying an event is a different test from predicting it.</h2><p>On IntPhys2, V-JEPA2-G's frozen features give a modest physical-label advantage over VideoMAE2-G and simple visual statistics. This is evidence of accessible label information, not a test of the model's own prediction-error score.</p><p class="study-detail">Five-fold scene cross-fit · 57 scenes · Post-hoc corrective analysis</p></div>
+        <figure class="finding-figure"><a href="./assets/readouts.webp" aria-label="Open the full IntPhys2 readout figure"><img src="./assets/readouts.webp" width="1500" height="554" alt="V-JEPA2-G physics classification accuracy is 0.579, versus 0.492 for VideoMAE2-G and 0.500 for PixelSummary; paired differences are positive." loading="lazy"></a><figcaption>Held-out-scene classification and paired model differences, with fixed-prediction scene-bootstrap intervals. Figure 4.</figcaption></figure>
+      </article>
+
+      <article class="finding stacked" id="geometry">
+        <div class="finding-copy"><p class="eyebrow">02 / Geometry</p><h2>Appearance information survives geometric change.</h2><p>Across network depth, we compare appearance displacements with unrelated-video distances, shuffled directional correspondences, and dimension-matched random subspaces. These controls distinguish geometric organization from literal removal of appearance information.</p></div>
+        <figure><a href="./assets/geometry.webp" aria-label="Open the full representation-geometry figure"><img src="./assets/geometry.webp" width="1800" height="940" alt="Layerwise geometry in V-JEPA2-G and VideoMAE2-G: relative appearance displacement, directional coherence above shuffled pairs, and physical displacement projected into an appearance subspace." loading="lazy"></a><figcaption>Columns: relative magnitude, null-adjusted directional coherence, and cross-fitted subspace overlap. Lower final-layer overlap is not a monotonic depth trend. Figure 2.</figcaption></figure>
+      </article>
+
+      <article class="finding" id="prediction-error">
+        <div class="finding-copy"><p class="eyebrow">03 / Native error</p><h2>Action sensitivity is one control, not the full validation.</h2><p>We hold the observed outcome fixed while changing the supplied action, and separately change color without changing simulator state. LeWorldModel responds to both interventions.</p><p>Physion++ adds repeated-frame and persistent-color controls. Because its scorer encodes the full clip before selecting context tokens, those comparisons are diagnostic rather than context-only causal tests.</p></div>
+        <figure class="finding-figure"><a href="./assets/action-controls.webp" aria-label="Open the full action and appearance control figure"><img src="./assets/action-controls.webp" width="1500" height="484" alt="LeWorldModel error increases under mismatched actions and hue changes in TwoRoom and PushT." loading="lazy"></a><figcaption>Each intervention is measured relative to its own lawful baseline, in task-specific native latent-MSE units. Figure 3.</figcaption></figure>
+      </article>
+    </section>
+
+    <section class="support-section" id="physical-validity" aria-labelledby="support-heading">
+      <div class="wrap">
+        <div class="section-heading"><p class="eyebrow">A physical-validity control</p><h2 id="support-heading">Stopping can be lawful.<br>So can falling.</h2><p>The support beneath an object determines which continuation is physically possible.</p></div>
+        <div class="support-controls" hidden role="group" aria-label="Support beneath the sphere">
+          <button type="button" class="support-button" data-world="solid" aria-pressed="true">Solid platform</button>
+          <button type="button" class="support-button" data-world="gap" aria-pressed="false">Platform with a gap</button>
+        </div>
+        <div class="trajectory-grid" aria-live="polite" aria-atomic="true">
+          <figure class="trajectory" id="stop-card"><figcaption><h3>Stops</h3><span class="validity lawful" id="stop-validity">Lawful</span></figcaption><div class="frame-labels" aria-hidden="true"><span>Frame 0</span><span>Frame 14</span><span>Frame 47</span></div><img id="stop-frames" src="./assets/solid-stop.webp" width="496" height="160" alt="With solid support, the sphere stops on the platform: a lawful continuation." loading="lazy"></figure>
+          <figure class="trajectory" id="fall-card"><figcaption><h3>Falls</h3><span class="validity violation" id="fall-validity">Violation</span></figcaption><div class="frame-labels" aria-hidden="true"><span>Frame 0</span><span>Frame 14</span><span>Frame 47</span></div><img id="fall-frames" src="./assets/solid-fall.webp" width="496" height="160" alt="With solid support, the sphere falls through the platform: a physical violation." loading="lazy"></figure>
+        </div>
+        <noscript><p>On solid support, stopping is lawful and falling through is a violation. With a gap, falling is lawful and stopping unsupported is a violation.</p></noscript>
+        <p class="example-caption">Frames illustrate the development-set construction in Figure 8; they are not the final-test clips scored below.</p>
+        <div class="support-result"><div><h3>Does the error follow that change in physical validity?</h3><p>In the independent 256-configuration test, V-JEPA2-G assigns higher mean error to stopping in both support settings. The impossible-minus-lawful ordering therefore reverses. A single development-fixed threshold also produces many false alarms on lawful clips.</p></div><figure><a href="./assets/physical-validity.webp" aria-label="Open the full physical-validity and threshold-transfer figure"><img src="./assets/physical-validity.webp" width="1600" height="530" alt="Impossible-minus-lawful error is negative with solid support and positive with a gap; fixed-threshold balanced accuracy is near 54 percent on clean clips." loading="lazy"></a><figcaption>Left: adjusted intervals for the physical-violation margin. Right: balanced accuracy under the unchanged development threshold, with descriptive intervals. Figure 1.</figcaption></figure></div>
+      </div>
+    </section>
+
+    <section class="resources wrap" id="resources" aria-labelledby="resources-heading">
+      <div class="section-heading"><p class="eyebrow">Reproducibility</p><h2 id="resources-heading">Go from the paper to the records.</h2></div>
+      <div class="resource-grid">
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/tree/local-launchers-2026-10-31"><h3>Versioned scientific release <span aria-hidden="true">↗</span></h3><p>Study implementations, derived records, and file-hash verification.</p></a>
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/reproducibility.md"><h3>Models &amp; compute <span aria-hidden="true">↗</span></h3><p>Checkpoint identities, software, hardware, and recorded runtimes.</p></a>
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/LOCAL_EXECUTION.md"><h3>Local execution <span aria-hidden="true">↗</span></h3><p>Scoped launchers and the exact external input and runtime requirements.</p></a>
+      </div>
+      <p class="external-inputs">Datasets, checkpoints, rendered videos, and large feature caches are obtained separately. The release documents their identities and execution boundaries.</p>
+    </section>
+
+    <section class="citation wrap" id="citation" aria-labelledby="citation-heading">
+      <div class="citation-heading"><h2 id="citation-heading">Citation</h2><button class="copy-button" id="copy-citation" hidden type="button">Copy BibTeX</button></div>
+      <pre><code id="bibtex">@article{hristov2026physicalsurprise,
+  title={When Does Latent Prediction Error Support Physical
+         Surprise Claims in Video World Models?},
+  author={Hristov, Anton and Slavov, Aleksandar and Vasilev, Vasil},
+  journal={arXiv preprint arXiv:2611.01815},
+  year={2026},
+  doi={10.48550/arXiv.2611.01815},
+  url={https://arxiv.org/abs/2611.01815}
+}</code></pre>
+      <p class="copy-status" id="copy-status" role="status"></p>
+    </section>
+  </main>
+  <footer class="wrap"><a href="https://arxiv.org/abs/2611.01815">arXiv:2611.01815</a><a href="https://github.com/3-ml/jepa-surprise/tree/gh-pages/docs">Page source</a><a href="https://creativecommons.org/licenses/by/4.0/">Paper: CC BY 4.0</a></footer>
+</body>
+</html>
