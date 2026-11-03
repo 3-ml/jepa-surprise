@@ -41,6 +41,7 @@ def main():
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), name
                 expect(page.get_by_role('link', name='Paper', exact=True)).to_have_attribute('href', 'https://arxiv.org/abs/2611.01815')
                 expect(page.get_by_role('link', name='Code & results')).to_have_attribute('href', 'https://github.com/3-ml/jepa-surprise')
+                expect(page.locator('.authors a').filter(has_text='Vasil Vasilev')).to_have_attribute('href', 'https://vasi.boo/')
                 assert page.locator('meta[name="citation_author"]').evaluate_all('(nodes) => nodes.map(n => n.content)') == ['Anton Hristov', 'Aleksandar Slavov', 'Vasil Vasilev']
                 # Load even off-screen lazy images before testing their dimensions/screenshot.
                 assert page.locator('img').evaluate_all('''async images => {
