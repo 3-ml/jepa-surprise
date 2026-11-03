@@ -1,4 +1,4 @@
-# JEPA surprise: representations and native prediction error
+# [When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?](https://3-ml.github.io/jepa-surprise/)
 
 Scientific code and numeric records for the study of appearance accessibility, representation geometry, physical-state readout and the interpretation of native latent prediction error.
 
