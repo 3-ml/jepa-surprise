@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4123,
-      "sha256": "6c1e75893cf44f108dc4eb3210f0a2f8e93d431c95d54661a95a523115b96011"
+      "bytes": 20614,
+      "sha256": "c3394112a6fd0080f6264bb766ce69e9f30560df0e2c249294a6c94024718073"
     },
     {
       "path": "docs/LOCAL_EXECUTION.md",
@@ -4931,6 +4931,41 @@
       "path": "tools/run_local.py",
       "bytes": 2331,
       "sha256": "b057593662193bbb867cbc4647a427275aff881e299efdef25a4453b9c2548f0"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 878,
+      "sha256": "7b5aa536fede7b3ef7b4722123f2fb5ba8f96b882ef4d88e04d7a746f673967d"
+    },
+    {
+      "path": "docs/readme-assets/PROVENANCE.md",
+      "bytes": 1800,
+      "sha256": "46114d3cd317662a90f42590fcdd1ddfb81bbf372942facab7a1e5a4fb44463a"
+    },
+    {
+      "path": "docs/readme-assets/action-controls.webp",
+      "bytes": 34660,
+      "sha256": "7e1d15ce4e4b257d5d1943e80fd1115f4f875875568fdaddfc88f952e0718a68"
+    },
+    {
+      "path": "docs/readme-assets/geometry.webp",
+      "bytes": 70182,
+      "sha256": "138fc77b22cf36a21af95557e78841d04522bd4def853ca24c36432778204487"
+    },
+    {
+      "path": "docs/readme-assets/physical-validity.webp",
+      "bytes": 18910,
+      "sha256": "eaa7aac74d3172735fe74a084392a1132290233df24b5d81ef4d51efb1fff916"
+    },
+    {
+      "path": "docs/readme-assets/pusht-baselines.webp",
+      "bytes": 83898,
+      "sha256": "9c884932240ab6aad73060e5329180b78edae7d70602c77217b5094ac4fe9113"
+    },
+    {
+      "path": "docs/readme-assets/readouts.webp",
+      "bytes": 25140,
+      "sha256": "e601b8f5253695aa9abd73c76d612a86fd7dded2291963d9269b5156f648b394"
     }
   ],
   "files": 986,

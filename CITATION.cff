@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these scientific records or code, please cite the paper below."
+title: "JEPA Surprise: scientific code and experiment records"
+authors:
+  - family-names: Hristov
+    given-names: Anton
+  - family-names: Slavov
+    given-names: Aleksandar
+  - family-names: Vasilev
+    given-names: Vasil
+repository-code: "https://github.com/3-ml/jepa-surprise"
+url: "https://3-ml.github.io/jepa-surprise/"
+preferred-citation:
+  type: article
+  title: "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?"
+  authors:
+    - family-names: Hristov
+      given-names: Anton
+    - family-names: Slavov
+      given-names: Aleksandar
+    - family-names: Vasilev
+      given-names: Vasil
+  journal: "arXiv"
+  year: 2026
+  date-published: 2026-11-01
+  doi: "10.48550/arXiv.2611.01815"
+  url: "https://arxiv.org/abs/2611.01815"
