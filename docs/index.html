@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f7f3">
-  <meta name="description" content="An empirical study of representation readouts, latent geometry, and the physical-surprise interpretation of video world-model prediction errors.">
+  <meta name="description" content="We test what frozen video-model features contain, how they change across layers, and whether prediction error measures physical surprise.">
   <title>When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?</title>
   <link rel="canonical" href="https://3-ml.github.io/jepa-surprise/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?">
-  <meta property="og:description" content="Representation accessibility, geometry, and native prediction error answer different questions about physical understanding.">
+  <meta property="og:description" content="We test what video world models represent and what changes their prediction error.">
   <meta property="og:url" content="https://3-ml.github.io/jepa-surprise/">
   <meta property="og:image" content="https://3-ml.github.io/jepa-surprise/assets/social-card.png">
   <meta property="og:image:width" content="1200">
@@ -56,32 +56,78 @@
     </section>
 
     <section class="research wrap" id="research" aria-labelledby="research-heading">
-      <div class="section-heading"><p class="eyebrow">Evaluation framework</p><h2 id="research-heading">Three questions to ask of a world model.</h2></div>
+      <div class="section-heading"><p class="eyebrow">Evaluation framework</p><h2 id="research-heading">What we evaluate</h2></div>
       <div class="question-grid">
-        <a href="#readouts" class="question"><span class="number">01</span><h3>What can be read out?</h3><p>Test which labels a linear classifier can recover from frozen representations.</p><span class="question-link">Representation accessibility <span aria-hidden="true">↗</span></span></a>
-        <a href="#geometry" class="question"><span class="number">02</span><h3>How are differences organized?</h3><p>Measure the size, alignment, and overlap of appearance and physical changes.</p><span class="question-link">Latent geometry <span aria-hidden="true">↗</span></span></a>
-        <a href="#prediction-error" class="question"><span class="number">03</span><h3>What changes the error?</h3><p>Control actions, appearance, motion, and physical validity within each native scorer.</p><span class="question-link">Prediction-error controls <span aria-hidden="true">↗</span></span></a>
+        <a href="#readouts" class="question"><span class="number">01</span><h3>What can a classifier recover?</h3><p>Measure how accurately linear classifiers recover physical and appearance labels from frozen features.</p><span class="question-link">Readouts <span aria-hidden="true">↗</span></span></a>
+        <a href="#geometry" class="question"><span class="number">02</span><h3>How do the features change?</h3><p>Measure how far features move, how consistently they move across scenes, and how much appearance and physical changes overlap.</p><span class="question-link">Geometry <span aria-hidden="true">↗</span></span></a>
+        <a href="#prediction-error" class="question"><span class="number">03</span><h3>What changes prediction error?</h3><p>Measure prediction error after controlled changes to actions, appearance, motion, and physical validity.</p><span class="question-link">Controlled comparisons <span aria-hidden="true">↗</span></span></a>
       </div>
 
       <article class="finding" id="readouts">
-        <div class="finding-copy"><p class="eyebrow">01 / Readouts</p><h2>Classifying an event is a different test from predicting it.</h2><p>On IntPhys2, V-JEPA2-G's frozen features give a modest physical-label advantage over VideoMAE2-G and simple visual statistics. This is evidence of accessible label information, not a test of the model's own prediction-error score.</p><p class="study-detail">Five-fold scene cross-fit · 57 scenes · Post-hoc corrective analysis</p></div>
-        <figure class="finding-figure"><a href="./assets/readouts.webp" aria-label="Open the full IntPhys2 readout figure"><img src="./assets/readouts.webp" width="1500" height="554" alt="V-JEPA2-G physics classification accuracy is 0.579, versus 0.492 for VideoMAE2-G and 0.500 for PixelSummary; paired differences are positive." loading="lazy"></a><figcaption>Held-out-scene classification and paired model differences, with fixed-prediction scene-bootstrap intervals. Figure 4.</figcaption></figure>
+        <div class="finding-copy"><p class="eyebrow">01 / Readouts</p><h2>Physical-label classification</h2><p>We train linear classifiers on frozen IntPhys2 features to distinguish possible from impossible events. Pooling all four appearances, classification is more accurate with V-JEPA2-G than with VideoMAE2-G or simple visual statistics. This tests whether label information can be read out; we test prediction error separately.</p><p class="study-detail">Five-fold scene cross-fit · 57 scenes · Post-hoc corrective analysis</p></div>
+        <figure class="finding-figure"><a href="./assets/readouts.webp" aria-label="Open the full IntPhys2 readout figure"><img src="./assets/readouts.webp" width="1500" height="554" alt="V-JEPA2-G physics classification accuracy is 0.579, versus 0.492 for VideoMAE2-G and 0.500 for PixelSummary; paired differences are positive." loading="lazy"></a><figcaption>Accuracy on scenes excluded from classifier training, and V-JEPA2-G minus each comparison. Intervals resample scenes with predictions held fixed. Figure 4.</figcaption></figure>
+        <details class="study-more" id="readout-details">
+          <summary>Appearance labels and evaluation details</summary>
+          <div class="study-content">
+            <p>Appearance labels remain easy to recover. V-JEPA2-G's four-class appearance accuracy is approximately 98%, but appearance and physics classification do not provide a common scale for the amount of information encoded.</p>
+            <p>Five-fold scene cross-fitting keeps each scene's pairs and appearances together. The linear classifiers use class balancing and feature scaling fitted only on training data. The intervals condition on the fitted classifiers; they omit uncertainty from refitting them or changing the fold assignment.</p>
+            <p>Architecture and training differ across models, so the comparison covers the released representations as a whole and does not isolate the JEPA objective.</p>
+          </div>
+        </details>
       </article>
 
       <article class="finding stacked" id="geometry">
-        <div class="finding-copy"><p class="eyebrow">02 / Geometry</p><h2>Appearance information survives geometric change.</h2><p>Across network depth, we compare appearance displacements with unrelated-video distances, shuffled directional correspondences, and dimension-matched random subspaces. These controls distinguish geometric organization from literal removal of appearance information.</p></div>
-        <figure><a href="./assets/geometry.webp" aria-label="Open the full representation-geometry figure"><img src="./assets/geometry.webp" width="1800" height="940" alt="Layerwise geometry in V-JEPA2-G and VideoMAE2-G: relative appearance displacement, directional coherence above shuffled pairs, and physical displacement projected into an appearance subspace." loading="lazy"></a><figcaption>Columns: relative magnitude, null-adjusted directional coherence, and cross-fitted subspace overlap. Lower final-layer overlap is not a monotonic depth trend. Figure 2.</figcaption></figure>
+        <div class="finding-copy"><p class="eyebrow">02 / Geometry</p><h2>Appearance and physical changes across layers</h2><p>We measure the size of appearance shifts relative to differences between unrelated videos. We also measure how consistently the shifts line up across scenes, and how much physical differences overlap with an appearance subspace fitted on other scenes. Final overlap is lower than initial overlap, but the trajectory is not monotonic.</p></div>
+        <figure><a href="./assets/geometry.webp" aria-label="Open the full representation-geometry figure"><img src="./assets/geometry.webp" width="1800" height="940" alt="Layerwise geometry in V-JEPA2-G and VideoMAE2-G: relative appearance displacement, directional coherence above shuffled pairs, and physical displacement projected into an appearance subspace." loading="lazy"></a><figcaption>Left: shift size relative to unrelated-video distance. Middle: alignment above shuffled video pairings. Right: overlap with the appearance subspace, compared with a random subspace of the same dimension. Figure 2.</figcaption></figure>
+        <details class="study-more" id="geometry-details">
+          <summary>Geometry and prediction error</summary>
+          <div class="study-content">
+            <p>We also test whether geometric measurements predict error differences in the crossed-support setting. Linear regressions fitted on 24 separate configurations predict physical margins (impossible minus lawful error) and appearance-induced score changes on the 256-configuration test population. The baseline uses condition labels and simple visual statistics; the expanded model adds relative feature distances and their interactions with support or appearance timing.</p>
+            <p>Adding final-encoder geometry changes physical-margin R² from approximately 0.771 to 0.774, but the adjusted improvement interval includes both gains and losses. Some earlier locations worsen prediction. Here R² uses the error of predicting the fitting-set mean as its reference. For appearance-score differences, both models perform worse than that reference.</p>
+            <figure><div class="figure-scroll" role="region" aria-label="Geometry regression results" tabindex="0"><a href="./assets/geometry-transfer.webp" aria-label="Open the full geometry regression figure"><img src="./assets/geometry-transfer.webp" width="1800" height="694" alt="Combined-minus-baseline R squared across five geometry locations and two tasks; none of the adjusted improvement intervals lies entirely above zero." loading="lazy"></a></div><figcaption>Post-hoc analysis of all five fixed geometry locations and both tasks. Bars show 99.5% configuration-bootstrap intervals, conditional on the fitted regressions. Figure 12.</figcaption></figure>
+            <p>This analysis gives limited evidence of added predictive value from the tested features and linear models. Native prediction error is the world model's discrepancy between predicted and observed features; the regression error measures how well a separate model predicts differences in that discrepancy.</p>
+          </div>
+        </details>
       </article>
 
       <article class="finding" id="prediction-error">
-        <div class="finding-copy"><p class="eyebrow">03 / Native error</p><h2>Action sensitivity is one control, not the full validation.</h2><p>We hold the observed outcome fixed while changing the supplied action, and separately change color without changing simulator state. LeWorldModel responds to both interventions.</p><p>Physion++ adds repeated-frame and persistent-color controls. Because its scorer encodes the full clip before selecting context tokens, those comparisons are diagnostic rather than context-only causal tests.</p></div>
-        <figure class="finding-figure"><a href="./assets/action-controls.webp" aria-label="Open the full action and appearance control figure"><img src="./assets/action-controls.webp" width="1500" height="484" alt="LeWorldModel error increases under mismatched actions and hue changes in TwoRoom and PushT." loading="lazy"></a><figcaption>Each intervention is measured relative to its own lawful baseline, in task-specific native latent-MSE units. Figure 3.</figcaption></figure>
+        <div class="finding-copy"><p class="eyebrow">03 / Prediction error</p><h2>Action and appearance sensitivity</h2><p>We compare predictions made with correct and incorrect actions for the same observed outcome. We also change color while holding the simulated physical state fixed. Both changes affect LeWorldModel's prediction error.</p><p>Physion++ uses repeated-frame and clip-wide color controls. Its scorer encodes the full clip before selecting context tokens, so target frames can affect the predictor's input. Repeating one frame also changes both content and history, so it does not isolate the causal effect of motion.</p></div>
+        <figure class="finding-figure"><a href="./assets/action-controls.webp" aria-label="Open the full action and appearance control figure"><img src="./assets/action-controls.webp" width="1500" height="484" alt="LeWorldModel error increases under mismatched actions and hue changes in TwoRoom and PushT." loading="lazy"></a><figcaption>Action points compare incorrect and correct actions for the same outcome. Hue points compare recolored and unchanged static targets. Scores use each task's native latent mean squared error (MSE). Figure 3.</figcaption></figure>
+        <details class="study-more" id="color-details">
+          <summary>More action and color results</summary>
+          <div class="study-content">
+            <h3>Color choices in PushT</h3>
+            <p>In a separate study with simulator state fixed and RGB change matched, LeWorldModel's error still depends on color choice. Agent-blue blocks score higher than novel-orange blocks; block-gray agents likewise exceed matched purple. The target-only blue/orange gap is positive in 233 of 256 episodes. Persistent changes reduce the mean gaps but retain both orderings.</p>
+            <figure><div class="figure-scroll" role="region" aria-label="PushT color examples" tabindex="0"><a href="./assets/pusht-colors.webp" aria-label="Open the full PushT color examples"><img src="./assets/pusht-colors.webp" width="1120" height="956" alt="Four fixed PushT states, each shown with the baseline, a blue or orange block, and a gray or purple agent; object positions stay unchanged across each row." loading="lazy"></a></div><figcaption>Each row holds simulator state fixed. Columns show the paired renderer baseline, an agent-blue block, a matched orange block, a block-gray agent, and a matched purple agent. Figure 7.</figcaption></figure>
+            <p>For target-only edits, the prediction is unchanged and differences in target-encoder shifts account for almost all of the score gaps algebraically. Role colors can carry task information. These controls leave open whether that information helps predict physical outcomes or whether LeWorldModel encodes task roles.</p>
+            <h3>Comparing actions and colors</h3>
+            <p>At the 60° hue and 0.75 action-scale PushT match, the mean hue increase exceeds the mean action increase for LeWorldModel, DINO-WM, and JEPA-WM. For DINO-WM and JEPA-WM, however, the moving lawful targets already have higher error than the static ones. Comparing absolute scores can therefore rank the action change above the hue change even though the hue increase over its own baseline is larger.</p>
+            <figure><div class="figure-scroll" role="region" aria-label="PushT baseline decomposition" tabindex="0"><a href="./assets/pusht-baselines.webp" aria-label="Open the full PushT baseline decomposition"><img src="./assets/pusht-baselines.webp" width="1440" height="580" alt="Waterfall plots for LeWorldModel, DINO-WM, and JEPA-WM separate the hue increase, action increase, and moving-versus-static lawful baseline difference." loading="lazy"></a></div><figcaption>Descriptive decomposition of stored means over 256 episodes per model. Each model uses its own native latent-MSE scale; magnitudes are not comparable across models. Figure 6.</figcaption></figure>
+          </div>
+        </details>
+        <details class="study-more" id="physion-details">
+          <summary>Still frames and clip-wide color changes</summary>
+          <div class="study-content">
+            <p>We evaluate V-JEPA2-L's full-clip masked-prediction score on the 192 official Physion++ Mass videos. The still-frame controls have higher mean error than the original videos. Across videos, the mean share of windows scoring no higher than their average static baseline is approximately 84%. Windows are averaged within videos; uncertainty uses matched pairs within each scenario, not independent windows.</p>
+            <p>A separate experiment uses one fixed middle 16-frame window per video. Persistent hue shifts and pixel darkening both lower mean error relative to the original and to their target-only counterparts. Each table entry subtracts the second condition from the first: negative means lower error, not a negative error score.</p>
+            <div class="figure-scroll" role="region" aria-label="Physion appearance results" tabindex="0"><table class="study-table">
+              <caption>Appearance contrasts on 96 matched pairs</caption>
+              <thead><tr><th scope="col">Contrast</th><th scope="col">Hue</th><th scope="col">Pixel darkening</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Persistent minus original</th><td>-0.00312 [-0.00385, -0.00236]</td><td>-0.00270 [-0.00337, -0.00203]</td></tr>
+                <tr><th scope="row">Target-only minus original</th><td>-0.00069 [-0.00168, +0.00021]</td><td>+0.00059 [-0.00038, +0.00158]</td></tr>
+                <tr><th scope="row">Persistent minus target-only</th><td>-0.00243 [-0.00337, -0.00134]</td><td>-0.00329 [-0.00415, -0.00242]</td></tr>
+              </tbody>
+            </table></div>
+            <p>Brackets are 99.17% pair-bootstrap intervals adjusted for six comparisons. Persistent changes affect the whole window; target-only changes affect its final four frames. The persistent-versus-target-only hue ordering reverses in Collision, so the overall mean does not describe every scenario. Table 2 in the paper.</p>
+          </div>
+        </details>
       </article>
     </section>
 
     <section class="support-section" id="physical-validity" aria-labelledby="support-heading">
       <div class="wrap">
-        <div class="section-heading"><p class="eyebrow">A physical-validity control</p><h2 id="support-heading">Stopping can be lawful.<br>So can falling.</h2><p>The support beneath an object determines which continuation is physically possible.</p></div>
+        <div class="section-heading"><p class="eyebrow">A physical-validity control</p><h2 id="support-heading">Physical validity with and without support</h2><p>On solid support, stopping is lawful and falling through is a violation. With a gap, falling is lawful and stopping unsupported is a violation.</p></div>
         <div class="support-controls" hidden role="group" aria-label="Support beneath the sphere">
           <button type="button" class="support-button" data-world="solid" aria-pressed="true">Solid platform</button>
           <button type="button" class="support-button" data-world="gap" aria-pressed="false">Platform with a gap</button>
@@ -90,20 +136,28 @@
           <figure class="trajectory" id="stop-card"><figcaption><h3>Stops</h3><span class="validity lawful" id="stop-validity">Lawful</span></figcaption><div class="frame-labels" aria-hidden="true"><span>Frame 0</span><span>Frame 14</span><span>Frame 47</span></div><img id="stop-frames" src="./assets/solid-stop.webp" width="496" height="160" alt="With solid support, the sphere stops on the platform: a lawful continuation." loading="lazy"></figure>
           <figure class="trajectory" id="fall-card"><figcaption><h3>Falls</h3><span class="validity violation" id="fall-validity">Violation</span></figcaption><div class="frame-labels" aria-hidden="true"><span>Frame 0</span><span>Frame 14</span><span>Frame 47</span></div><img id="fall-frames" src="./assets/solid-fall.webp" width="496" height="160" alt="With solid support, the sphere falls through the platform: a physical violation." loading="lazy"></figure>
         </div>
-        <noscript><p>On solid support, stopping is lawful and falling through is a violation. With a gap, falling is lawful and stopping unsupported is a violation.</p></noscript>
-        <p class="example-caption">Frames illustrate the development-set construction in Figure 8; they are not the final-test clips scored below.</p>
-        <div class="support-result"><div><h3>Does the error follow that change in physical validity?</h3><p>In the independent 256-configuration test, V-JEPA2-G assigns higher mean error to stopping in both support settings. The impossible-minus-lawful ordering therefore reverses. A single development-fixed threshold also produces many false alarms on lawful clips.</p></div><figure><a href="./assets/physical-validity.webp" aria-label="Open the full physical-validity and threshold-transfer figure"><img src="./assets/physical-validity.webp" width="1600" height="530" alt="Impossible-minus-lawful error is negative with solid support and positive with a gap; fixed-threshold balanced accuracy is near 54 percent on clean clips." loading="lazy"></a><figcaption>Left: adjusted intervals for the physical-violation margin. Right: balanced accuracy under the unchanged development threshold, with descriptive intervals. Figure 1.</figcaption></figure></div>
+        <p class="example-caption">Example frames from the 24-configuration development set. Figure 8.</p>
+        <div class="support-result"><div><h3>Prediction error in the two settings</h3><p>On 256 independent test configurations, V-JEPA2-G gives stopping higher mean error than falling in both settings, so impossible events do not consistently receive higher error. A single error threshold chosen on separate development data also flags many lawful test events as impossible.</p></div><figure><a href="./assets/physical-validity.webp" aria-label="Open the full physical-validity and threshold-transfer figure"><img src="./assets/physical-validity.webp" width="1600" height="530" alt="Impossible-minus-lawful error is negative with solid support and positive with a gap; fixed-threshold balanced accuracy is near 54 percent on clean clips." loading="lazy"></a><figcaption>Left: mean error on impossible clips minus mean error on lawful clips, with adjusted intervals. Right: balanced accuracy with descriptive intervals. Figure 1.</figcaption></figure></div>
+        <details class="study-more" id="support-details">
+          <summary>Trajectories and threshold errors</summary>
+          <div class="study-content">
+            <p>Within each setting and appearance, the two continuations share context frames and predictor outputs. Support appearance, shadows, and occlusion differ across settings. Crossing the four cases with original, persistent-hue, and abrupt-hue appearances gives 3,072 clips. The hue shift is 30°, applied throughout the clip or starting at the target interval. The predictor observes the first 12 of 48 frames; error is mean absolute difference from normalized target features for the remaining 36 frames.</p>
+            <figure><div class="figure-scroll" role="region" aria-label="Trajectory and physical-validity ordering" tabindex="0"><a href="./assets/trajectory-ordering.webp" aria-label="Open the full trajectory ordering figure"><img src="./assets/trajectory-ordering.webp" width="1440" height="1120" alt="Scores grouped by stopping and falling above, and lawful and impossible events below; trajectory ordering stays the same while physical-validity ordering reverses." loading="lazy"></a></div><figcaption>Thick lines average all 256 test configurations; faint lines show a fixed display subset of 60. Error bars are descriptive 95% configuration-bootstrap intervals, not the primary adjusted margin intervals. Figure 9.</figcaption></figure>
+            <p>The single threshold falsely flags about 69% of lawful clean clips, including every lawful solid-support stop. Clean balanced accuracy differs sharply by setting: 80.7% over gaps versus 27.1% on solid support. An above-chance average can therefore coexist with a large false-alarm rate.</p>
+            <figure><div class="figure-scroll" role="region" aria-label="Prediction-error distributions and threshold" tabindex="0"><a href="./assets/error-distributions.webp" aria-label="Open the full prediction-error distributions"><img src="./assets/error-distributions.webp" width="1440" height="1200" alt="Lawful and impossible score distributions under one development threshold, for clean, persistent-hue, and abrupt-hue clips in both support settings." loading="lazy"></a></div><figcaption>The dashed line is the unchanged development threshold. Each class contains one score from every test configuration; vertical jitter is for display only. Violins show smoothed densities, not confidence intervals. Figure 10.</figcaption></figure>
+          </div>
+        </details>
       </div>
     </section>
 
     <section class="resources wrap" id="resources" aria-labelledby="resources-heading">
-      <div class="section-heading"><p class="eyebrow">Reproducibility</p><h2 id="resources-heading">Go from the paper to the records.</h2></div>
+      <div class="section-heading"><p class="eyebrow">Reproducibility</p><h2 id="resources-heading">Code and experiment records</h2></div>
       <div class="resource-grid">
-        <a class="resource" href="https://github.com/3-ml/jepa-surprise/tree/local-launchers-2026-10-31"><h3>Versioned scientific release <span aria-hidden="true">↗</span></h3><p>Study implementations, derived records, and file-hash verification.</p></a>
-        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/reproducibility.md"><h3>Models &amp; compute <span aria-hidden="true">↗</span></h3><p>Checkpoint identities, software, hardware, and recorded runtimes.</p></a>
-        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/LOCAL_EXECUTION.md"><h3>Local execution <span aria-hidden="true">↗</span></h3><p>Scoped launchers and the exact external input and runtime requirements.</p></a>
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/tree/local-launchers-2026-10-31"><h3>Scientific release <span aria-hidden="true">↗</span></h3><p>Code, numeric results, and file hashes.</p></a>
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/reproducibility.md"><h3>Models and hardware <span aria-hidden="true">↗</span></h3><p>Checkpoint names and hashes, software versions, hardware, and runtimes.</p></a>
+        <a class="resource" href="https://github.com/3-ml/jepa-surprise/blob/local-launchers-2026-10-31/docs/LOCAL_EXECUTION.md"><h3>Run locally <span aria-hidden="true">↗</span></h3><p>Instructions for running the supported studies, including required inputs, software, and hardware.</p></a>
       </div>
-      <p class="external-inputs">Datasets, checkpoints, rendered videos, and large feature caches are obtained separately. The release documents their identities and execution boundaries.</p>
+      <p class="external-inputs">Datasets, model weights, rendered videos, and large feature caches must be obtained separately. The execution instructions specify the required input files, software versions, and hardware.</p>
     </section>
 
     <section class="citation wrap" id="citation" aria-labelledby="citation-heading">

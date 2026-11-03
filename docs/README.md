@@ -20,7 +20,7 @@ The deployment artifact is exactly this directory. Keep relative asset URLs comp
 
 ## Content
 
-- `index.html`: paper metadata, on-demand official abstract, study explanations, resource links and BibTeX.
+- `index.html`: paper metadata, on-demand official abstract, concise study summaries, expandable result explanations and figures, resource links and BibTeX.
 - `style.css`, `site.js`: responsive layout, the support/trajectory illustration and citation copying.
 - `assets/`: paper-derived figures, illustrative frame strips, social preview and favicon. See `assets/PROVENANCE.md`.
 - `tests/browser_check.py`: browser acceptance checks. Requires Playwright with Chromium already installed. With the local preview running:
@@ -30,5 +30,7 @@ uv run --no-project --with playwright python docs/tests/browser_check.py http://
 ```
 
 Pass a different base URL to check the public deployment. Tests create and close their own browser, do not require accounts and do not modify the scientific release.
+
+The expandable results use native `details` elements and work without JavaScript. Wide figures and the Physion results table scroll within focusable regions, keeping labels readable on phones without widening the page.
 
 Match title, authors, abstract, arXiv link and citation against the announced paper when revising. Keep the broad readout/geometry/native-error scope. Do not present development-set illustration frames as the independently scored final-test population, compare native score scales across models, or turn post-hoc readouts into claims of untouched-test performance.

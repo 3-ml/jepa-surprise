@@ -21,7 +21,7 @@ a { color: inherit; text-underline-offset: 4px; }
 a:hover { color: var(--accent); }
 button, summary { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; cursor: pointer; }
-a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+a:focus-visible, button:focus-visible, summary:focus-visible, .figure-scroll:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 .wrap { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
 .skip-link { position: absolute; left: 16px; top: -100px; z-index: 2; padding: 10px 16px; background: var(--white); }
 .skip-link:focus { top: 12px; }
@@ -77,6 +77,20 @@ figure > a { display: block; border-radius: 4px; }
 figure img { display: block; width: 100%; height: auto; }
 .finding-figure img, .stacked figure img, .support-result figure img { background: var(--white); }
 figcaption { margin-top: 15px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.study-more { grid-column: 1 / -1; min-width: 0; border-top: 1px solid var(--line); }
+.study-more > summary { padding-block: 17px; cursor: pointer; font-size: 16px; font-weight: 600; }
+.study-content { color: var(--body); font-size: 16px; padding-bottom: 8px; }
+.study-content > p { max-width: 760px; }
+.study-content h3 { color: var(--ink); margin-top: 24px; }
+.study-content figure { max-width: 1020px; margin-top: 24px; }
+.figure-scroll { max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; }
+.figure-scroll img { min-width: 720px; }
+.study-table { width: 100%; min-width: 720px; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; margin-top: 24px; }
+.study-table caption { text-align: left; color: var(--ink); font-weight: 600; margin-bottom: 12px; }
+.study-table th, .study-table td { padding: 10px 16px 10px 0; text-align: left; }
+.study-table thead { border-bottom: 1px solid var(--line); }
+.study-table td { white-space: nowrap; }
+.support-section .study-more { margin-top: 30px; }
 .support-section { padding-block: 66px; background: var(--band); border-block: 1px solid var(--line); }
 .support-section h2 { font-size: clamp(33px, 4vw, 45px); }
 .support-controls { display: inline-flex; padding: 4px; gap: 3px; border: 1px solid #c8cec5; border-radius: 10px; margin: 6px 0 26px; }
@@ -137,7 +151,8 @@ footer a { text-decoration: none; }
   .paper-links { gap: 9px; }
   .button { font-size: 13px; padding: 10px 13px; gap: 9px; }
   .button.quiet { padding-inline: 12px; }
-  .abstract p { font-size: 15px; }
+  .abstract p, .study-content { font-size: 15px; }
+  .study-more > summary { font-size: 15px; }
   h2, .finding-copy h2 { font-size: 28px; }
   .question-grid { grid-template-columns: 1fr; gap: 22px; }
   .question { padding-top: 12px; }

@@ -9,6 +9,11 @@ Scientific illustrations are derived from the author-approved source figures for
 | `action-controls.webp` | Figure 3, `figure3_lewm_construct_controls.pdf` | PDF rendered to a lossless WebP |
 | `physical-validity.webp` | Figure 1, `wmpai_final256_ordering_threshold.pdf` | PDF rendered to a lossless WebP |
 | `solid-stop.webp`, `solid-fall.webp`, `gap-stop.webp`, `gap-fall.webp` | Figure 8, `wmpai_crossed_support_examples.png` | Frames 0, 14 and 47 cropped from each row and arranged horizontally; lossless WebP |
+| `geometry-transfer.webp` | Figure 12, `wmpai_geometry_transfer.pdf` | PDF rendered to a lossless WebP |
+| `pusht-colors.webp` | Figure 7, `appendix_pusht_role_examples.png` | Decoded RGB pixels preserved in lossless WebP |
+| `pusht-baselines.webp` | Figure 6, `appendix_pusht_baseline_waterfall.jpg` | Decoded RGB pixels preserved in lossless WebP |
+| `trajectory-ordering.webp` | Figure 9, `appendix_final256_crossover.jpg` | Decoded RGB pixels preserved in lossless WebP |
+| `error-distributions.webp` | Figure 10, `appendix_final256_distributions.jpg` | Decoded RGB pixels preserved in lossless WebP |
 | `social-card.png` | Paper title/authors and the last frames of Figure 8 | Typeset preview with resized illustrative frames |
 
 Figure 8's frames illustrate the **development-set construction**. They are not the independent final256 clips whose aggregate statistics appear in Figure 1. The selector changes only which existing illustration is shown; it performs no model evaluation and generates no frames.

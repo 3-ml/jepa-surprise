@@ -8,6 +8,7 @@ import tempfile
 from playwright.sync_api import sync_playwright, expect
 
 TITLE = 'When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?'
+STUDIES = ['readout-details', 'geometry-details', 'color-details', 'physion-details', 'support-details']
 
 
 def main():
@@ -48,6 +49,31 @@ def main():
                     await Promise.all(images.map(image => {image.loading = 'eager'; return image.decode();}));
                     return images.every(image => image.naturalWidth > 0 && image.alt.length > 0 && Number(image.getAttribute('width')) === image.naturalWidth && Number(image.getAttribute('height')) === image.naturalHeight);
                 }''')
+                expect(page.locator('h2')).to_have_text(['What we evaluate', 'Physical-label classification', 'Appearance and physical changes across layers', 'Action and appearance sensitivity', 'Physical validity with and without support', 'Code and experiment records', 'Citation'])
+                expect(page.locator('.study-more')).to_have_count(len(STUDIES))
+                for identifier in STUDIES:
+                    detail = page.locator('#' + identifier)
+                    assert not detail.evaluate('(node) => node.open')
+                    detail.locator('summary').focus()
+                    page.keyboard.press('Enter')
+                    expect(detail).to_have_attribute('open', '')
+                assert page.locator('#physion-details tbody tr').count() == 3
+                expect(page.locator('#physion-details tbody tr').first).to_have_text('Persistent minus original-0.00312 [-0.00385, -0.00236]-0.00270 [-0.00337, -0.00203]')
+                assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), (name, 'expanded')
+                for region in page.locator('.figure-scroll').all():
+                    assert region.evaluate('(node) => node.getBoundingClientRect().right <= innerWidth + 1')
+                    if width < 720:
+                        assert region.evaluate('(node) => node.scrollWidth > node.clientWidth')
+                        region.focus()
+                        page.keyboard.press('ArrowRight')
+                        page.wait_for_function('(node) => node.scrollLeft > 0', arg=region.element_handle())
+                        region.evaluate('(node) => node.scrollLeft = 0')
+                page.screenshot(path=str(output / (name + '-expanded.png')), full_page=True)
+                for identifier in STUDIES:
+                    detail = page.locator('#' + identifier)
+                    detail.locator('summary').focus()
+                    page.keyboard.press('Enter')
+                    assert not detail.evaluate('(node) => node.open')
                 assert page.locator('a[href^="#"]').evaluate_all('(nodes) => nodes.every(n => !!document.getElementById(n.hash.slice(1)))')
                 expect(page.locator('#stop-validity')).to_have_text('Lawful')
                 expect(page.locator('#fall-validity')).to_have_text('Violation')
@@ -79,7 +105,7 @@ def main():
                 page.evaluate('window.scrollTo({top: 0, behavior: "instant"})')
                 page.screenshot(path=str(output / (name + '-first.png')))
                 page.screenshot(path=str(output / (name + '-full.png')), full_page=True)
-                findings.append({'viewport': name, 'overflow': False, 'figures_loaded': True, 'support_keyboard_toggle': True, 'abstract': True, 'clipboard_exact': True})
+                findings.append({'viewport': name, 'overflow': False, 'figures_loaded': True, 'support_keyboard_toggle': True, 'abstract': True, 'clipboard_exact': True, 'expandable_details': len(STUDIES), 'contained_figure_scrolling': True})
                 context.close()
             context = browser.new_context(java_script_enabled=False, viewport={'width': 390, 'height': 844})
             page = context.new_page()
@@ -89,6 +115,13 @@ def main():
             page.locator('#abstract > summary').click()
             expect(page.locator('#abstract')).to_have_attribute('open', '')
             assert '2611.01815' in page.locator('#bibtex').inner_text()
+            for identifier in STUDIES:
+                detail = page.locator('#' + identifier)
+                detail.locator('summary').focus()
+                page.keyboard.press('Enter')
+                expect(detail).to_have_attribute('open', '')
+            expect(page.locator('#physion-details table')).to_be_visible()
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
             context.close()
             context = browser.new_context(reduced_motion='reduce')
             page = context.new_page()
@@ -106,7 +139,7 @@ def main():
             assert not errors, errors
             assert not failed, failed
             assert not external, external
-            report = {'base_url': base, 'checks': findings, 'no_javascript': 'readable, no dead controls', 'reduced_motion': True, 'clipboard_denied': 'manual selection', 'browser_errors': errors, 'failed_requests': failed, 'external_runtime_requests': external}
+            report = {'base_url': base, 'checks': findings, 'no_javascript': 'readable, expandable studies work, no dead controls', 'reduced_motion': True, 'clipboard_denied': 'manual selection', 'browser_errors': errors, 'failed_requests': failed, 'external_runtime_requests': external}
             (output / 'browser-check.json').write_text(json.dumps(report, indent=2) + '\n')
             print(json.dumps(report, indent=2))
         finally:
